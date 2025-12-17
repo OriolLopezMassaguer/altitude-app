@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Altitude App</string>
+    <string name="altitude_label">Altitude</string>
+    <string name="waiting_for_gps">--.- m</string>
+    <string name="initializing">Initializing...</string>
+</resources>
