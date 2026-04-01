@@ -3,9 +3,6 @@ pluginManagement {
         google()
         mavenCentral()
         gradlePluginPortal()
-        mavenCentral()
-        maven { url = uri("https://repo.gradle.org/gradle/libs-milestone") }
-
     }
 }
 dependencyResolutionManagement {
@@ -13,7 +10,6 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url = uri("https://repo.gradle.org/gradle/libs-milestone") }
     }
 }
 
