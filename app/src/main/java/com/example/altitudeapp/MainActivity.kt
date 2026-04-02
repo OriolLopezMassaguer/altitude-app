@@ -40,10 +40,17 @@ class MainActivity : AppCompatActivity() {
     
     private var currentLocationMarker: Marker? = null
     private val nearbyPassMarkers = mutableListOf<Marker>()
+    private var lastTappedMarker: Marker? = null
+    private var lastTapTime: Long = 0L
+    private val DOUBLE_TAP_MS = 400L
     private val passAdapter = PassAdapter { pass -> onPassInListClicked(pass) }
     
     private var lastLat: Double = 0.0
     private var lastLon: Double = 0.0
+    private var lastAlt: Double = 0.0
+    private var lastGain: Double = 0.0
+    private var lastPassName: String? = null
+    private var lastNearbyPasses: ArrayList<MountainPass>? = null
 
     private val receiver = object : BroadcastReceiver() {
         override fun onReceive(context: Context?, intent: Intent?) {
@@ -55,15 +62,19 @@ class MainActivity : AppCompatActivity() {
                     val gain = intent.getDoubleExtra(AltitudeService.EXTRA_ALTITUDE_GAIN, 0.0)
                     val passName = intent.getStringExtra(AltitudeService.EXTRA_PASS_NAME)
                     val nearbyPasses = intent.getSerializableExtra(AltitudeService.EXTRA_NEARBY_PASSES) as? ArrayList<MountainPass>
-                    
+
                     lastLat = lat
                     lastLon = lon
-                    saveLastPosition(lat, lon)
-                    
+                    lastAlt = alt
+                    lastGain = gain
+                    lastPassName = passName
+                    lastNearbyPasses = nearbyPasses?.let { ArrayList(it) }
+                    saveLastState(lat, lon, alt, gain, passName)
+
                     updateUI(lat, lon, alt, gain, passName, nearbyPasses)
                     updateMapLocation(lat, lon)
-                    
-                    nearbyPasses?.let { 
+
+                    nearbyPasses?.let {
                         updateNearbyMarkers(it, passName)
                         passAdapter.updateData(it, lat, lon)
                         updatePassListVisibility(it)
@@ -106,7 +117,11 @@ class MainActivity : AppCompatActivity() {
 
         binding.languageButton?.setOnClickListener { showLanguageMenu(it) }
 
-        loadLastPosition()
+        if (savedInstanceState != null) {
+            restoreFromBundle(savedInstanceState)
+        } else {
+            loadLastPosition()
+        }
         appendLog(getString(R.string.app_launched))
         checkPermissionsAndStartService()
     }
@@ -128,10 +143,12 @@ class MainActivity : AppCompatActivity() {
 
     private fun updatePassListVisibility(passes: List<MountainPass>) {
         if (passes.isEmpty()) {
+            binding.nearbyPassesContainer?.visibility = View.GONE
             binding.showNearbyPassesButton.visibility = View.GONE
             binding.nearbyPassesRecyclerView.visibility = View.GONE
             binding.mapView.visibility = View.VISIBLE
         } else {
+            binding.nearbyPassesContainer?.visibility = View.VISIBLE
             binding.showNearbyPassesButton.visibility = View.VISIBLE
         }
     }
@@ -160,10 +177,43 @@ class MainActivity : AppCompatActivity() {
         recreate()
     }
 
-    private fun saveLastPosition(lat: Double, lon: Double) {
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        outState.putDouble("lat", lastLat)
+        outState.putDouble("lon", lastLon)
+        outState.putDouble("alt", lastAlt)
+        outState.putDouble("gain", lastGain)
+        outState.putString("passName", lastPassName)
+        lastNearbyPasses?.let { outState.putSerializable("nearbyPasses", it) }
+    }
+
+    @Suppress("UNCHECKED_CAST")
+    private fun restoreFromBundle(bundle: Bundle) {
+        lastLat = bundle.getDouble("lat", 0.0)
+        lastLon = bundle.getDouble("lon", 0.0)
+        lastAlt = bundle.getDouble("alt", 0.0)
+        lastGain = bundle.getDouble("gain", 0.0)
+        lastPassName = bundle.getString("passName")
+        lastNearbyPasses = bundle.getSerializable("nearbyPasses") as? ArrayList<MountainPass>
+
+        if (lastLat != 0.0 || lastLon != 0.0) {
+            updateMapLocation(lastLat, lastLon)
+            updateUI(lastLat, lastLon, lastAlt, lastGain, lastPassName, lastNearbyPasses)
+            lastNearbyPasses?.let { passes ->
+                updateNearbyMarkers(passes, lastPassName)
+                passAdapter.updateData(passes, lastLat, lastLon)
+                updatePassListVisibility(passes)
+            }
+        }
+    }
+
+    private fun saveLastState(lat: Double, lon: Double, alt: Double, gain: Double, passName: String?) {
         sharedPreferences.edit().apply {
             putFloat("last_lat", lat.toFloat())
             putFloat("last_lon", lon.toFloat())
+            putFloat("last_alt", alt.toFloat())
+            putFloat("last_gain", gain.toFloat())
+            if (passName != null) putString("last_pass_name", passName) else remove("last_pass_name")
             apply()
         }
     }
@@ -174,8 +224,11 @@ class MainActivity : AppCompatActivity() {
         if (lat != 0.0 && lon != 0.0) {
             lastLat = lat
             lastLon = lon
+            lastAlt = sharedPreferences.getFloat("last_alt", 0.0f).toDouble()
+            lastGain = sharedPreferences.getFloat("last_gain", 0.0f).toDouble()
+            lastPassName = sharedPreferences.getString("last_pass_name", null)
             updateMapLocation(lat, lon)
-            updateUI(lat, lon, 0.0, 0.0, null, null)
+            updateUI(lat, lon, lastAlt, lastGain, lastPassName, null)
             appendLog(getString(R.string.cached_pos_loaded))
         }
     }
@@ -215,15 +268,16 @@ class MainActivity : AppCompatActivity() {
                 marker.icon = ContextCompat.getDrawable(this, org.osmdroid.library.R.drawable.marker_default)
             }
 
-            marker.setOnMarkerClickListener { m, _ ->
-                val gmmIntentUri = Uri.parse("google.navigation:q=${m.position.latitude},${m.position.longitude}")
-                val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
-                mapIntent.setPackage("com.google.android.apps.maps")
-                if (mapIntent.resolveActivity(packageManager) != null) {
-                    startActivity(mapIntent)
+            marker.setOnMarkerClickListener { m, mapView ->
+                val now = System.currentTimeMillis()
+                if (m == lastTappedMarker && now - lastTapTime < DOUBLE_TAP_MS) {
+                    lastTappedMarker = null
+                    navigateToLocation(m.position.latitude, m.position.longitude)
                 } else {
-                    val webIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/dir/?api=1&destination=${m.position.latitude},${m.position.longitude}"))
-                    startActivity(webIntent)
+                    m.showInfoWindow()
+                    mapView.controller.animateTo(m.position)
+                    lastTappedMarker = m
+                    lastTapTime = now
                 }
                 true
             }
@@ -232,6 +286,18 @@ class MainActivity : AppCompatActivity() {
             nearbyPassMarkers.add(marker)
         }
         binding.mapView.invalidate()
+    }
+
+    private fun navigateToLocation(lat: Double, lon: Double) {
+        val gmmIntentUri = Uri.parse("google.navigation:q=$lat,$lon")
+        val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
+        mapIntent.setPackage("com.google.android.apps.maps")
+        if (mapIntent.resolveActivity(packageManager) != null) {
+            startActivity(mapIntent)
+        } else {
+            val webIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/dir/?api=1&destination=$lat,$lon"))
+            startActivity(webIntent)
+        }
     }
 
     private fun setupMap() {
