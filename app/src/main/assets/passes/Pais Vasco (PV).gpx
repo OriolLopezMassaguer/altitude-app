@@ -1,0 +1,930 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2022-11-20T19:12:21Z</time>
+    <bounds maxlat="43.347222805023193" maxlon="-1.8127925042063" minlat="42.764702495187521" minlon="-3.410976016893983" />
+  </metadata>
+
+  <wpt lat="42.764702495187521" lon="-2.410245509818196">
+    <time>2014-07-11T15:44:20Z</time>
+    <name>PV*Alto de Arenaza (925m)</name>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-11T15:44:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.281220011413097" lon="-2.209649970754981">
+    <ele>0</ele>
+    <time>2014-07-11T15:44:20Z</time>
+    <name>PV*Alto de Meaga (143m)</name>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-11T15:44:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.283724524080753" lon="-1.912875194102526">
+    <time>2014-07-11T15:44:20Z</time>
+    <name>PV*Alto de Perurena (128m)</name>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-11T15:44:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.947445502504706" lon="-2.788115702569485">
+    <time>2014-07-11T15:44:20Z</time>
+    <name>PV*Puerto de Ayurdin (680m)</name>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-11T15:44:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.789537739008665" lon="-2.509779939427972">
+    <ele>889.1171875</ele>
+    <time>2013-09-05T18:10:52Z</time>
+    <name>PV*Puerto de Azazeta (890m)</name>
+    <cmt>PV-Azazeta Mendatea (890m)</cmt>
+    <desc>PV-Azazeta Mendatea (890m)</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-05T18:10:52Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.347222805023193" lon="-1.857562763616443">
+    <ele>455</ele>
+    <time>2021-08-12T18:35:21Z</time>
+    <name>PV*Puerto de Jaizkibel (455m)</name>
+    <cmt>Puerto de Jaizkibel (455m)</cmt>
+    <desc>Puerto de Jaizkibel (455m)</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-08-12T18:35:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.989500444382429" lon="-2.95571411959827">
+    <time>2013-09-05T18:44:40Z</time>
+    <name>PV*Puerto de La Barrerilla (645m)</name>
+    <cmt>PV-Barrerilla Mendatea (640m)</cmt>
+    <desc>PV-Barrerilla Mendatea (640m)</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-05T18:44:40Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.773719998076558" lon="-2.877049958333373">
+    <ele>0</ele>
+    <time>2014-07-11T15:44:20Z</time>
+    <name>PV-Alto de Antezana (600m)</name>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-11T15:44:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.065987406298518" lon="-2.711901655420661">
+    <ele>604</ele>
+    <time>2013-09-04T11:44:53Z</time>
+    <name>PV-Alto de Barazar (604m)</name>
+    <cmt>PV-Alto de Barazar (604m)</cmt>
+    <desc>PV-Alto de Barazar (604m)</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-04T11:44:53Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.0748644284904" lon="-2.683956641703844">
+    <time>2019-11-07T20:03:42Z</time>
+    <name>PV-Alto de Dima (592m)</name>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-11-07T20:03:42Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.306043688207865" lon="-1.847392162308097">
+    <time>2014-07-11T15:44:20Z</time>
+    <name>PV-Alto de Gurutze (216m)</name>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-11T15:44:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.792997369542718" lon="-2.332939300686121">
+    <ele>996</ele>
+    <time>2013-09-03T07:37:25Z</time>
+    <name>PV-Alto de Iturrieta (996m)</name>
+    <cmt>PV-Iturrieta Mendatea (996m)</cmt>
+    <desc>PV-Iturrieta Mendatea (996m)</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-03T07:37:25Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.23733001947403" lon="-3.293250007554889">
+    <ele>431</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>PV-Alto de la Escrita (431m)</name>
+    <cmt>BI-630</cmt>
+    <desc>BI-630</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.259826293215156" lon="-3.384514013305306">
+    <ele>480.9375</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>PV-Alto de las Llosas (485m)</name>
+    <cmt>BI-4679</cmt>
+    <desc>BI-4679</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.125639986246824" lon="-2.052490040659905">
+    <ele>0</ele>
+    <time>2014-07-11T15:44:20Z</time>
+    <name>PV-Alto de Leaburu (297m)</name>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-11T15:44:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.298009550198913" lon="-2.066648667678237">
+    <ele>385.54296875</ele>
+    <time>2014-07-11T15:44:20Z</time>
+    <name>PV-Alto de Mendizorrotz-Igeldo (416m)</name>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-11T15:44:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.94100996106863" lon="-2.2609300352633">
+    <ele>0</ele>
+    <time>2014-07-11T15:44:20Z</time>
+    <name>PV-Alto de Otzaurte (655m)</name>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-11T15:44:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.141232589259744" lon="-2.508373036980629">
+    <ele>461.41015625</ele>
+    <time>2014-07-11T15:44:20Z</time>
+    <name>PV-Alto de Pagatza (463m)</name>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-11T15:44:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.977536115795374" lon="-2.571320962160826">
+    <time>2014-07-11T15:44:20Z</time>
+    <name>PV-Alto de Salinas de Leniz (621m)</name>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-11T15:44:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.122519990429282" lon="-2.183240018785">
+    <ele>0</ele>
+    <time>2014-07-11T15:44:20Z</time>
+    <name>PV-Alto de Santa Agueda-Olloki (705m)</name>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-11T15:44:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.033403176814318" lon="-2.309675998985767">
+    <time>2014-07-11T15:44:20Z</time>
+    <name>PV-Alto de Santa Marina-Aztiria (595m)</name>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-11T15:44:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.217469435185194" lon="-3.410976016893983">
+    <ele>632.22265625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>PV-Alto de Ubal (636m)</name>
+    <cmt>BI-3622 - BI-3629</cmt>
+    <desc>BI-3622 - BI-3629</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.252830002456903" lon="-2.195614641532302">
+    <time>2014-07-11T15:44:20Z</time>
+    <name>PV-Alto de Urdaneta (378m)</name>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-11T15:44:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.151170006021857" lon="-2.190000023692846">
+    <ele>0</ele>
+    <time>2014-07-11T15:44:20Z</time>
+    <name>PV-Alto de Urraki (679m)</name>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-11T15:44:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.272710032761097" lon="-2.13754003867507">
+    <ele>0</ele>
+    <time>2014-07-11T15:44:20Z</time>
+    <name>PV-Alto de Zudugarai-Orio (95m)</name>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-11T15:44:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.320110533386469" lon="-2.863264158368111">
+    <ele>199</ele>
+    <time>2013-09-05T19:29:44Z</time>
+    <name>PV-Arritugane Gana (199m)</name>
+    <cmt>PV-Arritugane Gana (199m)</cmt>
+    <desc>PV-Arritugane Gana (199m)</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-05T19:29:44Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.203119533136487" lon="-2.362138917669654">
+    <ele>410.359375</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>PV-Azkarate Mendatea (410m)</name>
+    <cmt>GI-3210 - GI-2634</cmt>
+    <desc>GI-3210 - GI-2634</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.088145721703768" lon="-2.350208032876253">
+    <ele>500.38671875</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>PV-Deskarga Mendatea (492m)</name>
+    <cmt>GI-632</cmt>
+    <desc>GI-632</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.26993084512651" lon="-2.906567081809044">
+    <ele>253</ele>
+    <time>2013-09-05T19:26:40Z</time>
+    <name>PV-Egirleta Gana (253m)</name>
+    <cmt>PV-Egirleta Gana (253m)</cmt>
+    <desc>PV-Egirleta Gana (253m)</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-05T19:26:40Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.132342491298914" lon="-2.37059592269361">
+    <ele>666.26953125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>PV-Elosu Mendatea (681m)</name>
+    <cmt>GI-3750</cmt>
+    <desc>GI-3750</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.150992393493652" lon="-2.162289619445801">
+    <ele>552.41796875</ele>
+    <time>2022-01-15T19:30:07Z</time>
+    <name>PV-Iturburu mendatea (550m)</name>
+    <cmt>Iturburu mendatea (550)</cmt>
+    <desc>Iturburu mendatea (550)</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2022-01-15T19:30:07Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.09673055075109" lon="-2.505756374448538">
+    <ele>469.7109375</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>PV-Kanpazar Mendatea (457m)</name>
+    <cmt>BI-632 - GI-632 - GI-2639</cmt>
+    <desc>BI-632 - GI-632 - GI-2639</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.02740684710443" lon="-2.581299366429448">
+    <ele>687.5234375</ele>
+    <time>2013-09-05T18:12:35Z</time>
+    <name>PV-Kurtzeta Mendatea (702m)</name>
+    <cmt>PV-Kurtzeta Mendatea (694m)</cmt>
+    <desc>PV-Kurtzeta Mendatea (694m)</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-05T18:12:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.97680982388556" lon="-2.870458094403148">
+    <time>2013-09-05T18:43:44Z</time>
+    <name>PV-Puerto de Altube (638m)</name>
+    <cmt>PV-Puerto de Altube (628m)</cmt>
+    <desc>PV-Puerto de Altube (628m)</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-05T18:43:44Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.974612591788173" lon="-2.575096925720573">
+    <ele>595.09375</ele>
+    <time>2013-09-05T18:11:42Z</time>
+    <name>PV-Puerto de Arlaban (599m)</name>
+    <cmt>PV-Puerto de Arlaban (599m)</cmt>
+    <desc>PV-Puerto de Arlaban (599m)</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-05T18:11:42Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.245467925444245" lon="-1.8127925042063">
+    <ele>699.2890625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>PV-Puerto de Biandiz (695m)</name>
+    <cmt>GI-3631</cmt>
+    <desc>GI-3631</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.164083166047931" lon="-2.989387409761548">
+    <ele>287</ele>
+    <time>2013-09-05T19:25:36Z</time>
+    <name>PV-Puerto de Garate (287m)</name>
+    <cmt>PV-Puerto de Garate (287m)</cmt>
+    <desc>PV-Puerto de Garate (287m)</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-05T19:25:36Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.148204740136862" lon="-2.480237754061818">
+    <ele>557.375</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>PV-Puerto de Karabieta (563m)</name>
+    <cmt>GI-4332 - GI-2639</cmt>
+    <desc>GI-4332 - GI-2639</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.793765822425485" lon="-2.956308564171195">
+    <ele>749.81640625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>PV-Puerto de la Tejera (750m)</name>
+    <cmt>A-2622</cmt>
+    <desc>A-2622</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.299930011853576" lon="-3.170540034770966">
+    <ele>372</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>PV-Puerto De Las Muñecas (380m)</name>
+    <cmt>BI-3601 - CA-250</cmt>
+    <desc>BI-3601 - CA-250</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.811964778229594" lon="-2.330047376453877">
+    <ele>1021</ele>
+    <time>2013-09-03T07:36:33Z</time>
+    <name>PV-Puerto de Opacua (1021m)</name>
+    <cmt>PV-Puerto de Opacua (1021m)</cmt>
+    <desc>PV-Puerto de Opacua (1021m)</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-03T07:36:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.779559586197138" lon="-2.589448504149914">
+    <ele>856.40234375</ele>
+    <time>2013-09-05T18:09:34Z</time>
+    <name>PV-Puerto de Oquina (859m)</name>
+    <cmt>PV-Puerto de Oquina (859m)</cmt>
+    <desc>PV-Puerto de Oquina (859m)</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-05T18:09:34Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.100938014686108" lon="-2.646180493757129">
+    <time>2014-07-11T15:44:20Z</time>
+    <name>PV-Puerto de Urkiola (713m)</name>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-11T15:44:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.102681450545788" lon="-1.955786682665348">
+    <ele>492.91015625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>PV-Puerto de Urto (490m)</name>
+    <cmt>GI-2130</cmt>
+    <desc>GI-2130</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.014661157503724" lon="-2.359239952638745">
+    <ele>509.265625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>PV-Udana Mendatea (515m)</name>
+    <cmt>GI-2630</cmt>
+    <desc>GI-2630</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.339069057255983" lon="-2.927320590242744">
+    <ele>209</ele>
+    <time>2013-09-05T19:24:18Z</time>
+    <name>PV-Unbe Gana (209m)</name>
+    <cmt>PV-Unbe Gana (209m)</cmt>
+    <desc>PV-Unbe Gana (209m)</desc>
+    <sym>Custom 38</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-05T19:24:18Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+</gpx>

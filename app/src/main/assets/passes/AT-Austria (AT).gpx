@@ -1,0 +1,3197 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2024-02-11T11:33:23Z</time>
+    <bounds maxlat="48.064184663817286" maxlon="16.043272716924548" minlat="46.478929985314608" minlon="9.809150006622076" />
+  </metadata>
+
+  <wpt lat="47.123793801292777" lon="12.831340916454792">
+    <ele>2571</ele>
+    <time>2008-12-28T15:01:38Z</time>
+    <name>AT*Edelweissspitze (2571m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2008-12-28T15:01:38Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.71777524985373" lon="12.966938903555274">
+    <ele>982.5</ele>
+    <time>2013-10-19T16:51:51Z</time>
+    <name>AT*Gailbergsattel (982m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-10-19T16:51:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.082395413890481" lon="12.842564033344388">
+    <ele>2563.609375</ele>
+    <time>2015-08-04T11:23:12Z</time>
+    <name>AT*Hochtor Pass (2504m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-08-04T11:23:12Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.854277979582548" lon="12.8580810315907">
+    <time>2016-05-12T19:29:12Z</time>
+    <name>AT*Iselsbergpass (1204m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2016-05-12T19:29:12Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.074509970843792" lon="12.75216001085937">
+    <ele>0</ele>
+    <time>2023-07-30T18:46:57Z</time>
+    <name>AT*Kaiser-Franz-Josefs-Höhe (2349m) Grossglockner Hochalpenstrasse</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-07-30T18:46:57Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.834391327574849" lon="10.510255470871925">
+    <ele>1519.00390625</ele>
+    <time>2013-10-19T16:29:45Z</time>
+    <name>AT*Reschenpas (1504m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-10-19T16:29:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.500660009682178" lon="15.645259972661734">
+    <time>2014-06-30T18:08:28Z</time>
+    <name>AT-Alpler Schanz Sattel (1099m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-30T18:08:28Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.871364764869213" lon="15.377940041944385">
+    <ele>979.46875</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Annaberg (976m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.130166394636035" lon="10.21049665287137">
+    <ele>1806</ele>
+    <time>2008-01-19T23:59:27Z</time>
+    <name>AT-Arlbergpass (1806m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2008-01-19T23:59:27Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.814069930464029" lon="15.941359251737595">
+    <ele>748</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Ascher (739m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.927048094570637" lon="15.98853025585413">
+    <ele>655</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Auf dem Hals (662m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.33986359089613" lon="15.74574775993824">
+    <ele>807</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Birkfelder Gschaid (806m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.609914597123861" lon="14.516610642895103">
+    <ele>858.4296875</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Buchauer Sattel (861m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.337645990774035" lon="11.122701438143849">
+    <ele>1250.5</ele>
+    <time>2023-07-30T18:46:57Z</time>
+    <name>AT-Bucher Höhe (1247m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-07-30T18:46:57Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.422939985990524" lon="9.809150006622076">
+    <ele>0</ele>
+    <time>2023-07-30T18:46:57Z</time>
+    <name>AT-Bödele Losenpass (1140m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-07-30T18:46:57Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.957401815801859" lon="15.790224652737379">
+    <ele>728.1171875</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Duerrholzer Kreuz (719m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.42178319953382" lon="15.448240488767624">
+    <ele>1011.36328125</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Eibeggsattel (1001m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.93558000959456" lon="13.759290017187595">
+    <time>2014-06-30T18:08:28Z</time>
+    <name>AT-Eisentalhohe (2049m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-30T18:08:28Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.656887620687485" lon="14.660534290596843">
+    <ele>642.515625</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Erbsattel (671m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.271657781675458" lon="9.907304607331753">
+    <ele>1482.56640625</ele>
+    <time>2023-07-30T18:46:57Z</time>
+    <name>AT-Faschinajoch (1486m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-07-30T18:46:57Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.567483810707927" lon="15.865495568141341">
+    <ele>1301.3671875</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Feistritzsattel (1287m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.363913953304291" lon="10.834959167987108">
+    <ele>1213.34375</ele>
+    <time>2023-07-30T18:46:57Z</time>
+    <name>AT-Fernpass (1216m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-07-30T18:46:57Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.397266384214163" lon="13.000995079055429">
+    <ele>1296.52734375</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Filzensattel (1290m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.913343239575624" lon="10.493370881304145">
+    <time>2014-06-30T18:08:28Z</time>
+    <name>AT-Fischbacher Sattel (1250m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-30T18:08:28Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.937077017500997" lon="14.048681426793337">
+    <ele>1400</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Flattnitzer Hoehe (1365m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.158304275944829" lon="10.164794577285647">
+    <ele>1777.0546875</ele>
+    <time>2013-10-19T16:40:38Z</time>
+    <name>AT-Flexen Pass (1773m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-10-19T16:40:38Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.171058850362897" lon="9.998696018010378">
+    <ele>1871</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Formarinjoch (1871m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.266524117439985" lon="9.832851514220238">
+    <ele>1747.2734375</ele>
+    <time>2013-10-19T16:40:06Z</time>
+    <name>AT-Furkajoch (1761m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-10-19T16:40:06Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.107336521148682" lon="14.916729927062988">
+    <ele>1545.9453125</ele>
+    <time>2023-08-23T16:27:13Z</time>
+    <name>AT-Gaberl (1551m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-23T16:27:13Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.453063623979688" lon="10.624554203823209">
+    <ele>1024.9375</ele>
+    <time>2023-07-30T18:46:57Z</time>
+    <name>AT-Gaichtpass (1056m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-07-30T18:46:57Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.035895824432373" lon="15.51978874951601">
+    <ele>595.33984375</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Geiseben (605m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.029958587139845" lon="15.859021386131644">
+    <ele>581</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Gerichtsberg (581m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.242869967594743" lon="12.109422096982598">
+    <ele>1527.65625</ele>
+    <time>2013-10-19T16:47:55Z</time>
+    <name>AT-Gerlospas (1507m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-10-19T16:47:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.028099959716201" lon="14.144880026578903">
+    <time>2014-06-30T18:08:28Z</time>
+    <name>AT-Grattinger Sattel (1170m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-30T18:08:28Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.466355143114924" lon="12.627466209232807">
+    <ele>970</ele>
+    <time>2023-07-30T18:46:57Z</time>
+    <name>AT-Griessenpass (1000m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-07-30T18:46:57Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.731397518888116" lon="14.754193006083369">
+    <ele>700.91015625</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Griffner Berg (708m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.864139648154378" lon="14.872179608792067">
+    <ele>698.546875</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Grosse Kripp (696m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.795735523104668" lon="15.961353275924921">
+    <ele>678.546875</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Gruenbacher Sattel (678m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.287338981404901" lon="10.655494825914502">
+    <ele>1894.23046875</ele>
+    <time>2013-10-19T16:46:03Z</time>
+    <name>AT-Hahntennjoch (1903m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-10-19T16:46:03Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.904598759487271" lon="15.800651824101806">
+    <ele>776.16796875</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Haselrast (778m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.702495902776718" lon="14.460026677697897">
+    <ele>1004.1796875</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Hengstpass (985m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.508833790197968" lon="15.045181754976511">
+    <ele>1159.94140625</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Hiaslegg (1154m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.187246400862932" lon="14.27287126891315">
+    <ele>1110</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Hinterburger Sattel (1110m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.228389978408813" lon="14.356990037485957">
+    <time>2014-06-30T18:08:28Z</time>
+    <name>AT-Hochegger Sattel (1340m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-30T18:08:28Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.864889971911907" lon="13.998620007187128">
+    <time>2014-06-30T18:08:28Z</time>
+    <name>AT-Hochrindl Sattel (1561m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-30T18:08:28Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.269519977271557" lon="10.130560034886003">
+    <time>2014-06-30T18:08:28Z</time>
+    <name>AT-Hochtannberg Pass (1674m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-30T18:08:28Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.049803329631686" lon="15.39583683013916">
+    <ele>625.78125</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Hohenbrand (627m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.305347332730889" lon="10.893402993679047">
+    <ele>1118.046875</ele>
+    <time>2023-07-30T18:46:57Z</time>
+    <name>AT-Holzleitnersattel (1120m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-07-30T18:46:57Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.845301823690534" lon="15.314222658053041">
+    <ele>1006.62890625</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Josefsberg (1012m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.717969961464405" lon="12.540979972109199">
+    <ele>0</ele>
+    <time>2023-07-30T18:46:57Z</time>
+    <name>AT-Kartitscher Sattel (1530m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-07-30T18:46:57Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.059260020032525" lon="13.615550016984344">
+    <time>2014-06-30T18:09:08Z</time>
+    <name>AT-Katschberg Sattel (1641m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-30T18:09:08Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.863865703344345" lon="10.713631203398108">
+    <time>2013-10-19T16:30:53Z</time>
+    <name>AT-Kaunertal Glacier Road (2750m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-10-19T16:30:53Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.387490486726165" lon="11.876740213483572">
+    <ele>1111</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Kerschbaumer Sattel (1113m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.062159260734916" lon="15.845784181728959">
+    <ele>623.59765625</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Klammhoehe (618m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.936699664220214" lon="14.674151530489326">
+    <ele>1644.953125</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Klippitztoerl (1644m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.810219451785088" lon="15.799456480890512">
+    <ele>769.70703125</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Klostertaler Gscheid (764m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.631726823747158" lon="12.727738665416837">
+    <ele>564.6328125</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Kniepass (554m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.573522469028831" lon="13.720450038090348">
+    <ele>688.54296875</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Koppenpass (690m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.844559857621789" lon="13.620128883048892">
+    <ele>829</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Krahbergtaferl (829m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.708550965413451" lon="13.255048552528024">
+    <ele>1074.69140625</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Kreuzbergsattel (1074m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.380336951464415" lon="15.792384250089526">
+    <ele>1041.75</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Kreuzwirt (1042m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.485446244478226" lon="14.540885137394071">
+    <ele>988.15625</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Kurniksattel (991m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.213803036138415" lon="11.02440258488059">
+    <ele>2018.42578125</ele>
+    <time>2013-10-19T16:41:36Z</time>
+    <name>AT-Kühtai (2017m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-10-19T16:41:36Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.774874893948436" lon="15.48570198006928">
+    <ele>1027</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Lahnsattel (1015m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.626638086512685" lon="13.414014782756567">
+    <ele>1310.8203125</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Lienbachsattel (1310m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.488186288625002" lon="14.268391309306026">
+    <ele>781.60546875</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Loiblpass Kleiner (770)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.01335328258574" lon="15.532216345891356">
+    <ele>695.78515625</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Morigrabensattel (687m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.371554980054498" lon="10.693395445123315">
+    <ele>1373.57421875</ele>
+    <time>2023-07-30T18:46:57Z</time>
+    <name>AT-Namlospass (1373m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-07-30T18:46:57Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.110337242484093" lon="14.369343370199203">
+    <ele>898.390625</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Neumarkter Sattel (894m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.680935300886631" lon="15.377395804971457">
+    <ele>1226.30078125</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Niederalpl (1221m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.889644917100668" lon="13.822720991447568">
+    <ele>2042</ele>
+    <time>2013-10-19T17:10:37Z</time>
+    <name>AT-Nockalm (2042m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-10-19T17:10:37Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.895079994574189" lon="10.48488998785615">
+    <ele>0</ele>
+    <time>2023-07-30T18:46:57Z</time>
+    <name>AT-Norbertshöhe (1405m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-07-30T18:46:57Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.042537536472082" lon="14.720142530277371">
+    <ele>951.7734375</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Obdacher Sattel (955m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.882270291447639" lon="15.639417031779885">
+    <ele>828.515625</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Ochsattel (861m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.872655913233757" lon="15.965505754575133">
+    <ele>582</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Ochsenheide (582m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.965438779443502" lon="14.977887813001871">
+    <ele>1172.796875</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Packsattel (1169m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.828283542767167" lon="15.484006404876709">
+    <ele>982</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Pass Gscheid (970m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.591373575851321" lon="13.505611382424831">
+    <ele>965.1953125</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Pass Gschuett (957m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.575604869052768" lon="13.194688959047198">
+    <ele>533.15234375</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Pass Lueg (553m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.578693013638258" lon="12.666498636826873">
+    <ele>682.09765625</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Pass Strub (675m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.308609988540411" lon="12.408459987491369">
+    <ele>0</ele>
+    <time>2023-07-30T18:46:57Z</time>
+    <name>AT-Pass Thurn (1274m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-07-30T18:46:57Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.110034488141537" lon="14.4577073212713">
+    <ele>994</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Perchauer Sattel (995m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.491028172895312" lon="14.526490727439523">
+    <ele>1145</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Petschniksattel (1169m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.570095611736178" lon="15.813995059579611">
+    <ele>1376.984375</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Pfaffensattel (1372m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.93890823610127" lon="15.42745454236865">
+    <ele>846.484375</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Pielachtaler Gscheid (841m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.11806820705533" lon="10.666932016611099">
+    <ele>1557.09765625</ele>
+    <time>2023-07-30T18:46:57Z</time>
+    <name>AT-Pillerhöhe (1559m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-07-30T18:46:57Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.199648935347795" lon="14.190403819084167">
+    <ele>1094.19140625</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Poellauer Sattel (1092m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.523703370243311" lon="14.948228280991316">
+    <ele>1235.69921875</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Praebichl (1226m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.675751848146319" lon="15.723590366542339">
+    <ele>1074.25</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Preiner Gscheid (1069m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.939399978145957" lon="14.27241001278162">
+    <time>2014-06-30T18:09:08Z</time>
+    <name>AT-Prekova Sattel (1200m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-30T18:09:08Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.577204303815961" lon="15.422555068507791">
+    <ele>1084.484375</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Pretalsattel (1069m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.619062103331089" lon="14.297988563776016">
+    <ele>964.40625</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Pyhrnpass (954m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.621699972078204" lon="13.698834953829646">
+    <ele>992</ele>
+    <time>2013-10-19T17:11:11Z</time>
+    <name>AT-Pötschenhöhe (992m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-10-19T17:11:11Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.583522163331509" lon="13.832135880365968">
+    <ele>882.71875</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Radlingpass (883m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.2480199765414" lon="13.559130001813173">
+    <time>2014-06-30T18:09:08Z</time>
+    <name>AT-Radstadter  Tauern (1738m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-30T18:09:08Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.662061098963022" lon="14.775199899449944">
+    <ele>641.484375</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Radstatthoehe (641m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.633389122784138" lon="15.974823664873838">
+    <ele>827.25390625</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Ramssattel (824m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.943381298333406" lon="10.926810577511787">
+    <ele>2793.8359375</ele>
+    <time>2023-07-30T18:46:57Z</time>
+    <name>AT-Rettenbachferner (2798m) (Ötztaler Gletscherstrasse)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-07-30T18:46:57Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.870531687512994" lon="15.798703953623772">
+    <ele>864</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Rohrer Sattel (864m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.231309982016683" lon="10.927750021219254">
+    <ele>0</ele>
+    <time>2023-07-30T18:46:57Z</time>
+    <name>AT-Sattele (1690m) (Haimingjoch)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-07-30T18:46:57Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.478929985314608" lon="14.467209968715906">
+    <time>2014-06-30T18:08:28Z</time>
+    <name>AT-Schaida Sattel (1068m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-30T18:08:28Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.786363130435348" lon="13.390123844146729">
+    <ele>630.86328125</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Scharflinger Hoehe (600m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.890053953975439" lon="13.793506789952517">
+    <ele>2029.98046875</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Schiestelscharte (2024m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.366508152335882" lon="15.784746492281556">
+    <ele>943</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Schloffereck (941m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.356145437806845" lon="9.947404637932777">
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Schnepfegg (891m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.451060013845563" lon="14.673981126397848">
+    <ele>850.48828125</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Schoberpass (849m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.204291168600321" lon="15.485036037862301">
+    <ele>1125</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Schoecklkreuz (1125m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.808657484129071" lon="13.291653413325548">
+    <ele>761.59765625</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Schoeffbaumhoehe (776m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.983458362519741" lon="13.775620814412832">
+    <ele>1748.1015625</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Schoenfeldsattel (1741m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.893971176818013" lon="15.303838737308979">
+    <ele>1129.26953125</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Schuesseleck (1110m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.1480792760849" lon="13.928797077387571">
+    <ele>1237.953125</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Schwarzenbichl (1241m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.625852366909385" lon="15.282198339700699">
+    <ele>1251.89453125</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Seebergsattel (1246m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.317981375381351" lon="11.198525810614228">
+    <ele>1183.9140625</ele>
+    <time>2023-07-30T18:46:57Z</time>
+    <name>AT-Seefelder Sattel (1185m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-07-30T18:46:57Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.632677080109715" lon="15.829083323478699">
+    <ele>985.15625</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Semmeringpass (984m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.917674923315644" lon="10.09368896484375">
+    <ele>2036</ele>
+    <time>2013-10-19T16:30:22Z</time>
+    <name>AT-Silvretta Hochalpstrasse (2036m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-10-19T16:30:22Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.668349262326956" lon="15.010003242641687">
+    <ele>1353.5703125</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Soboth (1347m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.287704348564148" lon="14.549903059378266">
+    <ele>1642.40625</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Sommerthoerl (1644m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.389891566708684" lon="15.531122842803597">
+    <ele>1159.1640625</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Strassegg (1163m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.271605981513858" lon="14.079654989764094">
+    <ele>1788</ele>
+    <time>2013-10-19T17:09:35Z</time>
+    <name>AT-Sölkpass (1788m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-10-19T17:09:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.433350561186671" lon="14.480200409889221">
+    <ele>1269.53515625</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Triebener Tauern (1274m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.914020916447043" lon="13.876064931973815">
+    <ele>1783</ele>
+    <time>2013-10-19T17:10:06Z</time>
+    <name>AT-Turracher Höhe (1783m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-10-19T17:10:06Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.511608535423875" lon="16.043272716924548">
+    <ele>929.04296875</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Wechselpass (980m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.771193478256464" lon="13.622549995779991">
+    <ele>571.359375</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Weissenbacher Sattel (566m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.064184663817286" lon="15.40847472846508">
+    <ele>549</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Wetterluecke (543m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.972076097503304" lon="14.9711998924613">
+    <ele>631.20703125</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Ybbsitzer Hoehe (631m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.791505344212055" lon="15.215160548686981">
+    <ele>1132.15234375</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>AT-Zellerrain (1132m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.263846937566996" lon="11.845921967178583">
+    <ele>2040</ele>
+    <time>2013-10-19T16:47:16Z</time>
+    <name>AT-Zillertaler Höhenstrasse (2040m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-10-19T16:47:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.923171943053603" lon="10.944892941042781">
+    <ele>2830</ele>
+    <time>2013-08-26T17:22:07Z</time>
+    <name>AT-Ötztaler Gletscherstrasse (2830m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 13</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-08-26T17:22:07Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+</gpx>

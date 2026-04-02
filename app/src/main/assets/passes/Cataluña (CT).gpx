@@ -1,0 +1,1287 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2022-11-20T15:45:07Z</time>
+    <bounds maxlat="42.678469978272915" maxlon="3.236690014600754" minlat="41.038498068228364" minlon="0.383928129449487" />
+  </metadata>
+
+  <wpt lat="41.038498068228364" lon="0.791776198893785">
+    <ele>507</ele>
+    <time>2019-10-19T18:37:19Z</time>
+    <name>CT*Col de Fatxes (507m)</name>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-19T18:37:19Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.510320032015443" lon="1.429899958893657">
+    <ele>0</ele>
+    <time>2021-08-12T18:35:21Z</time>
+    <name>CT*Coll d'Os de Civis (1724m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.51032,1.42990 to: 42.43575,1.51983&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.51032,1.42990 to: 42.43575,1.51983&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-08-12T18:35:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.169664651155472" lon="1.185309989377856">
+    <ele>1325.19140625</ele>
+    <time>2013-08-08T18:11:11Z</time>
+    <name>CT*Coll de Boixols (1.380m)</name>
+    <cmt>CT-Coll de Boixols (1.227 m)</cmt>
+    <desc>CT-Coll de Boixols (1.227 m)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-08-08T18:11:11Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.156863389536738" lon="1.141274990513921">
+    <ele>1243.671875</ele>
+    <time>2013-08-08T18:11:29Z</time>
+    <name>CT*Coll de Faidella (1.250 m)</name>
+    <cmt>CT-Coll de Faidella (1.148 m)</cmt>
+    <desc>CT-Coll de Faidella (1.148 m)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-08-08T18:11:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.358154961839318" lon="0.842410605400801">
+    <ele>1333</ele>
+    <time>2021-08-12T18:35:21Z</time>
+    <name>CT*Coll de la Creu de Perves (1335m)</name>
+    <cmt>CT-Coll de la Creu de Perves (1333m)</cmt>
+    <desc>CT-Coll de la Creu de Perves (1333m)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-08-12T18:35:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.156140031293035" lon="0.797990038990974">
+    <ele>0</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>CT*Coll de Montllobar (963m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.15614,0.79799 to: 42.20996,1.55141&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.15614,0.79799 to: 42.20996,1.55141&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.29655995965004" lon="3.236690014600754">
+    <ele>277</ele>
+    <time>2021-08-12T18:35:21Z</time>
+    <name>CT*Coll de Perafita (277m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.29656,3.23669 to: 42.21077,2.33262&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.29656,3.23669 to: 42.21077,2.33262&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-08-12T18:35:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.417851882055402" lon="3.159330915659666">
+    <ele>193.328125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CT*Coll del Frare (205m)</name>
+    <cmt>N-260A</cmt>
+    <desc>N-260A</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.050285622477531" lon="0.383928129449487">
+    <ele>464.640625</ele>
+    <time>2013-09-03T07:18:49Z</time>
+    <name>CT*Coll del Moro (473m)</name>
+    <cmt>CT-Coll del Moro (473m)</cmt>
+    <desc>CT-Coll del Moro (473m)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-03T07:18:49Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.016592742875218" lon="1.463749185204506">
+    <ele>886.703125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CT*Collada de Clarà (880m)</name>
+    <cmt>C-26</cmt>
+    <desc>C-26</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.157806856557727" lon="0.849346630275249">
+    <ele>618.70703125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CT*Collada de Les Cargolines (622m)</name>
+    <cmt>C-1311</cmt>
+    <desc>C-1311</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.336031598970294" lon="1.99114540591836">
+    <ele>1800</ele>
+    <time>2021-08-12T18:35:21Z</time>
+    <name>CT*Collada de Toses (1800m)</name>
+    <cmt>CT-Collada de Toses (1790m)</cmt>
+    <desc>CT-Collada de Toses (1790m)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-08-12T18:35:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.478179959580302" lon="0.870289988815784">
+    <ele>0</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>CT*Estacion de Boi Taull (2031m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.47818,0.87029 to: 42.59688,1.26288&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.47818,0.87029 to: 42.59688,1.26288&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.137255519628525" lon="1.098484704270959">
+    <ele>1047.0234375</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CT*Pas de Finestres (1048m)</name>
+    <cmt>L-511</cmt>
+    <desc>L-511</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.678469978272915" lon="1.220049960538745">
+    <ele>0</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>CT*Pleta del Prat-Tavascan (1703m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.67847,1.22005 to: 42.42868,1.21286&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.67847,1.22005 to: 42.42868,1.21286&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.370017366483808" lon="1.236711088567972">
+    <ele>1720</ele>
+    <time>2021-08-12T18:35:21Z</time>
+    <name>CT*Port de El Cantó (1721m)</name>
+    <cmt>CT-Port Del Cantó (1720m)</cmt>
+    <desc>CT-Port Del Cantó (1720m)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-08-12T18:35:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.663388252258301" lon="0.982010364532471">
+    <ele>2072</ele>
+    <time>2021-08-12T18:35:21Z</time>
+    <name>CT*Port de La Bonaigua (2072m)</name>
+    <cmt>CT-Port de La Bonaigua (2076m)</cmt>
+    <desc>CT-Port de La Bonaigua (2076m)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-08-12T18:35:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.153470143675804" lon="0.740257753059268">
+    <ele>866.99999999999989</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CT*Port de Sant Miquel (870m)</name>
+    <cmt>C-1311</cmt>
+    <desc>C-1311</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.370111076161265" lon="0.809722188860178">
+    <ele>0</ele>
+    <time>2021-08-12T18:35:21Z</time>
+    <name>CT*Port de Viu de Llevata (1230m)</name>
+    <cmt>CT*Port de Viu de Llevata (1230m)</cmt>
+    <desc>CT*Port de Viu de Llevata (1230m)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-08-12T18:35:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.583809960633516" lon="0.855229971930385">
+    <ele>0</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>CT*Presa de Cavallers (1764 m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.58381,0.85523 to: 42.43137,1.66836&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.58381,0.85523 to: 42.43137,1.66836&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.551699979230762" lon="0.912590017542243">
+    <ele>0</ele>
+    <time>2021-08-12T18:35:21Z</time>
+    <name>CT-Aiguestortes (1816m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.55170,0.91259 to: 42.47818,0.87029&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.55170,0.91259 to: 42.47818,0.87029&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-08-12T18:35:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.431020749732852" lon="1.904393211007118">
+    <ele>519</ele>
+    <time>2013-09-03T07:29:49Z</time>
+    <name>CT-Alt de la Creu Aregall (519m)</name>
+    <cmt>CT-Alt de la Creu Aregall (519m)</cmt>
+    <desc>CT-Alt de la Creu Aregall (519m)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-03T07:29:49Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.425181077793241" lon="0.937896072864532">
+    <ele>540</ele>
+    <time>2013-09-03T07:27:36Z</time>
+    <name>CT-Alt de l´Albi (540m)</name>
+    <cmt>CT-Alt de l´Albi (540m)</cmt>
+    <desc>CT-Alt de l´Albi (540m)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-03T07:27:36Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.428906163200736" lon="0.973670538514853">
+    <ele>482</ele>
+    <time>2013-09-03T07:25:19Z</time>
+    <name>CT-Alt de Vinaixa (482m)</name>
+    <cmt>CT-Alt de Vinaixa (482m)</cmt>
+    <desc>CT-Alt de Vinaixa (482m)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-03T07:25:19Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.497900038957596" lon="1.189189972355962">
+    <time>2017-09-07T10:10:12Z</time>
+    <name>CT-Alto de Bertall</name>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2017-09-07T10:10:12Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.152336994186044" lon="1.385745014995337">
+    <ele>1256.59375</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CT-Coll De Boix (1256m)</name>
+    <cmt>L-401</cmt>
+    <desc>L-401</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.142745750024915" lon="2.020262964069843">
+    <ele>947.12109375</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CT-Coll de Borredà (943m)</name>
+    <cmt>C-26</cmt>
+    <desc>C-26</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.108329990878701" lon="2.376420004293323">
+    <ele>1148</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>CT-Coll de Bracons (1148m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.10833,2.37642 to: 42.28378,2.51415&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.10833,2.37642 to: 42.28378,2.51415&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.283779988065362" lon="2.514150012284517">
+    <ele>780</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>CT-Coll de Bucs (780m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.28378,2.51415 to: 42.25879,2.53707&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.28378,2.51415 to: 42.25879,2.53707&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.765630012378097" lon="1.629849756136537">
+    <ele>644.67578125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CT-Coll de Cal Pallares (650m)</name>
+    <cmt>BV-3008</cmt>
+    <desc>BV-3008</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.258790014311671" lon="2.537069991230965">
+    <ele>508</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>CT-Coll de Camporiol (508m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.25879,2.53707 to: 42.19715,2.34600&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.25879,2.53707 to: 42.19715,2.34600&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.257129978388548" lon="2.398159978911281">
+    <ele>865</ele>
+    <time>2013-04-03T10:10:22Z</time>
+    <name>CT-Coll de Capsacosta (865m)</name>
+    <cmt>CT-Coll de Capsacosta (865m)</cmt>
+    <desc>CT-Coll de Capsacosta (865m)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-03T10:10:22Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.055443283170462" lon="1.089839106425643">
+    <ele>1097</ele>
+    <time>2013-08-08T18:11:20Z</time>
+    <name>CT-Coll de Corniols (1.097m)</name>
+    <cmt>CT-Coll de Corniols (1.097m)</cmt>
+    <desc>CT-Coll de Corniols (1.097m)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-08-08T18:11:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.272849986329675" lon="2.204800033941865">
+    <ele>0</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>CT-Coll de Jou (1652m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.27285,2.20480 to: 42.25839,2.70798&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.27285,2.20480 to: 42.25839,2.70798&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.200694791972637" lon="2.020350638777018">
+    <ele>1204.33203125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CT-Coll de la Batallola (1197m)</name>
+    <cmt>Bv-4656</cmt>
+    <desc>Bv-4656</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.33026996254921" lon="2.430640021339059">
+    <ele>0</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>CT-Coll de la Boixeda (1098m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.33027,2.43064 to: 42.24670,2.04118&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.33027,2.43064 to: 42.24670,2.04118&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.180010015144944" lon="1.796570001170039">
+    <ele>0</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>CT-Coll de la Creu de Fumanya (1566m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.18001,1.79657 to: 42.30135,1.99337&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.18001,1.79657 to: 42.30135,1.99337&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.898157959803939" lon="3.054483952000737">
+    <ele>223.078125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CT-Coll de la Ganga (210m)</name>
+    <cmt>GI-660</cmt>
+    <desc>GI-660</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.258390029892325" lon="2.707980014383793">
+    <ele>0</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>CT-Coll de la Mare de Deu del Mont (1111 m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.25839,2.70798 to: 42.42674,2.26512&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.25839,2.70798 to: 42.42674,2.26512&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.830156836658716" lon="2.196780731901527">
+    <ele>870</ele>
+    <time>2013-09-03T07:17:46Z</time>
+    <name>CT-Coll de la Pollosa (870m)</name>
+    <cmt>CT-Coll de la Pollosa (870m)</cmt>
+    <desc>CT-Coll de la Pollosa (870m)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-03T07:17:46Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.287182034924626" lon="1.495470078662038">
+    <ele>1489</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CT-Coll de la Trava (1480m)</name>
+    <cmt>C-462</cmt>
+    <desc>C-462</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.420659987255931" lon="2.801549965515733">
+    <ele>710</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>CT-Coll de Manrella (710m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.42066,2.80155 to: 42.29656,3.23669&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.42066,2.80155 to: 42.29656,3.23669&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.303886413574219" lon="1.922221183776856">
+    <ele>2104.80859375</ele>
+    <time>2022-09-03T19:11:42Z</time>
+    <name>CT-Coll de Pal (2106m)</name>
+    <cmt>Coll de Pal (2106)</cmt>
+    <desc>Coll de Pal (2106)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2022-09-03T19:11:42Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.286076545715332" lon="2.493703365325928">
+    <ele>805</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CT-Coll de Pera (805m)</name>
+    <cmt>GIV-5223</cmt>
+    <desc>GIV-5223</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.209959980100393" lon="1.551409978419542">
+    <ele>1669</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>CT-Coll de Port (1669m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.20996,1.55141 to: 42.37021,1.23716&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.20996,1.55141 to: 42.37021,1.23716&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.984741510823369" lon="2.917358865961433">
+    <ele>417.08984375</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CT-Coll de Portell (425m)</name>
+    <cmt>GIV-6703</cmt>
+    <desc>GIV-6703</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.201039958745241" lon="1.768690031021833">
+    <ele>0</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>CT-Coll de Pradell (1728m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.20104,1.76869 to: 42.27285,2.20480&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.20104,1.76869 to: 42.27285,2.20480&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.398964772000909" lon="3.150455821305513">
+    <ele>67.0234375</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CT-Coll de Sant Antoni (75m)</name>
+    <cmt>N-260</cmt>
+    <desc>N-260</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.290705284103751" lon="2.484909240156412">
+    <ele>773.81640625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CT-Coll del Bucs (775m)</name>
+    <cmt>GIV-5223</cmt>
+    <desc>GIV-5223</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.28977925144136" lon="2.490852177143097">
+    <ele>791.15625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CT-Coll del Salomó (793m)</name>
+    <cmt>GIV-5223</cmt>
+    <desc>GIV-5223</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.188781760632992" lon="2.437151251360774">
+    <ele>485.2578125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CT-Coll dels Morts (483m)</name>
+    <cmt>GI-5233</cmt>
+    <desc>GI-5233</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.961587760597467" lon="3.227314352989197">
+    <ele>52.4921875</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CT-Coll dels Ocells (53m)</name>
+    <cmt>GIV-6335</cmt>
+    <desc>GIV-6335</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.33630895614624" lon="2.455731583759189">
+    <ele>948.75390625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CT-Coll Samola (947m)</name>
+    <cmt>GIV-5223</cmt>
+    <desc>GIV-5223</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.803200216963887" lon="2.347191805019975">
+    <ele>1129</ele>
+    <time>2013-09-03T07:16:48Z</time>
+    <name>CT-Collformic (1129m)</name>
+    <cmt>CT-Collformic (1129m)</cmt>
+    <desc>CT-Collformic (1129m)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-03T07:16:48Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.155309971421957" lon="2.340579992160201">
+    <ele>0</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>CT-Collfred (1326 m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.15531,2.34058 to: 42.54639,1.41974&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.15531,2.34058 to: 42.54639,1.41974&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.148940563201904" lon="2.660107612609863">
+    <ele>0</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CT-La Creu del Collell (285m)</name>
+    <cmt>GIP-5244</cmt>
+    <desc>GIP-5244</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.388968406245112" lon="1.875243047252297">
+    <ele>498</ele>
+    <time>2013-09-03T07:28:54Z</time>
+    <name>CT-Port del Ordal (498m)</name>
+    <cmt>CT-Port del Ordal (498m)</cmt>
+    <desc>CT-Port del Ordal (498m)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-03T07:28:54Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.617147363722324" lon="1.400927575305104">
+    <ele>706</ele>
+    <time>2013-09-03T07:21:02Z</time>
+    <name>CT-Puerto de la Panadella (706m)</name>
+    <cmt>CT-Puerto de la Panadella (706m)</cmt>
+    <desc>CT-Puerto de la Panadella (706m)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-03T07:21:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.167489966377616" lon="0.453470014035702">
+    <ele>1061</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>CT-Puerto del Castillo de Laguarres (1061m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.16749,0.45347 to: 42.40171,-0.02995&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.16749,0.45347 to: 42.40171,-0.02995&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.141559962183237" lon="1.764500001445413">
+    <ele>1892</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>CT-Rasos de Peguera (1892m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.14156,1.76450 to: 42.09317,1.76144&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.14156,1.76450 to: 42.09317,1.76144&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.325759995728731" lon="3.161009978502989">
+    <ele>517</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>CT-Sant Pere de Roses (517m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.32576,3.16101 to: 42.26558,2.08544&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.32576,3.16101 to: 42.26558,2.08544&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 39</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+</gpx>

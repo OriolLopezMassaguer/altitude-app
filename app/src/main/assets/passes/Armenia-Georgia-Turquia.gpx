@@ -1,0 +1,1497 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2026-02-16T19:18:14Z</time>
+    <bounds maxlat="42.915555546060205" maxlon="46.161182010546327" minlat="36.539533752948046" minlon="28.361721038818359" />
+  </metadata>
+
+  <wpt lat="39.321949006989598" lon="46.141002997756004">
+    <time>2026-01-22T13:36:52Z</time>
+    <name>AM-Bargooshat Pass (3004m)</name>
+    <sym>Custom 63</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-22T13:36:52Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.544635973870754" lon="45.811526980251074">
+    <time>2026-01-22T13:38:49Z</time>
+    <name>AM-Betschenagsku Pass (2347m)</name>
+    <sym>Custom 63</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-22T13:38:49Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.562775023281574" lon="45.295558981597424">
+    <time>2026-01-22T13:44:46Z</time>
+    <name>AM-Karmir Pass (2143m)</name>
+    <sym>Custom 63</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-22T13:44:46Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.661323992535472" lon="44.891239022836089">
+    <time>2026-01-22T13:44:12Z</time>
+    <name>AM-Sevan Pass (2126m)</name>
+    <sym>Custom 63</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-22T13:44:12Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.115883018821478" lon="46.161182010546327">
+    <time>2026-01-22T13:34:52Z</time>
+    <name>AM-Tashtun Pass (2539m)</name>
+    <sym>Custom 63</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-22T13:34:52Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.953303961083293" lon="45.234040338546038">
+    <time>2025-12-27T17:34:27Z</time>
+    <name>AM-Vardenyats Pass (Selim Pass) (2410m)</name>
+    <cmt>Vardenyats Pass (Selim Pass)
+M10
+Geghhovit, GR, ARM</cmt>
+    <desc>Vardenyats Pass (Selim Pass)
+M10
+Geghhovit, GR, ARM</desc>
+    <sym>Custom 63</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:StreetAddress>M10</gpxx:StreetAddress>
+          <gpxx:City>Geghhovit</gpxx:City>
+          <gpxx:State>GR</gpxx:State>
+          <gpxx:Country>ARM</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:StreetAddress>M10</wptx1:StreetAddress>
+          <wptx1:City>Geghhovit</wptx1:City>
+          <wptx1:State>GR</wptx1:State>
+          <wptx1:Country>ARM</wptx1:Country>
+        </wptx1:Address>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-27T17:34:27Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.686676040291786" lon="45.712611973285675">
+    <time>2026-01-22T13:40:17Z</time>
+    <name>AM-Vorotan Pass (2341m)</name>
+    <sym>Custom 63</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-22T13:40:17Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.864201026037335" lon="45.279503026977181">
+    <time>2026-01-22T19:02:37Z</time>
+    <name>GE-Gombori Pass (Pereval Gomborskiy) (1634m)</name>
+    <sym>Custom 62</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-22T19:02:37Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.504396038129926" lon="44.45371407084167">
+    <time>2025-11-24T19:18:01Z</time>
+    <name>GE-Jvari Pass (2379m)</name>
+    <sym>Custom 62</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-11-24T19:18:01Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.456116024404764" lon="43.396703023463488">
+    <ele>1878.9000000000001</ele>
+    <time>2024-05-29T14:23:51Z</time>
+    <name>GE-Khikhata Pass (1880m)</name>
+    <sym>Custom 62</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-05-29T14:23:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.376787010580301" lon="43.037049975246191">
+    <ele>1227.2</ele>
+    <time>2024-06-18T08:05:52Z</time>
+    <name>GE-Nakerala Pass (1232m)</name>
+    <sym>Custom 62</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-06-18T08:05:52Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.278099991381168" lon="45.50859997048974">
+    <time>2026-02-08T19:55:55Z</time>
+    <name>GE-Paso Abano (2850m)</name>
+    <sym>Custom 62</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-02-08T19:55:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.522099958732724" lon="45.056099994108081">
+    <time>2026-02-08T19:57:04Z</time>
+    <name>GE-Paso Datvisjvari (2677m)</name>
+    <sym>Custom 62</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-02-08T19:57:04Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.632440062239766" lon="42.502793502062559">
+    <time>2026-02-08T19:57:56Z</time>
+    <name>GE-Paso Goderdzi (2025m)</name>
+    <sym>Custom 62</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-02-08T19:57:56Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.051430027931929" lon="43.49268302321434">
+    <time>2026-01-22T19:03:40Z</time>
+    <name>GE-Rikoti Pass (Pereval Rikotskiy) (1003m)</name>
+    <sym>Custom 62</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-22T19:03:40Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.896926993504167" lon="44.899890990927815">
+    <time>2026-01-22T19:01:42Z</time>
+    <name>GE-Sabaduri Pass (1371m)</name>
+    <sym>Custom 62</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-22T19:01:42Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.496219970285892" lon="43.871070966124535">
+    <time>2026-01-22T19:00:12Z</time>
+    <name>GE-Tikmataji Pass (Tikmatashi Pass) (2171m)</name>
+    <sym>Custom 62</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-22T19:00:12Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.915555546060205" lon="43.102222206071019">
+    <time>2026-02-08T19:51:02Z</time>
+    <name>GE-Zagari Pass (2620m)</name>
+    <sym>Custom 62</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-02-08T19:51:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.758762359619141" lon="42.561914920806885">
+    <ele>2093.17578125</ele>
+    <time>2025-12-27T11:20:05Z</time>
+    <name>TR-Agundir Geçidi (2070m)</name>
+    <cmt>Agundir Geçidi (2070)</cmt>
+    <desc>Agundir Geçidi (2070)</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-27T11:20:05Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.270750522613525" lon="40.992221832275391">
+    <ele>2293.1171875</ele>
+    <time>2025-12-27T11:21:13Z</time>
+    <name>TR-Agziaçik Geçidi (2248m)</name>
+    <cmt>Agziaçik Geçidi (2248)</cmt>
+    <desc>Agziaçik Geçidi (2248)</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-27T11:21:13Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.363353729248047" lon="32.698295116424561">
+    <ele>1069.03125</ele>
+    <time>2026-01-21T17:21:35Z</time>
+    <name>TR-Ahmetusta Geçidi (1030m)</name>
+    <cmt>Ahmetusta Geçidi (1030)
+Kiriklar, Safranbolu, Türkiye</cmt>
+    <desc>Ahmetusta Geçidi (1030)
+Kiriklar, Safranbolu, Türkiye</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Kiriklar</gpxx:City>
+          <gpxx:State>Safranbolu</gpxx:State>
+          <gpxx:Country>Türkiye</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:City>Kiriklar</wptx1:City>
+          <wptx1:State>Safranbolu</wptx1:State>
+          <wptx1:Country>Türkiye</wptx1:Country>
+        </wptx1:Address>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-21T17:21:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.622828006744385" lon="32.48356819152832">
+    <ele>1469.796875</ele>
+    <time>2026-01-21T17:21:41Z</time>
+    <name>TR-Akyarma Geçidi (1470m)</name>
+    <cmt>Akyarma Geçidi
+Gebeler Mahallesi, Kizilcahamam, Türkiye</cmt>
+    <desc>Akyarma Geçidi
+Gebeler Mahallesi, Kizilcahamam, Türkiye</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Gebeler Mahallesi</gpxx:City>
+          <gpxx:State>Kizilcahamam</gpxx:State>
+          <gpxx:Country>Türkiye</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:City>Gebeler Mahallesi</wptx1:City>
+          <wptx1:State>Kizilcahamam</wptx1:State>
+          <wptx1:Country>Türkiye</wptx1:Country>
+        </wptx1:Address>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-21T17:21:41Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="37.173721790313721" lon="31.928973197937012">
+    <ele>1830.1171875</ele>
+    <time>2025-12-27T11:26:05Z</time>
+    <name>TR-Alacabey Geçidi (1830m)</name>
+    <cmt>Alacabey Geçidi</cmt>
+    <desc>Alacabey Geçidi</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-27T11:26:05Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="36.539533752948046" lon="29.170023333281279">
+    <time>2026-01-23T17:36:09Z</time>
+    <name>TR-Babadag (1700m)</name>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-23T17:36:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.535422801971436" lon="33.392429351806641">
+    <ele>1596.46484375</ele>
+    <time>2026-01-21T17:22:08Z</time>
+    <name>TR-Ballidag Geçidi (1550m)</name>
+    <cmt>Ballidag Geçidi (1550)
+Sarpun, Daday, Türkiye</cmt>
+    <desc>Ballidag Geçidi (1550)
+Sarpun, Daday, Türkiye</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Sarpun</gpxx:City>
+          <gpxx:State>Daday</gpxx:State>
+          <gpxx:Country>Türkiye</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:City>Sarpun</wptx1:City>
+          <wptx1:State>Daday</wptx1:State>
+          <wptx1:Country>Türkiye</wptx1:Country>
+        </wptx1:Address>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-21T17:22:08Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.146102486178279" lon="33.348870109766722">
+    <ele>857</ele>
+    <time>2026-01-27T18:21:01Z</time>
+    <name>TR-Baykuşboğazı Geçidi (1140m)</name>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-27T18:21:01Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.792279243469238" lon="42.954955101013184">
+    <ele>2338</ele>
+    <time>2025-12-27T11:20:20Z</time>
+    <name>TR-Bogatepe Geçidi (2344m)</name>
+    <cmt>Bogatepe Geçidi (2344)</cmt>
+    <desc>Bogatepe Geçidi (2344)</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-27T11:20:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.560815334320068" lon="33.200318813323975">
+    <ele>1406.125</ele>
+    <time>2025-12-27T11:28:45Z</time>
+    <name>TR-Bulduk Geçidi (1406m)</name>
+    <cmt>Bulduk Geçidi (1406)</cmt>
+    <desc>Bulduk Geçidi (1406)</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-27T11:28:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.053333282470703" lon="42.29511022567749">
+    <ele>2605.984375</ele>
+    <time>2025-12-27T11:20:37Z</time>
+    <name>TR-Bülbülen Geçidi (2581m)</name>
+    <cmt>Bülbülen Geçidi (2581)</cmt>
+    <desc>Bülbülen Geçidi (2581)</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-27T11:20:37Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.011426448822021" lon="32.077181339263916">
+    <ele>972.09765625</ele>
+    <time>2026-01-21T17:21:33Z</time>
+    <name>TR-Dorukhan Geçidi (925m)</name>
+    <cmt>Dorukhan Geçidi (925)
+Çubuk, Yenice, Türkiye</cmt>
+    <desc>Dorukhan Geçidi (925)
+Çubuk, Yenice, Türkiye</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Çubuk</gpxx:City>
+          <gpxx:State>Yenice</gpxx:State>
+          <gpxx:Country>Türkiye</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:City>Çubuk</wptx1:City>
+          <wptx1:State>Yenice</wptx1:State>
+          <wptx1:Country>Türkiye</wptx1:Country>
+        </wptx1:Address>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-21T17:21:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.728284358978271" lon="33.657517433166504">
+    <ele>1211.515625</ele>
+    <time>2026-01-21T17:22:03Z</time>
+    <name>TR-Ecevit Geçidi (1196m)</name>
+    <cmt>Ecevit Geçidi (1196)
+Camili, Küre, Türkiye</cmt>
+    <desc>Ecevit Geçidi (1196)
+Camili, Küre, Türkiye</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Camili</gpxx:City>
+          <gpxx:State>Küre</gpxx:State>
+          <gpxx:Country>Türkiye</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:City>Camili</wptx1:City>
+          <wptx1:State>Küre</wptx1:State>
+          <wptx1:Country>Türkiye</wptx1:Country>
+        </wptx1:Address>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-21T17:22:03Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.204186679795384" lon="35.994945745915174">
+    <ele>1987.0546875</ele>
+    <time>2024-05-24T10:58:05Z</time>
+    <name>TR-Gezbeli Gecidi (1990m)</name>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-05-24T10:58:05Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.217750910669565" lon="41.474305232986808">
+    <ele>2134.53125</ele>
+    <time>2026-01-22T13:08:57Z</time>
+    <name>TR-Güzelyayla Geçidi (2100m)</name>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-22T13:08:57Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="37.891812091693282" lon="32.145207189023495">
+    <ele>1544.34375</ele>
+    <time>2025-12-01T18:57:06Z</time>
+    <name>TR-Hanönü Beli (1548m)</name>
+    <cmt>Hanönü Beli (1548)</cmt>
+    <desc>Hanönü Beli (1548)</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-01T18:57:06Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.417362689971924" lon="42.742373943328857">
+    <ele>2524.3046875</ele>
+    <time>2025-12-27T11:23:30Z</time>
+    <name>TR-Ilgar Geçidi (2540m)</name>
+    <cmt>Ilgar Geçidi (2540)</cmt>
+    <desc>Ilgar Geçidi (2540)</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-27T11:23:30Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.066722869873047" lon="33.748884201049805">
+    <ele>1857.28125</ele>
+    <time>2025-12-27T11:28:58Z</time>
+    <name>TR-Ilgazdagi Geçidi (1862m)</name>
+    <cmt>Ilgazdagi Geçidi (1862)</cmt>
+    <desc>Ilgazdagi Geçidi (1862)</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-27T11:28:58Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.810853481292725" lon="34.074418544769287">
+    <ele>1445.4453125</ele>
+    <time>2026-01-21T17:20:05Z</time>
+    <name>TR-Isirganli Geçidi (1442m)</name>
+    <cmt>Isirganli Geçidi (1442)
+Çiçekyayla, Bozkurt, Türkiye</cmt>
+    <desc>Isirganli Geçidi (1442)
+Çiçekyayla, Bozkurt, Türkiye</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Çiçekyayla</gpxx:City>
+          <gpxx:State>Bozkurt</gpxx:State>
+          <gpxx:Country>Türkiye</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:City>Çiçekyayla</wptx1:City>
+          <wptx1:State>Bozkurt</wptx1:State>
+          <wptx1:Country>Türkiye</wptx1:Country>
+        </wptx1:Address>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-21T17:20:05Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.859986305236816" lon="38.427858352661133">
+    <ele>2164.19921875</ele>
+    <time>2025-12-27T11:22:33Z</time>
+    <name>TR-Kizildag Geçidi (2163m)</name>
+    <cmt>Kizildag Geçidi (2163)</cmt>
+    <desc>Kizildag Geçidi (2163)</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-27T11:22:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.825166035443544" lon="39.523439314216375">
+    <ele>2153.42578125</ele>
+    <time>2026-01-27T18:24:32Z</time>
+    <name>TR-Kolçekmezdagi Geçidi (2100m)</name>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-27T18:24:32Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.036582946777344" lon="40.5120849609375">
+    <ele>2430.265625</ele>
+    <time>2025-12-27T11:38:04Z</time>
+    <name>TR-Kop Geçidi (2409m)</name>
+    <cmt>Kop Geçidi (2409)</cmt>
+    <desc>Kop Geçidi (2409)</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-27T11:38:04Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.866831302642822" lon="39.731132984161377">
+    <ele>2213.1953125</ele>
+    <time>2025-12-27T11:30:58Z</time>
+    <name>TR-Kovalik Geçidi (2390m)</name>
+    <cmt>Kovalik Geçidi (2390)</cmt>
+    <desc>Kovalik Geçidi (2390)</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-27T11:30:58Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="36.742057800292969" lon="29.021029472351074">
+    <ele>166.63671875</ele>
+    <time>2026-01-20T17:59:12Z</time>
+    <name>TR-Metris Geçidi (110m)</name>
+    <cmt>Metris Geçidi (110)</cmt>
+    <desc>Metris Geçidi (110)</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-20T17:59:12Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.390527248382568" lon="30.781395435333252">
+    <ele>802.15625</ele>
+    <time>2025-12-27T11:28:18Z</time>
+    <name>TR-Meyitler Geçidi (1180m)</name>
+    <cmt>Meyitler Geçidi (1180)</cmt>
+    <desc>Meyitler Geçidi (1180)</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-27T11:28:18Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="37.976431092247367" lon="38.737514773383737">
+    <ele>2038.82421875</ele>
+    <time>2025-11-29T19:31:38Z</time>
+    <name>TR-Monte Nemrut (2150m)</name>
+    <cmt>Monte Nemrut 2.150 metros de altitud, es famoso por las cabezas gigantes que se conservan del túmulo funerario en el 62 a.C.</cmt>
+    <desc>Monte Nemrut 2.150 metros de altitud, es famoso por las cabezas gigantes que se conservan del túmulo funerario en el 62 a.C.</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-11-29T19:31:38Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.659971237182617" lon="33.054792881011963">
+    <ele>1355.75390625</ele>
+    <time>2025-12-27T11:29:35Z</time>
+    <name>TR-Ortabeli Geçidi (1350m)</name>
+    <cmt>Ortabeli Geçidi (1350)</cmt>
+    <desc>Ortabeli Geçidi (1350)</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-27T11:29:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.625917911529541" lon="40.781142711639404">
+    <ele>2683.4140625</ele>
+    <time>2025-12-27T11:21:39Z</time>
+    <name>TR-Ovit Dagi Geçidi (2640m)</name>
+    <cmt>Ovitdagi Geçidi (2640)</cmt>
+    <desc>Ovitdagi Geçidi (2640)</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-27T11:21:39Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.570119857788086" lon="33.77920389175415">
+    <ele>1214.19140625</ele>
+    <time>2026-01-21T17:19:42Z</time>
+    <name>TR-Oyrak Geçidi (1212m)</name>
+    <cmt>Oyrak Geçidi (1212)
+Yolsigmaz, Devrekani, Türkiye</cmt>
+    <desc>Oyrak Geçidi (1212)
+Yolsigmaz, Devrekani, Türkiye</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Yolsigmaz</gpxx:City>
+          <gpxx:State>Devrekani</gpxx:State>
+          <gpxx:Country>Türkiye</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:City>Yolsigmaz</wptx1:City>
+          <wptx1:State>Devrekani</wptx1:State>
+          <wptx1:Country>Türkiye</wptx1:Country>
+        </wptx1:Address>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-21T17:19:42Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.261469408869743" lon="39.47575768455863">
+    <ele>1986.9140625</ele>
+    <time>2026-01-21T19:53:09Z</time>
+    <name>TR-Pekun Dagi Rakim (2020m)</name>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-21T19:53:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="37.073450088500977" lon="28.361721038818359">
+    <ele>631.60546875</ele>
+    <time>2025-12-27T11:27:48Z</time>
+    <name>TR-Sakar Geçidi (634m)</name>
+    <cmt>Sakar Geçidi</cmt>
+    <desc>Sakar Geçidi</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-27T11:27:48Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.173112869262695" lon="35.927867889404297">
+    <ele>1666.30078125</ele>
+    <time>2026-01-20T17:40:30Z</time>
+    <name>TR-Saraycikbeli Geçidi (1706m)</name>
+    <cmt>Saraycikbeli Geçidi (1706)</cmt>
+    <desc>Saraycikbeli Geçidi (1706)</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-20T17:40:30Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.69810152053833" lon="33.012971878051758">
+    <ele>1488.609375</ele>
+    <time>2025-12-27T11:29:25Z</time>
+    <name>TR-Saçakbeli Geçidi (1487m)</name>
+    <cmt>Saçakbeli Geçidi (1487)</cmt>
+    <desc>Saçakbeli Geçidi (1487)</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-27T11:29:25Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.068361759185791" lon="35.256307125091553">
+    <ele>1546.078125</ele>
+    <time>2026-01-21T17:20:49Z</time>
+    <name>TR-Sebek Geçidi (1546m)</name>
+    <cmt>Sebek Geçidi
+Musu Baba, Sorgun, Türkiye</cmt>
+    <desc>Sebek Geçidi
+Musu Baba, Sorgun, Türkiye</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Musu Baba</gpxx:City>
+          <gpxx:State>Sorgun</gpxx:State>
+          <gpxx:Country>Türkiye</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:City>Musu Baba</wptx1:City>
+          <wptx1:State>Sorgun</wptx1:State>
+          <wptx1:Country>Türkiye</wptx1:Country>
+        </wptx1:Address>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-21T17:20:49Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.512921810150146" lon="40.234401226043701">
+    <ele>2370.3828125</ele>
+    <time>2025-12-27T11:39:16Z</time>
+    <name>TR-Soganli Geçidi (2330m)</name>
+    <cmt>Soganli Geçidi (2330)</cmt>
+    <desc>Soganli Geçidi (2330)</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-27T11:39:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.517685413360596" lon="40.387544631958008">
+    <ele>3001.29296875</ele>
+    <time>2025-12-27T11:38:57Z</time>
+    <name>TR-Soganli Geçidi (3007m)</name>
+    <cmt>Soganli Geçidi (3007)</cmt>
+    <desc>Soganli Geçidi (3007)</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-27T11:38:57Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.875199794769287" lon="39.629380702972412">
+    <ele>2255.71875</ele>
+    <time>2025-12-27T11:22:55Z</time>
+    <name>TR-Spikör Geçidi (2390m)</name>
+    <cmt>Spikör Geçidi (2390)</cmt>
+    <desc>Spikör Geçidi (2390)</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-27T11:22:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.135419834405184" lon="33.206676738336682">
+    <ele>1342.890625</ele>
+    <time>2026-01-30T12:42:22Z</time>
+    <name>TR-Tekebeli Geçidi (1330m)</name>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-30T12:42:22Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.530340194702148" lon="35.52678108215332">
+    <ele>2219.55078125</ele>
+    <time>2026-01-20T18:41:37Z</time>
+    <name>TR-Tekir Geçidi (2215m)</name>
+    <cmt>Tekir Geçidi (2215)</cmt>
+    <desc>Tekir Geçidi (2215)</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-20T18:41:37Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.301673039793968" lon="39.289194289594889">
+    <ele>2096.28125</ele>
+    <time>2026-01-27T17:59:08Z</time>
+    <name>TR-Tersun Geçidi (2000m)</name>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-27T17:59:08Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.442550620064139" lon="41.624291092157364">
+    <ele>2305.8046875</ele>
+    <time>2026-01-22T13:11:16Z</time>
+    <name>TR-Yaila Geçidi (2303m)</name>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-22T13:11:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.771543025970459" lon="34.047961235046387">
+    <ele>1440.16015625</ele>
+    <time>2026-01-21T17:19:52Z</time>
+    <name>TR-Yaraligöz Geçidi (1439m)</name>
+    <cmt>Yaraligöz Geçidi (1439)
+Pinarözü, Devrekani, Türkiye</cmt>
+    <desc>Yaraligöz Geçidi (1439)
+Pinarözü, Devrekani, Türkiye</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Pinarözü</gpxx:City>
+          <gpxx:State>Devrekani</gpxx:State>
+          <gpxx:Country>Türkiye</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:City>Pinarözü</wptx1:City>
+          <wptx1:State>Devrekani</wptx1:State>
+          <wptx1:Country>Türkiye</wptx1:Country>
+        </wptx1:Address>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-21T17:19:52Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.738017376512289" lon="41.006894102320075">
+    <ele>2361.28125</ele>
+    <time>2026-01-22T17:00:00Z</time>
+    <name>TR-Yaylasuyu Geçidi (2360m)</name>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-22T17:00:00Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.984698295593262" lon="43.328919410705566">
+    <ele>2267.63671875</ele>
+    <time>2025-12-27T11:24:11Z</time>
+    <name>TR-Yukarikent Geçidi (2270m)</name>
+    <cmt>Yukarikent Geçidi (2270)</cmt>
+    <desc>Yukarikent Geçidi (2270)</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-27T11:24:11Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.638953531160951" lon="39.405495375394821">
+    <ele>2038.0390625</ele>
+    <time>2024-06-17T15:11:47Z</time>
+    <name>TR-Zigana Geçidi (2032m)</name>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-06-17T15:11:47Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.204651445150375" lon="42.509783506393433">
+    <time>2026-01-18T18:59:22Z</time>
+    <name>TR-Çam Geçidi (2470m)</name>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-18T18:59:22Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.960172176361084" lon="36.52705192565918">
+    <ele>1686.3125</ele>
+    <time>2025-12-27T11:29:59Z</time>
+    <name>TR-Çamlibel Geçidi (1650m)</name>
+    <cmt>Çamlibel Geçidi (1650)</cmt>
+    <desc>Çamlibel Geçidi (1650)</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-27T11:29:59Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.47216872125864" lon="41.040795715525746">
+    <ele>2234.58984375</ele>
+    <time>2026-01-22T17:04:40Z</time>
+    <name>TR-Çirisli Geçidi (2390m)</name>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-22T17:04:40Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.238821506500244" lon="33.107750415802002">
+    <ele>1166.0546875</ele>
+    <time>2025-12-27T11:29:09Z</time>
+    <name>TR-Çubukbeli Geçidi (1166m)</name>
+    <cmt>Çubukbeli Geçidi (1166)</cmt>
+    <desc>Çubukbeli Geçidi (1166)</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-27T11:29:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.875805854797363" lon="33.715581893920898">
+    <ele>954.51953125</ele>
+    <time>2026-01-21T17:23:08Z</time>
+    <name>TR-Çuhadaroglu Geçidi (951m)</name>
+    <cmt>Çuhadaroglu Geçidi (951)
+Ersizler, Inebolu, Türkiye</cmt>
+    <desc>Çuhadaroglu Geçidi (951)
+Ersizler, Inebolu, Türkiye</desc>
+    <sym>Custom 61</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Address>
+          <gpxx:City>Ersizler</gpxx:City>
+          <gpxx:State>Inebolu</gpxx:State>
+          <gpxx:Country>Türkiye</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Address>
+          <wptx1:City>Ersizler</wptx1:City>
+          <wptx1:State>Inebolu</wptx1:State>
+          <wptx1:Country>Türkiye</wptx1:Country>
+        </wptx1:Address>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-01-21T17:23:08Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+</gpx>

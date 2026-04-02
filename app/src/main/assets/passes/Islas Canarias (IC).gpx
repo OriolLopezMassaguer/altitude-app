@@ -1,0 +1,1691 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2022-11-21T13:00:05Z</time>
+    <bounds maxlat="28.753899978473783" maxlon="-13.924000030383468" minlat="27.746936185285449" minlon="-17.983642984181643" />
+  </metadata>
+
+  <wpt lat="28.106544809415936" lon="-17.242889357730746">
+    <ele>1345</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Alto de Cabeza de Toro (1345m)</name>
+    <cmt>CV-17</cmt>
+    <desc>CV-17</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.746936185285449" lon="-17.983642984181643">
+    <ele>1340.00390625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Alto de Fileba (1330m)</name>
+    <cmt>HI-1</cmt>
+    <desc>HI-1</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.182016387581825" lon="-17.239757208153605">
+    <ele>454.359375</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Alto de la Lapa (460m)</name>
+    <cmt>TF-711</cmt>
+    <desc>TF-711</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.184856763109565" lon="-17.23715110681951">
+    <ele>500</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Alto de los Tilos (500m)</name>
+    <cmt>TF-711</cmt>
+    <desc>TF-711</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.212890625" lon="-16.68097972869873">
+    <ele>2055</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Bocas de Tauce (2055m)</name>
+    <cmt>TF-21</cmt>
+    <desc>TF-21</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.976983301341534" lon="-15.579716674983501">
+    <ele>1720.41015625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Cruz de los Llanos (1725m)</name>
+    <cmt>GC-130 - GC-600</cmt>
+    <desc>GC-130 - GC-600</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.005892988294363" lon="-15.599583964794874">
+    <ele>1510</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Cruz de Tejeda (1510m)</name>
+    <cmt>GC-150 - GC-156 - GC-230</cmt>
+    <desc>GC-150 - GC-156 - GC-230</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.10815698467195" lon="-17.256042994558811">
+    <ele>1304</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada Blanca (1304m)</name>
+    <cmt>CV-17</cmt>
+    <desc>CV-17</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.914889995008707" lon="-15.693309986963868">
+    <ele>830</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada Blanca (830m)</name>
+    <cmt>GC-605</cmt>
+    <desc>GC-605</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.285111701115966" lon="-14.159478954970837">
+    <ele>367.00799999999998</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada Cabeza Montaña Hendida (374m)</name>
+    <cmt>FV-605 - FV-618</cmt>
+    <desc>FV-605 - FV-618</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.125309040769935" lon="-17.25558802485466">
+    <ele>1283</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de Cherelepín (1283m)</name>
+    <cmt>CV-15</cmt>
+    <desc>CV-15</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.299729824066162" lon="-16.823995113372803">
+    <ele>0</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de Cherfe (1050m)</name>
+    <cmt>TF-436</cmt>
+    <desc>TF-436</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.929627895355225" lon="-15.598247051239014">
+    <ele>0</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de Cruz Grande (1251m)</name>
+    <cmt>GC-60</cmt>
+    <desc>GC-60</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.061687713488936" lon="-17.202972555533051">
+    <ele>499.296875</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de Hernia (520m)</name>
+    <cmt>CV-9</cmt>
+    <desc>CV-9</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.31626296043396" lon="-16.496153650805354">
+    <ele>2294</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de Izaña (2294m)</name>
+    <cmt>TF-24</cmt>
+    <desc>TF-24</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.49680001847446" lon="-13.924000030383468">
+    <ele>232</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de Jaifa (232m)</name>
+    <cmt>FV-225</cmt>
+    <desc>FV-225</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.964513041079044" lon="-15.566492294892669">
+    <ele>1894.31640625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de la Abajerilla (1883m)</name>
+    <cmt>GC-134</cmt>
+    <desc>GC-134</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.810908127576113" lon="-15.637127347290516">
+    <ele>439</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de la Agujerada (439m)</name>
+    <cmt>GC-604</cmt>
+    <desc>GC-604</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.938520424067974" lon="-15.760738458484411">
+    <ele>684</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de la Aldea (678m)</name>
+    <cmt>GC-200 - CI-16-10</cmt>
+    <desc>GC-200 - CI-16-10</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.966137621551752" lon="-15.560081480070949">
+    <ele>270</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de la Capellanía (1820m)</name>
+    <cmt>GC-130</cmt>
+    <desc>GC-130</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.921889973804355" lon="-15.687509961426258">
+    <ele>972</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de la Cochinilla (967m)</name>
+    <cmt>GC-605</cmt>
+    <desc>GC-605</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.02581132389605" lon="-15.670518586412072">
+    <ele>1093</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de la Cruz de Acusa (1099m)</name>
+    <cmt>GC-210 - GC-217</cmt>
+    <desc>GC-210 - GC-217</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.985353469848633" lon="-15.591831207275391">
+    <ele>0</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de la Cumbre (1575m)</name>
+    <cmt>GC-150</cmt>
+    <desc>GC-150</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.228999972343445" lon="-14.13920002989471">
+    <ele>109</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de la Herradura (109m)</name>
+    <cmt>FV-617</cmt>
+    <desc>FV-617</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.959474930539727" lon="-15.627150284126401">
+    <ele>1423.2578125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de la Hoya de la Vieja (1402m)</name>
+    <cmt>GC-60</cmt>
+    <desc>GC-60</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.114399993792176" lon="-17.286899965256453">
+    <ele>1025</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de la Matanza (1025m)</name>
+    <cmt>CV-18</cmt>
+    <desc>CV-18</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.277600007131696" lon="-14.148300010710955">
+    <ele>372</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de las Brujas (366m)</name>
+    <cmt>FV-118</cmt>
+    <desc>FV-118</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.533400017768145" lon="-16.252200035378337">
+    <ele>764.99999999999989</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de las Hijas (775m)</name>
+    <cmt>TF-12 - TF-136</cmt>
+    <desc>TF-12 - TF-136</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.040700014680624" lon="-15.688610002398491">
+    <ele>1224</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de las Lajas (1224m)</name>
+    <cmt>GC-216</cmt>
+    <desc>GC-216</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.977843284606934" lon="-15.616400241851807">
+    <ele>1287</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de las Moradas (1287m)</name>
+    <cmt>GC-60</cmt>
+    <desc>GC-60</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.027751566842198" lon="-15.673910994082689">
+    <ele>0</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de las Palomas (1099m)</name>
+    <cmt>GC-210</cmt>
+    <desc>GC-210</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.015887066721916" lon="-15.602925159037113">
+    <ele>1620</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de las Palomas (1621m)</name>
+    <cmt>GC-150</cmt>
+    <desc>GC-150</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.818262577056885" lon="-15.579664707183838">
+    <ele>446.99999999999989</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de las Yeguas (446m)</name>
+    <cmt>GC-60</cmt>
+    <desc>GC-60</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.278962736949325" lon="-14.153087418526411">
+    <ele>385</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de Llano de Agua (385m)</name>
+    <cmt>FV-618</cmt>
+    <desc>FV-618</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.829700019210577" lon="-15.640510031953454">
+    <ele>502</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de los Alcaravanes (502m)</name>
+    <cmt>GC-604</cmt>
+    <desc>GC-604</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.443890009075403" lon="-14.039109963923693">
+    <ele>415</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de los Chorrillos (415m)</name>
+    <cmt>FV-30</cmt>
+    <desc>FV-30</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.148474441841245" lon="-14.246760299429297">
+    <ele>92</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de los Verodes (94m)</name>
+    <cmt>FV-2</cmt>
+    <desc>FV-2</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.550500022247434" lon="-16.196700017899275">
+    <ele>701</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de Paiba (638m)</name>
+    <cmt>TF-123</cmt>
+    <desc>TF-123</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.803700026124716" lon="-15.637010000646114">
+    <ele>374</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de Pajaritos (374m)</name>
+    <cmt>GC-604</cmt>
+    <desc>GC-604</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.206619201228023" lon="-14.218083126470447">
+    <ele>96</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de Pedro Ponce (100m)</name>
+    <cmt>FV-605</cmt>
+    <desc>FV-605</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.099532844498754" lon="-17.184820957481861">
+    <ele>928.80859375</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de Peraza (942m)</name>
+    <cmt>TF-713</cmt>
+    <desc>TF-713</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.810700004920363" lon="-15.583500014618039">
+    <ele>397</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de Piedras Caídas (397m)</name>
+    <cmt>GC-60</cmt>
+    <desc>GC-60</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.476689988747239" lon="-14.041510038077831">
+    <ele>259</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de Santa María Magdalena (258m)</name>
+    <cmt>FV-320</cmt>
+    <desc>FV-320</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.342158682644367" lon="-14.070886094123125">
+    <ele>382</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de Sice (381m)</name>
+    <cmt>FV-30</cmt>
+    <desc>FV-30</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.94288613833487" lon="-15.780230490490794">
+    <ele>561</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de Tasartico (565m)</name>
+    <cmt>GC-203 - GC-204</cmt>
+    <desc>GC-203 - GC-204</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.925314903259277" lon="-15.747742736712098">
+    <ele>665</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada de Veneguera (663m)</name>
+    <cmt>GC-200</cmt>
+    <desc>GC-200</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.121738433837891" lon="-17.215361595153809">
+    <ele>1093</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada del Bailadero (1091m)</name>
+    <cmt>CV-14</cmt>
+    <desc>CV-14</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.818600032478571" lon="-15.642109969630837">
+    <ele>466.99999999999989</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada del Burro (467m)</name>
+    <cmt>GC-604</cmt>
+    <desc>GC-604</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.991916416212916" lon="-15.647158306092024">
+    <ele>1029.16796875</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada del Camello (1045m)</name>
+    <cmt>GC-607</cmt>
+    <desc>GC-607</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.97988997772336" lon="-15.688900016248226">
+    <ele>652</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada del Cuartel (652m)</name>
+    <cmt>GC-606</cmt>
+    <desc>GC-606</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.812489960342646" lon="-15.638510026037693">
+    <ele>450</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada del Desriscadero (450m)</name>
+    <cmt>GC-604</cmt>
+    <desc>GC-604</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.927821762859821" lon="-15.67653494887054">
+    <ele>948</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada del Gigante (948m)</name>
+    <cmt>GC-605</cmt>
+    <desc>GC-605</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.96300002373755" lon="-15.641609989106655">
+    <ele>1381</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada del Humo (1381m)</name>
+    <cmt>GC-606</cmt>
+    <desc>GC-606</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.440800020471215" lon="-14.056109972298145">
+    <ele>588</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada del Morro de la Cruz (591m)</name>
+    <cmt>FV-30</cmt>
+    <desc>FV-30</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.021279983222485" lon="-15.65002198331058">
+    <ele>1202</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada del Puerto (1202m)</name>
+    <cmt>GC-210</cmt>
+    <desc>GC-210</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.947989962995052" lon="-15.48030998557806">
+    <ele>850.99999999999989</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada del Roque (851m)</name>
+    <cmt>GC-120</cmt>
+    <desc>GC-120</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.994399974122643" lon="-15.658010020852089">
+    <ele>885</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada del Roque (885m)</name>
+    <cmt>GC-607</cmt>
+    <desc>GC-607</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.972399992868304" lon="-15.573499985039234">
+    <ele>1772</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada del Salado (1772m)</name>
+    <cmt>GC-130</cmt>
+    <desc>GC-130</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.029180010780692" lon="-15.67866001278162">
+    <ele>1153</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada del Sargento (1153m)</name>
+    <cmt>GC-216</cmt>
+    <desc>GC-216</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.109652902930975" lon="-17.213517492637038">
+    <ele>1089.7578125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada del Tanque (1105m)</name>
+    <cmt>TF-713</cmt>
+    <desc>TF-713</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.445600001141429" lon="-14.031210020184517">
+    <ele>345</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada del Valle (353m)</name>
+    <cmt>FV-416</cmt>
+    <desc>FV-416</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.29438996501267" lon="-14.159499993547797">
+    <ele>363</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada del Viento (363m)</name>
+    <cmt>FV-605</cmt>
+    <desc>FV-605</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.135000029578805" lon="-14.268310004845262">
+    <ele>122</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada Entre Montañas (122m)</name>
+    <cmt>FV-2</cmt>
+    <desc>FV-2</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.032200010493398" lon="-15.689699985086918">
+    <ele>1180</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada Honda (1180m)</name>
+    <cmt>GC-210</cmt>
+    <desc>GC-210</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.288500001654029" lon="-14.162499960511923">
+    <ele>409</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada Las Maretas (409m)</name>
+    <cmt>FV-605</cmt>
+    <desc>FV-605</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.302900027483702" lon="-16.515200017020106">
+    <ele>2285</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada los Asientos (2286m)</name>
+    <cmt>TF-24</cmt>
+    <desc>TF-24</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.452290017157793" lon="-13.962399959564209">
+    <ele>293</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Degollada Vista de la Rosa (293m)</name>
+    <cmt>FV-430</cmt>
+    <desc>FV-430</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.00325813703239" lon="-15.573781030252576">
+    <ele>1240</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-El Portillo (1240m)</name>
+    <cmt>GC-600</cmt>
+    <desc>GC-600</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.198943138122559" lon="-16.673383712768555">
+    <ele>0</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-El Retamar (2100m)</name>
+    <cmt>TF-21</cmt>
+    <desc>TF-21</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.545794002711773" lon="-16.21681759133935">
+    <ele>715.89453125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Gollada Abicore (721m)</name>
+    <cmt>TF-12</cmt>
+    <desc>TF-12</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.108470970764756" lon="-17.241823012009263">
+    <ele>1354</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Gollada de Pajarito (1354m)</name>
+    <cmt>CV-15 - CV-13</cmt>
+    <desc>CV-15 - CV-13</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.478090018033981" lon="-13.986900011077523">
+    <ele>305</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Los Pasitos (305m)</name>
+    <cmt>FV-20</cmt>
+    <desc>FV-20</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.636753913015127" lon="-17.894496582448483">
+    <ele>461.30078125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Paso de Abajo(457m)</name>
+    <cmt>LP-2</cmt>
+    <desc>LP-2</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.960956683382392" lon="-15.535742361098528">
+    <ele>1522</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Paso de la Caldera (1512m)</name>
+    <cmt>GC-130</cmt>
+    <desc>GC-130</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.836500005796552" lon="-15.612910017371178">
+    <ele>484</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Paso de los Palmitos (484m)</name>
+    <cmt>GC-503</cmt>
+    <desc>GC-503</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.909990018233657" lon="-15.700599979609251">
+    <ele>595</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Paso de Ojeda (595m)</name>
+    <cmt>GC-200</cmt>
+    <desc>GC-200</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.070449316874146" lon="-16.641349084675312">
+    <ele>318.30078125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Paso del Cambado (322m)</name>
+    <cmt>TF-657</cmt>
+    <desc>TF-657</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="27.962092012166977" lon="-15.572014963254333">
+    <ele>0</ele>
+    <time>2021-11-22T18:44:49Z</time>
+    <name>IC-Pico de las Nieves (1925m)</name>
+    <cmt>&lt;img src="https://doc-08-84-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/upg408r988kq835a748vkuesds/1637605800000/enm0lAZ4shFBgxs_0GbWb4FiX_rsq5l7/*/6AIsG_vYaJXj2utxivSu_JuEUTJpMVBBUSfacnn58fsOY2N91pOZMILIW1q3DeKxMoGwFn7p56DvcbTk1GiJV7dxxNLMUx6IbHVIbcOVIZ_Q9_xOJIoMezPA6PKlw0UZjUNUv4vqY8OGy2XBMPvXZNFT0y6Bfh_XW4ntEKx_OP0EkvZcTPeIAhYIKeT_-w2p5nP8hVLY?session=0&amp;fife" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;https://andaluciacicloturismo.com/2017/06/29/pico-de-las-nieves-por-hoya-de-la-vieja/</cmt>
+    <desc>&lt;img src="https://doc-08-84-mymaps.googleusercontent.com/untrusted/hostedimage/ihucu48q9m5s1hftel5u85tfdc/upg408r988kq835a748vkuesds/1637605800000/enm0lAZ4shFBgxs_0GbWb4FiX_rsq5l7/*/6AIsG_vYaJXj2utxivSu_JuEUTJpMVBBUSfacnn58fsOY2N91pOZMILIW1q3DeKxMoGwFn7p56DvcbTk1GiJV7dxxNLMUx6IbHVIbcOVIZ_Q9_xOJIoMezPA6PKlw0UZjUNUv4vqY8OGy2XBMPvXZNFT0y6Bfh_XW4ntEKx_OP0EkvZcTPeIAhYIKeT_-w2p5nP8hVLY?session=0&amp;fife" height="200" width="auto" /&gt;&lt;br&gt;&lt;br&gt;https://andaluciacicloturismo.com/2017/06/29/pico-de-las-nieves-por-hoya-de-la-vieja/</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-11-22T18:44:49Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.314200006425381" lon="-16.805100040510297">
+    <ele>1111</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Puerto de Erjos (1116m)</name>
+    <cmt>TF-82</cmt>
+    <desc>TF-82</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="28.753899978473783" lon="-17.886999975889921">
+    <ele>2379</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>IC-Puerto del Roque Muchachos (2379m)</name>
+    <cmt>LP-403</cmt>
+    <desc>LP-403</desc>
+    <sym>Custom 43</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+</gpx>

@@ -9,6 +9,7 @@ import android.content.pm.PackageManager
 import android.location.Geocoder
 import android.os.Build
 import android.os.Bundle
+import android.preference.PreferenceManager
 import android.view.GestureDetector
 import android.view.MotionEvent
 import android.view.View
@@ -16,24 +17,20 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.example.altitudeapp.databinding.ActivityMainBinding
-import com.google.android.gms.maps.CameraUpdateFactory
-import com.google.android.gms.maps.GoogleMap
-import com.google.android.gms.maps.OnMapReadyCallback
-import com.google.android.gms.maps.SupportMapFragment
-import com.google.android.gms.maps.model.LatLng
-import com.google.android.gms.maps.model.Marker
-import com.google.android.gms.maps.model.MarkerOptions
+import org.osmdroid.config.Configuration
+import org.osmdroid.tileprovider.tilesource.TileSourceFactory
+import org.osmdroid.util.GeoPoint
+import org.osmdroid.views.overlay.Marker
 import java.io.IOException
 import java.text.SimpleDateFormat
 import java.util.*
 
-class MainActivity : AppCompatActivity(), OnMapReadyCallback {
+class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private val LOCATION_PERMISSION_REQUEST_CODE = 1
     private lateinit var gestureDetector: GestureDetector
     
-    private var googleMap: GoogleMap? = null
     private var currentLocationMarker: Marker? = null
 
     private val receiver = object : BroadcastReceiver() {
@@ -44,8 +41,9 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
                     val lon = intent.getDoubleExtra(AltitudeService.EXTRA_LONGITUDE, 0.0)
                     val alt = intent.getDoubleExtra(AltitudeService.EXTRA_ALTITUDE, 0.0)
                     val gain = intent.getDoubleExtra(AltitudeService.EXTRA_ALTITUDE_GAIN, 0.0)
+                    val passName = intent.getStringExtra(AltitudeService.EXTRA_PASS_NAME)
                     
-                    updateUI(lat, lon, alt, gain)
+                    updateUI(lat, lon, alt, gain, passName)
                     updateMapLocation(lat, lon)
                 }
                 AltitudeService.ACTION_LOG_UPDATE -> {
@@ -58,6 +56,10 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        
+        // Osmdroid configuration
+        Configuration.getInstance().load(this, PreferenceManager.getDefaultSharedPreferences(this))
+        
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -69,29 +71,22 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
     }
 
     private fun setupMap() {
-        val mapFragment = supportFragmentManager.findFragmentById(R.id.mapFragment) as? SupportMapFragment
-        mapFragment?.getMapAsync(this)
-    }
-
-    override fun onMapReady(map: GoogleMap) {
-        googleMap = map
-        googleMap?.uiSettings?.isZoomControlsEnabled = false
-        googleMap?.uiSettings?.isMyLocationButtonEnabled = false
-        appendLog("Map is ready")
+        binding.mapView.setTileSource(TileSourceFactory.MAPNIK)
+        binding.mapView.setMultiTouchControls(true)
+        binding.mapView.controller.setZoom(15.0)
+        appendLog("Osmdroid Map initialized")
     }
 
     private fun updateMapLocation(lat: Double, lon: Double) {
-        val position = LatLng(lat, lon)
+        val startPoint = GeoPoint(lat, lon)
         runOnUiThread {
-            if (googleMap != null) {
-                if (currentLocationMarker == null) {
-                    currentLocationMarker = googleMap?.addMarker(MarkerOptions().position(position).title("Current Position"))
-                    googleMap?.moveCamera(CameraUpdateFactory.newLatLngZoom(position, 15f))
-                } else {
-                    currentLocationMarker?.position = position
-                    googleMap?.animateCamera(CameraUpdateFactory.newLatLng(position))
-                }
+            if (currentLocationMarker == null) {
+                currentLocationMarker = Marker(binding.mapView)
+                currentLocationMarker?.title = "Current Position"
+                binding.mapView.overlays.add(currentLocationMarker)
             }
+            currentLocationMarker?.position = startPoint
+            binding.mapView.controller.animateTo(startPoint)
         }
     }
 
@@ -119,10 +114,17 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
         }
     }
 
-    private fun updateUI(lat: Double, lon: Double, alt: Double, gain: Double) {
+    private fun updateUI(lat: Double, lon: Double, alt: Double, gain: Double, passName: String?) {
         binding.coordinatesTextView.text = String.format(Locale.getDefault(), "Lat: %.5f, Lon: %.5f", lat, lon)
         binding.altitudeTextView.text = String.format(Locale.getDefault(), "%.1f m", alt)
-        binding.gainTextView.text = String.format(Locale.getDefault(), "+%.2f m", gain)
+        binding.gainTextView.text = String.format(Locale.getDefault(), "+%.2f m (1 min)", gain)
+        
+        if (!passName.isNullOrEmpty()) {
+            binding.passTextView.text = passName
+            binding.passTextView.visibility = View.VISIBLE
+        } else {
+            binding.passTextView.visibility = View.GONE
+        }
         
         updatePlaceName(lat, lon)
     }
@@ -165,6 +167,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
 
     override fun onResume() {
         super.onResume()
+        binding.mapView.onResume()
         val filter = IntentFilter()
         filter.addAction(AltitudeService.ACTION_LOCATION_UPDATE)
         filter.addAction(AltitudeService.ACTION_LOG_UPDATE)
@@ -174,6 +177,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
 
     override fun onPause() {
         super.onPause()
+        binding.mapView.onPause()
         unregisterReceiver(receiver)
     }
 

@@ -1,0 +1,1675 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2024-02-11T17:22:54Z</time>
+    <bounds maxlat="47.957688812166452" maxlon="26.396700013428926" minlat="45.025186361745" minlon="22.002849541604519" />
+  </metadata>
+
+  <wpt lat="47.128000007942319" lon="25.493499990552664">
+    <time>2023-12-31T18:17:33Z</time>
+    <name>RO-Alunis Pasul (1274m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:17:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.907299971207976" lon="25.789800016209483">
+    <ele>1078.0000001000001</ele>
+    <time>2023-12-29T19:08:25Z</time>
+    <name>RO-Pasul Balaj (1078m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>LK: XXX LAND: ROM</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>LK: XXX LAND: ROM</wptx1:Category>
+        </wptx1:Categories>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T19:08:25Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.116890357807279" lon="25.941758304834366">
+    <ele>942.0859375</ele>
+    <time>2023-12-31T18:17:33Z</time>
+    <name>RO-Pasul Balvanyos (940m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:17:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.45540003105998" lon="23.259100019931793">
+    <time>2023-12-29T17:44:21Z</time>
+    <name>RO-Pasul Banita (750m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T17:44:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.735863707959652" lon="26.115497555583715">
+    <ele>877.30859375</ele>
+    <time>2023-12-31T18:17:33Z</time>
+    <name>RO-Pasul Barcani (887m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:17:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.899438057094812" lon="25.438726516440511">
+    <ele>700.48046875</ele>
+    <time>2023-12-31T18:17:33Z</time>
+    <name>RO-Pasul Bogata (701m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:17:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.491095922887325" lon="23.787088757380843">
+    <ele>509.765625</ele>
+    <time>2023-12-31T18:17:33Z</time>
+    <name>RO-Pasul Borcut (509m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:17:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.601685076951981" lon="24.136628117412329">
+    <ele>974.6640625</ele>
+    <time>2023-12-31T18:17:33Z</time>
+    <name>RO-Pasul Botiza (975m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:17:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.43919999152422" lon="25.26589997112751">
+    <time>2023-12-31T18:17:33Z</time>
+    <name>RO-Pasul Bran (1255m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:17:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.480415821075439" lon="25.896599292755127">
+    <ele>1269.37890625</ele>
+    <time>2024-02-09T19:50:40Z</time>
+    <name>RO-Pasul Bratocea (1272m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-02-09T19:50:40Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.655545234680176" lon="25.296320915222168">
+    <ele>1279.0546875</ele>
+    <time>2023-12-29T17:39:32Z</time>
+    <name>RO-Pasul Bucin (1287m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T17:39:32Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.786400010809302" lon="24.004199998453259">
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Calinesti (482m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.646491965278983" lon="23.901018518954515">
+    <ele>1083.3671875</ele>
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Cavnic (1083m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.746237702667713" lon="25.629249690100551">
+    <ele>1095.97265625</ele>
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Ciumarna (1100m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.969299986958504" lon="22.67390001565218">
+    <time>2023-12-31T18:17:58Z</time>
+    <name>RO-Pasul Craiului (565m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:17:58Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.961146406829357" lon="25.489990655332804">
+    <ele>1108.4375</ele>
+    <time>2023-12-31T18:17:58Z</time>
+    <name>RO-Pasul Creanga (1102m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:17:58Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.395580507814884" lon="22.554742712527514">
+    <ele>621.125</ele>
+    <time>2023-12-31T18:17:58Z</time>
+    <name>RO-Pasul Cristior (621m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:17:58Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.58281908929348" lon="25.524198710918427">
+    <ele>1043.38671875</ele>
+    <time>2023-12-31T18:17:58Z</time>
+    <name>RO-Pasul Curmatura Boului (1043m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:17:58Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.429280931130052" lon="23.800269970670342">
+    <ele>1588.83984375</ele>
+    <time>2023-12-29T17:42:07Z</time>
+    <name>RO-Pasul Curmatura Vidrutei (1588m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T17:42:07Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.679393257945776" lon="23.042186927050352">
+    <ele>1141.7109375</ele>
+    <time>2023-12-31T18:17:58Z</time>
+    <name>RO-Pasul Dealu Negru (1142m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:17:58Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.1891407109797" lon="24.483632119372487">
+    <ele>536.97265625</ele>
+    <time>2023-12-31T18:17:58Z</time>
+    <name>RO-Pasul Dumitra (537m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:17:58Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.467493465170264" lon="25.921690268442035">
+    <ele>1153.54296875</ele>
+    <time>2023-12-31T18:17:58Z</time>
+    <name>RO-Pasul Ghimes (1155m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:17:58Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.025186361745" lon="22.626997232437134">
+    <ele>895.3671875</ele>
+    <time>2023-12-29T17:45:11Z</time>
+    <name>RO-Pasul Godeanu (896m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T17:45:11Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.41323184967041" lon="23.591294288635254">
+    <ele>1589.32421875</ele>
+    <time>2023-12-29T17:41:24Z</time>
+    <name>RO-Pasul Groapa Seaca (1575m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T17:41:24Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.70014762878418" lon="23.780121803283691">
+    <ele>988.9609375</ele>
+    <time>2023-12-29T17:38:30Z</time>
+    <name>RO-Pasul Gutâi (987m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T17:38:30Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.957688812166452" lon="23.504805956035852">
+    <ele>571.55859375</ele>
+    <time>2023-12-31T18:17:58Z</time>
+    <name>RO-Pasul Huta (587m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:17:58Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.715999986976385" lon="23.746699970215559">
+    <ele>1056.0000001000001</ele>
+    <time>2023-12-29T19:08:25Z</time>
+    <name>RO-Pasul Izvoare (1060m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>LK: XXX LAND: ROM</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>LK: XXX LAND: ROM</wptx1:Category>
+        </wptx1:Categories>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T19:08:25Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.623934814706445" lon="25.717031350359321">
+    <ele>890.43359375</ele>
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Izvoru Muresulu (890m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.293016247451305" lon="25.139047829434276">
+    <ele>889.26171875</ele>
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Mateias (890m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.464098231866956" lon="25.346682742238045">
+    <ele>1088.64453125</ele>
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Mestecanis (1089m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.963100036606193" lon="26.396700013428926">
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Musat (1167m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.675326131284237" lon="23.900124169886112">
+    <ele>1065.4609375</ele>
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Neteda (1065m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.196222389116883" lon="25.982539365068078">
+    <ele>887.3671875</ele>
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Nierghes (878m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.061399979516864" lon="26.361299967393279">
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Oituz (866m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.169866356998682" lon="26.013826159760356">
+    <ele>908.78125</ele>
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Petru Voda (909m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.100040445104241" lon="22.310867216438055">
+    <ele>535.8828125</ele>
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Poarta Orientala (536m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.586506659165025" lon="25.319014247506857">
+    <ele>785.16015625</ele>
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Poiana Marului (786m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.329555980861187" lon="24.472605139017105">
+    <ele>883.01171875</ele>
+    <time>2023-12-29T17:43:20Z</time>
+    <name>RO-Pasul Poiana Perisani (883m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T17:43:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.674800034612417" lon="25.968600008636713">
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Predelus (830m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.22491529583931" lon="22.074728719890118">
+    <ele>1001.05078125</ele>
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Prislop (1001m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.609108677133918" lon="24.855920802801847">
+    <ele>1403.96875</ele>
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Prislop (1416m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.673700017854571" lon="25.922600040212274">
+    <ele>980.00000009999997</ele>
+    <time>2023-12-29T19:08:25Z</time>
+    <name>RO-Pasul Puntea Lupului (1184m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>LK: XXX LAND: ROM</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>LK: XXX LAND: ROM</wptx1:Category>
+        </wptx1:Categories>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T19:08:25Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.500971432775259" lon="25.513049522414804">
+    <ele>1120.89453125</ele>
+    <time>2024-02-09T20:00:40Z</time>
+    <name>RO-Pasul Pârâul Rece (1021m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-02-09T20:00:40Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.543348455801606" lon="25.008247643709183">
+    <ele>1273.05859375</ele>
+    <time>2023-12-29T19:08:25Z</time>
+    <name>RO-Pasul Rotunda (1271m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>LK: XXX LAND: ROM</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>LK: XXX LAND: ROM</wptx1:Category>
+        </wptx1:Categories>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T19:08:25Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.402810713276267" lon="25.190251031890512">
+    <ele>841.828125</ele>
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Rucar (842m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.216491339728236" lon="23.123973682522774">
+    <ele>912.09375</ele>
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Rusi (912m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.637306908145547" lon="24.512673737481236">
+    <ele>702.31640625</ele>
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Sacel (702m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.597200004383922" lon="24.419400002807379">
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Setref (817m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.581000024452806" lon="25.547299990430474">
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Sicas (1001m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.312644952908158" lon="25.710546858608723">
+    <ele>1167.18359375</ele>
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Tarnita (1167m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.468253931030631" lon="23.631220813840628">
+    <ele>1692.30078125</ele>
+    <time>2023-12-29T17:40:49Z</time>
+    <name>RO-Pasul Tartarau (1700m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T17:40:49Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.361232809722424" lon="25.444582365453243">
+    <ele>792.10546875</ele>
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Techend (792m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.842699972912669" lon="25.570999989286065">
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Tengheler (1053m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="47.266545156016946" lon="25.020188167691231">
+    <ele>1191.8515625</ele>
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Tihuta (1201m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.344300024211407" lon="25.647500026971102">
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Tolvaios (985m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.345168113708496" lon="23.656654357910156">
+    <ele>2120.51953125</ele>
+    <time>2023-12-06T20:55:52Z</time>
+    <name>RO-Pasul Urdele (2145m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-06T20:55:52Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.278299996629357" lon="26.016000006347895">
+    <ele>1092.0000001000001</ele>
+    <time>2023-12-29T19:08:25Z</time>
+    <name>RO-Pasul Uzului (1085m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>LK: XXX LAND: ROM</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>LK: XXX LAND: ROM</wptx1:Category>
+        </wptx1:Categories>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T19:08:25Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.240099532529712" lon="22.002849541604519">
+    <ele>714.515625</ele>
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Valiug (715m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.096232822164893" lon="23.159712441265583">
+    <ele>751.75</ele>
+    <time>2023-12-31T18:18:55Z</time>
+    <name>RO-Pasul Zlatna Alba (752m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:18:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.327222542837262" lon="25.463308123871684">
+    <ele>1601.9453125</ele>
+    <time>2024-02-09T19:49:36Z</time>
+    <name>RO-Saua Dichiu (1595m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-02-09T19:49:36Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.123759159818292" lon="25.900111142545938">
+    <ele>1118.4765625</ele>
+    <time>2023-12-31T18:15:56Z</time>
+    <name>RO-Sfânta Ana Pasul (1120m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:15:56Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.60248851776123" lon="24.614009857177734">
+    <ele>2046.60546875</ele>
+    <time>2023-12-09T18:07:53Z</time>
+    <name>RO-Transfagarasan (2042m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 55</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-09T18:07:53Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+</gpx>

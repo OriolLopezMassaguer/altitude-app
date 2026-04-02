@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2024-02-11T11:50:22Z</time>
+    <bounds maxlat="46.645070873200893" maxlon="15.20647756755352" minlat="46.061772974207997" minlon="13.578187180683017" />
+  </metadata>
+
+  <wpt lat="46.061772974207997" lon="13.89083300717175">
+    <time>2022-12-04T18:22:49Z</time>
+    <name>SLO*Oblakov-Pass (721m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <link href="https://www.alpenpaesse.de/alpenpaesse/oblakov-pass-oblakov-vrh" />
+    <sym>Custom 19</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2022-12-04T18:22:49Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.418562093749642" lon="13.578187180683017">
+    <ele>1160.859375</ele>
+    <time>2022-12-04T18:22:49Z</time>
+    <name>SLO*Predil-Pass (1156m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <link href="https://www.alpenpaesse.de/alpenpaesse/predel-pass-passo-del-predil-predil-pass" />
+    <sym>Custom 19</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2022-12-04T18:22:49Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.403309209272265" lon="14.89713697694242">
+    <ele>1329.875</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>SLO-Atelsko Sedlo (1317m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 19</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.240808330476284" lon="14.010663293302059">
+    <ele>1284.58984375</ele>
+    <time>2022-12-04T18:22:49Z</time>
+    <name>SLO-Bohinjsko Sedlo (1277m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <link href="https://www.alpenpaesse.de/alpenpaesse/bohinjsko-sedlo-bohinjer-sattel" />
+    <sym>Custom 19</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2022-12-04T18:22:49Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.260702358558774" lon="14.702279521152377">
+    <ele>912.87890625</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>SLO-Crnivec (902m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 19</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolOnly</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolOnly</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.110196067020297" lon="14.013435272499919">
+    <ele>785.13671875</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>SLO-Kladje (787m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 19</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.439155675470829" lon="14.266710067167878">
+    <ele>1364.578125</ele>
+    <time>2014-06-30T18:09:08Z</time>
+    <name>SLO-Loibl-Ljubelj Pass (1368m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 19</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-30T18:09:08Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.442145919427276" lon="13.642551982775331">
+    <ele>2055</ele>
+    <time>2013-10-19T17:26:16Z</time>
+    <name>SLO-Mangart (2055m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 19</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-10-19T17:26:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.425080029293895" lon="14.58517000079155">
+    <time>2014-06-30T18:09:08Z</time>
+    <name>SLO-Paulitschsattel-Pavlicpass (1338m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 19</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-30T18:09:08Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.645070873200893" lon="15.20647756755352">
+    <ele>662.15625</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>SLO-Radlpass (650m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 19</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.419089986011386" lon="14.527009986341">
+    <time>2014-06-30T18:09:08Z</time>
+    <name>SLO-Seeberg Sattel (1215m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 19</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-30T18:09:08Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.180598102509975" lon="13.667723005637527">
+    <ele>973.89453125</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>SLO-Solarji (952m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 19</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.438562572002411" lon="14.739235416054726">
+    <ele>1279.04296875</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>SLO-Spodnje Sleme (1254m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 19</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.283191507682204" lon="14.688370591029525">
+    <ele>1030.42578125</ele>
+    <time>2023-08-09T19:13:09Z</time>
+    <name>SLO-Volovljek (1020m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 19</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-08-09T19:13:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.434819549322128" lon="13.743762290105224">
+    <ele>1626.1640625</ele>
+    <time>2013-10-19T17:25:46Z</time>
+    <name>SLO-Vrsic pas (1611m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 19</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-10-19T17:25:46Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.518478905782104" lon="13.751599788665771">
+    <time>2014-06-30T18:09:08Z</time>
+    <name>SLO-Wurzenpass (1073m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/
+
+www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 19</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-06-30T18:09:08Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+</gpx>

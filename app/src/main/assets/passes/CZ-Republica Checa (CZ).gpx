@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2024-02-11T11:52:29Z</time>
+    <bounds maxlat="50.865794559940696" maxlon="18.410704135894775" minlat="48.977599963545799" minlon="12.62580307200551" />
+  </metadata>
+
+  <wpt lat="50.606288406997919" lon="16.057185251265764">
+    <ele>683.16015625</ele>
+    <time>2024-01-08T17:55:56Z</time>
+    <name>CZ-Adrspach Vyska (681m)</name>
+    <cmt>Wasserscheide - 35.7 Punkte&lt;br /&gt;CZE - Krï¿½lovï¿½hradeckï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Antenne, Schild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Chvalec&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Adrspach&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;681m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Die Adrspassko-Teplicke skaly ist eine Gruppierung von Sandsteinfelsen. Sie befindet sich bei Adrspach und Teplice in einem Naturschutzgebiet in der Region Broumov in Tschechien, etwa 500 Meter ï¿½ber dem Meeresspiegel.
+Im Winter ist mit Wintersperre zu rechnen!&lt;br /&gt;&lt;b&gt;Sehenswï¿½rdigkeit(en): &lt;/b&gt;Felsenstadt</cmt>
+    <desc>Wasserscheide - 35.7 Punkte&lt;br /&gt;CZE - Krï¿½lovï¿½hradeckï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Antenne, Schild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Chvalec&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Adrspach&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;681m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Die Adrspassko-Teplicke skaly ist eine Gruppierung von Sandsteinfelsen. Sie befindet sich bei Adrspach und Teplice in einem Naturschutzgebiet in der Region Broumov in Tschechien, etwa 500 Meter ï¿½ber dem Meeresspiegel.
+Im Winter ist mit Wintersperre zu rechnen!&lt;br /&gt;&lt;b&gt;Sehenswï¿½rdigkeit(en): &lt;/b&gt;Felsenstadt</desc>
+    <sym>Custom 57</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-01-08T17:55:56Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.865794559940696" lon="15.036545880138874">
+    <ele>535.171875</ele>
+    <time>2024-01-08T17:56:39Z</time>
+    <name>CZ-Albrechtice (540m)</name>
+    <cmt>Wasserscheide - 32.9 Punkte&lt;br /&gt;CZE - Libereckï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Bushaltestelle, Wanderschild, Haus&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Mnisek&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Frydlant&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;540m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Schnellstraï¿½e mit viel Verkehr.</cmt>
+    <desc>Wasserscheide - 32.9 Punkte&lt;br /&gt;CZE - Libereckï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Bushaltestelle, Wanderschild, Haus&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Mnisek&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Frydlant&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;540m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Schnellstraï¿½e mit viel Verkehr.</desc>
+    <sym>Custom 57</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-01-08T17:56:39Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.388242810964584" lon="18.243311159312725">
+    <ele>803.7578125</ele>
+    <time>2024-01-08T17:57:43Z</time>
+    <name>CZ-Cartak Sedlo (804m)</name>
+    <cmt>Pass - 38.4 Punkte&lt;br /&gt;CZE - Zlï¿½nskï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Bushï¿½uschen, Hotel Cartak&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Velke Karlovice&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Hutisko Solanec&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;805m</cmt>
+    <desc>Pass - 38.4 Punkte&lt;br /&gt;CZE - Zlï¿½nskï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Bushï¿½uschen, Hotel Cartak&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Velke Karlovice&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Hutisko Solanec&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;805m</desc>
+    <sym>Custom 57</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-01-08T17:57:43Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.124970022588968" lon="17.154673514887691">
+    <ele>1005.578125</ele>
+    <time>2024-01-08T17:58:24Z</time>
+    <name>CZ-Cervenohorske Sedlo (1013m)</name>
+    <cmt>Pass - 43.2 Punkte&lt;br /&gt;CZE - Olomouckï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Brï¿½cke, Holzhï¿½tte, Wanderschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Jesenik&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Sumperk&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;1005m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Tolle Straï¿½e, aber dementsprechend auch Rennstrecke.
+Gehï¿½rt unter den Passknackern zu den Top 5 in Tschechien.</cmt>
+    <desc>Pass - 43.2 Punkte&lt;br /&gt;CZE - Olomouckï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Brï¿½cke, Holzhï¿½tte, Wanderschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Jesenik&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Sumperk&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;1005m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Tolle Straï¿½e, aber dementsprechend auch Rennstrecke.
+Gehï¿½rt unter den Passknackern zu den Top 5 in Tschechien.</desc>
+    <sym>Custom 57</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-01-08T17:58:24Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.031999964267015" lon="16.705399984493852">
+    <time>2024-01-08T18:09:26Z</time>
+    <name>CZ-Cervenovodske Sedlo (814m)</name>
+    <cmt>Pass - 38.6 Punkte&lt;br /&gt;CZE - Pardubickï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Wanderschild, Holzhï¿½tte&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Cervena Voda&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Jablonne nad Orlici&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;814m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Tolle Strecke</cmt>
+    <desc>Pass - 38.6 Punkte&lt;br /&gt;CZE - Pardubickï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Wanderschild, Holzhï¿½tte&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Cervena Voda&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Jablonne nad Orlici&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;814m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Tolle Strecke</desc>
+    <sym>Custom 57</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-01-08T18:09:26Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.585453091189265" lon="16.243538092821836">
+    <ele>599.03125</ele>
+    <time>2024-01-08T17:59:25Z</time>
+    <name>CZ-Honske Sedlo (599m)</name>
+    <cmt>Pass - 33.9 Punkte&lt;br /&gt;CZE - Krï¿½lovï¿½hradeckï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Wanderschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Broumov&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Police nad Metuji&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;591m</cmt>
+    <desc>Pass - 33.9 Punkte&lt;br /&gt;CZE - Krï¿½lovï¿½hradeckï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Wanderschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Broumov&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Police nad Metuji&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;591m</desc>
+    <sym>Custom 57</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-01-08T17:59:25Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.2256999630481" lon="16.922100009396672">
+    <time>2024-01-08T18:19:17Z</time>
+    <name>CZ-Kladske Sedlo (821m)</name>
+    <cmt>Pass - 38.6 Punkte&lt;br /&gt;CZE - Olomouckï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Restaurant, Wanderschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Stronie Slaskie&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Hanusovice&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;816m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Grenzpass, teilweise schlechter Zustand.</cmt>
+    <desc>Pass - 38.6 Punkte&lt;br /&gt;CZE - Olomouckï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Restaurant, Wanderschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Stronie Slaskie&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Hanusovice&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;816m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Grenzpass, teilweise schlechter Zustand.</desc>
+    <sym>Custom 57</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-01-08T18:19:17Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.755143715068698" lon="14.927138993516564">
+    <ele>586.7109375</ele>
+    <time>2024-01-08T18:03:00Z</time>
+    <name>CZ-Krizanske Sedlo (576m)</name>
+    <cmt>Pass - 33.6 Punkte&lt;br /&gt;CZE - Libereckï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Wanderschilder, Statue&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Krizany&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Chrastava&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;576m</cmt>
+    <desc>Pass - 33.6 Punkte&lt;br /&gt;CZE - Libereckï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Wanderschilder, Statue&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Krizany&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Chrastava&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;576m</desc>
+    <sym>Custom 57</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-01-08T18:03:00Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.977599963545799" lon="13.988700024783611">
+    <time>2024-01-08T18:09:55Z</time>
+    <name>CZ-Libinske Sedlo (856m)</name>
+    <cmt>Pass - 39.6 Punkte&lt;br /&gt;CZE - Jiho?eskï¿½ kraj	 &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Kirche, Ortsschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Blazejovice&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Prachatice&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;857m&lt;br /&gt;&lt;b&gt;Sehenswï¿½rdigkeit(en): &lt;/b&gt;Kirche</cmt>
+    <desc>Pass - 39.6 Punkte&lt;br /&gt;CZE - Jiho?eskï¿½ kraj	 &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Kirche, Ortsschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Blazejovice&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Prachatice&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;857m&lt;br /&gt;&lt;b&gt;Sehenswï¿½rdigkeit(en): &lt;/b&gt;Kirche</desc>
+    <sym>Custom 57</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-01-08T18:09:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.382987022399902" lon="18.410704135894775">
+    <ele>813.890625</ele>
+    <time>2024-01-08T18:13:58Z</time>
+    <name>CZ-Makovský prusmyk (802m)</name>
+    <cmt>Makovský prusmyk (802)</cmt>
+    <desc>Makovský prusmyk (802)</desc>
+    <sym>Custom 57</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-01-08T18:13:58Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.86370000615716" lon="15.104399984702468">
+    <time>2024-01-08T18:09:05Z</time>
+    <name>CZ-Oldrichoske Sedlo (503m)</name>
+    <cmt>Pass - 32 Punkte&lt;br /&gt;CZE - Libereckï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Restaurant, Wanderschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Mnisek&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Raspenava&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;492m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Die Straï¿½e folgt in etwa der Strecke von dem ursprï¿½nglichen mittelalterlichen Handelsweg von Tschechien nach Sachsen .</cmt>
+    <desc>Pass - 32 Punkte&lt;br /&gt;CZE - Libereckï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Restaurant, Wanderschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Mnisek&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Raspenava&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;492m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Die Straï¿½e folgt in etwa der Strecke von dem ursprï¿½nglichen mittelalterlichen Handelsweg von Tschechien nach Sachsen .</desc>
+    <sym>Custom 57</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-01-08T18:09:05Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.110079906880856" lon="17.056133514270186">
+    <ele>766.74609375</ele>
+    <time>2024-01-08T18:10:31Z</time>
+    <name>CZ-Premyslovske Sedlo (767m)</name>
+    <cmt>Pass - 37.5 Punkte&lt;br /&gt;CZE - Olomouckï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Holzunterstand, Wanderkarte&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Rejhotice&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Nove Losiny&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt (schlechter Zustand)&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;767m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Kleine Nebenstraï¿½e.</cmt>
+    <desc>Pass - 37.5 Punkte&lt;br /&gt;CZE - Olomouckï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Holzunterstand, Wanderkarte&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Rejhotice&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Nove Losiny&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt (schlechter Zustand)&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;767m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Kleine Nebenstraï¿½e.</desc>
+    <sym>Custom 57</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-01-08T18:10:31Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.746879577636719" lon="15.823681354522705">
+    <ele>1046.6953125</ele>
+    <time>2024-01-08T18:17:11Z</time>
+    <name>CZ-Prusmyk Okraj (1046m)</name>
+    <cmt>Prusmyk Okraj (1046)</cmt>
+    <desc>Prusmyk Okraj (1046)</desc>
+    <sym>Custom 57</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-01-08T18:17:11Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.740985339507461" lon="15.367920147255063">
+    <ele>869.82421875</ele>
+    <time>2024-01-08T18:16:14Z</time>
+    <name>CZ-Príchovice Seldo ((857m)</name>
+    <sym>Custom 57</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-01-08T18:16:14Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.193353611975908" lon="17.064511310309172">
+    <ele>760.2109375</ele>
+    <time>2024-01-08T18:11:16Z</time>
+    <name>CZ-Ramzovske Sedlo (760m)</name>
+    <cmt>Pass - 37.4 Punkte&lt;br /&gt;CZE - Olomouckï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Bushaltestelle, Schilder, Restaurant&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Jesenik&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Hanusovice&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;760m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Wenn man die hï¿½chstgelegene Schnellzugstation der Tschechischen Republik besuchen mï¿½chten, muss man sich zum Ramzovske Sedlo aufmachen. Nicht nur Schnellzï¿½ge auch andere Zï¿½ge bringen im Sommer tï¿½glich Hunderte Wanderer und im Winter Skilï¿½ufer. ï¿½ber diesen Sattel fï¿½hrte schon zu Urzeiten die Verbindung zwischen Mï¿½hren und Schlesien.</cmt>
+    <desc>Pass - 37.4 Punkte&lt;br /&gt;CZE - Olomouckï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Bushaltestelle, Schilder, Restaurant&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Jesenik&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Hanusovice&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;760m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Wenn man die hï¿½chstgelegene Schnellzugstation der Tschechischen Republik besuchen mï¿½chten, muss man sich zum Ramzovske Sedlo aufmachen. Nicht nur Schnellzï¿½ge auch andere Zï¿½ge bringen im Sommer tï¿½glich Hunderte Wanderer und im Winter Skilï¿½ufer. ï¿½ber diesen Sattel fï¿½hrte schon zu Urzeiten die Verbindung zwischen Mï¿½hren und Schlesien.</desc>
+    <sym>Custom 57</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-01-08T18:11:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.323200020939112" lon="16.391199985519052">
+    <time>2024-01-08T18:18:41Z</time>
+    <name>CZ-Serlich Sedlo (990m)</name>
+    <cmt>Pass - 42.6 Punkte&lt;br /&gt;CZE - Krï¿½lovï¿½hradeckï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Gedenkstein, Schilder&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Orlicke Zahori&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Destne y Orlickych Horach&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;981m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Top ausgebaute Straï¿½e, EU Gelder sei Dank.</cmt>
+    <desc>Pass - 42.6 Punkte&lt;br /&gt;CZE - Krï¿½lovï¿½hradeckï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Gedenkstein, Schilder&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Orlicke Zahori&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Destne y Orlickych Horach&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;981m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Top ausgebaute Straï¿½e, EU Gelder sei Dank.</desc>
+    <sym>Custom 57</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-01-08T18:18:41Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.999439371749759" lon="17.155016921460629">
+    <ele>869.52734375</ele>
+    <time>2024-01-08T18:17:49Z</time>
+    <name>CZ-Skritek Sedlo (865m)</name>
+    <cmt>Pass - 40.4 Punkte&lt;br /&gt;CZE - Olomouckï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Rymarov&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Sumperk&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;892m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Relativ flacher ï¿½bergang. Schwierig, den Kulminationspunkt auszumachen.</cmt>
+    <desc>Pass - 40.4 Punkte&lt;br /&gt;CZE - Olomouckï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Rymarov&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Sumperk&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;892m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Relativ flacher ï¿½bergang. Schwierig, den Kulminationspunkt auszumachen.</desc>
+    <sym>Custom 57</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-01-08T18:17:49Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.172878274694085" lon="13.225756734609604">
+    <ele>977.88671875</ele>
+    <time>2024-01-08T17:44:42Z</time>
+    <name>CZ-Spicacke Sedlo (975m)</name>
+    <cmt>Pass - 42.6 Punkte&lt;br /&gt;CZE - Plze?skï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Hï¿½tte mit Passschild, Hotel&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Bayrisch Eisenstein&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Nyrsko&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;982m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Mehrere Flï¿½sse entspringen am Pancï¿½r , wï¿½hrend das Wasser des Groï¿½en Regen ï¿½ber die Donau ins Schwarze Meer fliesst, wird die ï¿½hlava ï¿½ber Moldau und Elbe in die Nordsee entwï¿½ssert. Ergo fï¿½hrt ï¿½ber den Pass eine der groï¿½en europï¿½ischen Wasserscheiden.
+Der Spicacke Sedlo ist zwar keine 1000ï¿½m hoch gelegen, aber dennoch einer der Hï¿½heren unter den ï¿½bergï¿½ngen im Bï¿½hmerwald.</cmt>
+    <desc>Pass - 42.6 Punkte&lt;br /&gt;CZE - Plze?skï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Hï¿½tte mit Passschild, Hotel&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Bayrisch Eisenstein&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Nyrsko&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;982m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Mehrere Flï¿½sse entspringen am Pancï¿½r , wï¿½hrend das Wasser des Groï¿½en Regen ï¿½ber die Donau ins Schwarze Meer fliesst, wird die ï¿½hlava ï¿½ber Moldau und Elbe in die Nordsee entwï¿½ssert. Ergo fï¿½hrt ï¿½ber den Pass eine der groï¿½en europï¿½ischen Wasserscheiden.
+Der Spicacke Sedlo ist zwar keine 1000ï¿½m hoch gelegen, aber dennoch einer der Hï¿½heren unter den ï¿½bergï¿½ngen im Bï¿½hmerwald.</desc>
+    <sym>Custom 57</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-01-08T17:44:42Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.743962842971087" lon="14.978710664436221">
+    <ele>770.65234375</ele>
+    <time>2024-01-08T18:03:35Z</time>
+    <name>CZ-Vyprez Seldo (770m)</name>
+    <cmt>Wasserscheide - 37.6 Punkte&lt;br /&gt;CZE - Libereckï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Wanderschild, Kiosk&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Liberec&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Horeni Stary Dub&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;770m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Pass zum Hausberg von Liberec Jested.
+Gehï¿½rt unter den Passknackern zu den Top 5 in Tschechien.</cmt>
+    <desc>Wasserscheide - 37.6 Punkte&lt;br /&gt;CZE - Libereckï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Wanderschild, Kiosk&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Liberec&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Horeni Stary Dub&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;770m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Pass zum Hausberg von Liberec Jested.
+Gehï¿½rt unter den Passknackern zu den Top 5 in Tschechien.</desc>
+    <sym>Custom 57</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-01-08T18:03:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.029866266995668" lon="12.62580307200551">
+    <ele>911.78125</ele>
+    <time>2024-01-08T18:14:57Z</time>
+    <name>CZ-Vysoke Sedlo (912m)</name>
+    <cmt>Pass - 40.9 Punkte&lt;br /&gt;CZE - Karlovarskï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Wanderschilder&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Stara Voda&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Kynsperk nad Ohri&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt (schlechter Zustand)&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;914m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Zum Teil sehr schlechte Straï¿½e.</cmt>
+    <desc>Pass - 40.9 Punkte&lt;br /&gt;CZE - Karlovarskï¿½ kraj &lt;b&gt;CZE&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Wanderschilder&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Stara Voda&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Kynsperk nad Ohri&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt (schlechter Zustand)&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;914m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Zum Teil sehr schlechte Straï¿½e.</desc>
+    <sym>Custom 57</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-01-08T18:14:57Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+</gpx>

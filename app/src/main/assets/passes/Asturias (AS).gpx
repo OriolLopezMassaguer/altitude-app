@@ -1,0 +1,1432 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2022-11-20T15:46:20Z</time>
+    <bounds maxlat="43.505111960694194" maxlon="-4.823286132887006" minlat="42.95480489730835" minlon="-7.061043810099363" />
+  </metadata>
+
+  <wpt lat="43.437668234109879" lon="-6.537395725026727">
+    <ele>456.125</ele>
+    <time>2016-09-30T10:02:24Z</time>
+    <name>AS*Alto de Aristebano (535m)</name>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2016-09-30T10:02:24Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.505111960694194" lon="-5.340058542788029">
+    <ele>172.12890625</ele>
+    <time>2021-08-31T19:07:05Z</time>
+    <name>AS*Alto de Buenos Aires (168m)</name>
+    <cmt>Alto de Buenos Aires</cmt>
+    <desc>Alto de Buenos Aires</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-08-31T19:07:05Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.336512995883822" lon="-6.706203985959292">
+    <ele>1010</ele>
+    <time>2013-11-30T13:36:21Z</time>
+    <name>AS*Alto de Bustantigo (1010m)</name>
+    <cmt>AS-Alto de Bustantigo (1010m)</cmt>
+    <desc>AS-Alto de Bustantigo (1010m)</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-11-30T13:36:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.381100948899984" lon="-6.399905942380428">
+    <ele>1020</ele>
+    <time>2013-11-30T13:38:07Z</time>
+    <name>AS*Alto de Bustellan (1020m)</name>
+    <cmt>AS-Alto de Bustellan (1020m)</cmt>
+    <desc>AS-Alto de Bustellan (1020m)</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-11-30T13:38:07Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.189766407012939" lon="-5.090682506561279">
+    <ele>800.01171875</ele>
+    <time>2020-10-01T09:32:36Z</time>
+    <name>AS*Alto de Casielles (800m)</name>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-10-01T09:32:36Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.429776672273874" lon="-6.517586354166269">
+    <ele>360.38671875</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS*Alto de Entreferto (353m)</name>
+    <cmt>AS-220</cmt>
+    <desc>AS-220</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.187858937308192" lon="-5.923518966883421">
+    <ele>1772</ele>
+    <time>2013-11-30T13:39:34Z</time>
+    <name>AS*Alto de Gamoneteiro (1772m)</name>
+    <cmt>AS-Alto del Gamoniteiro (1772m)</cmt>
+    <desc>AS-Alto del Gamoniteiro (1772m)</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-11-30T13:39:34Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.321112673729658" lon="-4.900649171322584">
+    <ele>465.75390625</ele>
+    <time>2021-09-01T15:02:11Z</time>
+    <name>AS*Alto de Hortigueru (440m)</name>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-09-01T15:02:11Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.397607011720538" lon="-6.122040990740061">
+    <ele>375</ele>
+    <time>2016-09-30T10:08:44Z</time>
+    <name>AS*Alto de La Cabruñana (375m)</name>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2016-09-30T10:08:44Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.373634684830904" lon="-6.396495429798961">
+    <ele>929.984375</ele>
+    <time>2013-11-30T13:38:50Z</time>
+    <name>AS*Alto de la Casa del Puerto (1025m)</name>
+    <cmt>AS-Alto de la Casa del Puerto (1025m)</cmt>
+    <desc>AS-Alto de la Casa del Puerto (1025m)</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-11-30T13:38:50Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.143450440838933" lon="-5.905986204743385">
+    <time>2013-09-04T06:58:58Z</time>
+    <name>AS*Alto de la Cobertoria (1173m)</name>
+    <cmt>AS-Alto de la Cobertoira (1176m)</cmt>
+    <desc>AS-Alto de la Cobertoira (1176m)</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-04T06:58:58Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.397429985925555" lon="-6.330519961193204">
+    <ele>660</ele>
+    <time>2016-09-30T10:07:29Z</time>
+    <name>AS*Alto de La Espina (660m)</name>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2016-09-30T10:07:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.056994797661901" lon="-6.089962776750326">
+    <ele>1708</ele>
+    <time>2013-11-30T13:40:45Z</time>
+    <name>AS*Alto de La Farrapona (1708m)</name>
+    <cmt>AS-Alto de La Farrapona (1708m)</cmt>
+    <desc>AS-Alto de La Farrapona (1708m)</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-11-30T13:40:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.32623552531004" lon="-5.824492396786809">
+    <time>2017-02-16T08:19:53Z</time>
+    <name>AS*Alto de la Manzaneda (366m)</name>
+    <cmt>AS-242</cmt>
+    <desc>AS-242</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2017-02-16T08:19:53Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.295476958155632" lon="-6.670956993475556">
+    <ele>1105</ele>
+    <time>2013-11-30T13:36:47Z</time>
+    <name>AS*Alto de La Marta (1105m)</name>
+    <cmt>AS-Alto de La Marta (1105m)</cmt>
+    <desc>AS-Alto de La Marta (1105m)</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-11-30T13:36:47Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.441866226494312" lon="-6.836249800398946">
+    <ele>783.9921875</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS*Alto de Penouta (785m)</name>
+    <cmt>AS-22</cmt>
+    <desc>AS-22</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.372495919466019" lon="-6.260506846010685">
+    <ele>357.95703125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS*Alto de Piedrafita (354m)</name>
+    <cmt>AS-226 - SL-7</cmt>
+    <desc>AS-226 - SL-7</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.305689971894026" lon="-6.59421999938786">
+    <ele>775</ele>
+    <time>2016-09-30T10:03:53Z</time>
+    <name>AS*Alto de Porciles (775m)</name>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2016-09-30T10:03:53Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.103080345317721" lon="-6.800693348050118">
+    <time>2016-09-30T09:58:05Z</time>
+    <name>AS*Alto de Valvaler (1116m)</name>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2016-09-30T09:58:05Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.221563994884491" lon="-5.941841388121247">
+    <ele>1548</ele>
+    <time>2013-09-04T06:58:00Z</time>
+    <name>AS*Alto del Angliru (1570m)</name>
+    <cmt>AS-Puerto del Angliru (1548m)</cmt>
+    <desc>AS-Puerto del Angliru (1548m)</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-04T06:58:00Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.198642674833536" lon="-5.851152213290334">
+    <time>2017-09-11T09:09:45Z</time>
+    <name>AS*Alto del Cordal (780m)</name>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2017-09-11T09:09:45Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.288193671032786" lon="-5.810223883017898">
+    <time>2016-09-30T10:09:59Z</time>
+    <name>AS*Alto del Padrun (385m)</name>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2016-09-30T10:09:59Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.107570949941874" lon="-6.785097979009152">
+    <ele>1098</ele>
+    <time>2013-11-30T13:55:39Z</time>
+    <name>AS*Alto del Pozo de las Muyeres Muertas (1098m)</name>
+    <cmt>AS-Alto del Pozo de las Muyeres Muertas  (1098m)</cmt>
+    <desc>AS-Alto del Pozo de las Muyeres Muertas  (1098m)</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-11-30T13:55:39Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.434120593592525" lon="-6.700975438579917">
+    <ele>408.22265625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS*Alto Los Cándanos (411m)</name>
+    <cmt>AS-35</cmt>
+    <desc>AS-35</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.027068469673395" lon="-6.781726777553558">
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS*Campa de Cortinales (1013m)</name>
+    <cmt>AS-211</cmt>
+    <desc>AS-211</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.229902982711792" lon="-5.366311920806766">
+    <ele>908</ele>
+    <time>2013-11-30T13:41:55Z</time>
+    <name>AS*Collada d´Arniciu (908m)</name>
+    <cmt>AS-Collada de Arnicio (908m)</cmt>
+    <desc>AS-Collada de Arnicio (908m)</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-11-30T13:41:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.309457302093506" lon="-6.672155857086182">
+    <ele>0</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS*Collado de Santiellos (981m)</name>
+    <cmt>ALL-4</cmt>
+    <desc>ALL-4</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.272893847897649" lon="-4.982248088344932">
+    <ele>1124.8203125</ele>
+    <time>2019-03-22T19:34:01Z</time>
+    <name>AS*Lagos de Covadonga (1134m)</name>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-03-22T19:34:01Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.439093660563231" lon="-5.193490572273731">
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS*Mirador del Fitu (577m)</name>
+    <cmt>AS-260</cmt>
+    <desc>AS-260</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.343038558959961" lon="-7.014641761779785">
+    <ele>877</ele>
+    <time>2021-12-31T18:10:14Z</time>
+    <name>AS*Puerto de a Garganta (877m)</name>
+    <cmt>Puerto de a Garganta (877)</cmt>
+    <desc>Puerto de a Garganta (877)</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-12-31T18:10:14Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.95480489730835" lon="-6.437923908233643">
+    <time>2018-07-30T07:37:17Z</time>
+    <name>AS*Puerto de Cerredo (1359m)</name>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-07-30T07:37:17Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.998807458207011" lon="-6.418262142688036">
+    <time>2013-09-04T06:50:24Z</time>
+    <name>AS*Puerto de Leitariegos (1525m)</name>
+    <cmt>CL-Puerto de Leitariegos (1526m)</cmt>
+    <desc>CL-Puerto de Leitariegos (1526m)</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-04T06:50:24Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.199281124398112" lon="-6.111531676724553">
+    <ele>988.23828125</ele>
+    <time>2020-10-01T14:34:28Z</time>
+    <name>AS*Puerto de Marabio (1052m)</name>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-10-01T14:34:28Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.992609962821007" lon="-5.759500041604042">
+    <ele>1388</ele>
+    <time>2013-04-03T10:23:09Z</time>
+    <name>AS*Puerto de Pajares (1388m)</name>
+    <cmt>AS-Puerto de Pajares (1388m)</cmt>
+    <desc>AS-Puerto de Pajares (1388m)</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-03T10:23:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.065550960600376" lon="-5.387653252109885">
+    <ele>1568</ele>
+    <time>2013-09-04T06:59:54Z</time>
+    <name>AS*Puerto de San Isidro (1520m)</name>
+    <cmt>AS-Puerto de San Isidro (1568m)</cmt>
+    <desc>AS-Puerto de San Isidro (1568m)</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-04T06:59:54Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.141696527600288" lon="-6.193442903459072">
+    <ele>1340</ele>
+    <time>2013-09-03T07:11:05Z</time>
+    <name>AS*Puerto de San Lorenzo (1347m)</name>
+    <cmt>AS-Puerto de San Lorenzo (1340m)</cmt>
+    <desc>AS-Puerto de San Lorenzo (1340m)</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-03T07:11:05Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.025110037997365" lon="-6.227369997650385">
+    <ele>1486</ele>
+    <time>2013-04-03T10:34:12Z</time>
+    <name>AS*Puerto de Somiedo (1486m)</name>
+    <cmt>AS-Puerto de Somiedo (1483m)</cmt>
+    <desc>AS-Puerto de Somiedo (1483m)</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-03T10:34:12Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.084643930196762" lon="-5.217909989878535">
+    <ele>1494.4296875</ele>
+    <time>2013-09-04T07:01:04Z</time>
+    <name>AS*Puerto de Tarna (1490m)</name>
+    <cmt>AS-Puerto de Tarna (1486m)</cmt>
+    <desc>AS-Puerto de Tarna (1486m)</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-04T07:01:04Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.058420978486538" lon="-6.004343228414655">
+    <time>2016-09-30T10:12:22Z</time>
+    <name>AS*Puerto de Ventana (1587m)</name>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2016-09-30T10:12:22Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.043296337127686" lon="-6.720070838928223">
+    <ele>1318</ele>
+    <time>2013-09-03T07:05:04Z</time>
+    <name>AS*Puerto del Connio (1318m)</name>
+    <cmt>AS-Puerto del Connio (1318m)</cmt>
+    <desc>AS-Puerto del Connio (1318m)</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-03T07:05:04Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.27252596616745" lon="-6.678009275346994">
+    <ele>1144.81640625</ele>
+    <time>2013-09-03T07:08:00Z</time>
+    <name>AS*Puerto del Palo (1140m)</name>
+    <cmt>AS-Puerto del Palo (1140m)</cmt>
+    <desc>AS-Puerto del Palo (1140m)</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-03T07:08:00Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.158499980345368" lon="-6.498999986797571">
+    <ele>1166</ele>
+    <time>2019-03-22T19:36:51Z</time>
+    <name>AS*Santuario NªSª del Acebo (1166m)</name>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-03-22T19:36:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.415005663409829" lon="-7.061043810099363">
+    <ele>336.7265625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS*Sela de Fabal (338m)</name>
+    <cmt>AS-21</cmt>
+    <desc>AS-21</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.134416341781616" lon="-5.635076723992825">
+    <time>2018-06-13T18:31:22Z</time>
+    <name>AS-Alto de Coto Bello (1198m)</name>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-06-13T18:31:22Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.422667980194092" lon="-5.512862205505371">
+    <ele>0</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS-Alto de la Campa (400m)</name>
+    <cmt>AS-267</cmt>
+    <desc>AS-267</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.225461998954415" lon="-5.647881925106049">
+    <ele>900</ele>
+    <time>2013-11-30T13:40:07Z</time>
+    <name>AS-Alto de La Colladiella (900m)</name>
+    <cmt>AS-Alto de La Colladiella (900m)</cmt>
+    <desc>AS-Alto de La Colladiella (900m)</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-11-30T13:40:07Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.473436832427979" lon="-5.514321327209473">
+    <ele>0</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS-Alto de la Cruz (436m)</name>
+    <cmt>VV-8</cmt>
+    <desc>VV-8</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.411676036193967" lon="-5.309475241228938">
+    <ele>417.7421875</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS-Alto de la Llama (428m)</name>
+    <cmt>AS-258 - AS-259</cmt>
+    <desc>AS-258 - AS-259</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.464911263436079" lon="-5.850275047123432">
+    <ele>239.3125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS-Alto de la Miranda (245m)</name>
+    <cmt>AS-17</cmt>
+    <desc>AS-17</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.386012073606253" lon="-4.823286132887006">
+    <ele>467.5</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS-Alto de la Tornería (471m)</name>
+    <cmt>LLN-7</cmt>
+    <desc>LLN-7</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.321842905133963" lon="-5.498742219060659">
+    <ele>735.6484375</ele>
+    <time>2021-10-24T17:58:50Z</time>
+    <name>AS-Alto de Les Prares (751m)</name>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-10-24T17:58:50Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.287727637216449" lon="-5.758199924603105">
+    <ele>381.77734375</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS-Alto de San Tirso (383m)</name>
+    <cmt>AS-245</cmt>
+    <desc>AS-245</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.206807821989059" lon="-6.549862381070852">
+    <ele>714.13671875</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS-Alto de Santa Ana (711m)</name>
+    <cmt>CN-1</cmt>
+    <desc>CN-1</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.177185924723744" lon="-6.581327961757779">
+    <ele>890</ele>
+    <time>2013-11-30T13:56:37Z</time>
+    <name>AS-Alto de Santarbas (890m)</name>
+    <cmt>AS-Alto de Santarbas (890m)</cmt>
+    <desc>AS-Alto de Santarbas (890m)</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-11-30T13:56:37Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.468754785135388" lon="-6.7306939791888">
+    <ele>274.36328125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS-Alto del Torzo (274m)</name>
+    <cmt>AS-12</cmt>
+    <desc>AS-12</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.280725479125977" lon="-6.490388251841068">
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS-Alto la Llama (577m)</name>
+    <cmt>TI-6</cmt>
+    <desc>TI-6</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.485666615888476" lon="-5.74067747220397">
+    <ele>107.953125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS-Alto Verán (109m)</name>
+    <cmt>AS-18</cmt>
+    <desc>AS-18</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.269381579011679" lon="-6.095236586406827">
+    <ele>1100</ele>
+    <time>2021-10-24T18:16:40Z</time>
+    <name>AS-Collada Fancuaya (1100m)</name>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-10-24T18:16:40Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.201525211334229" lon="-5.138061046600342">
+    <ele>1000.9296875</ele>
+    <time>2021-09-01T15:04:43Z</time>
+    <name>AS-Collada Llomena (993m)</name>
+    <cmt>Collada Llomena (993)</cmt>
+    <desc>Collada Llomena (993)</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-09-01T15:04:43Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.426922801882029" lon="-5.575905600562692">
+    <ele>581.34765625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS-Collado de Fumarea (582m)</name>
+    <cmt>AS-331</cmt>
+    <desc>AS-331</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.393149767071009" lon="-5.010102493688464">
+    <ele>448.12109375</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS-Collado de Igena (457m)</name>
+    <cmt>AS-340</cmt>
+    <desc>AS-340</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.405706696212292" lon="-4.988909438252449">
+    <ele>515.44140625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS-Collado del Torno (533m)</name>
+    <cmt>AS-340</cmt>
+    <desc>AS-340</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.32396780140698" lon="-5.241102213039994">
+    <ele>536.26171875</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS-Collado la Llama (531m)</name>
+    <cmt>PI-13</cmt>
+    <desc>PI-13</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.279480934143066" lon="-5.227560997009277">
+    <ele>665</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS-Collado Moandi (665m)</name>
+    <cmt>AS-339</cmt>
+    <desc>AS-339</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.374710083007813" lon="-5.039291381835938">
+    <ele>0</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS-Collado Zardón (296m)</name>
+    <cmt>&amp;nbsp;</cmt>
+    <desc>&amp;nbsp;</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.412730311974883" lon="-5.464614629745483">
+    <ele>464.90625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS-Cruz de la Collada (476m)</name>
+    <cmt>AS-333</cmt>
+    <desc>AS-333</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.272328656166792" lon="-6.028611268848181">
+    <ele>837.83203125</ele>
+    <time>2022-11-02T19:54:27Z</time>
+    <name>AS-Cruz de Linares (843m)</name>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2022-11-02T19:54:27Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.275318816304207" lon="-5.959050692617893">
+    <time>2020-01-24T18:47:35Z</time>
+    <name>AS-Cruz de Viescas (606m)</name>
+    <cmt>MO-5</cmt>
+    <desc>MO-5</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.381354585289955" lon="-5.262560723349452">
+    <ele>181.12109375</ele>
+    <time>2020-11-03T17:37:34Z</time>
+    <name>AS-La Cruz de Bárcena (181m)</name>
+    <cmt>La Cruz de Bárcena</cmt>
+    <desc>La Cruz de Bárcena</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-11-03T17:37:34Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.295896723866463" lon="-5.563609097152948">
+    <ele>644</ele>
+    <time>2013-09-04T06:54:13Z</time>
+    <name>AS-La Faya de los Lobos (644m)</name>
+    <cmt>AS-La Faya de los Lobos (644m)</cmt>
+    <desc>AS-La Faya de los Lobos (644m)</desc>
+    <sym>Custom 31</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-04T06:54:13Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+</gpx>

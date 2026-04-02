@@ -1,0 +1,1095 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2024-02-11T11:47:45Z</time>
+    <bounds maxlat="49.544970989227295" maxlon="21.535327434539795" minlat="48.350566970184445" minlon="17.190213035792112" />
+  </metadata>
+
+  <wpt lat="48.350566970184445" lon="17.190213035792112">
+    <time>2023-12-08T18:30:47Z</time>
+    <name>SK-Baba-Pass (531m)</name>
+    <link href="https://www.alpenpaesse.de/alpenpaesse/baba-pass" />
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-08T18:30:47Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.862831592559814" lon="20.226795673370361">
+    <ele>989.98828125</ele>
+    <time>2023-12-06T20:58:23Z</time>
+    <name>SK-Besník (994m)</name>
+    <cmt>Besník (994)</cmt>
+    <desc>Besník (994)</desc>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-06T20:58:23Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.679538983851671" lon="17.55967098288238">
+    <time>2023-12-08T18:30:47Z</time>
+    <name>SK-Bradlo (507m)</name>
+    <link href="https://www.alpenpaesse.de/alpenpaesse/bradlo" />
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-08T18:30:47Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.017417021095753" lon="20.857167011126876">
+    <time>2023-12-08T18:30:47Z</time>
+    <name>SK-Branisko-Pass (750m)</name>
+    <link href="https://www.alpenpaesse.de/alpenpaesse/branisko-pass" />
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-08T18:30:47Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.536344897001982" lon="17.356402538716793">
+    <ele>316.20703125</ele>
+    <time>2023-12-29T18:49:34Z</time>
+    <name>SK-Buková Sedlo (316m)</name>
+    <cmt>Wasserscheide - 29.2 - Foto: Schilder Kreisgrenze - SVK</cmt>
+    <desc>Wasserscheide - 29.2 - Foto: Schilder Kreisgrenze - SVK</desc>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>LK: SVK LAND: SVK</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>LK: SVK LAND: SVK</wptx1:Category>
+        </wptx1:Categories>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T18:49:34Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.399123191833496" lon="18.409781455993652">
+    <ele>866.16015625</ele>
+    <time>2023-12-29T17:52:09Z</time>
+    <name>SK-Bumbálka (866m)</name>
+    <cmt>Bumbálka (866)</cmt>
+    <desc>Bumbálka (866)</desc>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T17:52:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.594566434621811" lon="19.86004751175642">
+    <ele>543.8515625</ele>
+    <time>2023-12-29T18:49:34Z</time>
+    <name>SK-Chorepa Sedlo (531m)</name>
+    <cmt>Pass - 33.1 - Foto: Gedenkstein, Wanderschild - SVK</cmt>
+    <desc>Pass - 33.1 - Foto: Gedenkstein, Wanderschild - SVK</desc>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>LK: SVK LAND: SVK</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>LK: SVK LAND: SVK</wptx1:Category>
+        </wptx1:Categories>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T18:49:34Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.937499010935426" lon="18.470199638977647">
+    <time>2023-12-30T18:36:41Z</time>
+    <name>SK-Cicmany Sedlo (820m)</name>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>Category1</gpxx:Category>
+        </gpxx:Categories>
+        <gpxx:Address>
+          <gpxx:StreetAddress>2000;</gpxx:StreetAddress>
+        </gpxx:Address>
+        <gpxx:PhoneNumber Category="Phone" />
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>Category1</wptx1:Category>
+        </wptx1:Categories>
+        <wptx1:Address>
+          <wptx1:StreetAddress>2000;</wptx1:StreetAddress>
+        </wptx1:Address>
+        <wptx1:PhoneNumber Category="Phone" />
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-30T18:36:41Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.739063739776611" lon="21.535327434539795">
+    <ele>474.4453125</ele>
+    <time>2023-12-29T17:56:12Z</time>
+    <name>SK-Dargovský priesmyk (473m)</name>
+    <cmt>Dargovský priesmyk (473)</cmt>
+    <desc>Dargovský priesmyk (473)</desc>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T17:56:12Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.700757184997201" lon="19.984195316210389">
+    <ele>584.57421875</ele>
+    <time>2023-12-29T18:49:34Z</time>
+    <name>SK-Dielik Sedlo (585m)</name>
+    <cmt>Pass - 33.6 - Foto: Holzunterstand, Wanderschild, Denkmal - SVK</cmt>
+    <desc>Pass - 33.6 - Foto: Holzunterstand, Wanderschild, Denkmal - SVK</desc>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>LK: SVK LAND: SVK</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>LK: SVK LAND: SVK</wptx1:Category>
+        </wptx1:Categories>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T18:49:34Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.878164021298289" lon="19.223751006647944">
+    <time>2023-12-08T18:30:47Z</time>
+    <name>SK-Donovaly-Pass (960m)</name>
+    <link href="https://www.alpenpaesse.de/alpenpaesse/donovaly-pass" />
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-08T18:30:47Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.963686255738139" lon="18.611189452931285">
+    <ele>793.26953125</ele>
+    <time>2023-12-29T18:49:34Z</time>
+    <name>SK-Fackovské Sedlo (802m)</name>
+    <cmt>Pass - 38.1 - Foto: Holzhaus, Wanderschild, Schilder - SVK</cmt>
+    <desc>Pass - 38.1 - Foto: Holzhaus, Wanderschild, Schilder - SVK</desc>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>LK: SVK LAND: SVK</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>LK: SVK LAND: SVK</wptx1:Category>
+        </wptx1:Categories>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T18:49:34Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.714974569156766" lon="20.382243767380714">
+    <ele>545.1015625</ele>
+    <time>2023-12-29T18:49:34Z</time>
+    <name>SK-Filipka Sedlo (545m)</name>
+    <cmt>Pass - 32.9 - Foto: Wanderschild - SVK</cmt>
+    <desc>Pass - 32.9 - Foto: Wanderschild - SVK</desc>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>LK: SVK LAND: SVK</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>LK: SVK LAND: SVK</wptx1:Category>
+        </wptx1:Categories>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T18:49:34Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.812258038669825" lon="21.528185466304421">
+    <ele>668.3671875</ele>
+    <time>2023-12-30T18:36:41Z</time>
+    <name>SK-Herlianske Sedlo (660m)</name>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>Category1</gpxx:Category>
+        </gpxx:Categories>
+        <gpxx:Address>
+          <gpxx:StreetAddress>2000;</gpxx:StreetAddress>
+        </gpxx:Address>
+        <gpxx:PhoneNumber Category="Phone" />
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>Category1</wptx1:Category>
+        </wptx1:Categories>
+        <wptx1:Address>
+          <wptx1:StreetAddress>2000;</wptx1:StreetAddress>
+        </wptx1:Address>
+        <wptx1:PhoneNumber Category="Phone" />
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-30T18:36:41Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.195755589753389" lon="19.560689348727465">
+    <ele>1096.00390625</ele>
+    <time>2023-12-30T18:36:41Z</time>
+    <name>SK-Holica Sedlo (1096m)</name>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>Category1</gpxx:Category>
+        </gpxx:Categories>
+        <gpxx:Address>
+          <gpxx:StreetAddress>2000;</gpxx:StreetAddress>
+        </gpxx:Address>
+        <gpxx:PhoneNumber Category="Phone" />
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>Category1</wptx1:Category>
+        </wptx1:Categories>
+        <wptx1:Address>
+          <wptx1:StreetAddress>2000;</wptx1:StreetAddress>
+        </wptx1:Address>
+        <wptx1:PhoneNumber Category="Phone" />
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-30T18:36:41Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.900256957858801" lon="20.294567132368684">
+    <ele>991.17578125</ele>
+    <time>2023-12-29T18:49:34Z</time>
+    <name>SK-Kopanec, Sedlo (991m)</name>
+    <cmt>Pass - 42.7 - Foto: Holzunterstand, Wanderschild - SVK</cmt>
+    <desc>Pass - 42.7 - Foto: Holzunterstand, Wanderschild - SVK</desc>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>LK: SVK LAND: SVK</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>LK: SVK LAND: SVK</wptx1:Category>
+        </wptx1:Categories>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T18:49:34Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.382775546982884" lon="20.49403790384531">
+    <ele>703.5234375</ele>
+    <time>2023-12-29T18:49:34Z</time>
+    <name>SK-Lesnické Sedlo (704m)</name>
+    <cmt>Pass - 36.3 - Foto: Schilder, Restaurant, Wanderschild - SVK</cmt>
+    <desc>Pass - 36.3 - Foto: Schilder, Restaurant, Wanderschild - SVK</desc>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>LK: SVK LAND: SVK</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>LK: SVK LAND: SVK</wptx1:Category>
+        </wptx1:Categories>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T18:49:34Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.290100028738379" lon="20.42760000564158">
+    <ele>949.00000009999997</ele>
+    <time>2023-12-29T18:49:34Z</time>
+    <name>SK-Magurské Sedlo (949m)</name>
+    <cmt>Pass - 41.8 - Foto: Kreuz, Wanderschild - SVK</cmt>
+    <desc>Pass - 41.8 - Foto: Kreuz, Wanderschild - SVK</desc>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>LK: SVK LAND: SVK</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>LK: SVK LAND: SVK</wptx1:Category>
+        </wptx1:Categories>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T18:49:34Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.838570928201079" lon="18.998875441029668">
+    <ele>896.2890625</ele>
+    <time>2023-12-08T18:30:47Z</time>
+    <name>SK-Malý Šturec-Pass (896m)</name>
+    <link href="https://www.alpenpaesse.de/alpenpaesse/maly-sturec-pass" />
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-08T18:30:47Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.094627005979419" lon="18.834740007296205">
+    <time>2023-12-08T18:30:47Z</time>
+    <name>SK-Martinské hole (1250m)</name>
+    <link href="https://www.alpenpaesse.de/alpenpaesse/martinske-hole" />
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-08T18:30:47Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.116776017472148" lon="20.067622996866703">
+    <time>2023-12-08T18:30:47Z</time>
+    <name>SK-Nové Štrbské Pleso (1310m)</name>
+    <link href="https://www.alpenpaesse.de/alpenpaesse/nove-strbske-pleso" />
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-08T18:30:47Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.429644023999572" lon="18.851155461743474">
+    <ele>752.046875</ele>
+    <time>2023-12-29T18:49:34Z</time>
+    <name>SK-Peciny (750m)</name>
+    <cmt>Pass - 37.1 - Foto: Kreuz, Wanderschild, Schilder - SVK</cmt>
+    <desc>Pass - 37.1 - Foto: Kreuz, Wanderschild, Schilder - SVK</desc>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>LK: SVK LAND: SVK</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>LK: SVK LAND: SVK</wptx1:Category>
+        </wptx1:Categories>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T18:49:34Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.844599025323987" lon="18.909499626606703">
+    <time>2023-12-30T18:36:41Z</time>
+    <name>SK-Sedlo Cremosnianske (725m)</name>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>Category1</gpxx:Category>
+        </gpxx:Categories>
+        <gpxx:Address>
+          <gpxx:StreetAddress>2000;</gpxx:StreetAddress>
+        </gpxx:Address>
+        <gpxx:PhoneNumber Category="Phone" />
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>Category1</wptx1:Category>
+        </wptx1:Categories>
+        <wptx1:Address>
+          <wptx1:StreetAddress>2000;</wptx1:StreetAddress>
+        </wptx1:Address>
+        <wptx1:PhoneNumber Category="Phone" />
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-30T18:36:41Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.857532972469926" lon="20.514931976795197">
+    <time>2023-12-08T18:30:47Z</time>
+    <name>SK-Sedlo Grajnár (1023m)</name>
+    <link href="https://www.alpenpaesse.de/alpenpaesse/sedlo-grajnar" />
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-08T18:30:47Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.544970989227295" lon="19.36863899230957">
+    <ele>813.61328125</ele>
+    <time>2023-12-30T18:43:48Z</time>
+    <name>SK-Sedlo Hliny (Przelecz Glinne) (804m)</name>
+    <cmt>Sedlo Hliny (Przelecz Glinne) (804)</cmt>
+    <desc>Sedlo Hliny (Przelecz Glinne) (804)</desc>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-30T18:43:48Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.648984683677554" lon="20.296107390895486">
+    <ele>605.5</ele>
+    <time>2023-12-29T18:49:34Z</time>
+    <name>SK-Sedlo Hrádok (606m)</name>
+    <cmt>Pass - 33.8 - Foto: Bushaltestellle, Wanderschild - SVK</cmt>
+    <desc>Pass - 33.8 - Foto: Bushaltestellle, Wanderschild - SVK</desc>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>LK: SVK LAND: SVK</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>LK: SVK LAND: SVK</wptx1:Category>
+        </wptx1:Categories>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T18:49:34Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.795840740203857" lon="20.135858058929443">
+    <ele>949.07421875</ele>
+    <time>2023-12-06T20:57:59Z</time>
+    <name>SK-Sedlo Javorinka (942)</name>
+    <cmt>Sedlo Javorinka (942)</cmt>
+    <desc>Sedlo Javorinka (942)</desc>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-06T20:57:59Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.979299981147051" lon="20.105699971318245">
+    <ele>930.00000009999997</ele>
+    <time>2023-12-29T18:49:34Z</time>
+    <name>SK-Sedlo Liptovská Teplicka (938m)</name>
+    <cmt>Wasserscheide - 41.3 - Foto: Wasserhäuschen  - SVK</cmt>
+    <desc>Wasserscheide - 41.3 - Foto: Wasserhäuschen  - SVK</desc>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>LK: SVK LAND: SVK</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>LK: SVK LAND: SVK</wptx1:Category>
+        </wptx1:Categories>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T18:49:34Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.278399981558323" lon="18.99430001154542">
+    <ele>670.00000009999997</ele>
+    <time>2023-12-29T18:49:34Z</time>
+    <name>SK-Sedlo Lutiska (675m)</name>
+    <cmt>Pass - 35.4 - Foto: Kreuz, Wanderschild - SVK</cmt>
+    <desc>Pass - 35.4 - Foto: Kreuz, Wanderschild - SVK</desc>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>LK: SVK LAND: SVK</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>LK: SVK LAND: SVK</wptx1:Category>
+        </wptx1:Categories>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T18:49:34Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.601661799475551" lon="19.660633318126202">
+    <ele>965.8828125</ele>
+    <time>2023-12-29T18:49:34Z</time>
+    <name>SK-Sedlo Prasiva (966m)</name>
+    <cmt>Pass - 42.1 - Foto: Bushaltestelle, Wanderschild - SVK</cmt>
+    <desc>Pass - 42.1 - Foto: Bushaltestelle, Wanderschild - SVK</desc>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>LK: SVK LAND: SVK</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>LK: SVK LAND: SVK</wptx1:Category>
+        </wptx1:Categories>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T18:49:34Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.772511640563607" lon="20.103700719773769">
+    <ele>762.390625</ele>
+    <time>2023-12-29T18:49:34Z</time>
+    <name>SK-Sedlo Predná Hora (762m)</name>
+    <cmt>Pass - 37.4 - Foto: Steinhaus, Denkmal, Wanderschild - SVK</cmt>
+    <desc>Pass - 37.4 - Foto: Steinhaus, Denkmal, Wanderschild - SVK</desc>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>LK: SVK LAND: SVK</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>LK: SVK LAND: SVK</wptx1:Category>
+        </wptx1:Categories>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T18:49:34Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.945766417309642" lon="19.387809662148356">
+    <ele>1107.50390625</ele>
+    <time>2023-12-29T18:49:34Z</time>
+    <name>SK-Sedlo Prievalec (1100m)</name>
+    <cmt>Pass - 46.3 - Foto: Häuschen, Strommasten, Stromkasten - SVK</cmt>
+    <desc>Pass - 46.3 - Foto: Häuschen, Strommasten, Stromkasten - SVK</desc>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>LK: SVK LAND: SVK</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>LK: SVK LAND: SVK</wptx1:Category>
+        </wptx1:Categories>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T18:49:34Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.812741003930569" lon="20.480501968413591">
+    <time>2023-12-08T18:30:47Z</time>
+    <name>SK-Sedlo Súľová (909m)</name>
+    <link href="https://www.alpenpaesse.de/alpenpaesse/sedlo-suova" />
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-08T18:30:47Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.743575718253851" lon="19.850914506241679">
+    <ele>729.90625</ele>
+    <time>2023-12-29T18:49:34Z</time>
+    <name>SK-Sedlo Zbojská (725m)</name>
+    <cmt>Pass - 36.6 - Foto: Holztor, Denkmal, Wanderschild - SVK</cmt>
+    <desc>Pass - 36.6 - Foto: Holztor, Denkmal, Wanderschild - SVK</desc>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>LK: SVK LAND: SVK</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>LK: SVK LAND: SVK</wptx1:Category>
+        </wptx1:Categories>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T18:49:34Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.018807411193848" lon="20.247253132984042">
+    <ele>767.8671875</ele>
+    <time>2023-12-29T18:49:34Z</time>
+    <name>SK-Spisské Bystré Sedlo (768m)</name>
+    <cmt>Wasserscheide - 37.5 - Foto: Schilder, Landschaft - SVK</cmt>
+    <desc>Wasserscheide - 37.5 - Foto: Schilder, Landschaft - SVK</desc>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>LK: SVK LAND: SVK</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>LK: SVK LAND: SVK</wptx1:Category>
+        </wptx1:Categories>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T18:49:34Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.998774997889996" lon="20.770206023007631">
+    <time>2023-12-08T18:30:47Z</time>
+    <name>SK-Spišský hrad (563m)</name>
+    <link href="https://www.alpenpaesse.de/alpenpaesse/spissky-hrad-zipser-burg" />
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-08T18:30:47Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.362499974668026" lon="20.563799981027842">
+    <ele>730.00000009999997</ele>
+    <time>2023-12-29T18:49:34Z</time>
+    <name>SK-Stranánské Sedlo (730m)</name>
+    <cmt>Pass - 36.7 - Foto: Schilder, Wanderschild, Kreuz - SVK</cmt>
+    <desc>Pass - 36.7 - Foto: Schilder, Wanderschild, Kreuz - SVK</desc>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>LK: SVK LAND: SVK</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>LK: SVK LAND: SVK</wptx1:Category>
+        </wptx1:Categories>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-29T18:49:34Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.702158220112324" lon="20.649544168263674">
+    <ele>1002.2578125</ele>
+    <time>2023-12-30T18:36:41Z</time>
+    <name>SK-Uhornianske Sedlo (1000m)</name>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>Category1</gpxx:Category>
+        </gpxx:Categories>
+        <gpxx:Address>
+          <gpxx:StreetAddress>2000;</gpxx:StreetAddress>
+        </gpxx:Address>
+        <gpxx:PhoneNumber Category="Phone" />
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>Category1</wptx1:Category>
+        </wptx1:Categories>
+        <wptx1:Address>
+          <wptx1:StreetAddress>2000;</wptx1:StreetAddress>
+        </wptx1:Address>
+        <wptx1:PhoneNumber Category="Phone" />
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-30T18:36:41Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.951054979115725" lon="18.70470249094069">
+    <ele>687.5546875</ele>
+    <time>2023-12-30T18:36:41Z</time>
+    <name>SK-Vricke Sedlo (665m)</name>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>Category1</gpxx:Category>
+        </gpxx:Categories>
+        <gpxx:Address>
+          <gpxx:StreetAddress>2000;</gpxx:StreetAddress>
+        </gpxx:Address>
+        <gpxx:PhoneNumber Category="Phone" />
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>Category1</wptx1:Category>
+        </wptx1:Categories>
+        <wptx1:Address>
+          <wptx1:StreetAddress>2000;</wptx1:StreetAddress>
+        </wptx1:Address>
+        <wptx1:PhoneNumber Category="Phone" />
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-30T18:36:41Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.884817911311984" lon="18.705759448930621">
+    <ele>580.5390625</ele>
+    <time>2023-12-30T18:36:41Z</time>
+    <name>SK-Vysehradske Sedlo (581m)</name>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>Category1</gpxx:Category>
+        </gpxx:Categories>
+        <gpxx:Address>
+          <gpxx:StreetAddress>2000;</gpxx:StreetAddress>
+        </gpxx:Address>
+        <gpxx:PhoneNumber Category="Phone" />
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>Category1</wptx1:Category>
+        </wptx1:Categories>
+        <wptx1:Address>
+          <wptx1:StreetAddress>2000;</wptx1:StreetAddress>
+        </wptx1:Address>
+        <wptx1:PhoneNumber Category="Phone" />
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-30T18:36:41Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.943070210516453" lon="18.446441553533077">
+    <ele>669.55859375</ele>
+    <time>2023-12-30T18:36:41Z</time>
+    <name>SK-Zliechov Sedlo (669m)</name>
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+        <gpxx:Categories>
+          <gpxx:Category>Category1</gpxx:Category>
+        </gpxx:Categories>
+        <gpxx:Address>
+          <gpxx:StreetAddress>2000;</gpxx:StreetAddress>
+        </gpxx:Address>
+        <gpxx:PhoneNumber Category="Phone" />
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+        <wptx1:Categories>
+          <wptx1:Category>Category1</wptx1:Category>
+        </wptx1:Categories>
+        <wptx1:Address>
+          <wptx1:StreetAddress>2000;</wptx1:StreetAddress>
+        </wptx1:Address>
+        <wptx1:PhoneNumber Category="Phone" />
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-30T18:36:41Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.905507382005453" lon="19.735899455845356">
+    <ele>1237.4453125</ele>
+    <time>2023-12-08T18:30:47Z</time>
+    <name>SK-Čertovica-Pass (1232m)</name>
+    <link href="https://www.alpenpaesse.de/alpenpaesse/certovica-pass" />
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-08T18:30:47Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="48.722293647006154" lon="20.761898383498192">
+    <ele>787.01953125</ele>
+    <time>2023-12-08T18:30:47Z</time>
+    <name>SK-Štóske sedlo (787m)</name>
+    <link href="https://www.alpenpaesse.de/alpenpaesse/stoske-sedlo" />
+    <sym>Custom 48</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-08T18:30:47Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+</gpx>

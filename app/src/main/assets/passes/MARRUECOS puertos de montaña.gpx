@@ -1,0 +1,1524 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2026-03-04T18:00:57Z</time>
+    <bounds maxlat="35.204337565228343" maxlon="-2.611560970544815" minlat="29.359709154814482" minlon="-9.340481758117676" />
+  </metadata>
+
+  <wpt lat="29.359709154814482" lon="-9.07198685221374">
+    <ele>0</ele>
+    <time>2026-02-13T18:48:33Z</time>
+    <name>MC*Col de Aoukerda (1355m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/&lt;br&gt;&lt;br&gt;www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/&lt;br&gt;&lt;br&gt;www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-02-13T18:48:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.524299558252096" lon="-8.952404418960214">
+    <ele>0</ele>
+    <time>2026-02-13T18:48:33Z</time>
+    <name>MC*Col de Aït ou Saïd (1595m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/&lt;br&gt;&lt;br&gt;www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/&lt;br&gt;&lt;br&gt;www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-02-13T18:48:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="30.070670396089554" lon="-8.452781885862351">
+    <ele>0</ele>
+    <time>2026-02-13T18:48:33Z</time>
+    <name>MC*Col de Ighrem (1800m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/&lt;br&gt;&lt;br&gt;www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/&lt;br&gt;&lt;br&gt;www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-02-13T18:48:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="34.971505980938673" lon="-4.736668467521668">
+    <ele>0</ele>
+    <time>2026-02-13T18:48:33Z</time>
+    <name>MC*Col de Issaguen (1690m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/&lt;br&gt;&lt;br&gt;www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/&lt;br&gt;&lt;br&gt;www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-02-13T18:48:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.613347053527832" lon="-8.919138908386231">
+    <ele>0</ele>
+    <time>2026-02-13T18:48:33Z</time>
+    <name>MC*Col de Tassrirt (1699m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/&lt;br&gt;&lt;br&gt;www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/&lt;br&gt;&lt;br&gt;www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-02-13T18:48:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="35.204337565228343" lon="-3.001000536605716">
+    <ele>743.453125</ele>
+    <time>2026-02-13T18:48:33Z</time>
+    <name>MC*Monte Gurugú (750m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-02-13T18:48:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="35.140060856938362" lon="-4.625169709324837">
+    <ele>800.10000000000002</ele>
+    <time>2026-02-13T18:48:33Z</time>
+    <name>MC*Tizi n´El Jebha (805m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-02-13T18:48:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="30.451161442324519" lon="-7.514175614342094">
+    <ele>1650</ele>
+    <time>2026-02-13T18:48:33Z</time>
+    <name>MC*Tizi n´Ikhsane (1650m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-02-13T18:48:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.10298341140151" lon="-6.432199403643608">
+    <ele>0</ele>
+    <time>2026-02-13T18:48:33Z</time>
+    <name>MC*Tizi n´Taddert (1343m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-02-13T18:48:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="30.547119984403253" lon="-7.12135998532176">
+    <ele>1640</ele>
+    <time>2026-02-13T18:48:33Z</time>
+    <name>MC*Tizi n´Tagargoust (1640m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-02-13T18:48:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="30.456003667786717" lon="-7.673733355477452">
+    <ele>1886</ele>
+    <time>2026-02-13T18:48:33Z</time>
+    <name>MC*Tizi n´Taghatine (1886m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-02-13T18:48:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.596527999266982" lon="-4.529028022661805">
+    <ele>1906.8900000000001</ele>
+    <time>2026-02-13T18:48:33Z</time>
+    <name>MC*Tizi n´Talghaumt (1907m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/&lt;br&gt;&lt;br&gt;www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/&lt;br&gt;&lt;br&gt;www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-02-13T18:48:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.124005978927016" lon="-5.770761966705322">
+    <ele>0</ele>
+    <time>2026-02-13T18:48:33Z</time>
+    <name>MC*Tizi n´Tazazert (2283m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-02-13T18:48:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.285935547202826" lon="-7.381095886230469">
+    <ele>2260</ele>
+    <time>2026-02-13T18:48:33Z</time>
+    <name>MC*Tizi n´Tichka (2260m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-02-13T18:48:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.876371055841446" lon="-5.473346561193466">
+    <time>2025-12-23T13:11:31Z</time>
+    <name>MC*Tizi n´Tigherrhouzine (2665m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-23T13:11:31Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="30.530000030994415" lon="-7.060000011697412">
+    <ele>1190</ele>
+    <time>2026-02-13T18:48:33Z</time>
+    <name>MC*Tizi n´Timlaine (1190m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-02-13T18:48:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.650638859719038" lon="-5.847444478422403">
+    <ele>2026.78515625</ele>
+    <time>2025-12-23T13:12:19Z</time>
+    <name>MC*Tizi n´Tissadrine (2027m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2025-12-23T13:12:19Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.999839028343558" lon="-5.074527310207486">
+    <ele>2145.390625</ele>
+    <time>2026-02-13T18:48:33Z</time>
+    <name>MC*Tizi n´Zad (2178m)</name>
+    <cmt>www.instagram.com/cocosanctipetri/&lt;br&gt;&lt;br&gt;www.vueltaibericafaros.blogspot.com</cmt>
+    <desc>www.instagram.com/cocosanctipetri/&lt;br&gt;&lt;br&gt;www.vueltaibericafaros.blogspot.com</desc>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-02-13T18:48:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.169437007978559" lon="-5.913638966158032">
+    <ele>2402</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Aguerd n'Ouadou (2402m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.549767971038818" lon="-9.340481758117676">
+    <ele>1100.0232000000001</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Col Du Kerdous (1100m)</name>
+    <cmt>Col Du Kerdous</cmt>
+    <desc>Col Du Kerdous</desc>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.566810607910156" lon="-7.004771232604981">
+    <ele>2179.9295999999999</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Col D´Aziwn (2100m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.204948425292969" lon="-7.859129905700684">
+    <ele>0</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Estacion de Esqui Oukaimden (2620m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.765568114817142" lon="-8.849311200901866">
+    <ele>1515.83984375</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-MTizi n'Tarkatine (1515m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="30.11994986794889" lon="-5.631140079349279">
+    <ele>851.07421875</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Passo Tra Erg (851m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.657071013003588" lon="-4.036751976236701">
+    <ele>1821</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi Achour (1821m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.535158984363079" lon="-9.007091643288732">
+    <ele>0</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi Amanouz (1506m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="30.790677974000573" lon="-7.47689500451088">
+    <ele>2025</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi Asdrem (2025m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.97852803952992" lon="-5.706938970834017">
+    <ele>970</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi Azichkak (970m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="35.042862631380558" lon="-3.590202396735549">
+    <ele>892.109375</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi Azza (895m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.818533960729837" lon="-3.730484023690224">
+    <ele>1350</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi Bou Ichourdane (1350m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.60107995942235" lon="-3.561991006135941">
+    <ele>1582</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi Gzaouine (1582m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.805001197382808" lon="-9.084823485463858">
+    <ele>1736.88671875</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi Ighribn (1744m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="35.158288478851318" lon="-3.28540563583374">
+    <ele>233.2578125</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi Inourène (235m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.137927984818816" lon="-8.368350975215435">
+    <ele>1915</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi Mejgar (1915m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.730396894738078" lon="-8.841243786737323">
+    <ele>1663.48828125</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi Mlil (1670m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="30.657606208696961" lon="-7.270160224288702">
+    <ele>1688.59765625</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n'Bachkoun (1700m)</name>
+    <cmt>Tizi N'Bachkoun Pass (1700 M)&lt;br&gt;Siroua, Cercle D'Amerzgane, MAR</cmt>
+    <desc>Tizi N'Bachkoun Pass (1700 M)&lt;br&gt;Siroua, Cercle D'Amerzgane, MAR</desc>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.456750148907304" lon="-5.037373350933194">
+    <ele>1921.609375</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n'Ighatene (1934m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="30.198821984231472" lon="-7.805109964683652">
+    <ele>1855</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n'Ounzour (1855m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.725169317796826" lon="-6.807102654129267">
+    <ele>1306.29296875</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n'Takiout (1306m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.876418832689524" lon="-5.473340190947056">
+    <ele>0</ele>
+    <time>2026-02-13T18:48:33Z</time>
+    <name>MC-Tizi n'Takkat n'Liloud (2665m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-02-13T18:48:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="30.653192969039083" lon="-7.792382966727018">
+    <ele>1949</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n'Timdit (1949m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.959722964093089" lon="-5.592711986973882">
+    <ele>2722</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n'Timedouine (2722m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.74074649810791" lon="-6.325035095214844">
+    <ele>2624.6328125</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi N'Tirghist (2624m)</name>
+    <cmt>Tizi N'Tirghist</cmt>
+    <desc>Tizi N'Tirghist</desc>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.756782419979572" lon="-6.288754027336836">
+    <ele>2766.0625</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi N'Tissilli N'Imenaine (2776m)</name>
+    <cmt>Tizi N'Tissilli N'Imenaine Pass (2776 M)&lt;br&gt;Zaouiat Ahansal, Cercle D'Azilal, MAR</cmt>
+    <desc>Tizi N'Tissilli N'Imenaine Pass (2776 M)&lt;br&gt;Zaouiat Ahansal, Cercle D'Azilal, MAR</desc>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.686816962435842" lon="-4.005580013617873">
+    <ele>1980</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n'Tzizaout (1980m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.171073071658611" lon="-5.927861630916596">
+    <ele>2507.51953125</ele>
+    <time>2019-11-14T15:35:41Z</time>
+    <name>MC-Tizi n´ Bopu Ikhoudene (2543m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-11-14T15:35:41Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.112332969903946" lon="-5.155964959412813">
+    <ele>2130</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n´Afit (2130m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.610011858865619" lon="-6.382539477199316">
+    <ele>2908.65625</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n´Ait Imi (2905m)</name>
+    <cmt>Tizi N'Ait Imi&lt;br&gt;Tabant, Cercle D'Azilal, Morocco</cmt>
+    <desc>Tizi N'Ait Imi&lt;br&gt;Tabant, Cercle D'Azilal, Morocco</desc>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.507800022140145" lon="-6.02475400082767">
+    <ele>1540</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n´Ait Ouirrah (1540m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.537082260474563" lon="-6.2731449957937">
+    <ele>2993.21484375</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n´Aït Hmed (3005m)</name>
+    <cmt>Tizi N'Fougani&lt;br&gt;Ighil N'Oumgoun, Cercle de Boulmane-Dadès, Morocco</cmt>
+    <desc>Tizi N'Fougani&lt;br&gt;Ighil N'Oumgoun, Cercle de Boulmane-Dadès, Morocco</desc>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.34249210357666" lon="-6.916494369506836">
+    <ele>2150.0592000000001</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n´Fedghat (2159m)</name>
+    <cmt>Tizi N'Fedghat</cmt>
+    <desc>Tizi N'Fedghat</desc>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.815098002552986" lon="-6.190097015351057">
+    <ele>2606</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n´Illissi (2606m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.210500035434961" lon="-5.457250038161874">
+    <ele>0</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n´Inouzane (2626m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.479050992056727" lon="-7.26928498595953">
+    <ele>1743</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n´Irhi (1743m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.207349445670843" lon="-5.641865897923708">
+    <ele>0</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n´Isli (2375m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.611160047352314" lon="-8.73257165774703">
+    <ele>0</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n´Kaizen (1585m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.421574018895626" lon="-7.452242989093065">
+    <ele>1769</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n´Laylat (1769m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.408214965835214" lon="-5.130565026775003">
+    <ele>2196</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n´Mejdir (2196m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.912368312478065" lon="-5.662012305110693">
+    <ele>2905.34375</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n´Ouano (2910m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.687326030805707" lon="-6.707396982237697">
+    <ele>1636</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n´Oubadou (1636m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.7562560364604" lon="-6.510716965422034">
+    <ele>2249</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n´Oughbar (2249m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.519947052001953" lon="-6.931729316711426">
+    <ele>1940.18359375</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n´Outfi (2150m)</name>
+    <cmt>Tizi N'Outfi Pass (2150 M)&lt;br&gt;Ait Tamlil, Cercle de Fetouaka, MAR</cmt>
+    <desc>Tizi N'Outfi Pass (2150 M)&lt;br&gt;Ait Tamlil, Cercle de Fetouaka, MAR</desc>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.796639986336231" lon="-5.251016998663545">
+    <ele>1850</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n´Rechou (1850m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.208081245422363" lon="-5.74209451675415">
+    <ele>1992.52734375</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n´Talougout (1996m)</name>
+    <cmt>Tizi N'Talougout Pass (1996 M)</cmt>
+    <desc>Tizi N'Talougout Pass (1996 M)</desc>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.062413264065981" lon="-5.588147789239883">
+    <ele>0</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n´Termant (2960m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="30.868177888914943" lon="-8.379132114350796">
+    <ele>2098.38671875</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n´Test (2093m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="30.726015279069543" lon="-6.607573041692376">
+    <ele>1692.2734375</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n´Tinifift (1638m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.72071161866188" lon="-3.949364684522152">
+    <ele>1768.62890625</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi n´Tizza (1777m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.786319108679891" lon="-9.105838509276509">
+    <ele>1694.19140625</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi ou Zariyf (1695m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="33.837182521820068" lon="-4.045393466949463">
+    <ele>0</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi Ou Zekri (1963m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.218817960470915" lon="-8.075158037245274">
+    <ele>1080</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi Ouzla (1080m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.358406009152532" lon="-6.033433964475989">
+    <ele>1602</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi Tamelakt (1602m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.286544660106301" lon="-7.187764523550868">
+    <ele>0</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi Tanbdout (1919m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="32.676077960059047" lon="-5.456086965277791">
+    <ele>1963</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi Tanout (1963m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="34.934628373011947" lon="-4.472498707473278">
+    <ele>1580.80859375</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi Tchen (1580m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="31.559301260858774" lon="-6.280250418931246">
+    <ele>2998.17578125</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi Tigdane Alto Atlas (3006m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.779694974422455" lon="-9.118576068431139">
+    <ele>1679.02734375</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi Wayliym (1678m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="34.310651002451777" lon="-2.611560970544815">
+    <ele>1346</ele>
+    <time>2026-03-02T18:47:51Z</time>
+    <name>MC-Tizi-Namr (1346m)</name>
+    <sym>Custom 17</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2026-03-02T18:47:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+</gpx>

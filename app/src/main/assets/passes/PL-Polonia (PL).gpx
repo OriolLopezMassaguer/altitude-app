@@ -1,0 +1,866 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2024-02-11T11:52:14Z</time>
+    <bounds maxlat="50.86028253659606" maxlon="22.548352936282754" minlat="49.141677645966411" minlon="15.433344841003418" />
+  </metadata>
+
+  <wpt lat="50.399199994280934" lon="16.842200020328164">
+    <time>2023-12-31T18:39:43Z</time>
+    <name>PL- Przelecz Jaworowa (707m)</name>
+    <cmt>Pass - 36.2 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Holz/Stein-Tor, Hï¿½tte&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Ladek Zdroj&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Zloty Stok&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;705m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Die Marianne-von-Orianien-Nassau Ferienstrasse geht der Tschechisch/Polnischen Grenze entlang.</cmt>
+    <desc>Pass - 36.2 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Holz/Stein-Tor, Hï¿½tte&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Ladek Zdroj&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Zloty Stok&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;705m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Die Marianne-von-Orianien-Nassau Ferienstrasse geht der Tschechisch/Polnischen Grenze entlang.</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:39:43Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.276947254315019" lon="16.53853221796453">
+    <ele>812.25</ele>
+    <time>2023-12-31T18:40:06Z</time>
+    <name>PL- Przelecz Spalona (815m)</name>
+    <cmt>Pass - 38.7 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Gedenkstein, Schilder&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Mastowice&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Rozanka&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;818m</cmt>
+    <desc>Pass - 38.7 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Gedenkstein, Schilder&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Mastowice&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Rozanka&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;818m</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:40:06Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.799499968066812" lon="19.300599982962012">
+    <time>2023-12-31T18:41:29Z</time>
+    <name>PL-Beskid Targanicki (562m)</name>
+    <cmt>Wasserscheide - 33.3 Punkte&lt;br /&gt;POL - Ma?opolskie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Strassenschild, Verzweigung, Passschild klein gelb&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Porabka&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Targanice&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;562m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;kurz, aber steil</cmt>
+    <desc>Wasserscheide - 33.3 Punkte&lt;br /&gt;POL - Ma?opolskie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Strassenschild, Verzweigung, Passschild klein gelb&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Porabka&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Targanice&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;562m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;kurz, aber steil</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:41:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.457419579848647" lon="19.226635303348303">
+    <ele>847.46875</ele>
+    <time>2023-12-31T18:39:43Z</time>
+    <name>PL-Glinka Novot Przelecz (847m)</name>
+    <cmt>Pass - 39.2 Punkte&lt;br /&gt;POL - ?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Grenze, Wanderschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Zakamenne&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Rajcza&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;840m</cmt>
+    <desc>Pass - 39.2 Punkte&lt;br /&gt;POL - ?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Grenze, Wanderschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Zakamenne&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Rajcza&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;840m</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:39:43Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.666269533336163" lon="20.007052849978209">
+    <ele>631.25</ele>
+    <time>2023-12-31T18:39:43Z</time>
+    <name>PL-Glisne Przelecz (634m)</name>
+    <cmt>Pass - 34.7 Punkte&lt;br /&gt;POL - Ma?opolskie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Ortsschild, Schilder&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Mszana Dolna&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Tenczyn&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;634m</cmt>
+    <desc>Pass - 34.7 Punkte&lt;br /&gt;POL - Ma?opolskie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Ortsschild, Schilder&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Mszana Dolna&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Tenczyn&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;634m</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:39:43Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.30375624448061" lon="20.115686506032944">
+    <ele>1141.390625</ele>
+    <time>2023-12-26T18:09:12Z</time>
+    <name>PL-Glodówka (1140m)</name>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-26T18:09:12Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.241525726392865" lon="22.297140089794993">
+    <ele>749.4765625</ele>
+    <time>2023-12-31T18:41:29Z</time>
+    <name>PL-Habkowce (746m)</name>
+    <cmt>Wasserscheide - 37.3 Punkte&lt;br /&gt;POL - Podkarpackie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Ortsschild, Schilder&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Cisna&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Mchawa&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;759m</cmt>
+    <desc>Wasserscheide - 37.3 Punkte&lt;br /&gt;POL - Podkarpackie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Ortsschild, Schilder&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Cisna&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Mchawa&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;759m</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:41:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.357815915718675" lon="22.226518448442221">
+    <ele>568.90625</ele>
+    <time>2023-12-31T18:41:29Z</time>
+    <name>PL-Kielczawa (568m)</name>
+    <cmt>Wasserscheide - 33.4 Punkte&lt;br /&gt;POL - Podkarpackie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Ortsschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Mchawa&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Zagorz&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;568m</cmt>
+    <desc>Wasserscheide - 33.4 Punkte&lt;br /&gt;POL - Podkarpackie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Ortsschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Mchawa&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Zagorz&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;568m</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:41:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.77601152844727" lon="19.325384600088">
+    <ele>709.10546875</ele>
+    <time>2023-12-31T18:40:39Z</time>
+    <name>PL-Kocierska Przelecz (718m)</name>
+    <cmt>Pass - 36.5 Punkte&lt;br /&gt;POL - ?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Hotel, Torbogen&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Andrychow&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Saybusch&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;718m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Sehr schï¿½nes Hotel.</cmt>
+    <desc>Pass - 36.5 Punkte&lt;br /&gt;POL - ?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Hotel, Torbogen&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Andrychow&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Saybusch&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;718m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Sehr schï¿½nes Hotel.</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:40:39Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.588099988177419" lon="19.582799971103668">
+    <time>2023-12-31T18:40:39Z</time>
+    <name>PL-Krowiarki Przelecz (1010m)</name>
+    <cmt>Pass - 43.3 Punkte&lt;br /&gt;POL - Ma?opolskie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder, Denkmal&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Jablonka&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Zawoja&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;1012m&lt;br /&gt;&lt;b&gt;Sehenswï¿½rdigkeit(en): &lt;/b&gt;Babiogï¿½rski Park Narodowy (Nationalpark)</cmt>
+    <desc>Pass - 43.3 Punkte&lt;br /&gt;POL - Ma?opolskie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder, Denkmal&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Jablonka&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Zawoja&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;1012m&lt;br /&gt;&lt;b&gt;Sehenswï¿½rdigkeit(en): &lt;/b&gt;Babiogï¿½rski Park Narodowy (Nationalpark)</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:40:39Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.604065921157598" lon="18.902539629489183">
+    <ele>758.23828125</ele>
+    <time>2023-12-31T18:40:39Z</time>
+    <name>PL-Kubalonka Przelecz (761m)</name>
+    <cmt>Pass - 37.5 Punkte&lt;br /&gt;POL - ?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Verzweigung, Schilder&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Wisla&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Istebna&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;764m</cmt>
+    <desc>Pass - 37.5 Punkte&lt;br /&gt;POL - ?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Verzweigung, Schilder&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Wisla&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Istebna&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;764m</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:40:39Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.462155463173985" lon="16.347984150052071">
+    <ele>794.54296875</ele>
+    <time>2023-12-31T18:41:29Z</time>
+    <name>PL-Lisia Przelecz (790m)</name>
+    <cmt>Pass - 38 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Holzunterstand, Parkplatzschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Scinawka Srednia&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Kudowa Zdroj&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;790m</cmt>
+    <desc>Pass - 38 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Holzunterstand, Parkplatzschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Scinawka Srednia&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Kudowa Zdroj&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;790m</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:41:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.54410002566874" lon="21.242500031366944">
+    <time>2023-12-31T18:40:39Z</time>
+    <name>PL-Malastowska Prezlecz (605m)</name>
+    <cmt>Pass - 34.1 Punkte&lt;br /&gt;POL - Ma?opolskie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder, Schrein, Infotafeln&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Gorlice&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Zborov&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;605m&lt;br /&gt;&lt;b&gt;Sehenswï¿½rdigkeit(en): &lt;/b&gt;Soldatenfriedhof vom 1. Weltkrieg</cmt>
+    <desc>Pass - 34.1 Punkte&lt;br /&gt;POL - Ma?opolskie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder, Schrein, Infotafeln&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Gorlice&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Zborov&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;605m&lt;br /&gt;&lt;b&gt;Sehenswï¿½rdigkeit(en): &lt;/b&gt;Soldatenfriedhof vom 1. Weltkrieg</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:40:39Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.642199976369739" lon="20.38650001399219">
+    <time>2023-12-31T18:40:39Z</time>
+    <name>PL-Ostra Przelecz (812m))</name>
+    <cmt>Pass - 38.5 Punkte&lt;br /&gt;POL - Ma?opolskie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Bushaltestelle, Ortsschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Limanowa&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Kamienica&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;813m</cmt>
+    <desc>Pass - 38.5 Punkte&lt;br /&gt;POL - Ma?opolskie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Bushaltestelle, Ortsschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Limanowa&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Kamienica&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;813m</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:40:39Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.616486225277185" lon="19.255677927285433">
+    <ele>622.48046875</ele>
+    <time>2023-12-31T18:41:29Z</time>
+    <name>PL-Poloki (619m)</name>
+    <cmt>Wasserscheide - 34.2 Punkte&lt;br /&gt;POL - ?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Ortstafel, Statue, Bushaltestelle, S-Kurve&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Jelesnia&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Wegierska Gorka&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;610m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;</cmt>
+    <desc>Wasserscheide - 34.2 Punkte&lt;br /&gt;POL - ?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Ortstafel, Statue, Bushaltestelle, S-Kurve&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Jelesnia&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Wegierska Gorka&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;610m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:41:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.814951419830322" lon="19.282422065734863">
+    <ele>651.390625</ele>
+    <time>2024-02-03T16:55:32Z</time>
+    <name>PL-Przelecz Bukowska (662m)</name>
+    <cmt>Przelecz Bukowska (662)</cmt>
+    <desc>Przelecz Bukowska (662)</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-02-03T16:55:32Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.700163602828979" lon="20.179510172456503">
+    <ele>678.109375</ele>
+    <time>2023-12-31T18:39:43Z</time>
+    <name>PL-Przelecz Gruszowiec (678m)</name>
+    <cmt>Pass - 35.2 Punkte&lt;br /&gt;POL - Ma?opolskie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Ortsschild, Schilder&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Sowliny&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Mszana Dolna&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;660m</cmt>
+    <desc>Pass - 35.2 Punkte&lt;br /&gt;POL - Ma?opolskie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Ortsschild, Schilder&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Sowliny&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Mszana Dolna&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;660m</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:39:43Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.533087546005845" lon="21.49858770892024">
+    <ele>538.859375</ele>
+    <time>2023-12-31T18:39:43Z</time>
+    <name>PL-Przelecz Halbowska (540m)</name>
+    <cmt>Pass - 32.9 Punkte&lt;br /&gt;POL - Podkarpackie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Holztï¿½rmchen, Wanderschild, Holzhï¿½tte&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Krempna&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Nowy Zmigrod&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;540m</cmt>
+    <desc>Pass - 32.9 Punkte&lt;br /&gt;POL - Podkarpackie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Holztï¿½rmchen, Wanderschild, Holzhï¿½tte&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Krempna&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Nowy Zmigrod&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;540m</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:39:43Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.655999965965748" lon="16.526599992066622">
+    <time>2023-12-31T18:39:43Z</time>
+    <name>PL-Przelecz Jugowska (805m)</name>
+    <cmt>Pass - 38.3 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder, Parkplatz, kleines weisses Passschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Pieszyce&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Sokolec&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;801m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Beliebtes Ausflugsziel.</cmt>
+    <desc>Pass - 38.3 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder, Parkplatz, kleines weisses Passschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Pieszyce&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Sokolec&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;801m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Beliebtes Ausflugsziel.</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:39:43Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.86028253659606" lon="15.87867870926857">
+    <ele>475.86328125</ele>
+    <time>2023-12-31T18:39:43Z</time>
+    <name>PL-Przelecz Karpnicka (475m)</name>
+    <cmt>Pass - 31.7 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Hï¿½tte, Wanderschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Lomnica&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Trzcinsko&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;475m</cmt>
+    <desc>Pass - 31.7 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Hï¿½tte, Wanderschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Lomnica&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Trzcinsko&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;475m</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:39:43Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.503938388079405" lon="20.188000705093145">
+    <ele>832.42578125</ele>
+    <time>2023-12-31T18:40:39Z</time>
+    <name>PL-Przelecz Knurowska (846m)</name>
+    <cmt>Pass - 38.9 Punkte&lt;br /&gt;POL - Ma?opolskie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;1.Weltkriegtafel, Kreuz, Bushaltestelle&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Nizni Gornik&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Knurow&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;830m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Infotafel 1. Weltkrieg (auch in deutsch)</cmt>
+    <desc>Pass - 38.9 Punkte&lt;br /&gt;POL - Ma?opolskie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;1.Weltkriegtafel, Kreuz, Bushaltestelle&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Nizni Gornik&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Knurow&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;830m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Infotafel 1. Weltkrieg (auch in deutsch)</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:40:39Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.370020410045981" lon="16.919035837054253">
+    <ele>667.99609375</ele>
+    <time>2023-12-31T18:40:39Z</time>
+    <name>PL-Przelecz Ladecka (665m)</name>
+    <cmt>Pass - 35.3 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Wanderschild, Holzhï¿½tte&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Javornik&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Ladek Zdroj&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;665m</cmt>
+    <desc>Pass - 35.3 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Wanderschild, Holzhï¿½tte&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Javornik&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Ladek Zdroj&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;665m</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:40:39Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.814599990844727" lon="15.862099975347519">
+    <time>2023-12-31T18:40:06Z</time>
+    <name>PL-Przelecz pod Srednica (601m)</name>
+    <cmt>Pass - 33.9 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Wanderkarte, Stein&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Kowary&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Karpnicki&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;595m</cmt>
+    <desc>Pass - 33.9 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Wanderkarte, Stein&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Kowary&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Karpnicki&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;595m</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:40:06Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.793167021125555" lon="19.129641260951757">
+    <ele>660.61328125</ele>
+    <time>2023-12-31T18:40:21Z</time>
+    <name>PL-Przelecz Przegibek (661m)</name>
+    <cmt>Pass - 35.3 Punkte&lt;br /&gt;POL - ?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Restaurant, Wanderschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Miedzybrodzie Bialskie&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Bielsko Biala&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;663m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Tolle Strecke, kleines Restaurant auf der Passhï¿½he.</cmt>
+    <desc>Pass - 35.3 Punkte&lt;br /&gt;POL - ?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Restaurant, Wanderschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Miedzybrodzie Bialskie&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Bielsko Biala&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;663m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Tolle Strecke, kleines Restaurant auf der Passhï¿½he.</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:40:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.685800038278103" lon="19.563299976289272">
+    <time>2023-12-31T18:40:21Z</time>
+    <name>PL-Przelecz Przyslop (661m)</name>
+    <cmt>Wasserscheide - 35.3 Punkte&lt;br /&gt;POL - Ma?opolskie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder, Plakat, Holzbank&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Stryszawa&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Zawoja&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;661m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Kleine feine Nebenstrecke</cmt>
+    <desc>Wasserscheide - 35.3 Punkte&lt;br /&gt;POL - Ma?opolskie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder, Plakat, Holzbank&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Stryszawa&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Zawoja&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;661m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Kleine feine Nebenstrecke</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:40:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.558849995955825" lon="22.33223126269877">
+    <ele>625.1171875</ele>
+    <time>2023-12-31T18:40:21Z</time>
+    <name>PL-Przelecz Przyslup (620m)</name>
+    <cmt>Pass - 34.4 Punkte&lt;br /&gt;POL - Podkarpackie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Wanderschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Sanok&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Tyrawa Woloska&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;620m</cmt>
+    <desc>Pass - 34.4 Punkte&lt;br /&gt;POL - Podkarpackie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Wanderschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Sanok&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Tyrawa Woloska&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;620m</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:40:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.263991765677929" lon="16.813541790470481">
+    <ele>856.265625</ele>
+    <time>2023-12-31T18:40:21Z</time>
+    <name>PL-Przelecz Puchaczowka (862m)</name>
+    <cmt>Pass - 40.6 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder, Infokarte&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Ladek Zdroj&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Bystrzyca Kodska&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;899m</cmt>
+    <desc>Pass - 40.6 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder, Infokarte&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Ladek Zdroj&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Bystrzyca Kodska&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;899m</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:40:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.664800018072128" lon="18.960399990901351">
+    <time>2023-12-31T18:40:21Z</time>
+    <name>PL-Przelecz Salmopolska (934m)</name>
+    <cmt>Pass - 41.4 Punkte&lt;br /&gt;POL - ?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder, Restaurant, kleines gelbes Passschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Wisla&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Buczkowice&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;934m</cmt>
+    <desc>Pass - 41.4 Punkte&lt;br /&gt;POL - ?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder, Restaurant, kleines gelbes Passschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Wisla&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Buczkowice&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;934m</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:40:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.662246998399496" lon="16.46561611443758">
+    <ele>751.95703125</ele>
+    <time>2023-12-31T18:40:21Z</time>
+    <name>PL-Przelecz Sokola (752m)</name>
+    <cmt>Pass - 37.2 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder, Restaurant, kleines gelbes Passschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Walim&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Sokolec&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;754m</cmt>
+    <desc>Pass - 37.2 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder, Restaurant, kleines gelbes Passschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Walim&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Sokolec&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;754m</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:40:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.570851396769285" lon="16.635953821241856">
+    <ele>594.8203125</ele>
+    <time>2023-12-31T18:40:06Z</time>
+    <name>PL-Przelecz Srebrna (595m)</name>
+    <cmt>Pass - 34 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Ortsschild, Wanderkarte, &lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Srebrna Gorna&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Nowa Ruda&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;596m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Gehï¿½rt unter den Passknackern zu den Top 5 in Polen.&lt;br /&gt;&lt;b&gt;Sehenswï¿½rdigkeit(en): &lt;/b&gt;Viaduct Wiszacy</cmt>
+    <desc>Pass - 34 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Ortsschild, Wanderkarte, &lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Srebrna Gorna&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Nowa Ruda&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;596m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Gehï¿½rt unter den Passknackern zu den Top 5 in Polen.&lt;br /&gt;&lt;b&gt;Sehenswï¿½rdigkeit(en): &lt;/b&gt;Viaduct Wiszacy</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:40:06Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.482799982652068" lon="21.806400027126074">
+    <time>2023-12-31T18:40:06Z</time>
+    <name>PL-Przelecz Szklarska (585m)</name>
+    <cmt>Wasserscheide - 33.8 Punkte&lt;br /&gt;POL - Podkarpackie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schrein&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Rymanow&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Daliowa&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;590m</cmt>
+    <desc>Wasserscheide - 33.8 Punkte&lt;br /&gt;POL - Podkarpackie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schrein&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Rymanow&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Daliowa&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;590m</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:40:06Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.817389488220215" lon="15.433344841003418">
+    <ele>889.5703125</ele>
+    <time>2024-01-07T19:57:55Z</time>
+    <name>PL-Przelecz Szklarska (886m)</name>
+    <cmt>Przelecz Szklarska (886)</cmt>
+    <desc>Przelecz Szklarska (886)</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-01-07T19:57:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.696999961510301" lon="16.474799998104572">
+    <time>2023-12-31T18:40:06Z</time>
+    <name>PL-Przelecz Walimska (755m)</name>
+    <cmt>Pass - 37.3 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder, Wanderschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Walim&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Pieszyce&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt,Kopfsteinpflaster&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;755m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Fast die ganze Stecke ist Kopfsteinpflaster. Wenn man Glï¿½ck hat ist ein Markt hier oben auf dem Parkplatz.</cmt>
+    <desc>Pass - 37.3 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder, Wanderschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Walim&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Pieszyce&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt,Kopfsteinpflaster&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;755m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Fast die ganze Stecke ist Kopfsteinpflaster. Wenn man Glï¿½ck hat ist ein Markt hier oben auf dem Parkplatz.</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:40:06Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.78540001437068" lon="20.439399965107441">
+    <time>2023-12-31T18:40:06Z</time>
+    <name>PL-Przelecz Widoma 535m)</name>
+    <cmt>Pass - 32.8 Punkte&lt;br /&gt;POL - Ma?opolskie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Parkplatz, Panoramatafel&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Mlynne&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Lakta Gorna&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;535m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Wurde von den Passknackern zum Nr. 1 Pass in Polen gewï¿½hlt.</cmt>
+    <desc>Pass - 32.8 Punkte&lt;br /&gt;POL - Ma?opolskie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Parkplatz, Panoramatafel&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Mlynne&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Lakta Gorna&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;535m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Wurde von den Passknackern zum Nr. 1 Pass in Polen gewï¿½hlt.</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:40:06Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.543743567541242" lon="16.664602411910892">
+    <ele>542.6640625</ele>
+    <time>2023-12-31T18:40:06Z</time>
+    <name>PL-Przelecz Wilcza (543m)</name>
+    <cmt>Wasserscheide - 32.8 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Holzunterstand, kleines gelbes Passschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Srebrna Gorna&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Wojborz&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;532m</cmt>
+    <desc>Wasserscheide - 32.8 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Holzunterstand, kleines gelbes Passschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Srebrna Gorna&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Wojborz&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;532m</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:40:06Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.623261090368032" lon="16.588088041171432">
+    <ele>722.5703125</ele>
+    <time>2023-12-31T18:40:06Z</time>
+    <name>PL-Przelecz Woliborska (711m)</name>
+    <cmt>Pass - 36.3 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder, Holzhï¿½tte, kleines gelbes Passschiild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Woliborz&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Bielawa&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;711m</cmt>
+    <desc>Pass - 36.3 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder, Holzhï¿½tte, kleines gelbes Passschiild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Woliborz&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Bielawa&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;711m</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:40:06Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.598121643066406" lon="19.650528430938721">
+    <ele>873.9921875</ele>
+    <time>2023-12-31T18:39:11Z</time>
+    <name>PL-Przelecz Zubrzycka (876m)</name>
+    <cmt>Przelecz Zubrzycka (876)</cmt>
+    <desc>Przelecz Zubrzycka (876)</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:39:11Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="50.299241272732615" lon="16.487219715490937">
+    <ele>749.83984375</ele>
+    <time>2023-12-31T18:41:29Z</time>
+    <name>PL-Rozdroze pod Uboczem (750m)</name>
+    <cmt>Wasserscheide - 37.2 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Verzweigung, km Stein 136/137, Grï¿½ne Schranke&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Lasowka&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Stara Bystrzyca&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt (schlechter Zustand)&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;751m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;ï¿½ble Schlaglï¿½cher</cmt>
+    <desc>Wasserscheide - 37.2 Punkte&lt;br /&gt;POL - Dolno?l?skie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Verzweigung, km Stein 136/137, Grï¿½ne Schranke&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Lasowka&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Stara Bystrzyca&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt (schlechter Zustand)&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;751m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;ï¿½ble Schlaglï¿½cher</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:41:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.21061578206718" lon="22.240610690787435">
+    <ele>750.78125</ele>
+    <time>2023-12-31T18:40:06Z</time>
+    <name>PL-Szczerbanowka Przelecz (749m)</name>
+    <cmt>Pass - 37.1 Punkte&lt;br /&gt;POL - Podkarpackie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Holzschild, Holzturm&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Cisna&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Smolnik&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;750m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Ein 9 m hoher Aussichtsturm aus Holz wurde von den hiesigen Fï¿½rster erstellt. Er wird jeden Morgen und jeden Abend geï¿½ffnet bzw. geschlossen.
+Gehï¿½rt unter den Passknackern zu den Top 5 in Polen.</cmt>
+    <desc>Pass - 37.1 Punkte&lt;br /&gt;POL - Podkarpackie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Holzschild, Holzturm&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Cisna&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Smolnik&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;750m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Ein 9 m hoher Aussichtsturm aus Holz wurde von den hiesigen Fï¿½rster erstellt. Er wird jeden Morgen und jeden Abend geï¿½ffnet bzw. geschlossen.
+Gehï¿½rt unter den Passknackern zu den Top 5 in Polen.</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:40:06Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.374533789232373" lon="21.102440692484379">
+    <ele>680.58984375</ele>
+    <time>2023-12-31T18:40:06Z</time>
+    <name>PL-Tylicka Przelecz / Kurovske Sedlo (681m)</name>
+    <cmt>Pass - 35.7 Punkte&lt;br /&gt;POL - Ma?opolskie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder, Kreuz, Wanderschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Tarnov&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Powroznik&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;680m</cmt>
+    <desc>Pass - 35.7 Punkte&lt;br /&gt;POL - Ma?opolskie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder, Kreuz, Wanderschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Tarnov&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Powroznik&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;680m</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:40:06Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="49.141677645966411" lon="22.548352936282754">
+    <ele>871.30078125</ele>
+    <time>2023-12-31T18:40:06Z</time>
+    <name>PL-Wyznej Przelecz (672m)</name>
+    <cmt>Pass - 39.9 Punkte&lt;br /&gt;POL - Podkarpackie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder, Infotafel&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Brzgi Gorne&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Kalnica&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;872m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Toller Pass ganz im Osten Polens. Naturschutzpark Bieszczadzki Park Narodowy.
+Viele Leute wandern von der Passhï¿½he auf den Hasiakowa Skala (1228 m), dort hat es auch eine Hï¿½tte.
+Der Verkï¿½ufer am Kiosk auf dem Parkplatz lernt deutsch und freut sich, wenn man ihn anspricht.
+Gehï¿½rt unter den Passknackern zu den Top 5 in Polen.&lt;br /&gt;&lt;b&gt;Sehenswï¿½rdigkeit(en): &lt;/b&gt;Aussicht auf die Ukraine.</cmt>
+    <desc>Pass - 39.9 Punkte&lt;br /&gt;POL - Podkarpackie &lt;b&gt;POL&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder, Infotafel&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Brzgi Gorne&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Kalnica&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;872m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Toller Pass ganz im Osten Polens. Naturschutzpark Bieszczadzki Park Narodowy.
+Viele Leute wandern von der Passhï¿½he auf den Hasiakowa Skala (1228 m), dort hat es auch eine Hï¿½tte.
+Der Verkï¿½ufer am Kiosk auf dem Parkplatz lernt deutsch und freut sich, wenn man ihn anspricht.
+Gehï¿½rt unter den Passknackern zu den Top 5 in Polen.&lt;br /&gt;&lt;b&gt;Sehenswï¿½rdigkeit(en): &lt;/b&gt;Aussicht auf die Ukraine.</desc>
+    <sym>Custom 56</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-31T18:40:06Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+</gpx>

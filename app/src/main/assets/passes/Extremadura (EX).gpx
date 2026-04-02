@@ -1,0 +1,1373 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2022-11-18T12:36:51Z</time>
+    <bounds maxlat="40.399603843688965" maxlon="-4.931969409808517" minlat="37.987919999286532" minlon="-7.306299973279238" />
+  </metadata>
+
+  <wpt lat="40.33094834536314" lon="-5.796217555180192">
+    <time>2018-08-07T07:56:04Z</time>
+    <name>EX*Collado de La Angostura (1305m)</name>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-08-07T07:56:04Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.048442704603076" lon="-6.366447983309627">
+    <ele>997.0625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX*Collado de La Majada del Moral (998m)</name>
+    <cmt>BA-109</cmt>
+    <desc>BA-109</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.055019984021783" lon="-6.405419977381825">
+    <ele>893</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX*Collado Garrido (893m)</name>
+    <cmt>BA-109</cmt>
+    <desc>BA-109</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.054451942443848" lon="-6.337995529174805">
+    <ele>1093.4140625</ele>
+    <time>2022-09-12T17:29:12Z</time>
+    <name>EX*Monasterio de Tentudia (1112m)</name>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2022-09-12T17:29:12Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.469296159222722" lon="-5.401696208864451">
+    <ele>1571.3515625</ele>
+    <time>2019-03-06T17:49:52Z</time>
+    <name>EX*Pico Villuerca (1595m)</name>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-03-06T17:49:52Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.917962564155459" lon="-4.931969409808517">
+    <ele>746.84765625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX*Puerto de Azorejo (747m)</name>
+    <cmt>BA-134</cmt>
+    <desc>BA-134</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.399603843688965" lon="-6.397476196289063">
+    <ele>1295</ele>
+    <time>2021-10-22T11:29:15Z</time>
+    <name>EX*Puerto de Esperaban (1295m)</name>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-10-22T11:29:15Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.143973350524902" lon="-6.855597496032715">
+    <ele>0</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX*Puerto de Fregenal (434m)</name>
+    <cmt>C-439</cmt>
+    <desc>C-439</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.221898863092065" lon="-5.87173942476511">
+    <ele>1434</ele>
+    <time>2013-09-02T09:37:43Z</time>
+    <name>EX*Puerto de Honduras (1440m)</name>
+    <cmt>EX-Puerto de Honduras (1434m)</cmt>
+    <desc>EX-Puerto de Honduras (1434m)</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-02T09:37:43Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.148743826895952" lon="-6.20322952978313">
+    <ele>655.8359375</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX*Puerto de La Bejarana (657m)</name>
+    <cmt>BA-067</cmt>
+    <desc>BA-067</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.25632899068296" lon="-6.690880106762052">
+    <ele>494</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX*Puerto de la Beltrana (494m)</name>
+    <cmt>N-435</cmt>
+    <desc>N-435</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.078794749453664" lon="-6.258268123492599">
+    <ele>753.40625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX*Puerto de la Cruz (751m)</name>
+    <cmt>N-630</cmt>
+    <desc>N-630</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.226600021123886" lon="-6.589009976014495">
+    <ele>698</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX*Puerto de la Cruz de Piedra (698m)</name>
+    <cmt>CC-6.2</cmt>
+    <desc>CC-6.2</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.058078289031982" lon="-6.412582397460938">
+    <ele>912</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX*Puerto de la Media Legua (912m)</name>
+    <cmt>BA-109</cmt>
+    <desc>BA-109</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.098568916320801" lon="-6.206803321838379">
+    <ele>764.99999999999989</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX*Puerto de la Mina (765m)</name>
+    <cmt>EX-103</cmt>
+    <desc>EX-103</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.097690660506487" lon="-6.514405589550734">
+    <ele>716.8515625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX*Puerto de la Tora (718m)</name>
+    <cmt>EX-201</cmt>
+    <desc>EX-201</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="37.987919999286532" lon="-6.230389997363091">
+    <ele>492</ele>
+    <time>2013-04-03T09:45:59Z</time>
+    <name>EX*Puerto de las Marismas (492m)</name>
+    <cmt>EX-Puerto de las Marismas (492m)</cmt>
+    <desc>EX-Puerto de las Marismas (492m)</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-03T09:45:59Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.146483898162842" lon="-6.870338916778565">
+    <ele>0</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX*Puerto de los Carreteros (395m)</name>
+    <cmt>H-212</cmt>
+    <desc>H-212</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.820730499923229" lon="-6.364666828885675">
+    <ele>492.4609375</ele>
+    <time>2013-04-06T16:34:28Z</time>
+    <name>EX*Puerto de Los Castaños (440m)</name>
+    <cmt>EX-Puerto de los castaños (440m)</cmt>
+    <desc>EX-Puerto de los castaños (440m)</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-06T16:34:28Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.04561666212976" lon="-6.355516640469432">
+    <ele>946.39453125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX*Puerto de los Ciegos (852m)</name>
+    <cmt>BA-109</cmt>
+    <desc>BA-109</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.713507937267423" lon="-5.738759273663163">
+    <ele>667.73828125</ele>
+    <time>2016-03-02T13:00:35Z</time>
+    <name>EX*Puerto de Miravete (666m)</name>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2016-03-02T13:00:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.759796135127544" lon="-6.127230729907751">
+    <ele>414.93359375</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX*Puerto de Palomas (415m)</name>
+    <cmt>EX-335</cmt>
+    <desc>EX-335</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.124516487121582" lon="-5.817282199859619">
+    <time>2018-08-07T07:38:46Z</time>
+    <name>EX*Puerto de Piornal (1270m)</name>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-08-07T07:38:46Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.372976776212454" lon="-5.330710038542748">
+    <time>2019-05-29T16:10:48Z</time>
+    <name>EX*Puerto de Puertollano (800m)</name>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-05-29T16:10:48Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.51794640161097" lon="-5.116777298972011">
+    <ele>812.93359375</ele>
+    <time>2013-09-02T09:49:40Z</time>
+    <name>EX*Puerto de San Vicente (804m)</name>
+    <cmt>EX-Puerto de San Vicente (804m)</cmt>
+    <desc>EX-Puerto de San Vicente (804m)</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-02T09:49:40Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.246349964290857" lon="-6.777470028027892">
+    <ele>1020</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX*Puerto de Santa Claran (1020m)</name>
+    <cmt>CV-193 - CV-12</cmt>
+    <desc>CV-193 - CV-12</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.821245292201638" lon="-6.369025083258748">
+    <ele>309.3046875</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX*Puerto de Sevilla (307m)</name>
+    <cmt>N-630</cmt>
+    <desc>N-630</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.241908345371485" lon="-6.683874931186438">
+    <ele>557.42999999999995</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX*Puerto de Tablada (559m)</name>
+    <cmt>N-435</cmt>
+    <desc>N-435</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.273069962859154" lon="-5.661960002034903">
+    <ele>1279</ele>
+    <time>2013-08-13T15:49:35Z</time>
+    <name>EX*Puerto de Tornavacas (1275m)</name>
+    <cmt>EX-Puerto de Tornavacas (1279m)</cmt>
+    <desc>EX-Puerto de Tornavacas (1279m)</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-08-13T15:49:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.178410029038787" lon="-6.775919962674379">
+    <ele>725</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX*Puerto de Trevejo (725m)</name>
+    <cmt>CC-143</cmt>
+    <desc>CC-143</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.424037378281355" lon="-5.984273934736848">
+    <ele>571</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX*Puerto de Valdecominos (571m)</name>
+    <cmt>EX-103</cmt>
+    <desc>EX-103</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.375849984586239" lon="-6.491280002519488">
+    <ele>572</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX*Puerto de Valverde (573m)</name>
+    <cmt>EX-101</cmt>
+    <desc>EX-101</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.447486950084567" lon="-5.027412297204137">
+    <ele>636.828125</ele>
+    <time>2013-09-02T09:58:27Z</time>
+    <name>EX*Puerto del Rey (619m)</name>
+    <cmt>EX-Puerto del Rey (619m)</cmt>
+    <desc>EX-Puerto del Rey (619m)</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-02T09:58:27Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.152557341381907" lon="-6.08914989978075">
+    <ele>463.70703125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX*Puerto del Águila (458m)</name>
+    <cmt>EX-103</cmt>
+    <desc>EX-103</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.347490115091205" lon="-6.534587871283293">
+    <ele>915</ele>
+    <time>2013-04-06T16:38:00Z</time>
+    <name>EX*Puerto Nuevo (915m)</name>
+    <cmt>EX-Puerto Nuevo (880m)</cmt>
+    <desc>EX-Puerto Nuevo (880m)</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-06T16:38:00Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.351420029997826" lon="-7.306299973279238">
+    <ele>649</ele>
+    <time>2017-02-16T08:19:53Z</time>
+    <name>EX*Puerto Roque (649m)</name>
+    <cmt>EN-246-1</cmt>
+    <desc>EN-246-1</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2017-02-16T08:19:53Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.262645222246647" lon="-6.856247428804636">
+    <ele>1061.24609375</ele>
+    <time>2013-04-06T16:35:41Z</time>
+    <name>EX*Puerto Viejo (1067m)</name>
+    <cmt>EX-Puerto Viejo (1067m)</cmt>
+    <desc>EX-Puerto Viejo (1067m)</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-06T16:35:41Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.372679159045219" lon="-6.465168865397573">
+    <ele>1109.6640625</ele>
+    <time>2018-01-23T17:29:23Z</time>
+    <name>EX*Puerto Viejo (1115m)</name>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-01-23T17:29:23Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.072417259216309" lon="-5.835542678833008">
+    <ele>976.30859375</ele>
+    <time>2022-09-08T19:14:14Z</time>
+    <name>EX-Alto de la Desesperá (977m)</name>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2022-09-08T19:14:14Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.809076612815261" lon="-5.110521716997027">
+    <ele>465.78125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX-Collado de Santa Ana (469m)</name>
+    <cmt>BA-4143</cmt>
+    <desc>BA-4143</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.574249992147088" lon="-5.350389992818236">
+    <ele>1099</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX-Collado del Hospital (1096m)</name>
+    <cmt>CC-202</cmt>
+    <desc>CC-202</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.685844890773296" lon="-5.575398411601782">
+    <ele>716.51171875</ele>
+    <time>2021-11-13T18:48:46Z</time>
+    <name>EX-Collado del Puerto (717m)</name>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-11-13T18:48:46Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.426806507632136" lon="-6.175485933199525">
+    <ele>536.2421875</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX-Portillo de la Mangada (538m)</name>
+    <cmt>BA-141</cmt>
+    <desc>BA-141</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.466277308762074" lon="-5.674904175102711">
+    <ele>633.41796875</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX-Puerto Azuaga (639m)</name>
+    <cmt>EX-111</cmt>
+    <desc>EX-111</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.640002250671387" lon="-5.262687206268311">
+    <ele>0</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX-Puerto de Arrebatacapas (910m)</name>
+    <cmt>CC-202</cmt>
+    <desc>CC-202</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.559862095862627" lon="-5.652400525286794">
+    <ele>692.86328125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX-Puerto de Azuaga (697m)</name>
+    <cmt>EX-111</cmt>
+    <desc>EX-111</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.32313041202724" lon="-5.877707004547119">
+    <ele>577</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX-Puerto de Buenahiguera (578m)</name>
+    <cmt>BA-027</cmt>
+    <desc>BA-027</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.5300646815449" lon="-5.562171516939998">
+    <ele>671.1875</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX-Puerto de Castuera de las Ollas (672m)</name>
+    <cmt>BA-159</cmt>
+    <desc>BA-159</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.168579960241914" lon="-6.630160007625818">
+    <ele>410</ele>
+    <time>2013-04-06T16:18:41Z</time>
+    <name>EX-Puerto de El Zangano (410m)</name>
+    <cmt>EX-Puerto de El Zangano (410m)</cmt>
+    <desc>EX-Puerto de El Zangano (410m)</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-06T16:18:41Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.430269598960876" lon="-7.03006505034864">
+    <ele>514.0078125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX-Puerto de Elice (514m)</name>
+    <cmt>BA-133 CC-91</cmt>
+    <desc>BA-133 CC-91</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.185509057715535" lon="-6.600365107879043">
+    <ele>390</ele>
+    <time>2013-04-06T16:33:08Z</time>
+    <name>EX-Puerto de la Covacha (390m)</name>
+    <cmt>EX-Puerto de la Covacha (390m)</cmt>
+    <desc>EX-Puerto de la Covacha (390m)</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-06T16:33:08Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.489896422252059" lon="-6.576067479327321">
+    <ele>618.77734375</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX-Puerto de la Dehesilla (611m)</name>
+    <cmt>BA-3028</cmt>
+    <desc>BA-3028</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.233949979767203" lon="-6.587589997798204">
+    <ele>573</ele>
+    <time>2013-04-03T09:47:15Z</time>
+    <name>EX-Puerto de La Granja (573m)</name>
+    <cmt>EX-Puerto de La Granja (573m)</cmt>
+    <desc>EX-Puerto de La Granja (573m)</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-03T09:47:15Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.697959985584021" lon="-5.245890039950609">
+    <ele>658</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX-Puerto de la Nava (706m)</name>
+    <cmt>BA-036</cmt>
+    <desc>BA-036</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.497383305802941" lon="-6.577183362096548">
+    <ele>681.41015625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX-Puerto de la Puerta del Castaño (681m)</name>
+    <cmt>BA-3028</cmt>
+    <desc>BA-3028</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.143103333190084" lon="-6.843969449400902">
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX-Puerto de las Liebres (296m)</name>
+    <cmt>EX-325</cmt>
+    <desc>EX-325</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.155488014221191" lon="-6.982455337420106">
+    <ele>360</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX-Puerto de los Conejeros (354m)</name>
+    <cmt>EX-110</cmt>
+    <desc>EX-110</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.265810012817383" lon="-6.56749002635479">
+    <ele>504.99999999999989</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX-Puerto de los Reventones (504m)</name>
+    <cmt>EX-101</cmt>
+    <desc>EX-101</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.202580036595464" lon="-6.389350024983287">
+    <ele>566</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX-Puerto de San Bernabé (570m)</name>
+    <cmt>EX-202</cmt>
+    <desc>EX-202</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.377459980547428" lon="-6.483620032668114">
+    <ele>548</ele>
+    <time>2013-04-03T09:48:26Z</time>
+    <name>EX-Puerto de Santo Domingo (548m)</name>
+    <cmt>EX-Puerto de Santo Domingo (548m)</cmt>
+    <desc>EX-Puerto de Santo Domingo (548m)</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-03T09:48:26Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.47519657574594" lon="-5.587128801271319">
+    <ele>603.359375</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX-Puerto del Campillo (603m)</name>
+    <cmt>EX-221</cmt>
+    <desc>EX-221</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.304261514917016" lon="-6.515826657414436">
+    <ele>400</ele>
+    <time>2013-04-06T16:32:08Z</time>
+    <name>EX-Puerto del Clavín (400m)</name>
+    <cmt>EX-Puerto del Clavín (400m)</cmt>
+    <desc>EX-Puerto del Clavín (400m)</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-06T16:32:08Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.18493596278131" lon="-6.411123275756836">
+    <ele>517</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX-Puerto del Gallo (517m)</name>
+    <cmt>EX-202</cmt>
+    <desc>EX-202</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.628046782687306" lon="-5.942374225705862">
+    <ele>573.39453125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX-Puerto del Moro (576m)</name>
+    <cmt>EX-210</cmt>
+    <desc>EX-210</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.098992921411991" lon="-5.8875338640064">
+    <ele>841.85546875</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX-Puerto del Rabanillo (838m)</name>
+    <cmt>CC-18 - CCV-137</cmt>
+    <desc>CC-18 - CCV-137</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.462761184200644" lon="-5.564273865893483">
+    <ele>574.8203125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>EX-Puerto Granja (575m)</name>
+    <cmt>BA-159</cmt>
+    <desc>BA-159</desc>
+    <sym>Custom 32</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+</gpx>

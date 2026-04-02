@@ -1,0 +1,746 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2022-11-20T15:47:27Z</time>
+    <bounds maxlat="43.452283926308155" maxlon="-3.283976688981056" minlat="42.861930727958679" minlon="-4.812848567962647" />
+  </metadata>
+
+  <wpt lat="43.300457987934351" lon="-3.651549713686109">
+    <ele>674</ele>
+    <time>2013-09-02T11:17:11Z</time>
+    <name>CA*Alto de Alisas (674m)</name>
+    <cmt>CA-Alto de Alisas (674m)</cmt>
+    <desc>CA-Alto de Alisas (674m)</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-02T11:17:11Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.24143648147583" lon="-4.645822048187256">
+    <ele>579.45703125</ele>
+    <time>2021-08-16T17:37:55Z</time>
+    <name>CA*Alto de Bejes (580m)</name>
+    <cmt>Parking</cmt>
+    <desc>Parking</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-08-16T17:37:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.861930727958679" lon="-3.866720795631409">
+    <ele>1004.9256</ele>
+    <time>2019-05-31T16:51:48Z</time>
+    <name>CA*Alto de El Hito (1005m)</name>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-05-31T16:51:48Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.222081158310175" lon="-3.732574051246047">
+    <ele>815</ele>
+    <time>2013-09-02T11:24:09Z</time>
+    <name>CA*Alto del Caracol (815m)</name>
+    <cmt>CA-Alto del Caracol (815m)</cmt>
+    <desc>CA-Alto del Caracol (815m)</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-02T11:24:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.03023892454803" lon="-4.355214927345514">
+    <ele>1580</ele>
+    <time>2013-11-30T13:43:54Z</time>
+    <name>CA*Braña Vieja (1580m)</name>
+    <cmt>CA-Braña Vieja (1580m)</cmt>
+    <desc>CA-Braña Vieja (1580m)</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-11-30T13:43:54Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.240416655316949" lon="-4.720194423571229">
+    <ele>1318.2109375</ele>
+    <time>2020-10-01T09:36:15Z</time>
+    <name>CA*Collada Barreda (1317m)</name>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-10-01T09:36:15Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.239659853279591" lon="-4.324248991906643">
+    <ele>592.375</ele>
+    <time>2013-09-03T08:47:44Z</time>
+    <name>CA*Collada de Carmona (520m)</name>
+    <cmt>CA-Collada de Carmona (520m)</cmt>
+    <desc>CA-Collada de Carmona (520m)</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-03T08:47:44Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.250858830288053" lon="-4.538764944300056">
+    <ele>639</ele>
+    <time>2013-09-03T08:45:19Z</time>
+    <name>CA*Collada de Hoz (639m)</name>
+    <cmt>CA-Collada de Hoz (639m)</cmt>
+    <desc>CA-Collada de Hoz (639m)</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-03T08:45:19Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.198994295671582" lon="-3.584154015406966">
+    <ele>682</ele>
+    <time>2013-09-03T07:12:11Z</time>
+    <name>CA*Collado de Ason (682m)</name>
+    <cmt>CA-Collado de Ason (682m)</cmt>
+    <desc>CA-Collado de Ason (682m)</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-03T07:12:11Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.045549392700195" lon="-4.393587112426758">
+    <ele>1992</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CA*Collado de la Fuente del Chivo (1992m)</name>
+    <cmt>CA-916</cmt>
+    <desc>CA-916</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.076527817174792" lon="-4.74969444796443">
+    <time>2020-01-25T18:42:51Z</time>
+    <name>CA*Collado de Llesba (1670m)</name>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-25T18:42:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.256586352363229" lon="-4.449736559763551">
+    <ele>554</ele>
+    <time>2013-09-03T08:46:33Z</time>
+    <name>CA*Collado de Ozalba (554m)</name>
+    <cmt>CA-Collado de Ozalba (554m)</cmt>
+    <desc>CA-Collado de Ozalba (554m)</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-03T08:46:33Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.286719964817166" lon="-4.003240037709475">
+    <ele>292</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CA*Collado de Trascampo (290m)</name>
+    <cmt>CA-170</cmt>
+    <desc>CA-170</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.013192983344197" lon="-4.327424978837371">
+    <ele>1470</ele>
+    <time>2013-11-30T13:44:21Z</time>
+    <name>CA*El Henar (1470m)</name>
+    <cmt>CA-El Henar (1470m)</cmt>
+    <desc>CA-El Henar (1470m)</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-11-30T13:44:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.144361972808838" lon="-4.812848567962647">
+    <ele>1089.5625</ele>
+    <time>2022-08-07T19:06:23Z</time>
+    <name>CA*Fuente Dé (1100m)</name>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2022-08-07T19:06:23Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.153154170140624" lon="-3.570605758577585">
+    <time>2013-09-02T11:13:41Z</time>
+    <name>CA*Portillo de la Sia (1200m)</name>
+    <cmt>CA-Portillo de la Sia (1200m)</cmt>
+    <desc>CA-Portillo de la Sia (1200m)</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-02T11:13:41Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.171870037913322" lon="-3.659630035981536">
+    <ele>1350</ele>
+    <time>2013-09-02T11:14:36Z</time>
+    <name>CA*Portillo de Lunada (1350m)</name>
+    <cmt>CA-Portillo de Lunada (1350m)</cmt>
+    <desc>CA-Portillo de Lunada (1350m)</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-02T11:14:36Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.177179973572493" lon="-3.796919994056225">
+    <ele>720</ele>
+    <time>2013-09-02T11:20:51Z</time>
+    <name>CA*Puerto de Bragia (720m)</name>
+    <cmt>CA-Puerto de Bragia (720m)</cmt>
+    <desc>CA-Puerto de Bragia (720m)</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-02T11:20:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.117450028657913" lon="-3.70488996617496">
+    <ele>1154</ele>
+    <time>2013-09-02T11:19:50Z</time>
+    <name>CA*Puerto de las Estacas de Trueba (1154m)</name>
+    <cmt>CA-Puerto de las Estacas de Trueba (1154m)</cmt>
+    <desc>CA-Puerto de las Estacas de Trueba (1154m)</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-02T11:19:50Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.063779613003135" lon="-4.232374699786305">
+    <time>2013-09-04T07:03:11Z</time>
+    <name>CA*Puerto de Palombera (1252m)</name>
+    <cmt>CA-Puerto de Palombera (1252m)</cmt>
+    <desc>CA-Puerto de Palombera (1252m)</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-04T07:03:11Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.92460129596293" lon="-4.119739271700382">
+    <ele>963</ele>
+    <time>2013-09-04T07:04:36Z</time>
+    <name>CA*Puerto de Pozazal (963m)</name>
+    <cmt>CA-Puerto de Pozazal (963m)</cmt>
+    <desc>CA-Puerto de Pozazal (963m)</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-04T07:04:36Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.066949984058738" lon="-4.76587001234293">
+    <ele>1609</ele>
+    <time>2013-04-03T09:08:51Z</time>
+    <name>CA*Puerto de San Glorio (1609m)</name>
+    <cmt>AS-Puerto de San Glorio (1600m)</cmt>
+    <desc>AS-Puerto de San Glorio (1600m)</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-03T09:08:51Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.046073513105512" lon="-3.877440160140395">
+    <ele>1011</ele>
+    <time>2013-09-02T11:30:53Z</time>
+    <name>CA*Puerto del Escudo (1011m)</name>
+    <cmt>CA-Puerto del Escudo (1011m)</cmt>
+    <desc>CA-Puerto del Escudo (1011m)</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-02T11:30:53Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.270274167880416" lon="-3.763535125181079">
+    <ele>678.328125</ele>
+    <time>2021-08-24T18:43:44Z</time>
+    <name>CA-Alto de Estranguada (685m)</name>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-08-24T18:43:44Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.299954487010837" lon="-3.564936155453324">
+    <time>2013-09-04T11:47:15Z</time>
+    <name>CA-Alto de la Cruz de Usaño (302m)</name>
+    <cmt>CA-Alto de la Cruz de Usaño (302m)</cmt>
+    <desc>CA-Alto de la Cruz de Usaño (302m)</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-04T11:47:15Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.235296485945582" lon="-3.746461272239685">
+    <ele>678.90625</ele>
+    <time>2021-03-30T18:55:02Z</time>
+    <name>CA-Alto de Merilla (680m)</name>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-03-30T18:55:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.379289200529456" lon="-3.778741406276822">
+    <ele>553.4140625</ele>
+    <time>2020-10-05T18:06:57Z</time>
+    <name>CA-Alto de Peña Cabarga (566m)</name>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-10-05T18:06:57Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.940492630004883" lon="-4.159054839983583">
+    <ele>1092</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CA-Alto del Bardal (1092m)</name>
+    <cmt>CA-284 - CA-832</cmt>
+    <desc>CA-284 - CA-832</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.452283926308155" lon="-3.525382038205862">
+    <ele>70.1953125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CA-Alto del Portillo (76m)</name>
+    <cmt>CA-460</cmt>
+    <desc>CA-460</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.258147900924087" lon="-3.65286173298955">
+    <time>2017-09-11T09:04:50Z</time>
+    <name>CA-Collado de la Espina (915m)</name>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2017-09-11T09:04:50Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.953962851315737" lon="-4.238314870744944">
+    <ele>1192.6953125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CA-Collado de Somahoz (1221m)</name>
+    <cmt>CA-280</cmt>
+    <desc>CA-280</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.213038174435496" lon="-3.984429035335779">
+    <ele>571</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>CA-El Portillón (571m)</name>
+    <cmt>CA-271</cmt>
+    <desc>CA-271</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.930965423583984" lon="-3.65419864654541">
+    <ele>1013.8359375</ele>
+    <time>2021-05-09T19:09:24Z</time>
+    <name>CA-Portillo de Manzanedo (1010m)</name>
+    <cmt>Portillo de Manzanedo (1010)</cmt>
+    <desc>Portillo de Manzanedo (1010)</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-05-09T19:09:24Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.318031234666705" lon="-3.475848846137524">
+    <ele>435</ele>
+    <time>2013-11-30T13:18:50Z</time>
+    <name>CA-Puerto de Campo El Hayal (435m)</name>
+    <cmt>CA-Puerto de Campo El Hayal (435m)</cmt>
+    <desc>CA-Puerto de Campo El Hayal (435m)</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-11-30T13:18:50Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.339569959789515" lon="-3.583429986611009">
+    <ele>438</ele>
+    <time>2013-09-05T17:53:39Z</time>
+    <name>CA-Puerto de Fuente Las Varas (438m)</name>
+    <cmt>CA-Puerto de Fuente Las Varas (438m)</cmt>
+    <desc>CA-Puerto de Fuente Las Varas (438m)</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-05T17:53:39Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.357005408033729" lon="-3.283976688981056">
+    <ele>378.3828125</ele>
+    <time>2013-09-04T07:05:40Z</time>
+    <name>CA-Puerto de la Jaya (395m)</name>
+    <cmt>CA-Puerto de la Jaya (322m)</cmt>
+    <desc>CA-Puerto de la Jaya (322m)</desc>
+    <sym>Custom 44</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-04T07:05:40Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+</gpx>

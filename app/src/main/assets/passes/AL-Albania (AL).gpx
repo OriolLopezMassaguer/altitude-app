@@ -1,0 +1,763 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2024-02-11T11:29:39Z</time>
+    <bounds maxlat="42.532503912225366" maxlon="20.878961300477386" minlat="39.655361585319042" minlon="19.503553938120604" />
+  </metadata>
+
+  <wpt lat="42.03472095541656" lon="19.930814579129219">
+    <ele>959.24609375</ele>
+    <time>2023-06-28T18:24:25Z</time>
+    <name>AL*Puerto de Puke (959m)</name>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-06-28T18:24:25Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.655361585319042" lon="20.158700840547681">
+    <ele>144.046875</ele>
+    <time>2023-12-28T20:14:16Z</time>
+    <name>AL*Qafa Bote (145m)</name>
+    <cmt>Pass - 27.1 Punkte&lt;br /&gt;ALB - Vlora &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Kreisverkehr, Grenzï¿½bergang&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Shkalla &lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Sagiada (GR)&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;142m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Kleiner Grenzï¿½bergang zwischen Albanien und Griechenland.
+Hochpunkt liegt ca. 200 m nï¿½rdlich des Kreisverkehrs auf / in einer Kuppe / Kurve.
+</cmt>
+    <desc>Pass - 27.1 Punkte&lt;br /&gt;ALB - Vlora &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Kreisverkehr, Grenzï¿½bergang&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Shkalla &lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Sagiada (GR)&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;142m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Kleiner Grenzï¿½bergang zwischen Albanien und Griechenland.
+Hochpunkt liegt ca. 200 m nï¿½rdlich des Kreisverkehrs auf / in einer Kuppe / Kurve.
+</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-28T20:14:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.38849401473999" lon="19.719686508178711">
+    <ele>1659.81640625</ele>
+    <time>2023-06-24T08:22:09Z</time>
+    <name>AL*Qafa Buni i Thores (1704m)</name>
+    <cmt>Qafa Buni i Thores (1704)</cmt>
+    <desc>Qafa Buni i Thores (1704)</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-06-24T08:22:09Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.198701107874513" lon="19.591688727959991">
+    <ele>1033.3671875</ele>
+    <time>2022-01-03T19:34:21Z</time>
+    <name>AL*Qafa Llogarase (1027m)</name>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2022-01-03T19:34:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.096700016409159" lon="20.118799963966012">
+    <time>2023-12-28T20:14:16Z</time>
+    <name>AL*Qafa Malit (949m)</name>
+    <cmt>Pass - 41.9 Punkte&lt;br /&gt;ALB - Shkodra &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schotterweg mit Bunker und Strommast&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Lajthize &lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Fushï¿½ Arrï¿½z &lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt (schlechter Zustand)&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;953m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Die ehemalige Hauptverbindung von der Adriakï¿½ste Richtung Kukï¿½s / Kosovo (E851) durch das dï¿½nnbesiedelte Hï¿½gelland Merdita erreicht hier ein weiteres Mal einen hï¿½chsten Punkt (neben Puka, 17 km sï¿½dwestlich, ebenfalls 953 m). Die Straï¿½e hat seit der Erï¿½ffnung der Autobahn A1 erheblich an Bedeutung verloren, was sich auf deren Zustand auswirkt.
+Einen guten Kilometer nordwestlich zweigt die SH22 zu den Nordalbanischen Alpen ab (75 km bis zum Hauptort Bajram Curri).</cmt>
+    <desc>Pass - 41.9 Punkte&lt;br /&gt;ALB - Shkodra &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schotterweg mit Bunker und Strommast&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Lajthize &lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Fushï¿½ Arrï¿½z &lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt (schlechter Zustand)&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;953m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Die ehemalige Hauptverbindung von der Adriakï¿½ste Richtung Kukï¿½s / Kosovo (E851) durch das dï¿½nnbesiedelte Hï¿½gelland Merdita erreicht hier ein weiteres Mal einen hï¿½chsten Punkt (neben Puka, 17 km sï¿½dwestlich, ebenfalls 953 m). Die Straï¿½e hat seit der Erï¿½ffnung der Autobahn A1 erheblich an Bedeutung verloren, was sich auf deren Zustand auswirkt.
+Einen guten Kilometer nordwestlich zweigt die SH22 zu den Nordalbanischen Alpen ab (75 km bis zum Hauptort Bajram Curri).</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-28T20:14:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.41260003298521" lon="20.221799975261092">
+    <time>2023-12-28T20:14:16Z</time>
+    <name>AL*Qafa Morines (563m)</name>
+    <cmt>Pass - 33.3 Punkte&lt;br /&gt;ALB - Kukï¿½s &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Grenzstation&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;SH22, Abzweig Tropojï¿½&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Ponoshec (Kosovo)&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;563m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;ï¿½ber die Passhï¿½he verlï¿½uft die Grenze Albanien / Kosovo.
+Hatte im Kosovokrieg groï¿½e strategische Bedeutung.
+Fï¿½r die Einreise nach Kosovo muss man eine Haftpflichtversicherung abschliessen an der Grenze.
+</cmt>
+    <desc>Pass - 33.3 Punkte&lt;br /&gt;ALB - Kukï¿½s &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Grenzstation&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;SH22, Abzweig Tropojï¿½&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Ponoshec (Kosovo)&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;563m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;ï¿½ber die Passhï¿½he verlï¿½uft die Grenze Albanien / Kosovo.
+Hatte im Kosovokrieg groï¿½e strategische Bedeutung.
+Fï¿½r die Einreise nach Kosovo muss man eine Haftpflichtversicherung abschliessen an der Grenze.
+</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-28T20:14:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.086200006306171" lon="20.176299987360835">
+    <time>2023-12-28T20:14:16Z</time>
+    <name>AL*Qafa Shllakut (814m)</name>
+    <cmt>Pass - 38.7 Punkte&lt;br /&gt;ALB - Kukï¿½s &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Megulle &lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Lajthize &lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt (schlechter Zustand)&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;819m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Ehemalige Hauptverbindung von der Adriakï¿½ste Richtung Kukï¿½s / Kosovo (E851). Hat seit der Erï¿½ffnung der Autobahn A1 erheblich an Bedeutung verloren, was sich leider auf den Straï¿½enzustand auswirkt.
+Insbesondere die Ostrampe ist bis Kalimash extrem kurvig.</cmt>
+    <desc>Pass - 38.7 Punkte&lt;br /&gt;ALB - Kukï¿½s &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Megulle &lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Lajthize &lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt (schlechter Zustand)&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;819m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Ehemalige Hauptverbindung von der Adriakï¿½ste Richtung Kukï¿½s / Kosovo (E851). Hat seit der Erï¿½ffnung der Autobahn A1 erheblich an Bedeutung verloren, was sich leider auf den Straï¿½enzustand auswirkt.
+Insbesondere die Ostrampe ist bis Kalimash extrem kurvig.</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-28T20:14:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.041613848879933" lon="19.876720374450088">
+    <ele>318.65234375</ele>
+    <time>2023-12-28T20:14:16Z</time>
+    <name>AL*Qafa Thanes (319m)</name>
+    <cmt>Pass - 29.3 Punkte&lt;br /&gt;ALB - Vlora &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Antennenanlage&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Lukova &lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Borsh &lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;323m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Die Hauptverbindungsstraï¿½e zwischen den Badeorten Saranda und Himare fï¿½hrt ï¿½ber weite Strecken durchs Hinterland des Citaurischen Gebirges, geht mehrfach auf ï¿½ber 300m, der hï¿½chste Punkt ist am Abzweig zur Antennenanlage.&lt;br /&gt;&lt;b&gt;Sehenswï¿½rdigkeit(en): &lt;/b&gt;Auf dem Weg nach Himare fï¿½hrt die SH8 entlang der Bucht Porto Palermo. An deren nï¿½rdlichem Ende befindet sich ein U-Boot-Bunker. Gute Sicht auf die Anlage besteht an der Zufahrt bei N40.07403 E19.77993 (jedoch kein Betreten, da militï¿½risches Sperrgebiet).</cmt>
+    <desc>Pass - 29.3 Punkte&lt;br /&gt;ALB - Vlora &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Antennenanlage&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Lukova &lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Borsh &lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;323m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Die Hauptverbindungsstraï¿½e zwischen den Badeorten Saranda und Himare fï¿½hrt ï¿½ber weite Strecken durchs Hinterland des Citaurischen Gebirges, geht mehrfach auf ï¿½ber 300m, der hï¿½chste Punkt ist am Abzweig zur Antennenanlage.&lt;br /&gt;&lt;b&gt;Sehenswï¿½rdigkeit(en): &lt;/b&gt;Auf dem Weg nach Himare fï¿½hrt die SH8 entlang der Bucht Porto Palermo. An deren nï¿½rdlichem Ende befindet sich ein U-Boot-Bunker. Gute Sicht auf die Anlage besteht an der Zufahrt bei N40.07403 E19.77993 (jedoch kein Betreten, da militï¿½risches Sperrgebiet).</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-28T20:14:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.136563796550035" lon="19.71670632250607">
+    <ele>376.84765625</ele>
+    <time>2023-12-28T20:14:16Z</time>
+    <name>AL*Qafa Vishes (377m)</name>
+    <cmt>Pass - 30.1 Punkte&lt;br /&gt;ALB - Vlora &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Passschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Himarï¿½&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Dhï¿½rmi&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;375m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Im Mai 2012 stï¿½rzte ein mit Studenten besetzter Bus von einer 80 m hohen Klippe. Das Unglï¿½ck forderte zahlreiche Tote und Verletzte.
+</cmt>
+    <desc>Pass - 30.1 Punkte&lt;br /&gt;ALB - Vlora &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Passschild&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Himarï¿½&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Dhï¿½rmi&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;375m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Im Mai 2012 stï¿½rzte ein mit Studenten besetzter Bus von einer 80 m hohen Klippe. Das Unglï¿½ck forderte zahlreiche Tote und Verletzte.
+</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-28T20:14:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.242855178192258" lon="20.322480043396354">
+    <ele>536.66015625</ele>
+    <time>2023-12-28T20:14:16Z</time>
+    <name>AL-Qafa Ardhaj (537m)</name>
+    <cmt>Pass - 32.8 Punkte&lt;br /&gt;ALB - Lezha &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Grï¿½ber beidseits der Straï¿½e&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Kam&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Golaj&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;550m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Einer der Pï¿½sse an der SH23 durch das hï¿½gelige Bergland von Has. Die Hochflï¿½che bei Perollaj wird vom Qafa e Bardhaj und vom Qafa e Furres begrenzt.</cmt>
+    <desc>Pass - 32.8 Punkte&lt;br /&gt;ALB - Lezha &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Grï¿½ber beidseits der Straï¿½e&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Kam&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Golaj&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;550m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Einer der Pï¿½sse an der SH23 durch das hï¿½gelige Bergland von Has. Die Hochflï¿½che bei Perollaj wird vom Qafa e Bardhaj und vom Qafa e Furres begrenzt.</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-28T20:14:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.254637870937586" lon="19.783628527075052">
+    <ele>897.3203125</ele>
+    <time>2023-12-28T20:14:16Z</time>
+    <name>AL-Qafa Astres (897m)</name>
+    <cmt>Pass - 40.6 Punkte&lt;br /&gt;ALB - Shkodra &lt;b&gt;XXX&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Kreuz&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Shkoder&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Theth&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Schotter&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;900m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Die Sï¿½dzufahrt nach Theth ist DER Klassiker unter den albanischen Offroad-Strecken. Die Route fï¿½hrt ï¿½ber 70 km von Shkodï¿½r zum Nationalpark Theth inmitten der Albanischen Alpen und ï¿½berquert dabei mehrere Hochpunkte, u.a. diesen Pass. Die ersten km (bis Preskali) sind noch asphaltiert.
+</cmt>
+    <desc>Pass - 40.6 Punkte&lt;br /&gt;ALB - Shkodra &lt;b&gt;XXX&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Kreuz&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Shkoder&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Theth&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Schotter&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;900m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Die Sï¿½dzufahrt nach Theth ist DER Klassiker unter den albanischen Offroad-Strecken. Die Route fï¿½hrt ï¿½ber 70 km von Shkodï¿½r zum Nationalpark Theth inmitten der Albanischen Alpen und ï¿½berquert dabei mehrere Hochpunkte, u.a. diesen Pass. Die ersten km (bis Preskali) sind noch asphaltiert.
+</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-28T20:14:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.287000015377998" lon="20.627899998798966">
+    <time>2023-12-28T20:14:16Z</time>
+    <name>AL-Qafa Barmashit (1037m)</name>
+    <cmt>Pass - 43.9 Punkte&lt;br /&gt;ALB - Korï¿½a &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;km-Stein 233&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Barmash&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Borovï¿½&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;1033m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Die SH75 wird als schï¿½nste Landstraï¿½e Albaniens beschrieben. Dies mag durchaus zutreffen in Bezug auf die Landschaft und die Streckenfï¿½hrung, jedoch nur bedingt auf den Straï¿½enzustand.
+Gehï¿½rt unter den Passknackern zu den Top 5 in Albanien.</cmt>
+    <desc>Pass - 43.9 Punkte&lt;br /&gt;ALB - Korï¿½a &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;km-Stein 233&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Barmash&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Borovï¿½&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;1033m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Die SH75 wird als schï¿½nste Landstraï¿½e Albaniens beschrieben. Dies mag durchaus zutreffen in Bezug auf die Landschaft und die Streckenfï¿½hrung, jedoch nur bedingt auf den Straï¿½enzustand.
+Gehï¿½rt unter den Passknackern zu den Top 5 in Albanien.</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-28T20:14:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.532503912225366" lon="19.719032216817141">
+    <ele>1353.41015625</ele>
+    <time>2023-12-28T20:14:16Z</time>
+    <name>AL-Qafa Bordolecit (1355m)</name>
+    <cmt>Pass - 52.7 Punkte&lt;br /&gt;ALB - Shkodra &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Wegweiser Koprisht-Quellen, Hï¿½user&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Tamara&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Grenzï¿½bergang Vermosh&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;1355m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Die Sï¿½dwestrampe fï¿½hrt durch eine grandiose Gebirgslandschaft mit teilweise herrlicher Trassenfï¿½hrung. Erst seit 2016 durchgehend asphaltiert, bis dahin sehr beliebte Offroad-Strecke.
+
+
+&lt;br /&gt;&lt;b&gt;Sehenswï¿½rdigkeit(en): &lt;/b&gt;Vom Parkplatz am nï¿½rdlichen Ortsende herrliche Aussicht auf die hï¿½chsten Gipfel der Albanischen Alpen.
+Jï¿½hrlich am zweiten Samstag im August findet auf dem Pass das Volksfest Logu i Bjeshkï¿½ve statt, der Wettkampf des Hochlands.
+Gehï¿½rt unter den Passknackern zu den Top 5 in Albanien.
+</cmt>
+    <desc>Pass - 52.7 Punkte&lt;br /&gt;ALB - Shkodra &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Wegweiser Koprisht-Quellen, Hï¿½user&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Tamara&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Grenzï¿½bergang Vermosh&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;1355m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Die Sï¿½dwestrampe fï¿½hrt durch eine grandiose Gebirgslandschaft mit teilweise herrlicher Trassenfï¿½hrung. Erst seit 2016 durchgehend asphaltiert, bis dahin sehr beliebte Offroad-Strecke.
+
+
+&lt;br /&gt;&lt;b&gt;Sehenswï¿½rdigkeit(en): &lt;/b&gt;Vom Parkplatz am nï¿½rdlichen Ortsende herrliche Aussicht auf die hï¿½chsten Gipfel der Albanischen Alpen.
+Jï¿½hrlich am zweiten Samstag im August findet auf dem Pass das Volksfest Logu i Bjeshkï¿½ve statt, der Wettkampf des Hochlands.
+Gehï¿½rt unter den Passknackern zu den Top 5 in Albanien.
+</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-28T20:14:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.481931423768401" lon="20.195384407415986">
+    <ele>842</ele>
+    <time>2023-12-28T20:14:16Z</time>
+    <name>AL-Qafa Buallit (842m)</name>
+    <cmt>Pass - 39.2 Punkte&lt;br /&gt;ALB - Dibra &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Tankstelle&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Klos&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Maqellara&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;842m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Bï¿½ffelpass. 
+Kï¿½nftig wird die Passhï¿½he von der im Bau befindlichen Schnellstraï¿½e in einem Tunnel unterquert. Die Ostrampe ist bereits bis ca. 10 km vor der nordmazedonischen Grenze zu einer breiten zweispurigen Straï¿½e ausgebaut, auf dem restlichen Teilstï¿½ck fehlen noch die Teerarbeiten. 
+Die Fertigstellung der Westrampe wird noch dauern, die Baumaï¿½nahmen wurden auch schon mehrfach eingestellt, aktuell wird jedoch gebaut (Stand: 05/2019).
+Nachtrag 09/2021: Das Teilstï¿½ck an der Ostrampe bis zur nordmazedonischen Grenze ist fertiggestellt, jedoch noch nicht offiziell freigegeben. An der Westrampe ist kein wesentlicher Baufortschritt ersichtlich.
+</cmt>
+    <desc>Pass - 39.2 Punkte&lt;br /&gt;ALB - Dibra &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Tankstelle&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Klos&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Maqellara&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;842m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Bï¿½ffelpass. 
+Kï¿½nftig wird die Passhï¿½he von der im Bau befindlichen Schnellstraï¿½e in einem Tunnel unterquert. Die Ostrampe ist bereits bis ca. 10 km vor der nordmazedonischen Grenze zu einer breiten zweispurigen Straï¿½e ausgebaut, auf dem restlichen Teilstï¿½ck fehlen noch die Teerarbeiten. 
+Die Fertigstellung der Westrampe wird noch dauern, die Baumaï¿½nahmen wurden auch schon mehrfach eingestellt, aktuell wird jedoch gebaut (Stand: 05/2019).
+Nachtrag 09/2021: Das Teilstï¿½ck an der Ostrampe bis zur nordmazedonischen Grenze ist fertiggestellt, jedoch noch nicht offiziell freigegeben. An der Westrampe ist kein wesentlicher Baufortschritt ersichtlich.
+</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-28T20:14:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.860235691070557" lon="20.694379806518555">
+    <ele>878.78515625</ele>
+    <time>2024-02-11T11:05:25Z</time>
+    <name>AL-Qafa e Plloçës (953m)</name>
+    <cmt>Qafa e Plloçës (953)</cmt>
+    <desc>Qafa e Plloçës (953)</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-02-11T11:05:25Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.256599990651011" lon="20.352599993348122">
+    <time>2023-12-28T20:14:16Z</time>
+    <name>AL-Qafa Furres (545m)</name>
+    <cmt>Pass - 33 Punkte&lt;br /&gt;ALB - Lezha &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Strassenschilder&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Kam&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Golaj&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;545m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Einer der Pï¿½sse an der SH23 durch das hï¿½gelige Bergland von Has. Die Hochflï¿½che bei Perollaj wird vom Qafa e Furres und dem Qafa e Bardhaj begrenzt.
+</cmt>
+    <desc>Pass - 33 Punkte&lt;br /&gt;ALB - Lezha &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Strassenschilder&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Kam&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Golaj&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;545m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Einer der Pï¿½sse an der SH23 durch das hï¿½gelige Bergland von Has. Die Hochflï¿½che bei Perollaj wird vom Qafa e Furres und dem Qafa e Bardhaj begrenzt.
+</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-28T20:14:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.197979342192411" lon="20.65248160623014">
+    <ele>1121.66015625</ele>
+    <time>2023-12-28T20:14:16Z</time>
+    <name>AL-Qafa Hazerit (1114m)</name>
+    <cmt>Pass - 46 Punkte&lt;br /&gt;ALB - Korï¿½a &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Verwitterter km-Stein&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Leskovik&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Barmash&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt (schlechter Zustand)&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;1113m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Die Zufahrt vom Vjosa-Tal bis Leskove ist in einem vï¿½llig desolaten Zustand, aufgebrochene Teerdecke mit groï¿½en Schlaglï¿½chern, Richtung Norden bessert sich der Zustand zusehends. Als Alternative bietet sich die SH 65 an welche ganz neu gemacht wurde und in einem Top Zustand ist. 
+</cmt>
+    <desc>Pass - 46 Punkte&lt;br /&gt;ALB - Korï¿½a &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Verwitterter km-Stein&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Leskovik&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Barmash&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt (schlechter Zustand)&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;1113m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Die Zufahrt vom Vjosa-Tal bis Leskove ist in einem vï¿½llig desolaten Zustand, aufgebrochene Teerdecke mit groï¿½en Schlaglï¿½chern, Richtung Norden bessert sich der Zustand zusehends. Als Alternative bietet sich die SH 65 an welche ganz neu gemacht wurde und in einem Top Zustand ist. 
+</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-28T20:14:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.164143970236182" lon="19.953528363257647">
+    <ele>788.33984375</ele>
+    <time>2023-12-28T20:14:16Z</time>
+    <name>AL-Qafa Krrabes (778m)</name>
+    <cmt>Pass - 38.3 Punkte&lt;br /&gt;ALB - Elbasan &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Strommast&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Mushqeta&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Bradashesh &lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;804m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Ehemalige Hauptverbindung von Tirana nach Elbasan, hat seit dem Bau der Autobahn nur noch ï¿½rtliche Bedeutung, ist dafï¿½r aber noch in erstaunlich gutem Zustand.
+Eine eigentliche Passhï¿½he ist nicht auszumachen, diese erstreckt sich einem Bergrï¿½cken entlang ï¿½ber ca. 3,5 km. &lt;br /&gt;&lt;b&gt;Sehenswï¿½rdigkeit(en): &lt;/b&gt;Im unteren Bereich der Sï¿½drampe mehrere Aussichtspunkte mit herrlicher Aussicht auf Elbasan und Umgebung.</cmt>
+    <desc>Pass - 38.3 Punkte&lt;br /&gt;ALB - Elbasan &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Strommast&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Mushqeta&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Bradashesh &lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;804m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Ehemalige Hauptverbindung von Tirana nach Elbasan, hat seit dem Bau der Autobahn nur noch ï¿½rtliche Bedeutung, ist dafï¿½r aber noch in erstaunlich gutem Zustand.
+Eine eigentliche Passhï¿½he ist nicht auszumachen, diese erstreckt sich einem Bergrï¿½cken entlang ï¿½ber ca. 3,5 km. &lt;br /&gt;&lt;b&gt;Sehenswï¿½rdigkeit(en): &lt;/b&gt;Im unteren Bereich der Sï¿½drampe mehrere Aussichtspunkte mit herrlicher Aussicht auf Elbasan und Umgebung.</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-28T20:14:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.313299961388111" lon="20.167300002649426">
+    <time>2023-12-28T20:14:16Z</time>
+    <name>AL-Qafa Luzhes (808m)</name>
+    <cmt>Pass - 38.8 Punkte&lt;br /&gt;ALB - Kukï¿½s &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Denkmal&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Babinï¿½ &lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Corraj &lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;824m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;albanische(r) Name / Schreibweise: Qafa e Luzhï¿½s</cmt>
+    <desc>Pass - 38.8 Punkte&lt;br /&gt;ALB - Kukï¿½s &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Denkmal&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Babinï¿½ &lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Corraj &lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;824m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;albanische(r) Name / Schreibweise: Qafa e Luzhï¿½s</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-28T20:14:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="39.940098188817501" lon="20.223190700635314">
+    <ele>561.0859375</ele>
+    <time>2023-12-28T20:14:16Z</time>
+    <name>AL-Qafa Muzines (561m)</name>
+    <cmt>Pass - 33.5 Punkte&lt;br /&gt;ALB - Vlora &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Restaurant, Denkmal&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Finiq &lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Jorgucat&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;572m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Die Verbindungsstraï¿½e von Saranda ins Drino-Tal fï¿½hrte frï¿½her als SH78 ï¿½ber Delvina durch das Gebirge. Im 2. Weltkrieg wurde die Westrampe von der hochgelegenen Trasse in das tief eingeschnittene Bistrica-Tal verlegt (SH99). Entlang des Flusses sehr kurvig, teilweise Belagschï¿½den.
+Enduristen wï¿½hlen fï¿½r die westliche Anfahrt die alte Straï¿½e (durchgehend SH78) ï¿½ber Delvine, 15 km Naturstraï¿½e (SG3), gute Aussicht.
+&lt;br /&gt;&lt;b&gt;Sehenswï¿½rdigkeit(en): &lt;/b&gt;Gut 3 km westlich (Luftlinie) befindet sich die Karstquelle Syri i Kaltï¿½r (&amp;quot;Blue-Eye&amp;quot;). Es handelt sich um die wasserreichste Quelle Albaniens. Abfahrt von der SH99 bei N39.91676 E20.18030. ï¿½ber 2 km teils sandige Naturstraï¿½e, 200 LEK Maut ? ca. ?1,60.</cmt>
+    <desc>Pass - 33.5 Punkte&lt;br /&gt;ALB - Vlora &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Restaurant, Denkmal&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Finiq &lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Jorgucat&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;572m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Die Verbindungsstraï¿½e von Saranda ins Drino-Tal fï¿½hrte frï¿½her als SH78 ï¿½ber Delvina durch das Gebirge. Im 2. Weltkrieg wurde die Westrampe von der hochgelegenen Trasse in das tief eingeschnittene Bistrica-Tal verlegt (SH99). Entlang des Flusses sehr kurvig, teilweise Belagschï¿½den.
+Enduristen wï¿½hlen fï¿½r die westliche Anfahrt die alte Straï¿½e (durchgehend SH78) ï¿½ber Delvine, 15 km Naturstraï¿½e (SG3), gute Aussicht.
+&lt;br /&gt;&lt;b&gt;Sehenswï¿½rdigkeit(en): &lt;/b&gt;Gut 3 km westlich (Luftlinie) befindet sich die Karstquelle Syri i Kaltï¿½r (&amp;quot;Blue-Eye&amp;quot;). Es handelt sich um die wasserreichste Quelle Albaniens. Abfahrt von der SH99 bei N39.91676 E20.18030. ï¿½ber 2 km teils sandige Naturstraï¿½e, 200 LEK Maut ? ca. ?1,60.</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-28T20:14:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.327725779265165" lon="19.958225078880787">
+    <ele>939.80078125</ele>
+    <time>2023-12-28T20:14:16Z</time>
+    <name>AL-Qafa Priskes (940m)</name>
+    <cmt>Pass - 41.5 Punkte&lt;br /&gt;ALB - Tirana &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder, Wegweiser&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Dajt &lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Parpunjï¿½ &lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt (schlechter Zustand)&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;940m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Zugang zum Dajtit-Nationalpark im sï¿½dlichen Skanderbeggebirge. Von hier aus fï¿½hren Straï¿½en (meist mit Naturbelag) in die einzelnen Bergdï¿½rfer sowie mehrere ï¿½bergï¿½nge ins Mat-Tal. Lediglich die Straï¿½e nach Shï¿½ngjergj ist asphaltiert, von wo aus wiederum mehrere Offroadstrecken weiterfï¿½hren.
+Straï¿½enzustand ï¿½berwiegend gut, jedoch auf der Ostrampe teils starke Schï¿½den nach Murenabgï¿½ngen (nur behelfsmï¿½ig repariert - mehrere kurze Passagen mit Naturbelag).
+</cmt>
+    <desc>Pass - 41.5 Punkte&lt;br /&gt;ALB - Tirana &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schilder, Wegweiser&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Dajt &lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Parpunjï¿½ &lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt (schlechter Zustand)&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;940m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Zugang zum Dajtit-Nationalpark im sï¿½dlichen Skanderbeggebirge. Von hier aus fï¿½hren Straï¿½en (meist mit Naturbelag) in die einzelnen Bergdï¿½rfer sowie mehrere ï¿½bergï¿½nge ins Mat-Tal. Lediglich die Straï¿½e nach Shï¿½ngjergj ist asphaltiert, von wo aus wiederum mehrere Offroadstrecken weiterfï¿½hren.
+Straï¿½enzustand ï¿½berwiegend gut, jedoch auf der Ostrampe teils starke Schï¿½den nach Murenabgï¿½ngen (nur behelfsmï¿½ig repariert - mehrere kurze Passagen mit Naturbelag).
+</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-28T20:14:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.30178490281105" lon="20.382896633818746">
+    <ele>648.16796875</ele>
+    <time>2023-12-28T20:14:16Z</time>
+    <name>AL-Qafa Prushit (648m)</name>
+    <cmt>Pass - 35.3 Punkte&lt;br /&gt;ALB - Kukï¿½s &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Grenzstation&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Golaj &lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Gjakova (Kosovo)&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;661m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Grenzï¿½bergang Albanien / Kosovo.
+Wï¿½hrend des Kosovokrieges spielten sich in der Umgebung unzï¿½hlige menschliche Tragï¿½dien ab.
+Fï¿½r die Einreise nach Kosovo muss man eine Haftpflichtversicherung abschliessen an der Grenze.
+
+</cmt>
+    <desc>Pass - 35.3 Punkte&lt;br /&gt;ALB - Kukï¿½s &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Grenzstation&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Golaj &lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Gjakova (Kosovo)&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;661m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Grenzï¿½bergang Albanien / Kosovo.
+Wï¿½hrend des Kosovokrieges spielten sich in der Umgebung unzï¿½hlige menschliche Tragï¿½dien ab.
+Fï¿½r die Einreise nach Kosovo muss man eine Haftpflichtversicherung abschliessen an der Grenze.
+
+</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-28T20:14:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.482606394216418" lon="20.672899670898914">
+    <ele>1165.875</ele>
+    <time>2023-12-28T20:14:16Z</time>
+    <name>AL-Qafa Qarrit (1166m)</name>
+    <cmt>Pass - 47.1 Punkte&lt;br /&gt;ALB - Korï¿½a &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Mauer&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Mollaj&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Mollas&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;1155m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Die von Korï¿½ï¿½ nach Sï¿½den fï¿½hrende SH75 wird als schï¿½nste Landstraï¿½e Albaniens beschrieben, sie ist bis zum Qarrit-Pass neu und breit ausgebaut; im weiteren Verlauf ist die Straï¿½e noch im alten Zustand, deutlich schmaler und mit zahlreichen Belagschï¿½den.
+Die neue Trasse fï¿½hrt in einem Gelï¿½ndedurchstich ca. 10 m tiefer unmittelbar an der ursprï¿½nglichen Passhï¿½he vorbei.</cmt>
+    <desc>Pass - 47.1 Punkte&lt;br /&gt;ALB - Korï¿½a &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Mauer&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Mollaj&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Mollas&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;1155m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Die von Korï¿½ï¿½ nach Sï¿½den fï¿½hrende SH75 wird als schï¿½nste Landstraï¿½e Albaniens beschrieben, sie ist bis zum Qarrit-Pass neu und breit ausgebaut; im weiteren Verlauf ist die Straï¿½e noch im alten Zustand, deutlich schmaler und mit zahlreichen Belagschï¿½den.
+Die neue Trasse fï¿½hrt in einem Gelï¿½ndedurchstich ca. 10 m tiefer unmittelbar an der ursprï¿½nglichen Passhï¿½he vorbei.</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-28T20:14:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.948999986052513" lon="20.389199992641807">
+    <time>2023-12-28T20:14:16Z</time>
+    <name>AL-Qafa Reskut (775m)</name>
+    <cmt>Pass - 37.8 Punkte&lt;br /&gt;ALB - Kukï¿½s &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schotterstrecke mit rot/weissem Stein&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Lumi Reka e Caies&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Bicaj &lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;781m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Einer der Hochpunkte an der durch das Hochland verlaufenden Hauptverbindung von Peshkopi nach Kukï¿½s, welche auf ca. 50 km die parallel durch das Tal des Schwarzen Drin verlaufende und groï¿½teils ungeteerte SH31 ersetzt; die neue Straï¿½e trifft 1 km weiter nï¿½rdlich auf die ehemalige Trasse.
+Der Qafa e Reskut ist nicht die hï¿½chste Erhebung entlang der neuen Trasse. Er stellt jedoch den Hochpunkt der SH31 dar, die hier das Drin-Tal verlï¿½sst und in mehreren engen Serpentinen ï¿½ber 300 Hï¿½henmeter zur Passhï¿½he ï¿½berwindet. Als hï¿½chster Punkt entlang der alten Trasse erhielt er den offiziellen Passnamen (zu deutsch &amp;quot;Pass von Resk&amp;quot;).
+</cmt>
+    <desc>Pass - 37.8 Punkte&lt;br /&gt;ALB - Kukï¿½s &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Schotterstrecke mit rot/weissem Stein&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Lumi Reka e Caies&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Bicaj &lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;781m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Einer der Hochpunkte an der durch das Hochland verlaufenden Hauptverbindung von Peshkopi nach Kukï¿½s, welche auf ca. 50 km die parallel durch das Tal des Schwarzen Drin verlaufende und groï¿½teils ungeteerte SH31 ersetzt; die neue Straï¿½e trifft 1 km weiter nï¿½rdlich auf die ehemalige Trasse.
+Der Qafa e Reskut ist nicht die hï¿½chste Erhebung entlang der neuen Trasse. Er stellt jedoch den Hochpunkt der SH31 dar, die hier das Drin-Tal verlï¿½sst und in mehreren engen Serpentinen ï¿½ber 300 Hï¿½henmeter zur Passhï¿½he ï¿½berwindet. Als hï¿½chster Punkt entlang der alten Trasse erhielt er den offiziellen Passnamen (zu deutsch &amp;quot;Pass von Resk&amp;quot;).
+</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-28T20:14:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.415208397433162" lon="19.503553938120604">
+    <ele>689.015625</ele>
+    <time>2023-12-28T20:14:16Z</time>
+    <name>AL-Qafa Rrapsh (689m)</name>
+    <cmt>Pass - 37.2 Punkte&lt;br /&gt;ALB - Shkodra &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Aussichtsplattform&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Han i Hotit &lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Grabom&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;754m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Die Straï¿½e steigt bis zur Passhï¿½he gemï¿½chlich an, fï¿½hrt dann in mehreren Serpentinen innerhalb weniger km ï¿½ber 500m nach unten.
+Von der Plattform besteht super Aussicht auf die Serpentinenfolge der Nordrampe und in das Cem-Tal, der eigentliche Hochpunkt liegt ca. 500 m sï¿½dlich in der Ortschaft Rrapsh.
+Von Grabom wurde eine neue Straï¿½e knapp 3 km zur montenegrinischen Grenze gebaut, auch von der anderen Seite her ist die Zufahrtsstraï¿½e fertig, allerdings fehlt noch eine Brï¿½cke ï¿½ber den Grenzfluss.
+Update 2021: Die Strasse wurde komplett ausgebaut und befindet sich in einem Top Zustand. Ein Hï¿½hepunkt der Albanien Reise.
+Gehï¿½rt unter den Passknackern zu den Top 5 in Albanien.
+</cmt>
+    <desc>Pass - 37.2 Punkte&lt;br /&gt;ALB - Shkodra &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Aussichtsplattform&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Han i Hotit &lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Grabom&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;754m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Die Straï¿½e steigt bis zur Passhï¿½he gemï¿½chlich an, fï¿½hrt dann in mehreren Serpentinen innerhalb weniger km ï¿½ber 500m nach unten.
+Von der Plattform besteht super Aussicht auf die Serpentinenfolge der Nordrampe und in das Cem-Tal, der eigentliche Hochpunkt liegt ca. 500 m sï¿½dlich in der Ortschaft Rrapsh.
+Von Grabom wurde eine neue Straï¿½e knapp 3 km zur montenegrinischen Grenze gebaut, auch von der anderen Seite her ist die Zufahrtsstraï¿½e fertig, allerdings fehlt noch eine Brï¿½cke ï¿½ber den Grenzfluss.
+Update 2021: Die Strasse wurde komplett ausgebaut und befindet sich in einem Top Zustand. Ein Hï¿½hepunkt der Albanien Reise.
+Gehï¿½rt unter den Passknackern zu den Top 5 in Albanien.
+</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-28T20:14:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.521600037813187" lon="19.898499995470047">
+    <time>2023-12-28T20:14:16Z</time>
+    <name>AL-Qafa Shtames (1230m)</name>
+    <cmt>Pass - 49.1 Punkte&lt;br /&gt;ALB - Durrï¿½s &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Denkmal&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Kruja&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Burrel &lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt,Schotter&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;1228m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Kurvenreiche Straï¿½e ï¿½ber das Skanderbeggebirge mit zum Teil gigantischer Streckenfï¿½hrung und immer wieder herrlicher Aussicht.
+Die Westrampe ist mittlerweile bis zur Passhï¿½he asphaltiert (die letzten 3 km seit 2018). 
+Die Ostrampe ist bis kurz vor den Talort Burrel ungeteert, die unteren 13 km sind ï¿½berwiegend mit einfach zu befahrendem Naturbelag versehen. Auf den oberen 5 km ist die Straï¿½e mehrfach, insbesondere in mehreren steilen Serpentinenabschnitten, kopfsteinpflasterartig mit groï¿½en Steinen (Rundlingen) befestigt und ist deshalb nur fï¿½r Enduro sowie eingeschrï¿½nkt noch fï¿½r Tourenmotorrï¿½der mit ausreichender Bodenfreiheit geeignet.
+
+</cmt>
+    <desc>Pass - 49.1 Punkte&lt;br /&gt;ALB - Durrï¿½s &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Denkmal&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Kruja&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Burrel &lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt,Schotter&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;1228m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Kurvenreiche Straï¿½e ï¿½ber das Skanderbeggebirge mit zum Teil gigantischer Streckenfï¿½hrung und immer wieder herrlicher Aussicht.
+Die Westrampe ist mittlerweile bis zur Passhï¿½he asphaltiert (die letzten 3 km seit 2018). 
+Die Ostrampe ist bis kurz vor den Talort Burrel ungeteert, die unteren 13 km sind ï¿½berwiegend mit einfach zu befahrendem Naturbelag versehen. Auf den oberen 5 km ist die Straï¿½e mehrfach, insbesondere in mehreren steilen Serpentinenabschnitten, kopfsteinpflasterartig mit groï¿½en Steinen (Rundlingen) befestigt und ist deshalb nur fï¿½r Enduro sowie eingeschrï¿½nkt noch fï¿½r Tourenmotorrï¿½der mit ausreichender Bodenfreiheit geeignet.
+
+</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-28T20:14:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="41.065300041809678" lon="20.608799988403916">
+    <time>2023-12-28T20:14:16Z</time>
+    <name>AL-Qafa Thanes (936m)</name>
+    <cmt>Pass - 41.4 Punkte&lt;br /&gt;ALB - Korï¿½a &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Denkmal, Statue&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Pï¿½rrenjas &lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Lin&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;936m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Hauptverbindung von Zentral- nach Sï¿½dostalbanien, dementsprechend viel (Schwerlast-)Verkehr. Auf der Passhï¿½he zweigt zudem die Hauptstraï¿½e nach Nordmazedonien ab (Weiterfï¿½hrung der E852).
+Enduristen wï¿½hlen fï¿½r die Weiterfahrt nach Pogradec anstatt der Hauptstraï¿½e entlang dem Ohridsee ab der Passhï¿½he die ungeteerte Shtegu Shkembor (schï¿½ne Aussicht auf den Ohridsee).
+&lt;br /&gt;&lt;b&gt;Sehenswï¿½rdigkeit(en): &lt;/b&gt;Auf der Sï¿½drampe herrliche Aussicht auf den Ohridsee (eingerichtete Aussichtsplï¿½tze).</cmt>
+    <desc>Pass - 41.4 Punkte&lt;br /&gt;ALB - Korï¿½a &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Denkmal, Statue&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Pï¿½rrenjas &lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Lin&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;936m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Hauptverbindung von Zentral- nach Sï¿½dostalbanien, dementsprechend viel (Schwerlast-)Verkehr. Auf der Passhï¿½he zweigt zudem die Hauptstraï¿½e nach Nordmazedonien ab (Weiterfï¿½hrung der E852).
+Enduristen wï¿½hlen fï¿½r die Weiterfahrt nach Pogradec anstatt der Hauptstraï¿½e entlang dem Ohridsee ab der Passhï¿½he die ungeteerte Shtegu Shkembor (schï¿½ne Aussicht auf den Ohridsee).
+&lt;br /&gt;&lt;b&gt;Sehenswï¿½rdigkeit(en): &lt;/b&gt;Auf der Sï¿½drampe herrliche Aussicht auf den Ohridsee (eingerichtete Aussichtsplï¿½tze).</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-28T20:14:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.736404471099377" lon="20.878961300477386">
+    <ele>1081.96875</ele>
+    <time>2023-12-28T20:11:20Z</time>
+    <name>AL-Qafa Zvezdes (1066m)</name>
+    <cmt>Pass - 45 Punkte&lt;br /&gt;ALB - Korï¿½a &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Gehï¿½ft, Bunker&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Zvezdï¿½ &lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Pustec&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;1086m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Einzige albanische Zufahrt in den Prespa-Nationalpark, fï¿½hrt als SH79 durch eine Hochebene meist entlang des Prespasees zur Nordmazedonischen Grenze.
+Die neue Trasse wurde im Vergleich zur alten Passhï¿½he um gut 10 m tiefer gelegt
+im Durchstichbereich gibt es keine gefahrlose Anhaltemï¿½glichkeit, jedoch zweigt 270 m nordï¿½stlich (N40.73972 E20.88195) eine Naturstraï¿½e zu einem Gehï¿½ft ab, welche als Motiv geeignet ist (mit Bunker im Hintergrund).
+</cmt>
+    <desc>Pass - 45 Punkte&lt;br /&gt;ALB - Korï¿½a &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Gehï¿½ft, Bunker&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Zvezdï¿½ &lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Pustec&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;1086m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Einzige albanische Zufahrt in den Prespa-Nationalpark, fï¿½hrt als SH79 durch eine Hochebene meist entlang des Prespasees zur Nordmazedonischen Grenze.
+Die neue Trasse wurde im Vergleich zur alten Passhï¿½he um gut 10 m tiefer gelegt
+im Durchstichbereich gibt es keine gefahrlose Anhaltemï¿½glichkeit, jedoch zweigt 270 m nordï¿½stlich (N40.73972 E20.88195) eine Naturstraï¿½e zu einem Gehï¿½ft ab, welche als Motiv geeignet ist (mit Bunker im Hintergrund).
+</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-28T20:11:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="40.52097262814641" lon="20.800351118668914">
+    <ele>1594.22265625</ele>
+    <time>2023-12-28T20:14:16Z</time>
+    <name>Al-Ski Pista Bigell (1583m)</name>
+    <cmt>Pass - 60 Punkte&lt;br /&gt;ALB - Korï¿½a &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Eingang Skilifttanlage&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Boboshticï¿½&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Dardhï¿½&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;1592m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Auf der NW-Rampe zahlreiche Fahrbahnschï¿½den, groï¿½flï¿½chige Flickstellen mit Naturbelag. In Dardhï¿½ innerorts Kopfsteinpflaster, aufgrund Hanglage sehr steil (teils &amp;gt;20%). Weiterfahrt nach Miras ungeteert.
+Nachtrag 09/2021: die Straï¿½e wurde komplett renoviert, ist jetzt tadellos zu befahren.
+Einziger Skilift in Albanien, zum Skifahren und Snowboarden stehen 2 km Pisten zur Verfï¿½gung.
+&lt;br /&gt;&lt;b&gt;Sehenswï¿½rdigkeit(en): &lt;/b&gt;Wintersportanlage (der Betreiber zeigt gerne und stolz alle Gerï¿½tschaften)
+Dardhï¿½ mit seiner einmaligen Architektur (Steindï¿½cher) sowie der Lage im steilen Gelï¿½nde.
+</cmt>
+    <desc>Pass - 60 Punkte&lt;br /&gt;ALB - Korï¿½a &lt;b&gt;ALB&lt;/b&gt;&lt;br /&gt;&lt;b&gt;Foto: &lt;/b&gt;Eingang Skilifttanlage&lt;br /&gt;&lt;b&gt;Von: &lt;/b&gt;Boboshticï¿½&lt;br /&gt;&lt;b&gt;Nach: &lt;/b&gt;Dardhï¿½&lt;br /&gt;&lt;b&gt;Belag: &lt;/b&gt;Asphalt&lt;br /&gt;&lt;b&gt;Hï¿½he: &lt;/b&gt;1592m&lt;br /&gt;&lt;b&gt;Besonderes: &lt;/b&gt;Auf der NW-Rampe zahlreiche Fahrbahnschï¿½den, groï¿½flï¿½chige Flickstellen mit Naturbelag. In Dardhï¿½ innerorts Kopfsteinpflaster, aufgrund Hanglage sehr steil (teils &amp;gt;20%). Weiterfahrt nach Miras ungeteert.
+Nachtrag 09/2021: die Straï¿½e wurde komplett renoviert, ist jetzt tadellos zu befahren.
+Einziger Skilift in Albanien, zum Skifahren und Snowboarden stehen 2 km Pisten zur Verfï¿½gung.
+&lt;br /&gt;&lt;b&gt;Sehenswï¿½rdigkeit(en): &lt;/b&gt;Wintersportanlage (der Betreiber zeigt gerne und stolz alle Gerï¿½tschaften)
+Dardhï¿½ mit seiner einmaligen Architektur (Steindï¿½cher) sowie der Lage im steilen Gelï¿½nde.
+</desc>
+    <sym>Custom 8</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Proximity>0</gpxx:Proximity>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:Proximity>0</wptx1:Proximity>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-12-28T20:14:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+</gpx>

@@ -7,6 +7,7 @@ import android.app.Service
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
+import android.location.Location
 import android.os.Build
 import android.os.IBinder
 import android.os.Looper
@@ -14,8 +15,13 @@ import android.os.PowerManager
 import androidx.core.app.ActivityCompat
 import androidx.core.app.NotificationCompat
 import com.google.android.gms.location.*
+import org.xmlpull.v1.XmlPullParser
+import org.xmlpull.v1.XmlPullParserFactory
+import java.io.InputStream
 import java.text.SimpleDateFormat
 import java.util.*
+
+data class MountainPass(val name: String, val latitude: Double, val longitude: Double)
 
 class AltitudeService : Service() {
 
@@ -24,7 +30,10 @@ class AltitudeService : Service() {
     private var wakeLock: PowerManager.WakeLock? = null
     
     private val altitudeHistory = LinkedList<Pair<Long, Double>>()
-    private val FIVE_MINUTES_MS = 5 * 60 * 1000L
+    private val ONE_MINUTE_MS = 1 * 60 * 1000L
+    
+    private val mountainPasses = mutableListOf<MountainPass>()
+    private val PROXIMITY_THRESHOLD_METERS = 500.0 // Distance to "detect" a pass
 
     companion object {
         const val ACTION_LOCATION_UPDATE = "com.example.altitudeapp.LOCATION_UPDATE"
@@ -33,6 +42,7 @@ class AltitudeService : Service() {
         const val EXTRA_LONGITUDE = "extra_longitude"
         const val EXTRA_ALTITUDE = "extra_altitude"
         const val EXTRA_ALTITUDE_GAIN = "extra_altitude_gain"
+        const val EXTRA_PASS_NAME = "extra_pass_name"
         const val EXTRA_LOG_MESSAGE = "extra_log_message"
         
         const val ACTION_ALTITUDE_UPDATE = ACTION_LOCATION_UPDATE
@@ -42,7 +52,8 @@ class AltitudeService : Service() {
         super.onCreate()
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
         acquireWakeLock()
-        sendLog("Service Created and WakeLock acquired")
+        loadMountainPasses()
+        sendLog("Service Created. Loaded ${mountainPasses.size} passes.")
 
         locationCallback = object : LocationCallback() {
             override fun onLocationResult(locationResult: LocationResult) {
@@ -59,10 +70,93 @@ class AltitudeService : Service() {
                         updateNotification(alt)
                     }
                     
-                    broadcastLocation(lat, lon, alt, gain)
+                    val nearbyPass = findNearbyPass(location)
+                    broadcastLocation(lat, lon, alt, gain, nearbyPass?.name)
+                    
+                    val logMsg = "Loc: $lat, $lon | Alt: $alt | Gain: $gain | Pass: ${nearbyPass?.name ?: "None"}"
+                    sendLog(logMsg)
                 }
             }
         }
+    }
+
+    private fun loadMountainPasses() {
+        try {
+            // We search in assets/passes. You should move your GPX files there.
+            val files = assets.list("passes") ?: return
+            for (fileName in files) {
+                if (fileName.endsWith(".gpx")) {
+                    val inputStream = assets.open("passes/$fileName")
+                    parseGpx(inputStream)
+                }
+            }
+        } catch (e: Exception) {
+            sendLog("Error loading passes: ${e.message}")
+        }
+    }
+
+    private fun parseGpx(inputStream: InputStream) {
+        try {
+            val factory = XmlPullParserFactory.newInstance()
+            val parser = factory.newPullParser()
+            parser.setInput(inputStream, null)
+
+            var eventType = parser.eventType
+            var currentPassName = ""
+            var currentLat = 0.0
+            var currentLon = 0.0
+
+            while (eventType != XmlPullParser.END_DOCUMENT) {
+                val tagName = parser.name
+                when (eventType) {
+                    XmlPullParser.START_TAG -> {
+                        if (tagName == "wpt") {
+                            currentLat = parser.getAttributeValue(null, "lat").toDouble()
+                            currentLon = parser.getAttributeValue(null, "lon").toDouble()
+                        }
+                    }
+                    XmlPullParser.TEXT -> {
+                        // In wpt, name comes after wpt tag
+                    }
+                    XmlPullParser.END_TAG -> {
+                        if (tagName == "name") {
+                            // This logic is simplified, usually name is a child of wpt
+                        }
+                    }
+                }
+                
+                // Real GPX parsing is a bit more involved, but let's try to get wpt and its name
+                if (eventType == XmlPullParser.START_TAG && tagName == "wpt") {
+                    val lat = parser.getAttributeValue(null, "lat").toDouble()
+                    val lon = parser.getAttributeValue(null, "lon").toDouble()
+                    
+                    // Look for name child
+                    var nextEvent = parser.next()
+                    while (!(nextEvent == XmlPullParser.END_TAG && parser.name == "wpt")) {
+                        if (nextEvent == XmlPullParser.START_TAG && parser.name == "name") {
+                            val name = parser.nextText()
+                            mountainPasses.add(MountainPass(name, lat, lon))
+                        }
+                        nextEvent = parser.next()
+                    }
+                }
+                eventType = parser.next()
+            }
+            inputStream.close()
+        } catch (e: Exception) {
+            sendLog("Parse error: ${e.message}")
+        }
+    }
+
+    private fun findNearbyPass(location: Location): MountainPass? {
+        for (pass in mountainPasses) {
+            val results = FloatArray(1)
+            Location.distanceBetween(location.latitude, location.longitude, pass.latitude, pass.longitude, results)
+            if (results[0] < PROXIMITY_THRESHOLD_METERS) {
+                return pass
+            }
+        }
+        return null
     }
 
     private fun acquireWakeLock() {
@@ -75,7 +169,7 @@ class AltitudeService : Service() {
         val currentTime = System.currentTimeMillis()
         altitudeHistory.addLast(Pair(currentTime, currentAlt))
         
-        while (altitudeHistory.isNotEmpty() && (currentTime - altitudeHistory.first().first) > FIVE_MINUTES_MS) {
+        while (altitudeHistory.isNotEmpty() && (currentTime - altitudeHistory.first.first) > ONE_MINUTE_MS) {
             altitudeHistory.removeFirst()
         }
         
@@ -128,16 +222,16 @@ class AltitudeService : Service() {
             return
         }
         fusedLocationClient.requestLocationUpdates(locationRequest, locationCallback, Looper.getMainLooper())
-        sendLog("Location updates active (every 1 minute)")
     }
 
-    private fun broadcastLocation(lat: Double, lon: Double, alt: Double, gain: Double) {
+    private fun broadcastLocation(lat: Double, lon: Double, alt: Double, gain: Double, passName: String?) {
         val intent = Intent(ACTION_LOCATION_UPDATE)
         intent.setPackage(packageName)
         intent.putExtra(EXTRA_LATITUDE, lat)
         intent.putExtra(EXTRA_LONGITUDE, lon)
         intent.putExtra(EXTRA_ALTITUDE, alt)
         intent.putExtra(EXTRA_ALTITUDE_GAIN, gain)
+        intent.putExtra(EXTRA_PASS_NAME, passName)
         sendBroadcast(intent)
     }
 
@@ -171,7 +265,6 @@ class AltitudeService : Service() {
         wakeLock?.let {
             if (it.isHeld) {
                 it.release()
-                sendLog("WakeLock released")
             }
         }
         fusedLocationClient.removeLocationUpdates(locationCallback)

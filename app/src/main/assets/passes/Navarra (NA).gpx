@@ -1,0 +1,1146 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2022-11-20T19:08:38Z</time>
+    <bounds maxlat="43.282597158104181" maxlon="-0.799306919798255" minlat="42.555866036564112" minlon="-2.469256287440658" />
+  </metadata>
+
+  <wpt lat="42.908177375793457" lon="-1.701507568359375">
+    <ele>0</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>NA*Alto de Ataburu (645m)</name>
+    <cmt>NA-4100</cmt>
+    <desc>NA-4100</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.018179964274168" lon="-1.915580034255981">
+    <ele>0</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>NA*Alto de Azpirotz (617m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 43.01818,-1.91558 to: 42.96380,-1.56339&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 43.01818,-1.91558 to: 42.96380,-1.56339&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.2169200014323" lon="-1.551400003954768">
+    <ele>0</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>NA*Alto de Eskisaroi (512m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 43.21692,-1.55140 to: 43.04942,-1.91504&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 43.21692,-1.55140 to: 43.04942,-1.91504&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolOnly</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolOnly</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.722819969058037" lon="-1.891890009865165">
+    <ele>0</ele>
+    <time>2014-07-11T15:44:30Z</time>
+    <name>NA*Alto de Guirguillano (725 m)</name>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-11T15:44:30Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.805960988625884" lon="-1.030308986082673">
+    <ele>897</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>NA*Alto de Igari (897m)</name>
+    <cmt>NA-2130</cmt>
+    <desc>NA-2130</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.88570599630475" lon="-1.128944037482142">
+    <ele>975</ele>
+    <time>2021-08-12T18:35:21Z</time>
+    <name>NA*Alto de Jauretia (975m)</name>
+    <cmt>NA-140</cmt>
+    <desc>NA-140</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-08-12T18:35:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.158199992030859" lon="-1.582099981606007">
+    <ele>0</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>NA*Alto de Larrazu (575 m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 43.15820,-1.58210 to: 42.62455,-1.24786&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 43.15820,-1.58210 to: 42.62455,-1.24786&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.920588878914714" lon="-0.989876948297024">
+    <ele>1087.94140625</ele>
+    <time>2021-08-12T18:35:21Z</time>
+    <name>NA*Alto de Laza (1129m)</name>
+    <cmt>Alto de Lasa (1104m)</cmt>
+    <desc>Alto de Lasa (1104m)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-08-12T18:35:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.555866036564112" lon="-1.528275087475777">
+    <ele>751.34375</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>NA*Alto de Lerga (752m)</name>
+    <cmt>NA-132</cmt>
+    <desc>NA-132</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.778633637353778" lon="-2.010637689381838">
+    <time>2014-07-11T15:44:30Z</time>
+    <name>NA*Alto de Lezaun (835)</name>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-11T15:44:30Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.62455003336072" lon="-1.2478600256145">
+    <ele>0</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>NA*Alto de Liedena (549m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.62455,-1.24786 to: 43.25942,-1.61874&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.62455,-1.24786 to: 43.25942,-1.61874&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.060219986364245" lon="-1.767440037801862">
+    <ele>0</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>NA*Alto de Orokieta-Gorostieta (830m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 43.06022,-1.76744 to: 43.08831,-1.77785&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 43.06022,-1.76744 to: 43.08831,-1.77785&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.89630533196032" lon="-1.164883458986878">
+    <ele>1040</ele>
+    <time>2021-08-12T18:35:21Z</time>
+    <name>NA*Alto de Remendia (1040m)</name>
+    <cmt>NA-Alto de Remendia (1.033m)</cmt>
+    <desc>NA-Alto de Remendia (1.033m)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-08-12T18:35:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.08828754350543" lon="-1.777760004624724">
+    <ele>568.515625</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>NA*Alto de Saldias (566m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 43.08831,-1.77785 to: 43.08570,-1.88064&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 43.08831,-1.77785 to: 43.08570,-1.88064&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.03591531701386" lon="-1.470349850133061">
+    <ele>917.20703125</ele>
+    <time>2013-08-08T18:17:19Z</time>
+    <name>NA*Alto de Urquiaga (910m)</name>
+    <cmt>NA-Alto de Urkiaga (910m)</cmt>
+    <desc>NA-Alto de Urkiaga (910m)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-08-08T18:17:19Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.050102023407817" lon="-1.538897724822164">
+    <ele>975.98828125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>NA*Puerto de Artesiaga (984m)</name>
+    <cmt>NA-1740</cmt>
+    <desc>NA-1740</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.038090588524938" lon="-1.223643030971289">
+    <ele>0</ele>
+    <time>2021-08-12T18:35:21Z</time>
+    <name>NA*Puerto de Azpegui (1050m)</name>
+    <cmt>Azpegi gaina (1060)</cmt>
+    <desc>Azpegi gaina (1060)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-08-12T18:35:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.057009382173419" lon="-1.95799975655973">
+    <ele>701</ele>
+    <time>2013-08-08T18:13:23Z</time>
+    <name>NA*Puerto de Azpirotz (701m)</name>
+    <cmt>NA-Puerto de Azpirotz (619m)</cmt>
+    <desc>NA-Puerto de Azpirotz (619m)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-08-08T18:13:23Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.049081191420555" lon="-1.614527218043804">
+    <time>2013-08-08T18:40:05Z</time>
+    <name>NA*Puerto de Belate (842m)</name>
+    <cmt>NA-Puerto de Belate (842m)</cmt>
+    <desc>NA-Puerto de Belate (842m)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-08-08T18:40:05Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.941849995404482" lon="-1.469530016183853">
+    <ele>801</ele>
+    <time>2021-08-12T18:35:21Z</time>
+    <name>NA*Puerto de Erro (801m)</name>
+    <cmt>NA-Puerto de Erro (799m)</cmt>
+    <desc>NA-Puerto de Erro (799m)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-08-12T18:35:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.216859987005591" lon="-1.551420036703348">
+    <ele>510.99999999999989</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>NA*Puerto de Eskisaroi (512m)</name>
+    <cmt>NA-4453</cmt>
+    <desc>NA-4453</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.785960594192147" lon="-1.844241321086884">
+    <ele>844.00390625</ele>
+    <time>2013-09-03T07:46:13Z</time>
+    <name>NA*Puerto de Etxauri (844m)</name>
+    <cmt>NA-Puerto de Etxauri (844m)</cmt>
+    <desc>NA-Puerto de Etxauri (844m)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-03T07:46:13Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.019710164517164" lon="-1.323983045294881">
+    <ele>1060</ele>
+    <time>2021-08-12T18:35:21Z</time>
+    <name>NA*Puerto de Ibañeta (1057m)</name>
+    <cmt>NA-Puerto de Ibañeta (1.060m)</cmt>
+    <desc>NA-Puerto de Ibañeta (1.060m)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-08-12T18:35:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.691141655668616" lon="-1.200349973514676">
+    <time>2013-08-08T18:51:55Z</time>
+    <name>NA*Puerto de Iso (670m)</name>
+    <cmt>NA-Puerto de Iso (668m)</cmt>
+    <desc>NA-Puerto de Iso (668m)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-08-08T18:51:55Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.718925569206476" lon="-1.043932009488344">
+    <ele>949.98828125</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>NA*Puerto de Las Coronas (951m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.71878,-1.04517 to: 42.76758,-0.86240&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.71878,-1.04517 to: 42.76758,-0.86240&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.859938517212868" lon="-2.011291896924377">
+    <ele>1034.61328125</ele>
+    <time>2013-09-03T07:41:42Z</time>
+    <name>NA*Puerto de Lizarraga (1031m)</name>
+    <cmt>NA-Puerto de Lizarraga (1041m)</cmt>
+    <desc>NA-Puerto de Lizarraga (1041m)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-03T07:41:42Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.960095051676035" lon="-2.098639542236924">
+    <ele>622</ele>
+    <time>2013-09-02T10:56:23Z</time>
+    <name>NA*Puerto de Lizarrusti (622m)</name>
+    <cmt>NA-Puerto de Lizarrusti (623m)</cmt>
+    <desc>NA-Puerto de Lizarrusti (623m)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-02T10:56:23Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.282597158104181" lon="-1.628919951617718">
+    <ele>192.640625</ele>
+    <time>2021-08-12T18:35:21Z</time>
+    <name>NA*Puerto de Lizuniaga (212m)</name>
+    <cmt>NA-Collado de Lizuniaga (212m)</cmt>
+    <desc>NA-Collado de Lizuniaga (212m)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-08-12T18:35:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.656545517966151" lon="-1.399864330887795">
+    <ele>732.9296875</ele>
+    <time>2013-08-08T18:52:40Z</time>
+    <name>NA*Puerto de Loiti (729m)</name>
+    <cmt>NA-Puerto de Loiti (729m)</cmt>
+    <desc>NA-Puerto de Loiti (729m)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-08-08T18:52:40Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.767300801351666" lon="-0.863557476550341">
+    <time>2015-06-16T17:56:02Z</time>
+    <name>NA*Puerto de Matamachos (1148m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.76758,-0.86240 to: 43.23592,-1.49465&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.76758,-0.86240 to: 43.23592,-1.49465&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.979750027880073" lon="-1.386870034039021">
+    <ele>922</ele>
+    <time>2021-08-12T18:35:21Z</time>
+    <name>NA*Puerto de Mezkiritz (922m)</name>
+    <cmt>NA-Puerto de Mezkiritz (922m)</cmt>
+    <desc>NA-Puerto de Mezkiritz (922m)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-08-12T18:35:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.237099265679717" lon="-1.494039790704846">
+    <ele>571.5859375</ele>
+    <time>2013-04-03T10:18:37Z</time>
+    <name>NA*Puerto de Otxondo (602m)</name>
+    <cmt>NA-Puerto de Otxondo (577m)</cmt>
+    <desc>NA-Puerto de Otxondo (577m)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-03T10:18:37Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.866080021485686" lon="-0.826880028471351">
+    <ele>1292</ele>
+    <time>2021-08-12T18:35:21Z</time>
+    <name>NA*Puerto de Zuriza (1292m)</name>
+    <cmt>NA-Puerto de Navarra (1292m)</cmt>
+    <desc>NA-Puerto de Navarra (1292m)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-08-12T18:35:21Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.100129999220371" lon="-1.523790014907718">
+    <ele>504.99999999999989</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>NA*Puerto Meaka (636m)</name>
+    <cmt>NA-1740</cmt>
+    <desc>NA-1740</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.897960841655731" lon="-0.799306919798255">
+    <ele>1344.91015625</ele>
+    <time>2021-11-17T19:25:20Z</time>
+    <name>NA*Refugio de Linza (1330m)</name>
+    <cmt>Refugio de Linza (1330)</cmt>
+    <desc>Refugio de Linza (1330)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-11-17T19:25:20Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.264964232221246" lon="-1.759663056582212">
+    <time>2015-06-16T17:56:02Z</time>
+    <name>NA-Alto de Agiña (545m)</name>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.207579962909222" lon="-1.885559996590018">
+    <ele>0</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>NA-Alto de Arano (247 m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 43.20758,-1.88556 to: 43.01818,-1.91558&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 43.20758,-1.88556 to: 43.01818,-1.91558&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.73320741020143" lon="-1.701381001621485">
+    <ele>1029.84375</ele>
+    <time>2014-07-11T15:44:30Z</time>
+    <name>NA-Alto de El Perdon (1030m)</name>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-11T15:44:30Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.085693847388029" lon="-1.880624732002616">
+    <ele>692.45703125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>NA-Alto de Ezkurra (693m)</name>
+    <cmt>NA-170 - NA-4016</cmt>
+    <desc>NA-170 - NA-4016</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.227269975468516" lon="-1.703610001131892">
+    <ele>0</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>NA-Alto de La Piedad (265m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 43.22727,-1.70361 to: 43.15820,-1.58210&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 43.22727,-1.70361 to: 43.15820,-1.58210&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolOnly</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolOnly</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.872060006484389" lon="-1.647749980911613">
+    <ele>0</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>NA-Alto de Maquirriain (572m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.87206,-1.64775 to: 43.10019,-1.52386&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 42.87206,-1.64775 to: 43.10019,-1.52386&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolOnly</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolOnly</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.734880018979311" lon="-1.670480025932193">
+    <ele>0</ele>
+    <time>2014-07-11T15:44:30Z</time>
+    <name>NA-Alto de Subiza (642m)</name>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolOnly</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolOnly</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-11T15:44:30Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.835490014404058" lon="-1.864389991387725">
+    <ele>0</ele>
+    <time>2014-07-11T15:44:30Z</time>
+    <name>NA-Alto de Ultzurrun (851m)</name>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-11T15:44:30Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.085699966177344" lon="-1.880639987066388">
+    <ele>0</ele>
+    <time>2015-06-16T17:56:02Z</time>
+    <name>NA-Alto de Usategieta (695m)</name>
+    <cmt>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 43.08570,-1.88064 to: 42.92043,-0.98954&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</cmt>
+    <desc>&lt;a href="http://maps.google.com/?ie=UTF8&amp;dirflg=h&amp;t=h&amp;hl=es&amp;q=from: 43.08570,-1.88064 to: 42.92043,-0.98954&amp;f=q&amp;om=1&amp;output=kml"&gt;Ver Ruta&lt;/a&gt; (Google Earth)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2015-06-16T17:56:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.957214778289199" lon="-1.135085457935929">
+    <ele>1368</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>NA-Paso Tapla (1368m)</name>
+    <cmt>NA-2012</cmt>
+    <desc>NA-2012</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.708790004253387" lon="-1.920053707435727">
+    <ele>630</ele>
+    <time>2013-09-03T07:39:30Z</time>
+    <name>NA-Puerto de Arradia (630m)</name>
+    <cmt>NA-Puerto de Arradia (630m)</cmt>
+    <desc>NA-Puerto de Arradia (630m)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-03T07:39:30Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.84904757514596" lon="-1.880979286506772">
+    <ele>836.40625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>NA-Puerto de Arteta (834m)</name>
+    <cmt>NA-7030</cmt>
+    <desc>NA-7030</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.950204573571682" lon="-2.22725129686296">
+    <ele>655</ele>
+    <time>2013-09-05T18:06:58Z</time>
+    <name>NA-Puerto de Etxegarate (655m)</name>
+    <cmt>NA-Puerto de Etxegarate (655m)</cmt>
+    <desc>NA-Puerto de Etxegarate (655m)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-05T18:06:58Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.804938983172178" lon="-1.901265168562532">
+    <ele>921</ele>
+    <time>2013-09-04T07:10:49Z</time>
+    <name>NA-Puerto de Guembe (921m)</name>
+    <cmt>NA-Puerto de Guembe (921m)</cmt>
+    <desc>NA-Puerto de Guembe (921m)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-04T07:10:49Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.049440020695329" lon="-1.915079969912767">
+    <ele>810</ele>
+    <time>2013-08-08T18:51:04Z</time>
+    <name>NA-Puerto de Huici (810m)</name>
+    <cmt>NA-Puerto de Huici (810m)</cmt>
+    <desc>NA-Puerto de Huici (810m)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-08-08T18:51:04Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.605284061282873" lon="-2.469256287440658">
+    <ele>979.890625</ele>
+    <time>2013-09-03T07:47:40Z</time>
+    <name>NA-Puerto de La Aldea (992m)</name>
+    <cmt>NA-Puerto de La Aldea (992m)</cmt>
+    <desc>NA-Puerto de La Aldea (992m)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-03T07:47:40Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.935589971020818" lon="-2.2480199765414">
+    <ele>627</ele>
+    <time>2013-09-05T18:09:46Z</time>
+    <name>NA-Puerto de Otsaure (627m)</name>
+    <cmt>NA-Puerto de Otsaure (627m)</cmt>
+    <desc>NA-Puerto de Otsaure (627m)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-05T18:09:46Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.801499385386705" lon="-2.147754896432161">
+    <ele>928.17578125</ele>
+    <time>2013-09-03T07:35:31Z</time>
+    <name>NA-Puerto de Urbasa (933m)</name>
+    <cmt>NA-Puerto de Urbasa (933m)</cmt>
+    <desc>NA-Puerto de Urbasa (933m)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-03T07:35:31Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.943520005792379" lon="-1.874730493873358">
+    <ele>804</ele>
+    <time>2013-04-06T13:34:56Z</time>
+    <name>NA-Puerto de Zugargarate (804m)</name>
+    <cmt>NA-Puerto de Zugargarate (804m)</cmt>
+    <desc>NA-Puerto de Zugargarate (804m)</desc>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-06T13:34:56Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.952444469556212" lon="-1.964611150324345">
+    <time>2014-07-11T15:44:30Z</time>
+    <name>NA-San Miguel de Aralar (1322 m)</name>
+    <sym>Custom 37</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2014-07-11T15:44:30Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+</gpx>

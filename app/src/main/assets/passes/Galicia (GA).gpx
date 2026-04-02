@@ -1,0 +1,922 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2022-11-20T20:36:31Z</time>
+    <bounds maxlat="43.478762442246079" maxlon="-6.867227638140321" minlat="42.033734321594238" minlon="-8.947330517694354" />
+  </metadata>
+
+  <wpt lat="42.23654218018055" lon="-7.111290385946631">
+    <time>2018-07-30T07:54:50Z</time>
+    <name>GA*Alto de Covelo (1050m)</name>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-07-30T07:54:50Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.698658965528011" lon="-7.083836970850825">
+    <ele>1270</ele>
+    <time>2013-11-30T13:32:16Z</time>
+    <name>GA*Alto de San Roque (1270m)</name>
+    <cmt>GA-Alto de San Roque (1270m)</cmt>
+    <desc>GA-Alto de San Roque (1270m)</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-11-30T13:32:16Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.709394926205277" lon="-7.041184986010194">
+    <ele>1300</ele>
+    <time>2013-11-30T13:31:49Z</time>
+    <name>GA*Alto do Cebreiro (1300m)</name>
+    <cmt>GA-Alto de O Cebreiro (1300m)</cmt>
+    <desc>GA-Alto de O Cebreiro (1300m)</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-11-30T13:31:49Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.171111032366753" lon="-7.150293057784438">
+    <ele>850</ele>
+    <time>2018-07-30T08:04:23Z</time>
+    <name>GA*Alto do Fradelo (889m)</name>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-07-30T08:04:23Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.712461948394775" lon="-7.12613582611084">
+    <time>2018-07-30T11:40:26Z</time>
+    <name>GA*Alto do Poio (1335m)</name>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2018-07-30T11:40:26Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.726017413660884" lon="-7.020063931122422">
+    <time>2013-04-03T09:36:03Z</time>
+    <name>GA*Puerto de Piedrafita (1099m)</name>
+    <cmt>GA-Puerto de Piedrafita do Cebreiro (1081m)</cmt>
+    <desc>GA-Puerto de Piedrafita do Cebreiro (1081m)</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-04-03T09:36:03Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.322756173089147" lon="-7.097733076661825">
+    <ele>805.24609375</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-A Portelina dos Hortos (807m)</name>
+    <cmt>&amp;nbsp;</cmt>
+    <desc>&amp;nbsp;</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.032562555745244" lon="-7.920643771067262">
+    <ele>707.37890625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Alto da Canteira (711m)</name>
+    <cmt>AC-934</cmt>
+    <desc>AC-934</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.228686409071088" lon="-8.318149829283357">
+    <ele>802.69140625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Alto da Fontefría (798m)</name>
+    <cmt>&amp;nbsp;</cmt>
+    <desc>&amp;nbsp;</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.070819968357682" lon="-8.830479998141527">
+    <ele>632</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Alto da Groba (632m)</name>
+    <cmt>&amp;nbsp;</cmt>
+    <desc>&amp;nbsp;</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.24298151768744" lon="-8.929116642102599">
+    <ele>138.06640625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Alto das Travesas (139m)</name>
+    <cmt>CP-6803</cmt>
+    <desc>CP-6803</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.889383137226105" lon="-7.200541226193309">
+    <ele>795.4296875</ele>
+    <time>2021-12-27T18:07:34Z</time>
+    <name>GA-Alto de Campo de Arbore (795m)</name>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-12-27T18:07:34Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.11882027797401" lon="-7.003089487552643">
+    <ele>1326.31640625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Alto de Cepedelo (1325m)</name>
+    <cmt>&amp;nbsp;</cmt>
+    <desc>&amp;nbsp;</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.488448042422533" lon="-8.21330294944346">
+    <ele>767</ele>
+    <time>2013-09-02T09:28:42Z</time>
+    <name>GA-Alto de Paraño (767m)</name>
+    <cmt>GA-Alto de Paraño (767m)</cmt>
+    <desc>GA-Alto de Paraño (767m)</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-02T09:28:42Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.995457546785474" lon="-7.221114272251725">
+    <ele>726.10546875</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Alto de Pouvarela (726m)</name>
+    <cmt>LU-P-0401</cmt>
+    <desc>LU-P-0401</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.561378479003906" lon="-8.032293319702148">
+    <ele>816.921875</ele>
+    <time>2022-11-18T17:53:52Z</time>
+    <name>GA-Alto de San Martiño (803m)</name>
+    <cmt>Alto de San Martiño (803)</cmt>
+    <desc>Alto de San Martiño (803)</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2022-11-18T17:53:52Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.064336566254497" lon="-7.966513568535447">
+    <ele>856.08203125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Alto de Vieiro (850m)</name>
+    <cmt>OU-540</cmt>
+    <desc>OU-540</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.313204742968082" lon="-7.677313098683953">
+    <ele>694.5</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Alto do Couso (701m)</name>
+    <cmt>OU-536</cmt>
+    <desc>OU-536</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.198007326573133" lon="-7.244191160425544">
+    <ele>783.92578125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Alto do Couso (787m)</name>
+    <cmt>LU-751</cmt>
+    <desc>LU-751</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.620279788970947" lon="-8.017444610595703">
+    <ele>755</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Alto do Croio (755m)</name>
+    <cmt>EP-6104</cmt>
+    <desc>EP-6104</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.738875923678279" lon="-6.968484213575721">
+    <ele>1064.82421875</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Alto do Portelo (1062m)</name>
+    <cmt>LU-P-4504</cmt>
+    <desc>LU-P-4504</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.592318933457136" lon="-8.718977635726333">
+    <ele>178.2265625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Alto do Pousadoiro (178m)</name>
+    <cmt>PO-305</cmt>
+    <desc>PO-305</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.033734321594238" lon="-6.96483850479126">
+    <ele>1254.5546875</ele>
+    <time>2021-09-06T18:19:58Z</time>
+    <name>GA-Portela da Canda (1262m)</name>
+    <cmt>Portela da Canda (1262)</cmt>
+    <desc>Portela da Canda (1262)</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-09-06T18:19:58Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.060101944953203" lon="-7.317005004733801">
+    <ele>1024.1015625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Portela de Afonso María (1026m)</name>
+    <cmt>&amp;nbsp;</cmt>
+    <desc>&amp;nbsp;</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.747206026688218" lon="-8.794421385973692">
+    <ele>414.484375</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Portela de Aldarís (418m)</name>
+    <cmt>CP-1103</cmt>
+    <desc>CP-1103</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.264642007648945" lon="-8.296643877401948">
+    <ele>808.57421875</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Portela de Deva (811m)</name>
+    <cmt>PO-5103 - PO-255</cmt>
+    <desc>PO-5103 - PO-255</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.44593620300293" lon="-6.867227638140321">
+    <ele>838.99999999999989</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Portela de Escourido (839m)</name>
+    <cmt>&amp;nbsp;</cmt>
+    <desc>&amp;nbsp;</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.737237010151148" lon="-8.834963729605079">
+    <ele>295</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Portela do Peital (296m)</name>
+    <cmt>&amp;nbsp;</cmt>
+    <desc>&amp;nbsp;</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.296783253550529" lon="-7.324487781152129">
+    <ele>1250.8984375</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Portela do Penedo Merendas (1252m)</name>
+    <cmt>OU-0704</cmt>
+    <desc>OU-0704</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.301454991102219" lon="-7.181755201891065">
+    <ele>794</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Portela do Vento (794m)</name>
+    <cmt>&amp;nbsp;</cmt>
+    <desc>&amp;nbsp;</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.620275598019361" lon="-8.274761829525232">
+    <ele>839.7265625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Porto Candán (845m)</name>
+    <cmt>PO-534</cmt>
+    <desc>PO-534</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.938440907746553" lon="-8.947330517694354">
+    <ele>409.64453125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Porto Coído (406m)</name>
+    <cmt>AC-400</cmt>
+    <desc>AC-400</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.38670089840889" lon="-7.301870388910174">
+    <ele>543.7734375</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Porto da Cruz da Cancela (551m)</name>
+    <cmt>LU-122 - LU-124</cmt>
+    <desc>LU-122 - LU-124</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.478762442246079" lon="-7.683899598196149">
+    <ele>704.16015625</ele>
+    <time>2021-12-27T18:01:02Z</time>
+    <name>GA-Porto da Gañidoira (720m)</name>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2021-12-27T18:01:02Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.652622703462839" lon="-8.390812547877431">
+    <ele>590.14453125</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Porto das Bestas (596m)</name>
+    <cmt>PO-2016</cmt>
+    <desc>PO-2016</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.612381605431437" lon="-8.473476134240627">
+    <ele>437.66015625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Porto de Laxe (434m)</name>
+    <cmt>PO-222</cmt>
+    <desc>PO-222</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.299647014588118" lon="-6.968714632093906">
+    <ele>1384.28515625</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Porto de Valdecriba (1383m)</name>
+    <cmt>&amp;nbsp;</cmt>
+    <desc>&amp;nbsp;</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.562328819185495" lon="-8.031516736373305">
+    <ele>810.94921875</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Porto do Curro (813m)</name>
+    <cmt>&amp;nbsp;</cmt>
+    <desc>&amp;nbsp;</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.322134738788009" lon="-8.227267116308212">
+    <ele>782</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Porto do Muíño (782m)</name>
+    <cmt>&amp;nbsp;</cmt>
+    <desc>&amp;nbsp;</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.243026001378894" lon="-8.596735037863255">
+    <ele>155.43359375</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Porto dos Valos (160m)</name>
+    <cmt>PO-2702 - PO-2906 - N-550</cmt>
+    <desc>PO-2702 - PO-2906 - N-550</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.383100116625428" lon="-7.425216799601913">
+    <ele>535.8828125</ele>
+    <time>2013-09-02T09:32:44Z</time>
+    <name>GA-Puerto da Xesta (540m)</name>
+    <cmt>GA-Puerto da Xesta (540m)</cmt>
+    <desc>GA-Puerto da Xesta (540m)</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-02T09:32:44Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.633941033855081" lon="-8.027530051767826">
+    <ele>750</ele>
+    <time>2013-09-02T09:29:41Z</time>
+    <name>GA-Puerto de la Rocha (750m)</name>
+    <cmt>GA-Puerto de la Rocha (750m)</cmt>
+    <desc>GA-Puerto de la Rocha (750m)</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-02T09:29:41Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="42.665729569271207" lon="-7.892617788165808">
+    <ele>865.09375</ele>
+    <time>2013-09-02T09:30:43Z</time>
+    <name>GA-Puerto el Faro (869m)</name>
+    <cmt>GA-Puerto el Faro (869m)</cmt>
+    <desc>GA-Puerto el Faro (869m)</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2013-09-02T09:30:43Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="43.134236969053745" lon="-6.95698675699532">
+    <ele>1138.1796875</ele>
+    <time>2020-01-24T18:47:35Z</time>
+    <name>GA-Puerto Piedras Apañadas (1134m)</name>
+    <cmt>LU-P-3601</cmt>
+    <desc>LU-P-3601</desc>
+    <sym>Custom 33</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2020-01-24T18:47:35Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+</gpx>
