@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "AltitudeApp"
+rootProject.name = "PassMaster"
 include(":app")
