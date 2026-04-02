@@ -34,22 +34,21 @@ class AltitudeService : Service() {
     private val ONE_MINUTE_MS = 1 * 60 * 1000L
     
     private val mountainPasses = mutableListOf<MountainPass>()
-    private val PROXIMITY_THRESHOLD_METERS = 500.0 // Distance to "detect" a pass
+    private val PROXIMITY_THRESHOLD_METERS = 500.0 // Distance to "detect" a pass summit
+    private val SEARCH_RADIUS_KM = 200.0
     private var lastLocation: Location? = null
 
     companion object {
         const val ACTION_LOCATION_UPDATE = "com.example.altitudeapp.LOCATION_UPDATE"
         const val ACTION_LOG_UPDATE = "com.example.altitudeapp.LOG_UPDATE"
-        const val ACTION_NEARBY_PASSES_UPDATE = "com.example.altitudeapp.NEARBY_PASSES_UPDATE"
-        const val ACTION_REQUEST_NEARBY_PASSES = "com.example.altitudeapp.REQUEST_NEARBY_PASSES"
         
         const val EXTRA_LATITUDE = "extra_latitude"
         const val EXTRA_LONGITUDE = "extra_longitude"
         const val EXTRA_ALTITUDE = "extra_altitude"
         const val EXTRA_ALTITUDE_GAIN = "extra_altitude_gain"
         const val EXTRA_PASS_NAME = "extra_pass_name"
-        const val EXTRA_LOG_MESSAGE = "extra_log_message"
         const val EXTRA_NEARBY_PASSES = "extra_nearby_passes"
+        const val EXTRA_LOG_MESSAGE = "extra_log_message"
         
         const val ACTION_ALTITUDE_UPDATE = ACTION_LOCATION_UPDATE
     }
@@ -78,10 +77,9 @@ class AltitudeService : Service() {
                     }
                     
                     val nearbyPass = findNearbyPass(location)
-                    broadcastLocation(lat, lon, alt, gain, nearbyPass?.name)
+                    val passesInRadius = getPassesInRadius(location, SEARCH_RADIUS_KM)
                     
-                    val logMsg = "Loc: $lat, $lon | Alt: $alt | Gain: $gain | Pass: ${nearbyPass?.name ?: "None"}"
-                    sendLog(logMsg)
+                    broadcastLocation(lat, lon, alt, gain, nearbyPass?.name, passesInRadius)
                 }
             }
         }
@@ -111,28 +109,22 @@ class AltitudeService : Service() {
             while (eventType != XmlPullParser.END_DOCUMENT) {
                 val tagName = parser.name
                 if (eventType == XmlPullParser.START_TAG && tagName == "wpt") {
-                    val latStr = parser.getAttributeValue(null, "lat")
-                    val lonStr = parser.getAttributeValue(null, "lon")
-                    if (latStr != null && lonStr != null) {
-                        val lat = latStr.toDouble()
-                        val lon = lonStr.toDouble()
-                        
-                        var nextEvent = parser.next()
-                        while (!(nextEvent == XmlPullParser.END_TAG && parser.name == "wpt")) {
-                            if (nextEvent == XmlPullParser.START_TAG && parser.name == "name") {
-                                val name = parser.nextText()
-                                mountainPasses.add(MountainPass(name, lat, lon))
-                            }
-                            nextEvent = parser.next()
+                    val lat = parser.getAttributeValue(null, "lat").toDouble()
+                    val lon = parser.getAttributeValue(null, "lon").toDouble()
+                    
+                    var nextEvent = parser.next()
+                    while (!(nextEvent == XmlPullParser.END_TAG && parser.name == "wpt")) {
+                        if (nextEvent == XmlPullParser.START_TAG && parser.name == "name") {
+                            val name = parser.nextText()
+                            mountainPasses.add(MountainPass(name, lat, lon))
                         }
+                        nextEvent = parser.next()
                     }
                 }
                 eventType = parser.next()
             }
             inputStream.close()
-        } catch (e: Exception) {
-            // Log error but continue
-        }
+        } catch (e: Exception) { }
     }
 
     private fun findNearbyPass(location: Location): MountainPass? {
@@ -168,37 +160,22 @@ class AltitudeService : Service() {
     private fun updateAltitudeGain(currentAlt: Double): Double {
         val currentTime = System.currentTimeMillis()
         altitudeHistory.addLast(Pair(currentTime, currentAlt))
-        
         while (altitudeHistory.isNotEmpty() && (currentTime - altitudeHistory.first.first) > ONE_MINUTE_MS) {
             altitudeHistory.removeFirst()
         }
-        
         if (altitudeHistory.size < 2) return 0.0
-        
         var totalGain = 0.0
         for (i in 1 until altitudeHistory.size) {
             val diff = altitudeHistory[i].second - altitudeHistory[i-1].second
-            if (diff > 0) {
-                totalGain += diff
-            }
+            if (diff > 0) totalGain += diff
         }
         return totalGain
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
-        if (intent?.action == ACTION_REQUEST_NEARBY_PASSES) {
-            lastLocation?.let { location ->
-                val nearby = getPassesInRadius(location, 20.0)
-                val responseIntent = Intent(ACTION_NEARBY_PASSES_UPDATE)
-                responseIntent.setPackage(packageName)
-                responseIntent.putExtra(EXTRA_NEARBY_PASSES, ArrayList(nearby))
-                sendBroadcast(responseIntent)
-            }
-        } else {
-            sendLog("Service Started")
-            startForegroundService()
-            startLocationUpdates()
-        }
+        sendLog("Service Started")
+        startForegroundService()
+        startLocationUpdates()
         return START_STICKY
     }
 
@@ -210,33 +187,25 @@ class AltitudeService : Service() {
             val manager = getSystemService(NotificationManager::class.java)
             manager.createNotificationChannel(channel)
         }
-
         val notification = NotificationCompat.Builder(this, channelId)
             .setContentTitle("Tracking Altitude")
             .setContentText("Altitude: initializing...")
             .setSmallIcon(R.mipmap.ic_launcher)
             .setOngoing(true)
             .build()
-
         startForeground(1, notification)
     }
 
     private fun startLocationUpdates() {
-        // Reduced interval to 5 seconds for more frequent updates while riding
         val locationRequest = LocationRequest.Builder(Priority.PRIORITY_HIGH_ACCURACY, 5000)
             .setMinUpdateIntervalMillis(2000)
             .build()
-
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            sendLog("Error: Location permission missing")
-            stopSelf()
-            return
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+            fusedLocationClient.requestLocationUpdates(locationRequest, locationCallback, Looper.getMainLooper())
         }
-        fusedLocationClient.requestLocationUpdates(locationRequest, locationCallback, Looper.getMainLooper())
-        sendLog("Location updates active (every 5 seconds)")
     }
 
-    private fun broadcastLocation(lat: Double, lon: Double, alt: Double, gain: Double, passName: String?) {
+    private fun broadcastLocation(lat: Double, lon: Double, alt: Double, gain: Double, passName: String?, nearbyPasses: List<MountainPass>) {
         val intent = Intent(ACTION_LOCATION_UPDATE)
         intent.setPackage(packageName)
         intent.putExtra(EXTRA_LATITUDE, lat)
@@ -244,6 +213,7 @@ class AltitudeService : Service() {
         intent.putExtra(EXTRA_ALTITUDE, alt)
         intent.putExtra(EXTRA_ALTITUDE_GAIN, gain)
         intent.putExtra(EXTRA_PASS_NAME, passName)
+        intent.putExtra(EXTRA_NEARBY_PASSES, ArrayList(nearbyPasses))
         sendBroadcast(intent)
     }
 
@@ -258,14 +228,12 @@ class AltitudeService : Service() {
     private fun updateNotification(altitude: Double) {
         val notificationText = String.format("Altitude: %.2f meters", altitude)
         val channelId = "altitude_channel"
-
         val notification = NotificationCompat.Builder(this, channelId)
             .setContentTitle("Tracking Altitude")
             .setContentText(notificationText)
             .setSmallIcon(R.mipmap.ic_launcher)
             .setOngoing(true)
             .build()
-
         val notificationManager = getSystemService(NotificationManager::class.java)
         notificationManager.notify(1, notification)
     }
@@ -274,11 +242,7 @@ class AltitudeService : Service() {
 
     override fun onDestroy() {
         super.onDestroy()
-        wakeLock?.let {
-            if (it.isHeld) {
-                it.release()
-            }
-        }
+        wakeLock?.let { if (it.isHeld) it.release() }
         fusedLocationClient.removeLocationUpdates(locationCallback)
     }
 }

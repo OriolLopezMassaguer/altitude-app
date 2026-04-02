@@ -16,6 +16,7 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.altitudeapp.databinding.ActivityMainBinding
 import org.osmdroid.config.Configuration
 import org.osmdroid.tileprovider.tilesource.TileSourceFactory
@@ -33,6 +34,10 @@ class MainActivity : AppCompatActivity() {
     
     private var currentLocationMarker: Marker? = null
     private val nearbyPassMarkers = mutableListOf<Marker>()
+    private val passAdapter = PassAdapter()
+    
+    private var lastLat: Double = 0.0
+    private var lastLon: Double = 0.0
 
     private val receiver = object : BroadcastReceiver() {
         override fun onReceive(context: Context?, intent: Intent?) {
@@ -43,17 +48,22 @@ class MainActivity : AppCompatActivity() {
                     val alt = intent.getDoubleExtra(AltitudeService.EXTRA_ALTITUDE, 0.0)
                     val gain = intent.getDoubleExtra(AltitudeService.EXTRA_ALTITUDE_GAIN, 0.0)
                     val passName = intent.getStringExtra(AltitudeService.EXTRA_PASS_NAME)
+                    val nearbyPasses = intent.getSerializableExtra(AltitudeService.EXTRA_NEARBY_PASSES) as? ArrayList<MountainPass>
+                    
+                    lastLat = lat
+                    lastLon = lon
                     
                     updateUI(lat, lon, alt, gain, passName)
                     updateMapLocation(lat, lon)
+                    
+                    nearbyPasses?.let { 
+                        updateNearbyMarkers(it)
+                        passAdapter.updateData(it, lat, lon)
+                    }
                 }
                 AltitudeService.ACTION_LOG_UPDATE -> {
                     val message = intent.getStringExtra(AltitudeService.EXTRA_LOG_MESSAGE) ?: ""
                     appendLog(message)
-                }
-                AltitudeService.ACTION_NEARBY_PASSES_UPDATE -> {
-                    val passes = intent.getSerializableExtra(AltitudeService.EXTRA_NEARBY_PASSES) as? ArrayList<MountainPass>
-                    passes?.let { showPassesOnMap(it) }
                 }
             }
         }
@@ -69,21 +79,34 @@ class MainActivity : AppCompatActivity() {
 
         setupDoubleTapGesture()
         setupMap()
+        setupRecyclerView()
 
         binding.showNearbyPassesButton.setOnClickListener {
-            val intent = Intent(this, AltitudeService::class.java).apply {
-                action = AltitudeService.ACTION_REQUEST_NEARBY_PASSES
-            }
-            startService(intent)
-            appendLog("Requested nearby passes...")
+            toggleNearbyList()
         }
 
         appendLog("App launched")
         checkPermissionsAndStartService()
     }
 
-    private fun showPassesOnMap(passes: List<MountainPass>) {
-        // Clear existing nearby markers
+    private fun setupRecyclerView() {
+        binding.nearbyPassesRecyclerView.layoutManager = LinearLayoutManager(this)
+        binding.nearbyPassesRecyclerView.adapter = passAdapter
+    }
+
+    private fun toggleNearbyList() {
+        if (binding.nearbyPassesRecyclerView.visibility == View.GONE) {
+            binding.nearbyPassesRecyclerView.visibility = View.VISIBLE
+            binding.mapView.visibility = View.GONE
+            binding.showNearbyPassesButton.text = "Show Map"
+        } else {
+            binding.nearbyPassesRecyclerView.visibility = View.GONE
+            binding.mapView.visibility = View.VISIBLE
+            binding.showNearbyPassesButton.text = "Show Nearby Passes"
+        }
+    }
+
+    private fun updateNearbyMarkers(passes: List<MountainPass>) {
         for (marker in nearbyPassMarkers) {
             binding.mapView.overlays.remove(marker)
         }
@@ -98,7 +121,6 @@ class MainActivity : AppCompatActivity() {
             nearbyPassMarkers.add(marker)
         }
         binding.mapView.invalidate()
-        appendLog("Found ${passes.size} passes in 20km")
     }
 
     private fun setupMap() {
@@ -153,7 +175,8 @@ class MainActivity : AppCompatActivity() {
             binding.passTextView.text = passName
             binding.passTextView.visibility = View.VISIBLE
         } else {
-            binding.passTextView.text = "Searching Pass..."
+            binding.passTextView.text = "No near pass"
+            binding.passTextView.visibility = View.VISIBLE
         }
         
         updatePlaceName(lat, lon)
@@ -199,7 +222,6 @@ class MainActivity : AppCompatActivity() {
         val filter = IntentFilter().apply {
             addAction(AltitudeService.ACTION_LOCATION_UPDATE)
             addAction(AltitudeService.ACTION_LOG_UPDATE)
-            addAction(AltitudeService.ACTION_NEARBY_PASSES_UPDATE)
         }
         
         ContextCompat.registerReceiver(this, receiver, filter, ContextCompat.RECEIVER_NOT_EXPORTED)

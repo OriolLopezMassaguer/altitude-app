@@ -8,9 +8,9 @@
     android:background="#FAFAFA"
     tools:context=".MainActivity">
 
-    <!-- Minimap on the left (Osmdroid) -->
+    <!-- Left Section: Map OR List -->
     <androidx.cardview.widget.CardView
-        android:id="@+id/mapCard"
+        android:id="@+id/leftCard"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_margin="8dp"
@@ -20,44 +20,46 @@
         app:layout_constraintEnd_toStartOf="@+id/rightSection"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintWidth_percent="0.4">
+        app:layout_constraintWidth_percent="0.45">
 
-        <org.osmdroid.views.MapView
-            android:id="@+id/mapView"
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent">
+
+            <org.osmdroid.views.MapView
+                android:id="@+id/mapView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/nearbyPassesRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:visibility="gone" />
+        </FrameLayout>
     </androidx.cardview.widget.CardView>
 
-    <!-- Right Section: Data -->
+    <!-- Right Section: Dashboard -->
     <LinearLayout
         android:id="@+id/rightSection"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="16dp"
+        android:padding="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/mapCard">
+        app:layout_constraintStart_toEndOf="@+id/leftCard">
 
         <TextView
             android:id="@+id/passTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Searching Pass..."
+            android:text=""
             android:textColor="#E91E63"
             android:textSize="24sp"
-            android:textStyle="bold" />
-
-        <Button
-            android:id="@+id/showNearbyPassesButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Passes in 20km"
-            android:textSize="10sp"
-            style="@style/Widget.MaterialComponents.Button.TextButton"
-            android:textColor="#E91E63"
-            android:padding="0dp"
-            android:minHeight="32dp" />
+            android:textStyle="bold"
+            android:visibility="gone" />
 
         <TextView
             android:id="@+id/placeTextView"
@@ -74,7 +76,18 @@
             android:layout_height="wrap_content"
             android:text="Lat: --, Lon: --"
             android:textColor="#616161"
-            android:textSize="14sp" />
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/showNearbyPassesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toggle Map/List"
+            android:textSize="10sp"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:textColor="#E91E63"
+            android:padding="0dp"
+            android:minHeight="32dp" />
 
         <View
             android:layout_width="match_parent"
@@ -88,7 +101,7 @@
             android:layout_height="wrap_content"
             android:text="-- m"
             android:textColor="#1976D2"
-            android:textSize="56sp"
+            android:textSize="64sp"
             android:textStyle="bold"
             android:gravity="center" />
 
@@ -106,11 +119,10 @@
     <ScrollView
         android:id="@+id/logScrollView"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="60dp"
         android:background="#E0F0F0F0"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent">
-
         <TextView
             android:id="@+id/logTextView"
             android:layout_width="match_parent"

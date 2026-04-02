@@ -6,124 +6,141 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
+    android:padding="12dp"
     android:background="#FAFAFA"
     tools:context=".MainActivity">
 
-    <!-- Osmdroid MapView -->
+    <!-- Minimap -->
     <androidx.cardview.widget.CardView
         android:id="@+id/mapCard"
         android:layout_width="match_parent"
-        android:layout_height="220dp"
-        android:layout_marginBottom="12dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="8dp"
         app:cardCornerRadius="12dp"
         app:cardElevation="4dp">
-
         <org.osmdroid.views.MapView
             android:id="@+id/mapView"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </androidx.cardview.widget.CardView>
 
-    <!-- Mountain Pass Section -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center"
-        android:layout_marginBottom="8dp">
-
-        <TextView
-            android:id="@+id/passTextView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Searching Pass..."
-            android:textColor="#E91E63"
-            android:textSize="32sp"
-            android:textStyle="bold"
-            android:gravity="center" />
-
-        <Button
-            android:id="@+id/showNearbyPassesButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Passes in 20km"
-            android:textSize="12sp"
-            style="@style/Widget.MaterialComponents.Button.TextButton"
-            android:textColor="#E91E63" />
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/placeTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Locating..."
-        android:textColor="#212121"
-        android:textSize="24sp"
-        android:gravity="center"
-        android:layout_marginBottom="4dp" />
-
-    <TextView
-        android:id="@+id/coordinatesTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Lat: --, Lon: --"
-        android:textColor="#616161"
-        android:textSize="16sp"
-        android:gravity="center"
-        android:layout_marginBottom="12dp" />
-
-    <!-- Altitude Section -->
+    <!-- Current Location & Arriving Pass -->
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         app:cardCornerRadius="12dp"
         app:cardElevation="4dp">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="12dp">
+            android:padding="12dp"
+            android:gravity="center">
 
+            <TextView
+                android:id="@+id/passTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#E91E63"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/placeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Locating..."
+                android:textColor="#212121"
+                android:textSize="20sp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/coordinatesTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lat: --, Lon: --"
+                android:textColor="#616161"
+                android:textSize="14sp"
+                android:gravity="center" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Altitude Card -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:gravity="center">
             <TextView
                 android:id="@+id/altitudeTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="-- m"
                 android:textColor="#1976D2"
-                android:textSize="64sp"
+                android:textSize="56sp"
                 android:textStyle="bold"
                 android:gravity="center" />
-
             <TextView
                 android:id="@+id/gainTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="+0.00 m (1 min)"
                 android:textColor="#388E3C"
-                android:textSize="28sp"
+                android:textSize="24sp"
                 android:textStyle="bold"
                 android:gravity="center" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
-    <ScrollView
-        android:id="@+id/logScrollView"
+    <!-- Nearby Passes List (Radius 20km) -->
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#F0F0F0"
-        android:layout_marginTop="8dp"
-        android:visibility="gone">
+        android:orientation="vertical">
 
+        <Button
+            android:id="@+id/showNearbyPassesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Show Nearby Passes (20km)"
+            android:textSize="12sp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/nearbyPassesRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="#FFFFFF" />
+    </LinearLayout>
+
+    <!-- Logs -->
+    <ScrollView
+        android:id="@+id/logScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#F0F0F0"
+        android:visibility="gone">
         <TextView
             android:id="@+id/logTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="8dp"
             android:fontFamily="monospace"
-            android:textSize="12sp" />
+            android:textSize="10sp" />
     </ScrollView>
 
 </LinearLayout>
