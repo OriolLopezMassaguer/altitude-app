@@ -5,40 +5,31 @@
     android:viewportWidth="108"
     android:viewportHeight="108">
 
-    <!-- Subtle Sun/Glow behind the peak -->
-    <path android:pathData="M54,25 A12,12 0 1,1 54,49 A12,12 0 1,1 54,25">
-        <aapt:attr name="android:fillColor">
-            <gradient
-                android:centerX="54"
-                android:centerY="37"
-                android:gradientRadius="12"
-                android:type="radial">
-                <item android:offset="0" android:color="#40FFFFFF"/>
-                <item android:offset="1" android:color="#00FFFFFF"/>
-            </gradient>
-        </aapt:attr>
-    </path>
-
-    <!-- Cervino / Matterhorn Main Body -->
+    <!-- Mountain background silhouettes -->
     <path
-        android:fillColor="#FFFFFF"
-        android:pathData="M22,82 L52,18 L62,32 L68,48 L88,82 Z" />
-
-    <!-- Dramatic Shading on the steep face -->
+        android:fillColor="#E0E0E0"
+        android:pathData="M10,90 L40,40 L70,90 Z" />
     <path
-        android:fillColor="#CFD8DC"
-        android:pathData="M52,18 L62,32 L68,48 L56,82 L52,82 Z" />
+        android:fillColor="#BDBDBD"
+        android:pathData="M40,90 L75,30 L108,90 Z" />
 
-    <!-- Highlighted Snow line on the ridge -->
+    <!-- The iconic Stelvio zig-zag road -->
     <path
         android:strokeColor="#FFFFFF"
-        android:strokeWidth="1.5"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
         android:strokeLineCap="round"
-        android:pathData="M52,18 L62,32 L68,48" />
+        android:pathData="M30,85 L80,85 L25,75 L85,75 L20,65 L90,65 L15,55 L95,55 L25,45 L85,45 L40,35" />
 
-    <!-- Mist / Clouds at the base for depth -->
+    <!-- Road center line (dashed effect using a second thinner stroke) -->
     <path
-        android:fillColor="#33FFFFFF"
-        android:pathData="M15,75 Q30,68 54,75 Q78,82 93,75 L93,85 L15,85 Z" />
+        android:strokeColor="#BDBDBD"
+        android:strokeWidth="0.5"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M30,85 L80,85 L25,75 L85,75 L20,65 L90,65 L15,55 L95,55 L25,45 L85,45 L40,35" />
+
+    <!-- A small motorcycle/rider hint at the top or bottom?
+         Let's keep it clean with just the road and peaks. -->
 
 </vector>

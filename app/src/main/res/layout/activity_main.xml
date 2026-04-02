@@ -25,17 +25,33 @@
             android:layout_height="match_parent" />
     </androidx.cardview.widget.CardView>
 
-    <!-- Mountain Pass Name (Prominent) -->
-    <TextView
-        android:id="@+id/passTextView"
+    <!-- Mountain Pass Section -->
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Searching Pass..."
-        android:textColor="#E91E63"
-        android:textSize="32sp"
-        android:textStyle="bold"
+        android:orientation="vertical"
         android:gravity="center"
-        android:layout_marginBottom="8dp" />
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/passTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Searching Pass..."
+            android:textColor="#E91E63"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/showNearbyPassesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Passes in 20km"
+            android:textSize="12sp"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:textColor="#E91E63" />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/placeTextView"

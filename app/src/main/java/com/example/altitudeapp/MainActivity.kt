@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var gestureDetector: GestureDetector
     
     private var currentLocationMarker: Marker? = null
+    private val nearbyPassMarkers = mutableListOf<Marker>()
 
     private val receiver = object : BroadcastReceiver() {
         override fun onReceive(context: Context?, intent: Intent?) {
@@ -50,6 +51,10 @@ class MainActivity : AppCompatActivity() {
                     val message = intent.getStringExtra(AltitudeService.EXTRA_LOG_MESSAGE) ?: ""
                     appendLog(message)
                 }
+                AltitudeService.ACTION_NEARBY_PASSES_UPDATE -> {
+                    val passes = intent.getSerializableExtra(AltitudeService.EXTRA_NEARBY_PASSES) as? ArrayList<MountainPass>
+                    passes?.let { showPassesOnMap(it) }
+                }
             }
         }
     }
@@ -57,7 +62,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         
-        // Osmdroid configuration
         Configuration.getInstance().load(this, PreferenceManager.getDefaultSharedPreferences(this))
         
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -66,14 +70,41 @@ class MainActivity : AppCompatActivity() {
         setupDoubleTapGesture()
         setupMap()
 
+        binding.showNearbyPassesButton.setOnClickListener {
+            val intent = Intent(this, AltitudeService::class.java).apply {
+                action = AltitudeService.ACTION_REQUEST_NEARBY_PASSES
+            }
+            startService(intent)
+            appendLog("Requested nearby passes...")
+        }
+
         appendLog("App launched")
         checkPermissionsAndStartService()
+    }
+
+    private fun showPassesOnMap(passes: List<MountainPass>) {
+        // Clear existing nearby markers
+        for (marker in nearbyPassMarkers) {
+            binding.mapView.overlays.remove(marker)
+        }
+        nearbyPassMarkers.clear()
+
+        for (pass in passes) {
+            val marker = Marker(binding.mapView)
+            marker.position = GeoPoint(pass.latitude, pass.longitude)
+            marker.title = pass.name
+            marker.icon = ContextCompat.getDrawable(this, org.osmdroid.library.R.drawable.marker_default)
+            binding.mapView.overlays.add(marker)
+            nearbyPassMarkers.add(marker)
+        }
+        binding.mapView.invalidate()
+        appendLog("Found ${passes.size} passes in 20km")
     }
 
     private fun setupMap() {
         binding.mapView.setTileSource(TileSourceFactory.MAPNIK)
         binding.mapView.setMultiTouchControls(true)
-        binding.mapView.controller.setZoom(15.0)
+        binding.mapView.controller.setZoom(12.0)
         appendLog("Osmdroid Map initialized")
     }
 
@@ -82,11 +113,11 @@ class MainActivity : AppCompatActivity() {
         runOnUiThread {
             if (currentLocationMarker == null) {
                 currentLocationMarker = Marker(binding.mapView)
-                currentLocationMarker?.title = "Current Position"
+                currentLocationMarker?.title = "You are here"
                 binding.mapView.overlays.add(currentLocationMarker)
+                binding.mapView.controller.setCenter(startPoint)
             }
             currentLocationMarker?.position = startPoint
-            binding.mapView.controller.animateTo(startPoint)
         }
     }
 
@@ -97,12 +128,11 @@ class MainActivity : AppCompatActivity() {
                 return true
             }
         })
+    }
 
-        binding.mainLayout.setOnTouchListener { v, event ->
-            gestureDetector.onTouchEvent(event)
-            v.performClick()
-            true
-        }
+    override fun dispatchTouchEvent(ev: MotionEvent): Boolean {
+        gestureDetector.onTouchEvent(ev)
+        return super.dispatchTouchEvent(ev)
     }
 
     private fun toggleLogs() {
@@ -123,7 +153,7 @@ class MainActivity : AppCompatActivity() {
             binding.passTextView.text = passName
             binding.passTextView.visibility = View.VISIBLE
         } else {
-            binding.passTextView.visibility = View.GONE
+            binding.passTextView.text = "Searching Pass..."
         }
         
         updatePlaceName(lat, lon)
@@ -136,7 +166,7 @@ class MainActivity : AppCompatActivity() {
                 geocoder.getFromLocation(lat, lon, 1) { addresses ->
                     if (addresses.isNotEmpty()) {
                         val address = addresses[0]
-                        val placeName = address.locality ?: address.subAdminArea ?: address.adminArea ?: "Unknown Place"
+                        val placeName = address.locality ?: address.subAdminArea ?: address.adminArea ?: "Unknown"
                         runOnUiThread { binding.placeTextView.text = placeName }
                     }
                 }
@@ -145,12 +175,10 @@ class MainActivity : AppCompatActivity() {
                 val addresses = geocoder.getFromLocation(lat, lon, 1)
                 if (!addresses.isNullOrEmpty()) {
                     val address = addresses[0]
-                    binding.placeTextView.text = address.locality ?: address.subAdminArea ?: address.adminArea ?: "Unknown Place"
+                    binding.placeTextView.text = address.locality ?: address.subAdminArea ?: address.adminArea ?: "Unknown"
                 }
             }
-        } catch (e: IOException) {
-            appendLog("Geocoder error: ${e.message}")
-        }
+        } catch (e: IOException) { }
     }
 
     private fun appendLog(message: String) {
@@ -168,9 +196,11 @@ class MainActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         binding.mapView.onResume()
-        val filter = IntentFilter()
-        filter.addAction(AltitudeService.ACTION_LOCATION_UPDATE)
-        filter.addAction(AltitudeService.ACTION_LOG_UPDATE)
+        val filter = IntentFilter().apply {
+            addAction(AltitudeService.ACTION_LOCATION_UPDATE)
+            addAction(AltitudeService.ACTION_LOG_UPDATE)
+            addAction(AltitudeService.ACTION_NEARBY_PASSES_UPDATE)
+        }
         
         ContextCompat.registerReceiver(this, receiver, filter, ContextCompat.RECEIVER_NOT_EXPORTED)
     }

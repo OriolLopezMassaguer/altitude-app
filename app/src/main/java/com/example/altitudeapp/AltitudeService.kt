@@ -18,10 +18,11 @@ import com.google.android.gms.location.*
 import org.xmlpull.v1.XmlPullParser
 import org.xmlpull.v1.XmlPullParserFactory
 import java.io.InputStream
+import java.io.Serializable
 import java.text.SimpleDateFormat
 import java.util.*
 
-data class MountainPass(val name: String, val latitude: Double, val longitude: Double)
+data class MountainPass(val name: String, val latitude: Double, val longitude: Double) : Serializable
 
 class AltitudeService : Service() {
 
@@ -34,16 +35,21 @@ class AltitudeService : Service() {
     
     private val mountainPasses = mutableListOf<MountainPass>()
     private val PROXIMITY_THRESHOLD_METERS = 500.0 // Distance to "detect" a pass
+    private var lastLocation: Location? = null
 
     companion object {
         const val ACTION_LOCATION_UPDATE = "com.example.altitudeapp.LOCATION_UPDATE"
         const val ACTION_LOG_UPDATE = "com.example.altitudeapp.LOG_UPDATE"
+        const val ACTION_NEARBY_PASSES_UPDATE = "com.example.altitudeapp.NEARBY_PASSES_UPDATE"
+        const val ACTION_REQUEST_NEARBY_PASSES = "com.example.altitudeapp.REQUEST_NEARBY_PASSES"
+        
         const val EXTRA_LATITUDE = "extra_latitude"
         const val EXTRA_LONGITUDE = "extra_longitude"
         const val EXTRA_ALTITUDE = "extra_altitude"
         const val EXTRA_ALTITUDE_GAIN = "extra_altitude_gain"
         const val EXTRA_PASS_NAME = "extra_pass_name"
         const val EXTRA_LOG_MESSAGE = "extra_log_message"
+        const val EXTRA_NEARBY_PASSES = "extra_nearby_passes"
         
         const val ACTION_ALTITUDE_UPDATE = ACTION_LOCATION_UPDATE
     }
@@ -59,6 +65,7 @@ class AltitudeService : Service() {
             override fun onLocationResult(locationResult: LocationResult) {
                 val location = locationResult.lastLocation
                 if (location != null) {
+                    lastLocation = location
                     val lat = location.latitude
                     val lon = location.longitude
                     val hasAlt = location.hasAltitude()
@@ -82,7 +89,6 @@ class AltitudeService : Service() {
 
     private fun loadMountainPasses() {
         try {
-            // We search in assets/passes. You should move your GPX files there.
             val files = assets.list("passes") ?: return
             for (fileName in files) {
                 if (fileName.endsWith(".gpx")) {
@@ -102,49 +108,30 @@ class AltitudeService : Service() {
             parser.setInput(inputStream, null)
 
             var eventType = parser.eventType
-            var currentPassName = ""
-            var currentLat = 0.0
-            var currentLon = 0.0
-
             while (eventType != XmlPullParser.END_DOCUMENT) {
                 val tagName = parser.name
-                when (eventType) {
-                    XmlPullParser.START_TAG -> {
-                        if (tagName == "wpt") {
-                            currentLat = parser.getAttributeValue(null, "lat").toDouble()
-                            currentLon = parser.getAttributeValue(null, "lon").toDouble()
-                        }
-                    }
-                    XmlPullParser.TEXT -> {
-                        // In wpt, name comes after wpt tag
-                    }
-                    XmlPullParser.END_TAG -> {
-                        if (tagName == "name") {
-                            // This logic is simplified, usually name is a child of wpt
-                        }
-                    }
-                }
-                
-                // Real GPX parsing is a bit more involved, but let's try to get wpt and its name
                 if (eventType == XmlPullParser.START_TAG && tagName == "wpt") {
-                    val lat = parser.getAttributeValue(null, "lat").toDouble()
-                    val lon = parser.getAttributeValue(null, "lon").toDouble()
-                    
-                    // Look for name child
-                    var nextEvent = parser.next()
-                    while (!(nextEvent == XmlPullParser.END_TAG && parser.name == "wpt")) {
-                        if (nextEvent == XmlPullParser.START_TAG && parser.name == "name") {
-                            val name = parser.nextText()
-                            mountainPasses.add(MountainPass(name, lat, lon))
+                    val latStr = parser.getAttributeValue(null, "lat")
+                    val lonStr = parser.getAttributeValue(null, "lon")
+                    if (latStr != null && lonStr != null) {
+                        val lat = latStr.toDouble()
+                        val lon = lonStr.toDouble()
+                        
+                        var nextEvent = parser.next()
+                        while (!(nextEvent == XmlPullParser.END_TAG && parser.name == "wpt")) {
+                            if (nextEvent == XmlPullParser.START_TAG && parser.name == "name") {
+                                val name = parser.nextText()
+                                mountainPasses.add(MountainPass(name, lat, lon))
+                            }
+                            nextEvent = parser.next()
                         }
-                        nextEvent = parser.next()
                     }
                 }
                 eventType = parser.next()
             }
             inputStream.close()
         } catch (e: Exception) {
-            sendLog("Parse error: ${e.message}")
+            // Log error but continue
         }
     }
 
@@ -157,6 +144,19 @@ class AltitudeService : Service() {
             }
         }
         return null
+    }
+
+    private fun getPassesInRadius(location: Location, radiusKm: Double): List<MountainPass> {
+        val resultList = mutableListOf<MountainPass>()
+        val radiusMeters = radiusKm * 1000.0
+        for (pass in mountainPasses) {
+            val results = FloatArray(1)
+            Location.distanceBetween(location.latitude, location.longitude, pass.latitude, pass.longitude, results)
+            if (results[0] <= radiusMeters) {
+                resultList.add(pass)
+            }
+        }
+        return resultList
     }
 
     private fun acquireWakeLock() {
@@ -186,9 +186,19 @@ class AltitudeService : Service() {
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
-        sendLog("Service Started")
-        startForegroundService()
-        startLocationUpdates()
+        if (intent?.action == ACTION_REQUEST_NEARBY_PASSES) {
+            lastLocation?.let { location ->
+                val nearby = getPassesInRadius(location, 20.0)
+                val responseIntent = Intent(ACTION_NEARBY_PASSES_UPDATE)
+                responseIntent.setPackage(packageName)
+                responseIntent.putExtra(EXTRA_NEARBY_PASSES, ArrayList(nearby))
+                sendBroadcast(responseIntent)
+            }
+        } else {
+            sendLog("Service Started")
+            startForegroundService()
+            startLocationUpdates()
+        }
         return START_STICKY
     }
 
@@ -212,8 +222,9 @@ class AltitudeService : Service() {
     }
 
     private fun startLocationUpdates() {
-        val locationRequest = LocationRequest.Builder(Priority.PRIORITY_HIGH_ACCURACY, 60000)
-            .setMinUpdateIntervalMillis(30000)
+        // Reduced interval to 5 seconds for more frequent updates while riding
+        val locationRequest = LocationRequest.Builder(Priority.PRIORITY_HIGH_ACCURACY, 5000)
+            .setMinUpdateIntervalMillis(2000)
             .build()
 
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
@@ -222,6 +233,7 @@ class AltitudeService : Service() {
             return
         }
         fusedLocationClient.requestLocationUpdates(locationRequest, locationCallback, Looper.getMainLooper())
+        sendLog("Location updates active (every 5 seconds)")
     }
 
     private fun broadcastLocation(lat: Double, lon: Double, alt: Double, gain: Double, passName: String?) {
