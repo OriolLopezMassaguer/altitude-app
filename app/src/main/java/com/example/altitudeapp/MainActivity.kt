@@ -9,6 +9,7 @@ import android.content.SharedPreferences
 import android.content.pm.PackageManager
 import android.content.res.Configuration
 import android.location.Geocoder
+import android.location.Location
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
@@ -39,7 +40,7 @@ class MainActivity : AppCompatActivity() {
     
     private var currentLocationMarker: Marker? = null
     private val nearbyPassMarkers = mutableListOf<Marker>()
-    private val passAdapter = PassAdapter()
+    private val passAdapter = PassAdapter { pass -> onPassInListClicked(pass) }
     
     private var lastLat: Double = 0.0
     private var lastLon: Double = 0.0
@@ -59,12 +60,13 @@ class MainActivity : AppCompatActivity() {
                     lastLon = lon
                     saveLastPosition(lat, lon)
                     
-                    updateUI(lat, lon, alt, gain, passName)
+                    updateUI(lat, lon, alt, gain, passName, nearbyPasses)
                     updateMapLocation(lat, lon)
                     
                     nearbyPasses?.let { 
                         updateNearbyMarkers(it, passName)
                         passAdapter.updateData(it, lat, lon)
+                        updatePassListVisibility(it)
                     }
                 }
                 AltitudeService.ACTION_LOG_UPDATE -> {
@@ -77,7 +79,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun attachBaseContext(newBase: Context) {
         val prefs = PreferenceManager.getDefaultSharedPreferences(newBase)
-        val lang = prefs.getString("language", "en") ?: "en"
+        val lang = prefs.getString("language", "ca") ?: "ca"
         val locale = Locale(lang)
         Locale.setDefault(locale)
         val config = Configuration(newBase.resources.configuration)
@@ -109,6 +111,31 @@ class MainActivity : AppCompatActivity() {
         checkPermissionsAndStartService()
     }
 
+    private fun onPassInListClicked(pass: MountainPass) {
+        // Center map on the pass and show it
+        val passPoint = GeoPoint(pass.latitude, pass.longitude)
+        binding.mapView.controller.animateTo(passPoint)
+        binding.mapView.controller.setZoom(14.0)
+        
+        // Hide list and show map
+        binding.nearbyPassesRecyclerView.visibility = View.GONE
+        binding.mapView.visibility = View.VISIBLE
+        binding.showNearbyPassesButton.text = getString(R.string.show_nearby_passes)
+        
+        // Try to find its marker and show its info window
+        nearbyPassMarkers.find { it.position.latitude == pass.latitude && it.position.longitude == pass.longitude }?.showInfoWindow()
+    }
+
+    private fun updatePassListVisibility(passes: List<MountainPass>) {
+        if (passes.isEmpty()) {
+            binding.showNearbyPassesButton.visibility = View.GONE
+            binding.nearbyPassesRecyclerView.visibility = View.GONE
+            binding.mapView.visibility = View.VISIBLE
+        } else {
+            binding.showNearbyPassesButton.visibility = View.VISIBLE
+        }
+    }
+
     private fun showLanguageMenu(view: View) {
         val popup = PopupMenu(this, view)
         popup.menu.add(0, 1, 0, "English")
@@ -120,7 +147,7 @@ class MainActivity : AppCompatActivity() {
                 1 -> "en"
                 2 -> "es"
                 3 -> "ca"
-                else -> "en"
+                else -> "ca"
             }
             setLanguage(lang)
             true
@@ -148,7 +175,7 @@ class MainActivity : AppCompatActivity() {
             lastLat = lat
             lastLon = lon
             updateMapLocation(lat, lon)
-            updateUI(lat, lon, 0.0, 0.0, null)
+            updateUI(lat, lon, 0.0, 0.0, null, null)
             appendLog(getString(R.string.cached_pos_loaded))
         }
     }
@@ -251,13 +278,19 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun updateUI(lat: Double, lon: Double, alt: Double, gain: Double, passName: String?) {
+    private fun updateUI(lat: Double, lon: Double, alt: Double, gain: Double, passName: String?, nearbyPasses: List<MountainPass>?) {
         binding.coordinatesTextView.text = getString(R.string.coordinates_format, lat, lon)
         binding.altitudeTextView.text = getString(R.string.altitude_format, alt)
         binding.gainTextView.text = getString(R.string.gain_format, gain)
         
         if (!passName.isNullOrEmpty()) {
-            binding.passTextView.text = passName
+            val dist = FloatArray(1)
+            var distanceToPass = ""
+            nearbyPasses?.find { it.name == passName }?.let { pass ->
+                Location.distanceBetween(lat, lon, pass.latitude, pass.longitude, dist)
+                distanceToPass = " (${String.format(Locale.getDefault(), "%.1f", dist[0] / 1000.0)} km)"
+            }
+            binding.passTextView.text = passName + distanceToPass
             binding.passTextView.visibility = View.VISIBLE
         } else {
             binding.passTextView.text = getString(R.string.no_near_pass)

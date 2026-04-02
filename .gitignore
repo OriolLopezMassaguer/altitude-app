@@ -1,4 +1,4 @@
-.gradle/*
-app/*
-build/*
-.idea/*
+.gradle/
+build/
+.idea/
+local.properties

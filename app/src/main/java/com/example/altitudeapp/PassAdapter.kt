@@ -5,8 +5,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import java.util.Locale
 
-class PassAdapter : RecyclerView.Adapter<PassAdapter.ViewHolder>() {
+class PassAdapter(private val onPassClick: (MountainPass) -> Unit) : RecyclerView.Adapter<PassAdapter.ViewHolder>() {
 
     private var passes: List<MountainPass> = emptyList()
     private var userLat: Double = 0.0
@@ -36,7 +37,11 @@ class PassAdapter : RecyclerView.Adapter<PassAdapter.ViewHolder>() {
         val results = FloatArray(1)
         android.location.Location.distanceBetween(userLat, userLon, pass.latitude, pass.longitude, results)
         val distanceKm = results[0] / 1000.0
-        holder.distance.text = String.format("%.1f km", distanceKm)
+        holder.distance.text = String.format(Locale.getDefault(), "%.1f km", distanceKm)
+        
+        holder.itemView.setOnClickListener {
+            onPassClick(pass)
+        }
     }
 
     override fun getItemCount() = passes.size
