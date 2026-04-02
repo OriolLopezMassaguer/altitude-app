@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MotoPass</string>
+    <string name="altitude_label">Altitud</string>
+    <string name="altitude_gain_label">Desnivel (1 min)</string>
+    <string name="current_location">Ubicación Actual</string>
+    <string name="locating">Localizando…</string>
+    <string name="searching_pass">Buscando Puerto…</string>
+    <string name="no_near_pass">Ningún puerto cerca</string>
+    <string name="show_nearby_passes">Mostrar Puertos Cercanos</string>
+    <string name="show_map">Mostrar Mapa</string>
+    <string name="toggle_map_list">Cambiar Mapa/Lista</string>
+    <string name="passes_in_radius">Puertos en 20km</string>
+    <string name="you_are_here">Estás aquí</string>
+    <string name="app_launched">App iniciada</string>
+    <string name="logs_visible">Logs visibles</string>
+    <string name="cached_pos_loaded">Cargada última posición guardada</string>
+    <string name="map_initialized">Mapa inicializado</string>
+    <string name="requested_passes">Solicitados puertos cercanos…</string>
+    <string name="found_passes">Encontrados %1$d puertos en 20km</string>
+    <string name="coordinates_format">Lat: %1$.5f, Lon: %2$.5f</string>
+    <string name="altitude_format">%1$.1f m</string>
+    <string name="gain_format">+%1$.2f m (1 min)</string>
+    <string name="no_coordinates">Lat: --, Lon: --</string>
+    <string name="no_altitude">-- m</string>
+    <string name="distance_format">%1$.1f km</string>
+    <string name="change_language">Idioma</string>
+</resources>

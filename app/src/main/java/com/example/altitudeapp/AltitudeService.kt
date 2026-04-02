@@ -22,7 +22,21 @@ import java.io.Serializable
 import java.text.SimpleDateFormat
 import java.util.*
 
-data class MountainPass(val name: String, val latitude: Double, val longitude: Double) : Serializable
+data class MountainPass(val name: String, val latitude: Double, val longitude: Double) : Serializable {
+    override fun equals(other: Any?): Boolean {
+        if (this === other) return true
+        if (other !is MountainPass) return false
+        // Consider passes with the same name and very similar coordinates as identical
+        if (name != other.name) return false
+        val dist = FloatArray(1)
+        Location.distanceBetween(latitude, longitude, other.latitude, other.longitude, dist)
+        return dist[0] < 100 // 100 meters threshold for "same" pass
+    }
+
+    override fun hashCode(): Int {
+        return name.hashCode()
+    }
+}
 
 class AltitudeService : Service() {
 
@@ -33,8 +47,8 @@ class AltitudeService : Service() {
     private val altitudeHistory = LinkedList<Pair<Long, Double>>()
     private val ONE_MINUTE_MS = 1 * 60 * 1000L
     
-    private val mountainPasses = mutableListOf<MountainPass>()
-    private val PROXIMITY_THRESHOLD_METERS = 500.0 // Distance to "detect" a pass summit
+    private val mountainPasses = mutableSetOf<MountainPass>()
+    private val PROXIMITY_THRESHOLD_METERS = 50000.0 // Distance to "detect" a pass summit
     private val SEARCH_RADIUS_KM = 200.0
     private var lastLocation: Location? = null
 
@@ -58,7 +72,7 @@ class AltitudeService : Service() {
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
         acquireWakeLock()
         loadMountainPasses()
-        sendLog("Service Created. Loaded ${mountainPasses.size} passes.")
+        sendLog("Service Created. Loaded ${mountainPasses.size} unique passes.")
 
         locationCallback = object : LocationCallback() {
             override fun onLocationResult(locationResult: LocationResult) {
@@ -109,16 +123,20 @@ class AltitudeService : Service() {
             while (eventType != XmlPullParser.END_DOCUMENT) {
                 val tagName = parser.name
                 if (eventType == XmlPullParser.START_TAG && tagName == "wpt") {
-                    val lat = parser.getAttributeValue(null, "lat").toDouble()
-                    val lon = parser.getAttributeValue(null, "lon").toDouble()
-                    
-                    var nextEvent = parser.next()
-                    while (!(nextEvent == XmlPullParser.END_TAG && parser.name == "wpt")) {
-                        if (nextEvent == XmlPullParser.START_TAG && parser.name == "name") {
-                            val name = parser.nextText()
-                            mountainPasses.add(MountainPass(name, lat, lon))
+                    val latAttr = parser.getAttributeValue(null, "lat")
+                    val lonAttr = parser.getAttributeValue(null, "lon")
+                    if (latAttr != null && lonAttr != null) {
+                        val lat = latAttr.toDouble()
+                        val lon = lonAttr.toDouble()
+                        
+                        var nextEvent = parser.next()
+                        while (!(nextEvent == XmlPullParser.END_TAG && parser.name == "wpt")) {
+                            if (nextEvent == XmlPullParser.START_TAG && parser.name == "name") {
+                                val name = parser.nextText()
+                                mountainPasses.add(MountainPass(name, lat, lon))
+                            }
+                            nextEvent = parser.next()
                         }
-                        nextEvent = parser.next()
                     }
                 }
                 eventType = parser.next()
@@ -160,7 +178,7 @@ class AltitudeService : Service() {
     private fun updateAltitudeGain(currentAlt: Double): Double {
         val currentTime = System.currentTimeMillis()
         altitudeHistory.addLast(Pair(currentTime, currentAlt))
-        while (altitudeHistory.isNotEmpty() && (currentTime - altitudeHistory.first.first) > ONE_MINUTE_MS) {
+        while (altitudeHistory.isNotEmpty() && (currentTime - (altitudeHistory.firstOrNull()?.first ?: 0L)) > ONE_MINUTE_MS) {
             altitudeHistory.removeFirst()
         }
         if (altitudeHistory.size < 2) return 0.0
@@ -197,11 +215,13 @@ class AltitudeService : Service() {
     }
 
     private fun startLocationUpdates() {
-        val locationRequest = LocationRequest.Builder(Priority.PRIORITY_HIGH_ACCURACY, 5000)
-            .setMinUpdateIntervalMillis(2000)
+        // Set to 1 minute (60,000 ms) as requested for battery efficiency
+        val locationRequest = LocationRequest.Builder(Priority.PRIORITY_HIGH_ACCURACY, 60000)
+            .setMinUpdateIntervalMillis(30000)
             .build()
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
             fusedLocationClient.requestLocationUpdates(locationRequest, locationCallback, Looper.getMainLooper())
+            sendLog("Location updates set to 1 minute interval")
         }
     }
 

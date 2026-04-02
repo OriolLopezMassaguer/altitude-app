@@ -5,20 +5,24 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
+import android.content.SharedPreferences
 import android.content.pm.PackageManager
+import android.content.res.Configuration
 import android.location.Geocoder
+import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.preference.PreferenceManager
 import android.view.GestureDetector
 import android.view.MotionEvent
 import android.view.View
+import android.widget.PopupMenu
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.altitudeapp.databinding.ActivityMainBinding
-import org.osmdroid.config.Configuration
+import org.osmdroid.config.Configuration as OsmConfig
 import org.osmdroid.tileprovider.tilesource.TileSourceFactory
 import org.osmdroid.util.GeoPoint
 import org.osmdroid.views.overlay.Marker
@@ -31,6 +35,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private val LOCATION_PERMISSION_REQUEST_CODE = 1
     private lateinit var gestureDetector: GestureDetector
+    private lateinit var sharedPreferences: SharedPreferences
     
     private var currentLocationMarker: Marker? = null
     private val nearbyPassMarkers = mutableListOf<Marker>()
@@ -52,12 +57,13 @@ class MainActivity : AppCompatActivity() {
                     
                     lastLat = lat
                     lastLon = lon
+                    saveLastPosition(lat, lon)
                     
                     updateUI(lat, lon, alt, gain, passName)
                     updateMapLocation(lat, lon)
                     
                     nearbyPasses?.let { 
-                        updateNearbyMarkers(it)
+                        updateNearbyMarkers(it, passName)
                         passAdapter.updateData(it, lat, lon)
                     }
                 }
@@ -69,10 +75,21 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    override fun attachBaseContext(newBase: Context) {
+        val prefs = PreferenceManager.getDefaultSharedPreferences(newBase)
+        val lang = prefs.getString("language", "en") ?: "en"
+        val locale = Locale(lang)
+        Locale.setDefault(locale)
+        val config = Configuration(newBase.resources.configuration)
+        config.setLocale(locale)
+        super.attachBaseContext(newBase.createConfigurationContext(config))
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         
-        Configuration.getInstance().load(this, PreferenceManager.getDefaultSharedPreferences(this))
+        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this)
+        OsmConfig.getInstance().load(this, sharedPreferences)
         
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -85,8 +102,55 @@ class MainActivity : AppCompatActivity() {
             toggleNearbyList()
         }
 
-        appendLog("App launched")
+        binding.languageButton?.setOnClickListener { showLanguageMenu(it) }
+
+        loadLastPosition()
+        appendLog(getString(R.string.app_launched))
         checkPermissionsAndStartService()
+    }
+
+    private fun showLanguageMenu(view: View) {
+        val popup = PopupMenu(this, view)
+        popup.menu.add(0, 1, 0, "English")
+        popup.menu.add(0, 2, 1, "Español")
+        popup.menu.add(0, 3, 2, "Català")
+        
+        popup.setOnMenuItemClickListener { item ->
+            val lang = when (item.itemId) {
+                1 -> "en"
+                2 -> "es"
+                3 -> "ca"
+                else -> "en"
+            }
+            setLanguage(lang)
+            true
+        }
+        popup.show()
+    }
+
+    private fun setLanguage(lang: String) {
+        sharedPreferences.edit().putString("language", lang).apply()
+        recreate()
+    }
+
+    private fun saveLastPosition(lat: Double, lon: Double) {
+        sharedPreferences.edit().apply {
+            putFloat("last_lat", lat.toFloat())
+            putFloat("last_lon", lon.toFloat())
+            apply()
+        }
+    }
+
+    private fun loadLastPosition() {
+        val lat = sharedPreferences.getFloat("last_lat", 0.0f).toDouble()
+        val lon = sharedPreferences.getFloat("last_lon", 0.0f).toDouble()
+        if (lat != 0.0 && lon != 0.0) {
+            lastLat = lat
+            lastLon = lon
+            updateMapLocation(lat, lon)
+            updateUI(lat, lon, 0.0, 0.0, null)
+            appendLog(getString(R.string.cached_pos_loaded))
+        }
     }
 
     private fun setupRecyclerView() {
@@ -98,15 +162,15 @@ class MainActivity : AppCompatActivity() {
         if (binding.nearbyPassesRecyclerView.visibility == View.GONE) {
             binding.nearbyPassesRecyclerView.visibility = View.VISIBLE
             binding.mapView.visibility = View.GONE
-            binding.showNearbyPassesButton.text = "Show Map"
+            binding.showNearbyPassesButton.text = getString(R.string.show_map)
         } else {
             binding.nearbyPassesRecyclerView.visibility = View.GONE
             binding.mapView.visibility = View.VISIBLE
-            binding.showNearbyPassesButton.text = "Show Nearby Passes"
+            binding.showNearbyPassesButton.text = getString(R.string.show_nearby_passes)
         }
     }
 
-    private fun updateNearbyMarkers(passes: List<MountainPass>) {
+    private fun updateNearbyMarkers(passes: List<MountainPass>, currentPassName: String?) {
         for (marker in nearbyPassMarkers) {
             binding.mapView.overlays.remove(marker)
         }
@@ -116,7 +180,27 @@ class MainActivity : AppCompatActivity() {
             val marker = Marker(binding.mapView)
             marker.position = GeoPoint(pass.latitude, pass.longitude)
             marker.title = pass.name
-            marker.icon = ContextCompat.getDrawable(this, org.osmdroid.library.R.drawable.marker_default)
+            
+            if (pass.name == currentPassName) {
+                marker.icon = ContextCompat.getDrawable(this, org.osmdroid.library.R.drawable.marker_default_focused_base)
+                marker.showInfoWindow()
+            } else {
+                marker.icon = ContextCompat.getDrawable(this, org.osmdroid.library.R.drawable.marker_default)
+            }
+
+            marker.setOnMarkerClickListener { m, _ ->
+                val gmmIntentUri = Uri.parse("google.navigation:q=${m.position.latitude},${m.position.longitude}")
+                val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
+                mapIntent.setPackage("com.google.android.apps.maps")
+                if (mapIntent.resolveActivity(packageManager) != null) {
+                    startActivity(mapIntent)
+                } else {
+                    val webIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/dir/?api=1&destination=${m.position.latitude},${m.position.longitude}"))
+                    startActivity(webIntent)
+                }
+                true
+            }
+            
             binding.mapView.overlays.add(marker)
             nearbyPassMarkers.add(marker)
         }
@@ -127,7 +211,7 @@ class MainActivity : AppCompatActivity() {
         binding.mapView.setTileSource(TileSourceFactory.MAPNIK)
         binding.mapView.setMultiTouchControls(true)
         binding.mapView.controller.setZoom(12.0)
-        appendLog("Osmdroid Map initialized")
+        appendLog(getString(R.string.map_initialized))
     }
 
     private fun updateMapLocation(lat: Double, lon: Double) {
@@ -135,7 +219,8 @@ class MainActivity : AppCompatActivity() {
         runOnUiThread {
             if (currentLocationMarker == null) {
                 currentLocationMarker = Marker(binding.mapView)
-                currentLocationMarker?.title = "You are here"
+                currentLocationMarker?.title = getString(R.string.you_are_here)
+                currentLocationMarker?.icon = ContextCompat.getDrawable(this, org.osmdroid.library.R.drawable.person)
                 binding.mapView.overlays.add(currentLocationMarker)
                 binding.mapView.controller.setCenter(startPoint)
             }
@@ -160,22 +245,22 @@ class MainActivity : AppCompatActivity() {
     private fun toggleLogs() {
         if (binding.logScrollView.visibility == View.GONE) {
             binding.logScrollView.visibility = View.VISIBLE
-            appendLog("Logs visible")
+            appendLog(getString(R.string.logs_visible))
         } else {
             binding.logScrollView.visibility = View.GONE
         }
     }
 
     private fun updateUI(lat: Double, lon: Double, alt: Double, gain: Double, passName: String?) {
-        binding.coordinatesTextView.text = String.format(Locale.getDefault(), "Lat: %.5f, Lon: %.5f", lat, lon)
-        binding.altitudeTextView.text = String.format(Locale.getDefault(), "%.1f m", alt)
-        binding.gainTextView.text = String.format(Locale.getDefault(), "+%.2f m (1 min)", gain)
+        binding.coordinatesTextView.text = getString(R.string.coordinates_format, lat, lon)
+        binding.altitudeTextView.text = getString(R.string.altitude_format, alt)
+        binding.gainTextView.text = getString(R.string.gain_format, gain)
         
         if (!passName.isNullOrEmpty()) {
             binding.passTextView.text = passName
             binding.passTextView.visibility = View.VISIBLE
         } else {
-            binding.passTextView.text = "No near pass"
+            binding.passTextView.text = getString(R.string.no_near_pass)
             binding.passTextView.visibility = View.VISIBLE
         }
         

@@ -2,6 +2,27 @@
 <resources>
     <string name="app_name">MotoPass</string>
     <string name="altitude_label">Altitude</string>
-    <string name="waiting_for_gps">--.- m</string>
-    <string name="initializing">Initializing...</string>
+    <string name="altitude_gain_label">Altitude Gain (1 min)</string>
+    <string name="current_location">Current Location</string>
+    <string name="locating">Locating…</string>
+    <string name="searching_pass">Searching Pass…</string>
+    <string name="no_near_pass">No near pass</string>
+    <string name="show_nearby_passes">Show Nearby Passes</string>
+    <string name="show_map">Show Map</string>
+    <string name="toggle_map_list">Toggle Map/List</string>
+    <string name="passes_in_radius">Passes in 20km</string>
+    <string name="you_are_here">You are here</string>
+    <string name="app_launched">App launched</string>
+    <string name="logs_visible">Logs visible</string>
+    <string name="cached_pos_loaded">Loaded last cached position</string>
+    <string name="map_initialized">Map initialized</string>
+    <string name="requested_passes">Requested nearby passes…</string>
+    <string name="found_passes">Found %1$d passes in 20km</string>
+    <string name="coordinates_format">Lat: %1$.5f, Lon: %2$.5f</string>
+    <string name="altitude_format">%1$.1f m</string>
+    <string name="gain_format">+%1$.2f m (1 min)</string>
+    <string name="no_coordinates">Lat: --, Lon: --</string>
+    <string name="no_altitude">-- m</string>
+    <string name="distance_format">%1$.1f km</string>
+    <string name="change_language">Language</string>
 </resources>
