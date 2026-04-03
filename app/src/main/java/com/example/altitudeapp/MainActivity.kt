@@ -24,6 +24,9 @@ import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.altitudeapp.databinding.ActivityMainBinding
 import org.osmdroid.config.Configuration as OsmConfig
+import org.osmdroid.events.MapListener
+import org.osmdroid.events.ScrollEvent
+import org.osmdroid.events.ZoomEvent
 import org.osmdroid.tileprovider.tilesource.TileSourceFactory
 import org.osmdroid.util.GeoPoint
 import org.osmdroid.views.overlay.Marker
@@ -40,9 +43,7 @@ class MainActivity : AppCompatActivity() {
     
     private var currentLocationMarker: Marker? = null
     private val nearbyPassMarkers = mutableListOf<Marker>()
-    private var lastTappedMarker: Marker? = null
-    private var lastTapTime: Long = 0L
-    private val DOUBLE_TAP_MS = 400L
+    private val LABEL_ZOOM_THRESHOLD = 12.0
     private val passAdapter = PassAdapter { pass -> onPassInListClicked(pass) }
     
     private var lastLat: Double = 0.0
@@ -127,18 +128,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun onPassInListClicked(pass: MountainPass) {
-        // Center map on the pass and show it
-        val passPoint = GeoPoint(pass.latitude, pass.longitude)
-        binding.mapView.controller.animateTo(passPoint)
-        binding.mapView.controller.setZoom(14.0)
-        
-        // Hide list and show map
-        binding.nearbyPassesRecyclerView.visibility = View.GONE
-        binding.mapView.visibility = View.VISIBLE
-        binding.showNearbyPassesButton.text = getString(R.string.show_nearby_passes)
-        
-        // Try to find its marker and show its info window
-        nearbyPassMarkers.find { it.position.latitude == pass.latitude && it.position.longitude == pass.longitude }?.showInfoWindow()
+        navigateToLocation(pass.latitude, pass.longitude)
     }
 
     private fun updatePassListVisibility(passes: List<MountainPass>) {
@@ -263,29 +253,19 @@ class MainActivity : AppCompatActivity() {
             
             if (pass.name == currentPassName) {
                 marker.icon = ContextCompat.getDrawable(this, org.osmdroid.library.R.drawable.marker_default_focused_base)
-                marker.showInfoWindow()
             } else {
                 marker.icon = ContextCompat.getDrawable(this, org.osmdroid.library.R.drawable.marker_default)
             }
 
-            marker.setOnMarkerClickListener { m, mapView ->
-                val now = System.currentTimeMillis()
-                if (m == lastTappedMarker && now - lastTapTime < DOUBLE_TAP_MS) {
-                    lastTappedMarker = null
-                    navigateToLocation(m.position.latitude, m.position.longitude)
-                } else {
-                    m.showInfoWindow()
-                    mapView.controller.animateTo(m.position)
-                    lastTappedMarker = m
-                    lastTapTime = now
-                }
+            marker.setOnMarkerClickListener { m, _ ->
+                navigateToLocation(m.position.latitude, m.position.longitude)
                 true
             }
-            
+
             binding.mapView.overlays.add(marker)
             nearbyPassMarkers.add(marker)
         }
-        binding.mapView.invalidate()
+        updateMarkersForZoom(binding.mapView.zoomLevelDouble)
     }
 
     private fun navigateToLocation(lat: Double, lon: Double) {
@@ -304,7 +284,23 @@ class MainActivity : AppCompatActivity() {
         binding.mapView.setTileSource(TileSourceFactory.MAPNIK)
         binding.mapView.setMultiTouchControls(true)
         binding.mapView.controller.setZoom(12.0)
+        binding.mapView.addMapListener(object : MapListener {
+            override fun onScroll(event: ScrollEvent?): Boolean = false
+            override fun onZoom(event: ZoomEvent?): Boolean {
+                updateMarkersForZoom(event?.zoomLevel?.toDouble() ?: binding.mapView.zoomLevelDouble)
+                return false
+            }
+        })
         appendLog(getString(R.string.map_initialized))
+    }
+
+    private fun updateMarkersForZoom(zoom: Double) {
+        if (zoom >= LABEL_ZOOM_THRESHOLD) {
+            nearbyPassMarkers.forEach { it.showInfoWindow() }
+        } else {
+            nearbyPassMarkers.forEach { it.closeInfoWindow() }
+        }
+        binding.mapView.invalidate()
     }
 
     private fun updateMapLocation(lat: Double, lon: Double) {
@@ -315,9 +311,10 @@ class MainActivity : AppCompatActivity() {
                 currentLocationMarker?.title = getString(R.string.you_are_here)
                 currentLocationMarker?.icon = ContextCompat.getDrawable(this, org.osmdroid.library.R.drawable.person)
                 binding.mapView.overlays.add(currentLocationMarker)
-                binding.mapView.controller.setCenter(startPoint)
+                binding.mapView.controller.setZoom(12.0)
             }
             currentLocationMarker?.position = startPoint
+            binding.mapView.controller.animateTo(startPoint)
         }
     }
 
@@ -407,8 +404,12 @@ class MainActivity : AppCompatActivity() {
             addAction(AltitudeService.ACTION_LOCATION_UPDATE)
             addAction(AltitudeService.ACTION_LOG_UPDATE)
         }
-        
         ContextCompat.registerReceiver(this, receiver, filter, ContextCompat.RECEIVER_NOT_EXPORTED)
+
+        // Restart service if it was killed while the app was in the background
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+            startAltitudeService()
+        }
     }
 
     override fun onPause() {

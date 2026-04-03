@@ -17,6 +17,7 @@ import androidx.core.app.NotificationCompat
 import com.google.android.gms.location.*
 import org.xmlpull.v1.XmlPullParser
 import org.xmlpull.v1.XmlPullParserFactory
+import java.io.File
 import java.io.InputStream
 import java.io.Serializable
 import java.text.SimpleDateFormat
@@ -34,6 +35,8 @@ data class MountainPass(val name: String, val latitude: Double, val longitude: D
     override fun hashCode(): Int = name.hashCode()
 }
 
+data class TrackPoint(val lat: Double, val lon: Double, val alt: Double, val time: Long)
+
 class AltitudeService : Service() {
 
     private lateinit var fusedLocationClient: FusedLocationProviderClient
@@ -44,9 +47,14 @@ class AltitudeService : Service() {
     private val ONE_MINUTE_MS = 1 * 60 * 1000L
     
     private val mountainPasses = mutableSetOf<MountainPass>()
-    private val PROXIMITY_THRESHOLD_METERS = 50000.0 // 50 km for testing
-    private val SEARCH_RADIUS_KM = 500.0 // 500 km for testing
+    private val PROXIMITY_THRESHOLD_METERS = 500.0
+    private val SEARCH_RADIUS_KM = 100.0
     private var lastLocation: Location? = null
+
+    private val trackPoints = mutableListOf<TrackPoint>()
+    private var currentTrackDate = ""
+    private var pointsSinceLastWrite = 0
+    private val WRITE_EVERY_N_POINTS = 5
 
     companion object {
         const val ACTION_LOCATION_UPDATE = "com.example.altitudeapp.LOCATION_UPDATE"
@@ -90,7 +98,9 @@ class AltitudeService : Service() {
                         gain = updateAltitudeGain(alt)
                         updateNotification(alt)
                     }
-                    
+
+                    recordTrackPoint(lat, lon, alt)
+
                     sendLog("Searching for passes near $lat, $lon...")
                     val nearbyPass = findNearbyPass(location)
                     if (nearbyPass != null) {
@@ -190,7 +200,7 @@ class AltitudeService : Service() {
     private fun acquireWakeLock() {
         val powerManager = getSystemService(Context.POWER_SERVICE) as PowerManager
         wakeLock = powerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "AltitudeApp:ServiceWakeLock")
-        wakeLock?.acquire(10 * 60 * 1000L)
+        wakeLock?.acquire(12 * 60 * 60 * 1000L) // 12 hours
         sendLog("WakeLock acquired.")
     }
 
@@ -211,7 +221,7 @@ class AltitudeService : Service() {
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         if (wakeLock?.isHeld == false) {
-            wakeLock?.acquire(10 * 60 * 1000L)
+            wakeLock?.acquire(12 * 60 * 60 * 1000L) // 12 hours
             sendLog("WakeLock re-acquired.")
         }
         
@@ -292,10 +302,61 @@ class AltitudeService : Service() {
         notificationManager.notify(1, notification)
     }
 
+    private fun recordTrackPoint(lat: Double, lon: Double, alt: Double) {
+        val today = SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(Date())
+        if (today != currentTrackDate) {
+            if (trackPoints.isNotEmpty() && currentTrackDate.isNotEmpty()) {
+                writeGpxFile(currentTrackDate)
+            }
+            trackPoints.clear()
+            currentTrackDate = today
+            pointsSinceLastWrite = 0
+        }
+        trackPoints.add(TrackPoint(lat, lon, alt, System.currentTimeMillis()))
+        pointsSinceLastWrite++
+        if (pointsSinceLastWrite >= WRITE_EVERY_N_POINTS) {
+            writeGpxFile(currentTrackDate)
+            pointsSinceLastWrite = 0
+        }
+    }
+
+    private fun writeGpxFile(date: String) {
+        if (trackPoints.isEmpty()) return
+        try {
+            val dir = getExternalFilesDir("tracks") ?: filesDir
+            dir.mkdirs()
+            val file = File(dir, "track_$date.gpx")
+            val isoFormat = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'", Locale.US)
+            isoFormat.timeZone = TimeZone.getTimeZone("UTC")
+            val sb = StringBuilder()
+            sb.append("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n")
+            sb.append("<gpx version=\"1.1\" creator=\"MotoPass\" xmlns=\"http://www.topografix.com/GPX/1/1\">\n")
+            sb.append("  <trk>\n")
+            sb.append("    <name>Track $date</name>\n")
+            sb.append("    <trkseg>\n")
+            for (pt in trackPoints) {
+                sb.append("      <trkpt lat=\"${pt.lat}\" lon=\"${pt.lon}\">\n")
+                if (pt.alt != 0.0) sb.append("        <ele>${String.format(Locale.US, "%.1f", pt.alt)}</ele>\n")
+                sb.append("        <time>${isoFormat.format(Date(pt.time))}</time>\n")
+                sb.append("      </trkpt>\n")
+            }
+            sb.append("    </trkseg>\n")
+            sb.append("  </trk>\n")
+            sb.append("</gpx>\n")
+            file.writeText(sb.toString())
+            sendLog("Track saved: ${file.name} (${trackPoints.size} pts)")
+        } catch (e: Exception) {
+            sendLog("Error saving track: ${e.message}")
+        }
+    }
+
     override fun onBind(intent: Intent?): IBinder? = null
 
     override fun onDestroy() {
         super.onDestroy()
+        if (trackPoints.isNotEmpty() && currentTrackDate.isNotEmpty()) {
+            writeGpxFile(currentTrackDate)
+        }
         sendLog("Service Destroyed.")
         wakeLock?.let { if (it.isHeld) it.release() }
         fusedLocationClient.removeLocationUpdates(locationCallback)
