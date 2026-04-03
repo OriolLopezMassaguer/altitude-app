@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Blue circle background -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M12,0 A12,12 0 0 1 12,24 A12,12 0 0 1 12,0 Z"/>
+    <!-- White motorcycle silhouette -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M19.5,10.5c-0.83,0 -1.5,0.67 -1.5,1.5s0.67,1.5 1.5,1.5 1.5,-0.67 1.5,-1.5 -0.67,-1.5 -1.5,-1.5m0,-1.5c1.66,0 3,1.34 3,3s-1.34,3 -3,3 -3,-1.34 -3,-3 1.34,-3 3,-3m-14,1.5c-0.83,0 -1.5,0.67 -1.5,1.5s0.67,1.5 1.5,1.5 1.5,-0.67 1.5,-1.5 -0.67,-1.5 -1.5,-1.5m0,-1.5c1.66,0 3,1.34 3,3s-1.34,3 -3,3 -3,-1.34 -3,-3 1.34,-3 3,-3M20,7l1,3h-7L13,4H4v2h7l0.5,1.5L9,11.5V15h2v-2.5l2.5,-3h3.5l1,3H22v-2h-1.5L19,7h1z" />
+</vector>

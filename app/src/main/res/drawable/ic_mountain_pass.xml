@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Mountain body -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M12,3L2,21H22L12,3Z" />
+    <!-- Snow cap -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M12,3L8.5,10L12,8.5L15.5,10L12,3Z" />
+</vector>

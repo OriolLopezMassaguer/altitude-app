@@ -136,6 +136,7 @@ class MainActivity : AppCompatActivity() {
             binding.nearbyPassesContainer?.visibility = View.GONE
             binding.showNearbyPassesButton.visibility = View.GONE
             binding.nearbyPassesRecyclerView.visibility = View.GONE
+            binding.mapCard?.visibility = View.VISIBLE
             binding.mapView.visibility = View.VISIBLE
         } else {
             binding.nearbyPassesContainer?.visibility = View.VISIBLE
@@ -231,10 +232,12 @@ class MainActivity : AppCompatActivity() {
     private fun toggleNearbyList() {
         if (binding.nearbyPassesRecyclerView.visibility == View.GONE) {
             binding.nearbyPassesRecyclerView.visibility = View.VISIBLE
+            binding.mapCard?.visibility = View.GONE
             binding.mapView.visibility = View.GONE
             binding.showNearbyPassesButton.text = getString(R.string.show_map)
         } else {
             binding.nearbyPassesRecyclerView.visibility = View.GONE
+            binding.mapCard?.visibility = View.VISIBLE
             binding.mapView.visibility = View.VISIBLE
             binding.showNearbyPassesButton.text = getString(R.string.show_nearby_passes)
         }
@@ -250,12 +253,8 @@ class MainActivity : AppCompatActivity() {
             val marker = Marker(binding.mapView)
             marker.position = GeoPoint(pass.latitude, pass.longitude)
             marker.title = pass.name
-            
-            if (pass.name == currentPassName) {
-                marker.icon = ContextCompat.getDrawable(this, org.osmdroid.library.R.drawable.marker_default_focused_base)
-            } else {
-                marker.icon = ContextCompat.getDrawable(this, org.osmdroid.library.R.drawable.marker_default)
-            }
+            marker.icon = ContextCompat.getDrawable(this, R.drawable.ic_mountain_pass)
+            marker.setAnchor(Marker.ANCHOR_CENTER, Marker.ANCHOR_BOTTOM)
 
             marker.setOnMarkerClickListener { m, _ ->
                 navigateToLocation(m.position.latitude, m.position.longitude)
@@ -309,7 +308,8 @@ class MainActivity : AppCompatActivity() {
             if (currentLocationMarker == null) {
                 currentLocationMarker = Marker(binding.mapView)
                 currentLocationMarker?.title = getString(R.string.you_are_here)
-                currentLocationMarker?.icon = ContextCompat.getDrawable(this, org.osmdroid.library.R.drawable.person)
+                currentLocationMarker?.icon = ContextCompat.getDrawable(this, R.drawable.ic_motorcycle)
+                currentLocationMarker?.setAnchor(Marker.ANCHOR_CENTER, Marker.ANCHOR_CENTER)
                 binding.mapView.overlays.add(currentLocationMarker)
                 binding.mapView.controller.setZoom(12.0)
             }
