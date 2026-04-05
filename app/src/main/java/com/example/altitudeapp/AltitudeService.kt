@@ -55,6 +55,7 @@ class AltitudeService : Service() {
 
     private val trackPoints = mutableListOf<TrackPoint>()
     private var currentTrackDate = ""
+    private var locationUpdatesActive = false
 
     companion object {
         const val ACTION_LOCATION_UPDATE = "com.example.altitudeapp.LOCATION_UPDATE"
@@ -229,6 +230,7 @@ class AltitudeService : Service() {
         
         startForegroundService()
         startLocationUpdates()
+        DailyStartReceiver.scheduleWatchdog(this)
         return START_STICKY
     }
 
@@ -258,6 +260,7 @@ class AltitudeService : Service() {
     }
 
     private fun startLocationUpdates() {
+        if (locationUpdatesActive) return
         sendLog("Requesting location updates (1 minute interval)...")
         val locationRequest = LocationRequest.Builder(Priority.PRIORITY_HIGH_ACCURACY, 60000)
             .setMinUpdateIntervalMillis(30000)
@@ -265,6 +268,7 @@ class AltitudeService : Service() {
             .build()
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
             fusedLocationClient.requestLocationUpdates(locationRequest, locationCallback, locationHandlerThread.looper)
+            locationUpdatesActive = true
             sendLog("Location updates active.")
         } else {
             sendLog("Error: Missing location permissions!")
@@ -397,6 +401,7 @@ class AltitudeService : Service() {
         sendLog("Service Destroyed.")
         wakeLock?.let { if (it.isHeld) it.release() }
         fusedLocationClient.removeLocationUpdates(locationCallback)
+        locationUpdatesActive = false
         locationHandlerThread.quitSafely()
     }
 }

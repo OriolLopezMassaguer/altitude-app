@@ -17,6 +17,10 @@ class DailyStartReceiver : BroadcastReceiver() {
                 startService(context)
                 scheduleDailyAlarm(context)
             }
+            ACTION_WATCHDOG -> {
+                startService(context)
+                scheduleWatchdog(context)
+            }
         }
     }
 
@@ -31,7 +35,10 @@ class DailyStartReceiver : BroadcastReceiver() {
 
     companion object {
         const val ACTION_DAILY_START = "com.example.altitudeapp.DAILY_START"
+        const val ACTION_WATCHDOG = "com.example.altitudeapp.WATCHDOG"
         private const val ALARM_REQUEST_CODE = 9001
+        private const val WATCHDOG_REQUEST_CODE = 9002
+        private const val WATCHDOG_INTERVAL_MS = 60 * 1000L // 1 minute
 
         fun scheduleDailyAlarm(context: Context) {
             val alarmManager = context.getSystemService(AlarmManager::class.java)
@@ -41,7 +48,6 @@ class DailyStartReceiver : BroadcastReceiver() {
                 set(Calendar.MINUTE, 0)
                 set(Calendar.SECOND, 0)
                 set(Calendar.MILLISECOND, 0)
-                // If it's already past 9 AM today, schedule for tomorrow
                 if (timeInMillis <= System.currentTimeMillis()) {
                     add(Calendar.DAY_OF_YEAR, 1)
                 }
@@ -55,7 +61,6 @@ class DailyStartReceiver : BroadcastReceiver() {
             )
 
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S && !alarmManager.canScheduleExactAlarms()) {
-                // Fall back to inexact alarm — still fires around 9 AM
                 alarmManager.set(AlarmManager.RTC_WAKEUP, next9am.timeInMillis, pendingIntent)
             } else {
                 alarmManager.setExactAndAllowWhileIdle(
@@ -64,6 +69,22 @@ class DailyStartReceiver : BroadcastReceiver() {
                     pendingIntent
                 )
             }
+        }
+
+        fun scheduleWatchdog(context: Context) {
+            val alarmManager = context.getSystemService(AlarmManager::class.java)
+            val pendingIntent = PendingIntent.getBroadcast(
+                context,
+                WATCHDOG_REQUEST_CODE,
+                Intent(context, DailyStartReceiver::class.java).apply { action = ACTION_WATCHDOG },
+                PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
+            )
+            // Inexact is fine for a watchdog — no need for exact timing
+            alarmManager.set(
+                AlarmManager.RTC_WAKEUP,
+                System.currentTimeMillis() + WATCHDOG_INTERVAL_MS,
+                pendingIntent
+            )
         }
     }
 }

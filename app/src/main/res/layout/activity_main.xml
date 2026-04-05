@@ -98,6 +98,15 @@
             android:padding="12dp"
             android:gravity="center">
             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/altitude_label"
+                android:textColor="#90A4AE"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:letterSpacing="0.1" />
+            <TextView
                 android:id="@+id/altitudeTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -106,6 +115,16 @@
                 android:textSize="56sp"
                 android:textStyle="bold"
                 android:gravity="center" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/altitude_gain_label"
+                android:textColor="#90A4AE"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:letterSpacing="0.1"
+                android:layout_marginTop="4dp" />
             <TextView
                 android:id="@+id/gainTextView"
                 android:layout_width="match_parent"

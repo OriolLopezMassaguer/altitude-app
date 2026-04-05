@@ -91,9 +91,14 @@ class MainActivity : AppCompatActivity() {
                     updateMapLocation(lat, lon)
 
                     nearbyPasses?.let {
-                        updateNearbyMarkers(it, passName)
-                        passAdapter.updateData(it, lat, lon)
-                        updatePassListVisibility(it)
+                        val sorted = it.sortedBy { pass ->
+                            FloatArray(1).also { d ->
+                                Location.distanceBetween(lat, lon, pass.latitude, pass.longitude, d)
+                            }[0]
+                        }
+                        updateNearbyMarkers(sorted.take(20), passName)
+                        passAdapter.updateData(sorted, lat, lon)
+                        updatePassListVisibility(sorted)
                     }
                 }
                 AltitudeService.ACTION_LOG_UPDATE -> {
@@ -117,6 +122,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         
+        window.addFlags(android.view.WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this)
         OsmConfig.getInstance().load(this, sharedPreferences)
         
@@ -312,6 +318,7 @@ class MainActivity : AppCompatActivity() {
         if (newNames == lastRenderedPassNames) return
         lastRenderedPassNames = newNames
 
+        nearbyPassMarkers.forEach { it.closeInfoWindow() }
         binding.mapView.overlays.removeAll(nearbyPassMarkers)
         nearbyPassMarkers.clear()
 
@@ -329,7 +336,10 @@ class MainActivity : AppCompatActivity() {
             nearbyPassMarkers.add(marker)
         }
         binding.mapView.overlays.addAll(nearbyPassMarkers)
-        updateMarkersForZoom(binding.mapView.zoomLevelDouble)
+        binding.mapView.post {
+            nearbyPassMarkers.forEach { it.showInfoWindow() }
+            binding.mapView.invalidate()
+        }
     }
 
     private fun navigateToLocation(lat: Double, lon: Double) {
@@ -373,6 +383,7 @@ class MainActivity : AppCompatActivity() {
 
         val sorted = options.values.sortedBy { it.first }
         if (sorted.isEmpty()) {
+            appendLog("Navigation: opening system chooser for $lat, $lon")
             startActivity(Intent.createChooser(
                 Intent(Intent.ACTION_VIEW, Uri.parse("geo:$lat,$lon")),
                 getString(R.string.navigate_with)
@@ -383,6 +394,7 @@ class MainActivity : AppCompatActivity() {
         AlertDialog.Builder(this)
             .setTitle(getString(R.string.navigate_with))
             .setItems(sorted.map { it.first }.toTypedArray()) { _, i ->
+                appendLog("Navigation: opening ${sorted[i].first} → $lat, $lon")
                 startActivity(sorted[i].second)
             }
             .show()
@@ -422,11 +434,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun updateMarkersForZoom(zoom: Double) {
-        if (zoom >= LABEL_ZOOM_THRESHOLD) {
-            nearbyPassMarkers.forEach { it.showInfoWindow() }
-        } else {
-            nearbyPassMarkers.forEach { it.closeInfoWindow() }
-        }
         binding.mapView.invalidate()
     }
 

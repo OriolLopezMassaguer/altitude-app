@@ -7,57 +7,42 @@
 
     <!-- Blue circle background -->
     <path
-        android:fillColor="#1565C0"
+        android:fillColor="#0D47A1"
         android:pathData="M1,12 A11,11 0 1,0 23,12 A11,11 0 1,0 1,12 Z"/>
 
-    <!-- Rear wheel -->
+    <!-- Head -->
     <path
         android:fillColor="#FFFFFF"
-        android:pathData="M3.2,15 A2.8,2.8 0 1,0 8.8,15 A2.8,2.8 0 1,0 3.2,15 Z"/>
+        android:pathData="M12,5 A2,2 0 1,0 16,5 A2,2 0 1,0 12,5 Z"/>
 
-    <!-- Front wheel -->
+    <!-- Helmet (arc over head) -->
     <path
         android:fillColor="#FFFFFF"
-        android:pathData="M15.2,15 A2.8,2.8 0 1,0 20.8,15 A2.8,2.8 0 1,0 15.2,15 Z"/>
+        android:pathData="M11,4.5 Q14,2 17,4.5"/>
 
-    <!-- Pannier (rectangular side case — most iconic BMW RT feature) -->
+    <!-- Body -->
     <path
         android:fillColor="#FFFFFF"
-        android:pathData="M3,10.5 L8.5,10.5 L8.5,14.8 L3,14.8 Z"/>
+        android:pathData="M14,7 L14,13 L12,13 L12,7 Z"/>
 
-    <!-- Seat and tank (connecting pannier to fairing) -->
+    <!-- Left arm (down to handlebar) -->
     <path
         android:fillColor="#FFFFFF"
-        android:pathData="M8.5,10.5 L9,8.5 L12.5,8 L14,8.5 L14.5,10 L14.5,10.5 Z"/>
+        android:pathData="M12,8 L9,11 L10,11.5 L13,8.5 Z"/>
 
-    <!-- Large full fairing (BMW RT's defining shape) -->
+    <!-- Right arm (down to handlebar) -->
     <path
         android:fillColor="#FFFFFF"
-        android:pathData="M14,9.5 L14.5,6.5 L16.5,5 L19,6 L20.5,8.5 L21,12 L20,14.5 L18,15.5 L16,15.5 L14.5,14 L14,11.5 Z"/>
+        android:pathData="M14,8 L17,11 L18,10.5 L15,8 Z"/>
 
-    <!-- Windscreen (light blue, upper fairing) -->
+    <!-- Left leg (bent forward) -->
     <path
-        android:fillColor="#90CAF9"
-        android:pathData="M14.5,6.5 L16.5,5 L19,6 L20,8.5 L18,8 L16.5,7 Z"/>
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,13 L10,16 L11,16.5 L13,13.5 Z"/>
 
-    <!-- Boxer engine cylinder head (flat-twin sticking out below frame) -->
+    <!-- Right leg (bent forward) -->
     <path
-        android:fillColor="#BBDEFB"
-        android:pathData="M9.5,12.5 L13,12.5 L13,13.8 L9.5,13.8 Z"/>
-
-    <!-- Front forks (upright — touring geometry) -->
-    <path
-        android:fillColor="#E0E0E0"
-        android:pathData="M19.5,12.5 L18.3,15.3 L17.6,15.3 L18.8,12.5 Z"/>
-
-    <!-- Rear wheel hub -->
-    <path
-        android:fillColor="#1565C0"
-        android:pathData="M4.8,15 A1.2,1.2 0 1,0 7.2,15 A1.2,1.2 0 1,0 4.8,15 Z"/>
-
-    <!-- Front wheel hub -->
-    <path
-        android:fillColor="#1565C0"
-        android:pathData="M16.8,15 A1.2,1.2 0 1,0 19.2,15 A1.2,1.2 0 1,0 16.8,15 Z"/>
+        android:fillColor="#FFFFFF"
+        android:pathData="M14,13 L16,16 L17,15.5 L15,12.5 Z"/>
 
 </vector>

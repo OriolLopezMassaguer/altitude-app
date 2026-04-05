@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">MotoPass</string>
     <string name="altitude_label">Altitud</string>
-    <string name="altitude_gain_label">Desnivell (1 min)</string>
+    <string name="altitude_gain_label">Guany d\'altitud (1 min)</string>
     <string name="current_location">Ubicació Actual</string>
     <string name="locating">Localitzant…</string>
     <string name="searching_pass">Buscant Coll…</string>
