@@ -12,17 +12,25 @@ import android.location.Geocoder
 import android.location.Location
 import android.net.Uri
 import android.os.Build
+import android.os.PowerManager
+import android.provider.Settings
+import android.widget.Toast
+import androidx.core.content.FileProvider
 import android.os.Bundle
 import android.preference.PreferenceManager
 import android.view.GestureDetector
 import android.view.MotionEvent
 import android.view.View
 import android.widget.PopupMenu
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.altitudeapp.databinding.ActivityMainBinding
+import org.xmlpull.v1.XmlPullParser
+import org.xmlpull.v1.XmlPullParserFactory
+import java.io.File
 import org.osmdroid.config.Configuration as OsmConfig
 import org.osmdroid.events.MapListener
 import org.osmdroid.events.ScrollEvent
@@ -30,6 +38,7 @@ import org.osmdroid.events.ZoomEvent
 import org.osmdroid.tileprovider.tilesource.TileSourceFactory
 import org.osmdroid.util.GeoPoint
 import org.osmdroid.views.overlay.Marker
+import org.osmdroid.views.overlay.Polyline
 import java.io.IOException
 import java.text.SimpleDateFormat
 import java.util.*
@@ -38,11 +47,16 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private val LOCATION_PERMISSION_REQUEST_CODE = 1
+    private val BG_LOCATION_PERMISSION_REQUEST_CODE = 2
     private lateinit var gestureDetector: GestureDetector
     private lateinit var sharedPreferences: SharedPreferences
     
     private var currentLocationMarker: Marker? = null
     private val nearbyPassMarkers = mutableListOf<Marker>()
+    private var lastRenderedPassNames: Set<String> = emptySet()
+    private var passIconDrawable: android.graphics.drawable.Drawable? = null
+    private val trackPoints = mutableListOf<GeoPoint>()
+    private var trackPolyline: Polyline? = null
     private val LABEL_ZOOM_THRESHOLD = 12.0
     private val passAdapter = PassAdapter { pass -> onPassInListClicked(pass) }
     
@@ -73,6 +87,7 @@ class MainActivity : AppCompatActivity() {
                     saveLastState(lat, lon, alt, gain, passName)
 
                     updateUI(lat, lon, alt, gain, passName, nearbyPasses)
+                    appendTrackPoint(lat, lon)
                     updateMapLocation(lat, lon)
 
                     nearbyPasses?.let {
@@ -116,6 +131,8 @@ class MainActivity : AppCompatActivity() {
             toggleNearbyList()
         }
 
+        binding.shareTrackButton.setOnClickListener { shareTrack() }
+
         binding.languageButton?.setOnClickListener { showLanguageMenu(it) }
 
         if (savedInstanceState != null) {
@@ -123,6 +140,7 @@ class MainActivity : AppCompatActivity() {
         } else {
             loadLastPosition()
         }
+        DailyStartReceiver.scheduleDailyAlarm(this)
         appendLog(getString(R.string.app_launched))
         checkPermissionsAndStartService()
     }
@@ -133,14 +151,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun updatePassListVisibility(passes: List<MountainPass>) {
         if (passes.isEmpty()) {
-            binding.nearbyPassesContainer?.visibility = View.GONE
-            binding.showNearbyPassesButton.visibility = View.GONE
             binding.nearbyPassesRecyclerView.visibility = View.GONE
-            binding.mapCard?.visibility = View.VISIBLE
             binding.mapView.visibility = View.VISIBLE
-        } else {
-            binding.nearbyPassesContainer?.visibility = View.VISIBLE
-            binding.showNearbyPassesButton.visibility = View.VISIBLE
         }
     }
 
@@ -176,6 +188,8 @@ class MainActivity : AppCompatActivity() {
         outState.putDouble("gain", lastGain)
         outState.putString("passName", lastPassName)
         lastNearbyPasses?.let { outState.putSerializable("nearbyPasses", it) }
+        outState.putDoubleArray("track_lats", trackPoints.map { it.latitude }.toDoubleArray())
+        outState.putDoubleArray("track_lons", trackPoints.map { it.longitude }.toDoubleArray())
     }
 
     @Suppress("UNCHECKED_CAST")
@@ -186,6 +200,11 @@ class MainActivity : AppCompatActivity() {
         lastGain = bundle.getDouble("gain", 0.0)
         lastPassName = bundle.getString("passName")
         lastNearbyPasses = bundle.getSerializable("nearbyPasses") as? ArrayList<MountainPass>
+        val lats = bundle.getDoubleArray("track_lats") ?: doubleArrayOf()
+        val lons = bundle.getDoubleArray("track_lons") ?: doubleArrayOf()
+        trackPoints.clear()
+        lats.zip(lons.toList()).mapTo(trackPoints) { (lat, lon) -> GeoPoint(lat, lon) }
+        trackPolyline?.setPoints(trackPoints)
 
         if (lastLat != 0.0 || lastLon != 0.0) {
             updateMapLocation(lastLat, lastLon)
@@ -222,6 +241,53 @@ class MainActivity : AppCompatActivity() {
             updateUI(lat, lon, lastAlt, lastGain, lastPassName, null)
             appendLog(getString(R.string.cached_pos_loaded))
         }
+        loadTodayTrack()
+    }
+
+    private fun loadTodayTrack() {
+        val today = SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(Date())
+        val dir = getExternalFilesDir("tracks") ?: filesDir
+        val file = File(dir, "track_$today.gpx")
+        if (!file.exists()) return
+        try {
+            val points = mutableListOf<GeoPoint>()
+            val factory = XmlPullParserFactory.newInstance()
+            val parser = factory.newPullParser()
+            parser.setInput(file.inputStream(), "UTF-8")
+            var eventType = parser.eventType
+            while (eventType != XmlPullParser.END_DOCUMENT) {
+                if (eventType == XmlPullParser.START_TAG && parser.name == "trkpt") {
+                    val ptLat = parser.getAttributeValue(null, "lat")?.toDoubleOrNull()
+                    val ptLon = parser.getAttributeValue(null, "lon")?.toDoubleOrNull()
+                    if (ptLat != null && ptLon != null) points.add(GeoPoint(ptLat, ptLon))
+                }
+                eventType = parser.next()
+            }
+            if (points.isNotEmpty()) {
+                trackPoints.addAll(points)
+                trackPolyline?.setPoints(trackPoints)
+                appendLog("Track loaded: ${points.size} pts from $today")
+            }
+        } catch (e: Exception) {
+            appendLog("Track load error: ${e.message}")
+        }
+    }
+
+    private fun shareTrack() {
+        val today = SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(Date())
+        val dir = getExternalFilesDir("tracks") ?: filesDir
+        val file = File(dir, "track_$today.gpx")
+        if (!file.exists()) {
+            Toast.makeText(this, getString(R.string.no_track_to_share), Toast.LENGTH_SHORT).show()
+            return
+        }
+        val uri = FileProvider.getUriForFile(this, "${packageName}.fileprovider", file)
+        val intent = Intent(Intent.ACTION_SEND).apply {
+            type = "application/gpx+xml"
+            putExtra(Intent.EXTRA_STREAM, uri)
+            addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+        }
+        startActivity(Intent.createChooser(intent, getString(R.string.share_track)))
     }
 
     private fun setupRecyclerView() {
@@ -232,57 +298,119 @@ class MainActivity : AppCompatActivity() {
     private fun toggleNearbyList() {
         if (binding.nearbyPassesRecyclerView.visibility == View.GONE) {
             binding.nearbyPassesRecyclerView.visibility = View.VISIBLE
-            binding.mapCard?.visibility = View.GONE
             binding.mapView.visibility = View.GONE
             binding.showNearbyPassesButton.text = getString(R.string.show_map)
         } else {
             binding.nearbyPassesRecyclerView.visibility = View.GONE
-            binding.mapCard?.visibility = View.VISIBLE
             binding.mapView.visibility = View.VISIBLE
             binding.showNearbyPassesButton.text = getString(R.string.show_nearby_passes)
         }
     }
 
     private fun updateNearbyMarkers(passes: List<MountainPass>, currentPassName: String?) {
-        for (marker in nearbyPassMarkers) {
-            binding.mapView.overlays.remove(marker)
-        }
+        val newNames = passes.mapTo(mutableSetOf()) { it.name }
+        if (newNames == lastRenderedPassNames) return
+        lastRenderedPassNames = newNames
+
+        binding.mapView.overlays.removeAll(nearbyPassMarkers)
         nearbyPassMarkers.clear()
 
         for (pass in passes) {
-            val marker = Marker(binding.mapView)
-            marker.position = GeoPoint(pass.latitude, pass.longitude)
-            marker.title = pass.name
-            marker.icon = ContextCompat.getDrawable(this, R.drawable.ic_mountain_pass)
-            marker.setAnchor(Marker.ANCHOR_CENTER, Marker.ANCHOR_BOTTOM)
-
-            marker.setOnMarkerClickListener { m, _ ->
-                navigateToLocation(m.position.latitude, m.position.longitude)
-                true
+            val marker = Marker(binding.mapView).apply {
+                position = GeoPoint(pass.latitude, pass.longitude)
+                title = pass.name
+                icon = passIconDrawable
+                setAnchor(Marker.ANCHOR_CENTER, Marker.ANCHOR_BOTTOM)
+                setOnMarkerClickListener { m, _ ->
+                    navigateToLocation(m.position.latitude, m.position.longitude)
+                    true
+                }
             }
-
-            binding.mapView.overlays.add(marker)
             nearbyPassMarkers.add(marker)
         }
+        binding.mapView.overlays.addAll(nearbyPassMarkers)
         updateMarkersForZoom(binding.mapView.zoomLevelDouble)
     }
 
     private fun navigateToLocation(lat: Double, lon: Double) {
-        val gmmIntentUri = Uri.parse("google.navigation:q=$lat,$lon")
-        val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
-        mapIntent.setPackage("com.google.android.apps.maps")
-        if (mapIntent.resolveActivity(packageManager) != null) {
-            startActivity(mapIntent)
-        } else {
-            val webIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/dir/?api=1&destination=$lat,$lon"))
-            startActivity(webIntent)
+        // Collect unique apps across multiple URI schemes; keyed by package to avoid duplicates
+        val options = linkedMapOf<String, Pair<String, Intent>>()
+
+        fun queryScheme(uriStr: String) {
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(uriStr))
+            packageManager.queryIntentActivities(intent, PackageManager.MATCH_DEFAULT_ONLY)
+                .forEach { ri ->
+                    options.getOrPut(ri.activityInfo.packageName) {
+                        ri.loadLabel(packageManager).toString() to
+                            Intent(intent).apply { setPackage(ri.activityInfo.packageName) }
+                    }
+                }
         }
+
+        queryScheme("geo:$lat,$lon")
+        queryScheme("here-route://mylocation/$lat,$lon/drive") // HERE Maps / BMW
+        queryScheme("bmwmotorrad://?lat=$lat&lon=$lon")        // BMW own scheme
+
+        // Last-resort: try every known BMW package name explicitly
+        val bmwPackages = listOf(
+            "com.bmw.ConnectedRide",
+            "de.bmw.motorrad.connected",
+            "de.bmw.connected.mobile20.row",
+            "de.bmw.connected.mobile20.na",
+            "com.bmwgroup.connected.bmw"
+        )
+        if (options.none { it.key in bmwPackages }) {
+            for (pkg in bmwPackages) {
+                val launch = packageManager.getLaunchIntentForPackage(pkg) ?: continue
+                val label = try {
+                    packageManager.getApplicationLabel(
+                        packageManager.getApplicationInfo(pkg, 0)).toString()
+                } catch (_: Exception) { continue }
+                options[pkg] = label to launch
+                break
+            }
+        }
+
+        val sorted = options.values.sortedBy { it.first }
+        if (sorted.isEmpty()) {
+            startActivity(Intent.createChooser(
+                Intent(Intent.ACTION_VIEW, Uri.parse("geo:$lat,$lon")),
+                getString(R.string.navigate_with)
+            ))
+            return
+        }
+
+        AlertDialog.Builder(this)
+            .setTitle(getString(R.string.navigate_with))
+            .setItems(sorted.map { it.first }.toTypedArray()) { _, i ->
+                startActivity(sorted[i].second)
+            }
+            .show()
+    }
+
+    private fun isPackageInstalled(pkg: String) = try {
+        packageManager.getPackageInfo(pkg, 0); true
+    } catch (_: PackageManager.NameNotFoundException) { false }
+
+    private fun appendTrackPoint(lat: Double, lon: Double) {
+        trackPoints.add(GeoPoint(lat, lon))
+        trackPolyline?.setPoints(trackPoints)
+        binding.mapView.invalidate()
     }
 
     private fun setupMap() {
+        passIconDrawable = ContextCompat.getDrawable(this, R.drawable.ic_mountain_pass)
         binding.mapView.setTileSource(TileSourceFactory.MAPNIK)
         binding.mapView.setMultiTouchControls(true)
         binding.mapView.controller.setZoom(12.0)
+
+        trackPolyline = Polyline(binding.mapView).apply {
+            outlinePaint.color = android.graphics.Color.parseColor("#3F51B5")
+            outlinePaint.strokeWidth = 6f
+            outlinePaint.isAntiAlias = true
+        }
+        binding.mapView.overlays.add(0, trackPolyline)
+
         binding.mapView.addMapListener(object : MapListener {
             override fun onScroll(event: ScrollEvent?): Boolean = false
             override fun onZoom(event: ZoomEvent?): Boolean {
@@ -407,7 +535,8 @@ class MainActivity : AppCompatActivity() {
         ContextCompat.registerReceiver(this, receiver, filter, ContextCompat.RECEIVER_NOT_EXPORTED)
 
         // Restart service if it was killed while the app was in the background
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED &&
+            ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
             startAltitudeService()
         }
     }
@@ -419,32 +548,47 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun checkPermissionsAndStartService() {
-        val requiredPermissions = mutableListOf(
+        val foregroundPermissions = mutableListOf(
             Manifest.permission.ACCESS_FINE_LOCATION,
             Manifest.permission.ACCESS_COARSE_LOCATION
         )
-
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
-            requiredPermissions.add(Manifest.permission.ACCESS_BACKGROUND_LOCATION)
-        }
-
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-            requiredPermissions.add(Manifest.permission.POST_NOTIFICATIONS)
+            foregroundPermissions.add(Manifest.permission.POST_NOTIFICATIONS)
         }
 
-        val permissionsToRequest = requiredPermissions.filter {
+        val toRequest = foregroundPermissions.filter {
             ActivityCompat.checkSelfPermission(this, it) != PackageManager.PERMISSION_GRANTED
         }
 
-        if (permissionsToRequest.isNotEmpty()) {
+        if (toRequest.isNotEmpty()) {
+            ActivityCompat.requestPermissions(this, toRequest.toTypedArray(), LOCATION_PERMISSION_REQUEST_CODE)
+        } else {
+            onForegroundPermissionsGranted()
+        }
+    }
+
+    private fun onForegroundPermissionsGranted() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q &&
+            ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_BACKGROUND_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            // On Android 11+, background location must be requested separately
             ActivityCompat.requestPermissions(
                 this,
-                permissionsToRequest.toTypedArray(),
-                LOCATION_PERMISSION_REQUEST_CODE
+                arrayOf(Manifest.permission.ACCESS_BACKGROUND_LOCATION),
+                BG_LOCATION_PERMISSION_REQUEST_CODE
             )
         } else {
-            startAltitudeService()
+            requestBatteryOptimizationExemption()
         }
+    }
+
+    private fun requestBatteryOptimizationExemption() {
+        val pm = getSystemService(PowerManager::class.java)
+        if (!pm.isIgnoringBatteryOptimizations(packageName)) {
+            startActivity(Intent(Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS).apply {
+                data = Uri.parse("package:$packageName")
+            })
+        }
+        startAltitudeService()
     }
 
     private fun startAltitudeService() {
@@ -462,9 +606,16 @@ class MainActivity : AppCompatActivity() {
         grantResults: IntArray
     ) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
-        if (requestCode == LOCATION_PERMISSION_REQUEST_CODE) {
-            if (grantResults.isNotEmpty() && grantResults.all { it == PackageManager.PERMISSION_GRANTED }) {
-                startAltitudeService()
+        when (requestCode) {
+            LOCATION_PERMISSION_REQUEST_CODE -> {
+                val fineGranted = grantResults.isNotEmpty() &&
+                    grantResults[permissions.indexOf(Manifest.permission.ACCESS_FINE_LOCATION)
+                        .takeIf { it >= 0 } ?: 0] == PackageManager.PERMISSION_GRANTED
+                if (fineGranted) onForegroundPermissionsGranted()
+            }
+            BG_LOCATION_PERMISSION_REQUEST_CODE -> {
+                // Background location granted or denied — either way, proceed
+                requestBatteryOptimizationExemption()
             }
         }
     }

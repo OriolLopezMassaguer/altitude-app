@@ -9,6 +9,7 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.location.Location
 import android.os.Build
+import android.os.HandlerThread
 import android.os.IBinder
 import android.os.Looper
 import android.os.PowerManager
@@ -41,6 +42,7 @@ class AltitudeService : Service() {
 
     private lateinit var fusedLocationClient: FusedLocationProviderClient
     private lateinit var locationCallback: LocationCallback
+    private lateinit var locationHandlerThread: HandlerThread
     private var wakeLock: PowerManager.WakeLock? = null
     
     private val altitudeHistory = LinkedList<Pair<Long, Double>>()
@@ -53,8 +55,6 @@ class AltitudeService : Service() {
 
     private val trackPoints = mutableListOf<TrackPoint>()
     private var currentTrackDate = ""
-    private var pointsSinceLastWrite = 0
-    private val WRITE_EVERY_N_POINTS = 5
 
     companion object {
         const val ACTION_LOCATION_UPDATE = "com.example.altitudeapp.LOCATION_UPDATE"
@@ -72,8 +72,10 @@ class AltitudeService : Service() {
     override fun onCreate() {
         super.onCreate()
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
+        locationHandlerThread = HandlerThread("LocationThread").also { it.start() }
         acquireWakeLock()
         loadMountainPasses()
+        loadExistingTodayTrack()
         sendLog("Service Created. Initializing tracking...")
 
         locationCallback = object : LocationCallback() {
@@ -262,7 +264,7 @@ class AltitudeService : Service() {
             .setWaitForAccurateLocation(false)
             .build()
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
-            fusedLocationClient.requestLocationUpdates(locationRequest, locationCallback, Looper.getMainLooper())
+            fusedLocationClient.requestLocationUpdates(locationRequest, locationCallback, locationHandlerThread.looper)
             sendLog("Location updates active.")
         } else {
             sendLog("Error: Missing location permissions!")
@@ -302,6 +304,46 @@ class AltitudeService : Service() {
         notificationManager.notify(1, notification)
     }
 
+    private fun loadExistingTodayTrack() {
+        val today = SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(Date())
+        val dir = getExternalFilesDir("tracks") ?: filesDir
+        val file = File(dir, "track_$today.gpx")
+        if (!file.exists()) {
+            currentTrackDate = today
+            return
+        }
+        try {
+            val isoFormat = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'", Locale.US)
+            isoFormat.timeZone = TimeZone.getTimeZone("UTC")
+            val factory = XmlPullParserFactory.newInstance()
+            val parser = factory.newPullParser()
+            parser.setInput(file.inputStream(), "UTF-8")
+            var eventType = parser.eventType
+            var lat = 0.0; var lon = 0.0; var alt = 0.0; var time = 0L
+            while (eventType != XmlPullParser.END_DOCUMENT) {
+                when {
+                    eventType == XmlPullParser.START_TAG && parser.name == "trkpt" -> {
+                        lat = parser.getAttributeValue(null, "lat")?.toDoubleOrNull() ?: 0.0
+                        lon = parser.getAttributeValue(null, "lon")?.toDoubleOrNull() ?: 0.0
+                        alt = 0.0; time = 0L
+                    }
+                    eventType == XmlPullParser.START_TAG && parser.name == "ele" ->
+                        alt = parser.nextText().toDoubleOrNull() ?: 0.0
+                    eventType == XmlPullParser.START_TAG && parser.name == "time" ->
+                        time = try { isoFormat.parse(parser.nextText())?.time ?: 0L } catch (_: Exception) { 0L }
+                    eventType == XmlPullParser.END_TAG && parser.name == "trkpt" ->
+                        if (lat != 0.0 || lon != 0.0) trackPoints.add(TrackPoint(lat, lon, alt, time))
+                }
+                eventType = parser.next()
+            }
+            currentTrackDate = today
+            sendLog("Resumed today's track: ${trackPoints.size} existing points loaded.")
+        } catch (e: Exception) {
+            sendLog("Could not load existing track: ${e.message}")
+            currentTrackDate = today
+        }
+    }
+
     private fun recordTrackPoint(lat: Double, lon: Double, alt: Double) {
         val today = SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(Date())
         if (today != currentTrackDate) {
@@ -310,14 +352,9 @@ class AltitudeService : Service() {
             }
             trackPoints.clear()
             currentTrackDate = today
-            pointsSinceLastWrite = 0
         }
         trackPoints.add(TrackPoint(lat, lon, alt, System.currentTimeMillis()))
-        pointsSinceLastWrite++
-        if (pointsSinceLastWrite >= WRITE_EVERY_N_POINTS) {
-            writeGpxFile(currentTrackDate)
-            pointsSinceLastWrite = 0
-        }
+        writeGpxFile(currentTrackDate)
     }
 
     private fun writeGpxFile(date: String) {
@@ -360,5 +397,6 @@ class AltitudeService : Service() {
         sendLog("Service Destroyed.")
         wakeLock?.let { if (it.isHeld) it.release() }
         fusedLocationClient.removeLocationUpdates(locationCallback)
+        locationHandlerThread.quitSafely()
     }
 }

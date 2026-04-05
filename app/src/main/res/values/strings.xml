@@ -25,4 +25,7 @@
     <string name="no_altitude">-- m</string>
     <string name="distance_format">%1$.1f km</string>
     <string name="change_language">Language</string>
+    <string name="navigate_with">Navigate with…</string>
+    <string name="share_track">Share Track</string>
+    <string name="no_track_to_share">No track recorded today</string>
 </resources>

@@ -82,10 +82,20 @@
             android:id="@+id/showNearbyPassesButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Toggle Map/List"
+            android:text="@string/toggle_map_list"
             android:textSize="10sp"
             style="@style/Widget.MaterialComponents.Button.TextButton"
             android:textColor="#E91E63"
+            android:padding="0dp"
+            android:minHeight="32dp" />
+
+        <Button
+            android:id="@+id/shareTrackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/share_track"
+            android:textSize="10sp"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
             android:padding="0dp"
             android:minHeight="32dp" />
 

@@ -10,6 +10,33 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+
+    <!-- Required on Android 11+ to query installed navigation apps -->
+    <queries>
+        <!-- Standard map/navigation URI schemes -->
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="geo" />
+        </intent>
+        <!-- HERE Maps navigation (used by BMW Motorrad Connected) -->
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="here-route" />
+        </intent>
+        <!-- BMW Motorrad Connected own scheme -->
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="bmwmotorrad" />
+        </intent>
+        <!-- Known BMW package names -->
+        <package android:name="com.bmw.ConnectedRide" />
+        <package android:name="de.bmw.motorrad.connected" />
+        <package android:name="de.bmw.connected.mobile20.row" />
+        <package android:name="de.bmw.connected.mobile20.na" />
+        <package android:name="com.bmwgroup.connected.bmw" />
+    </queries>
 
     <application
         android:allowBackup="true"
@@ -24,10 +51,29 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="YOUR_API_KEY" />
 
+        <receiver
+            android:name=".DailyStartReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="com.example.altitudeapp.DAILY_START" />
+            </intent-filter>
+        </receiver>
+
         <service
             android:name=".AltitudeService"
             android:foregroundServiceType="location"
             android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
 
         <activity
             android:name=".MainActivity"

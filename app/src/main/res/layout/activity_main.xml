@@ -15,6 +15,18 @@
         android:layout_height="wrap_content">
 
         <Button
+            android:id="@+id/shareTrackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="@string/share_track"
+            android:textSize="10sp"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:padding="4dp" />
+
+        <Button
             android:id="@+id/languageButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -26,20 +38,6 @@
             android:minHeight="0dp"
             android:padding="4dp" />
     </FrameLayout>
-
-    <!-- Minimap -->
-    <androidx.cardview.widget.CardView
-        android:id="@+id/mapCard"
-        android:layout_width="match_parent"
-        android:layout_height="180dp"
-        android:layout_marginBottom="8dp"
-        app:cardCornerRadius="12dp"
-        app:cardElevation="4dp">
-        <org.osmdroid.views.MapView
-            android:id="@+id/mapView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-    </androidx.cardview.widget.CardView>
 
     <!-- Current Location & Arriving Pass -->
     <androidx.cardview.widget.CardView
@@ -120,31 +118,41 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
-    <!-- Nearby Passes List (Radius 20km) -->
-    <LinearLayout
-        android:id="@+id/nearbyPassesContainer"
+    <!-- Toggle button — always visible -->
+    <Button
+        android:id="@+id/showNearbyPassesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/show_nearby_passes"
+        android:textSize="12sp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+    <!-- Map / List area — both overlaid in a FrameLayout, toggled by the button -->
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:orientation="vertical"
-        android:visibility="gone">
-
-        <Button
-            android:id="@+id/showNearbyPassesButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/show_nearby_passes"
-            android:textSize="12sp"
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/nearbyPassesRecyclerView"
+        android:layout_marginTop="8dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:visibility="gone"
-            android:background="#FFFFFF" />
-    </LinearLayout>
+            android:layout_height="match_parent">
+
+            <org.osmdroid.views.MapView
+                android:id="@+id/mapView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/nearbyPassesRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:background="#FFFFFF" />
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
 
     <!-- Logs -->
     <ScrollView
