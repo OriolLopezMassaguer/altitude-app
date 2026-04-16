@@ -27,6 +27,18 @@
             android:padding="4dp" />
 
         <Button
+            android:id="@+id/importGpxButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/import_gpx"
+            android:textSize="10sp"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:padding="4dp" />
+
+        <Button
             android:id="@+id/languageButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

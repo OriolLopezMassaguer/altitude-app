@@ -28,4 +28,7 @@
     <string name="navigate_with">Navegar con…</string>
     <string name="share_track">Compartir Ruta</string>
     <string name="no_track_to_share">No hay ruta grabada hoy</string>
+    <string name="import_gpx">Importar GPX</string>
+    <string name="gpx_imported">GPX cargado: %1$d pts</string>
+    <string name="gpx_import_error">No se pudo leer el archivo GPX</string>
 </resources>

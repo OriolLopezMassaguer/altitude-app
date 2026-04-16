@@ -28,4 +28,7 @@
     <string name="navigate_with">Navigate with…</string>
     <string name="share_track">Share Track</string>
     <string name="no_track_to_share">No track recorded today</string>
+    <string name="import_gpx">Import GPX</string>
+    <string name="gpx_imported">GPX loaded: %1$d pts</string>
+    <string name="gpx_import_error">Could not read GPX file</string>
 </resources>

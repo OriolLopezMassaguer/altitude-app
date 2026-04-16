@@ -28,6 +28,7 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.altitudeapp.databinding.ActivityMainBinding
+import androidx.activity.result.contract.ActivityResultContracts
 import org.xmlpull.v1.XmlPullParser
 import org.xmlpull.v1.XmlPullParserFactory
 import java.io.File
@@ -36,6 +37,7 @@ import org.osmdroid.events.MapListener
 import org.osmdroid.events.ScrollEvent
 import org.osmdroid.events.ZoomEvent
 import org.osmdroid.tileprovider.tilesource.TileSourceFactory
+import org.osmdroid.util.BoundingBox
 import org.osmdroid.util.GeoPoint
 import org.osmdroid.views.overlay.Marker
 import org.osmdroid.views.overlay.Polyline
@@ -57,6 +59,14 @@ class MainActivity : AppCompatActivity() {
     private var passIconDrawable: android.graphics.drawable.Drawable? = null
     private val trackPoints = mutableListOf<GeoPoint>()
     private var trackPolyline: Polyline? = null
+    private val importedTrackPoints = mutableListOf<GeoPoint>()
+    private var importedTrackPolyline: Polyline? = null
+
+    private val importGpxLauncher = registerForActivityResult(
+        ActivityResultContracts.OpenDocument()
+    ) { uri: Uri? ->
+        uri?.let { loadImportedGpxTrack(it) }
+    }
     private val LABEL_ZOOM_THRESHOLD = 12.0
     private val passAdapter = PassAdapter { pass -> onPassInListClicked(pass) }
     
@@ -138,6 +148,9 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.shareTrackButton.setOnClickListener { shareTrack() }
+        binding.importGpxButton.setOnClickListener {
+            importGpxLauncher.launch(arrayOf("*/*"))
+        }
 
         binding.languageButton?.setOnClickListener { showLanguageMenu(it) }
 
@@ -196,6 +209,8 @@ class MainActivity : AppCompatActivity() {
         lastNearbyPasses?.let { outState.putSerializable("nearbyPasses", it) }
         outState.putDoubleArray("track_lats", trackPoints.map { it.latitude }.toDoubleArray())
         outState.putDoubleArray("track_lons", trackPoints.map { it.longitude }.toDoubleArray())
+        outState.putDoubleArray("imp_lats", importedTrackPoints.map { it.latitude }.toDoubleArray())
+        outState.putDoubleArray("imp_lons", importedTrackPoints.map { it.longitude }.toDoubleArray())
     }
 
     @Suppress("UNCHECKED_CAST")
@@ -211,6 +226,11 @@ class MainActivity : AppCompatActivity() {
         trackPoints.clear()
         lats.zip(lons.toList()).mapTo(trackPoints) { (lat, lon) -> GeoPoint(lat, lon) }
         trackPolyline?.setPoints(trackPoints)
+        val impLats = bundle.getDoubleArray("imp_lats") ?: doubleArrayOf()
+        val impLons = bundle.getDoubleArray("imp_lons") ?: doubleArrayOf()
+        importedTrackPoints.clear()
+        impLats.zip(impLons.toList()).mapTo(importedTrackPoints) { (lat, lon) -> GeoPoint(lat, lon) }
+        importedTrackPolyline?.setPoints(importedTrackPoints)
 
         if (lastLat != 0.0 || lastLon != 0.0) {
             updateMapLocation(lastLat, lastLon)
@@ -294,6 +314,50 @@ class MainActivity : AppCompatActivity() {
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
         }
         startActivity(Intent.createChooser(intent, getString(R.string.share_track)))
+    }
+
+    private fun loadImportedGpxTrack(uri: Uri) {
+        try {
+            val points = mutableListOf<GeoPoint>()
+            val factory = XmlPullParserFactory.newInstance()
+            val parser = factory.newPullParser()
+            contentResolver.openInputStream(uri)?.use { stream ->
+                parser.setInput(stream, null)
+                var eventType = parser.eventType
+                while (eventType != XmlPullParser.END_DOCUMENT) {
+                    if (eventType == XmlPullParser.START_TAG &&
+                        (parser.name == "trkpt" || parser.name == "wpt")) {
+                        val ptLat = parser.getAttributeValue(null, "lat")?.toDoubleOrNull()
+                        val ptLon = parser.getAttributeValue(null, "lon")?.toDoubleOrNull()
+                        if (ptLat != null && ptLon != null) points.add(GeoPoint(ptLat, ptLon))
+                    }
+                    eventType = parser.next()
+                }
+            }
+            if (points.isEmpty()) {
+                Toast.makeText(this, getString(R.string.gpx_import_error), Toast.LENGTH_SHORT).show()
+                return
+            }
+            importedTrackPoints.clear()
+            importedTrackPoints.addAll(points)
+            importedTrackPolyline?.setPoints(importedTrackPoints)
+
+            val minLat = points.minOf { it.latitude }
+            val maxLat = points.maxOf { it.latitude }
+            val minLon = points.minOf { it.longitude }
+            val maxLon = points.maxOf { it.longitude }
+            val box = BoundingBox(maxLat, maxLon, minLat, minLon)
+            binding.mapView.post {
+                binding.mapView.zoomToBoundingBox(box, true, 64)
+                binding.mapView.invalidate()
+            }
+
+            Toast.makeText(this, getString(R.string.gpx_imported, points.size), Toast.LENGTH_SHORT).show()
+            appendLog("GoPro GPX imported: ${points.size} pts")
+        } catch (e: Exception) {
+            Toast.makeText(this, getString(R.string.gpx_import_error), Toast.LENGTH_SHORT).show()
+            appendLog("GPX import error: ${e.message}")
+        }
     }
 
     private fun setupRecyclerView() {
@@ -422,6 +486,13 @@ class MainActivity : AppCompatActivity() {
             outlinePaint.isAntiAlias = true
         }
         binding.mapView.overlays.add(0, trackPolyline)
+
+        importedTrackPolyline = Polyline(binding.mapView).apply {
+            outlinePaint.color = android.graphics.Color.parseColor("#FF6D00")
+            outlinePaint.strokeWidth = 5f
+            outlinePaint.isAntiAlias = true
+        }
+        binding.mapView.overlays.add(1, importedTrackPolyline)
 
         binding.mapView.addMapListener(object : MapListener {
             override fun onScroll(event: ScrollEvent?): Boolean = false
