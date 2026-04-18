@@ -2,10 +2,7 @@
   "permissions": {
     "allow": [
       "mcp__ide__getDiagnostics",
-      "Bash(./gradlew assembleDebug)",
-      "Bash(wait)",
-      "Bash(git add:*)",
-      "Bash(git commit -m ':*)"
+      "Bash(python3 -)"
     ]
   }
 }
