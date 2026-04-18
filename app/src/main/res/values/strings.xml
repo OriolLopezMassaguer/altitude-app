@@ -31,4 +31,19 @@
     <string name="import_gpx">Import GPX</string>
     <string name="gpx_imported">GPX loaded: %1$d pts</string>
     <string name="gpx_import_error">Could not read GPX file</string>
+    <string name="tracks_button">Tracks</string>
+    <string name="tracks_title">Recorded Tracks</string>
+    <string name="no_tracks_recorded">No tracks recorded yet</string>
+    <string name="track_stats">%1$d points · %2$d KB</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="download_gpx">Save to Downloads</string>
+    <string name="track_saved_downloads">Saved: %1$s</string>
+    <string name="track_download_error">Could not save the file</string>
+    <string name="show_routes">Show Routes</string>
+    <string name="hide_routes">Hide Routes</string>
+    <string name="no_past_routes">No past routes found</string>
+    <string name="delete_track">Delete</string>
+    <string name="delete_track_confirm">Delete the track for %1$s? This cannot be undone.</string>
+    <string name="track_cleared">Today\'s track cleared</string>
 </resources>

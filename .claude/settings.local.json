@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "mcp__ide__getDiagnostics",
-      "Bash(python3 -)"
+      "Bash(python3 -)",
+      "Bash(./gradlew assembleDebug)",
+      "Bash(wait)",
+      "Bash(./gradlew compileDebugKotlin --rerun-tasks)"
     ]
   }
 }

@@ -54,6 +54,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var sharedPreferences: SharedPreferences
     
     private var currentLocationMarker: Marker? = null
+    private var hasReceivedFirstFix = false
     private val nearbyPassMarkers = mutableListOf<Marker>()
     private var lastRenderedPassNames: Set<String> = emptySet()
     private var passIconDrawable: android.graphics.drawable.Drawable? = null
@@ -61,6 +62,8 @@ class MainActivity : AppCompatActivity() {
     private var trackPolyline: Polyline? = null
     private val importedTrackPoints = mutableListOf<GeoPoint>()
     private var importedTrackPolyline: Polyline? = null
+    private val historicalPolylines = mutableListOf<Polyline>()
+    private var routesVisible = false
 
     private val importGpxLauncher = registerForActivityResult(
         ActivityResultContracts.OpenDocument()
@@ -115,6 +118,12 @@ class MainActivity : AppCompatActivity() {
                     val message = intent.getStringExtra(AltitudeService.EXTRA_LOG_MESSAGE) ?: ""
                     appendLog(message)
                 }
+                AltitudeService.ACTION_CLEAR_TRACK -> {
+                    trackPoints.clear()
+                    trackPolyline?.setPoints(emptyList())
+                    binding.mapView.invalidate()
+                    appendLog(getString(R.string.track_cleared))
+                }
             }
         }
     }
@@ -147,8 +156,15 @@ class MainActivity : AppCompatActivity() {
             toggleNearbyList()
         }
 
+        binding.showRoutesButton?.setOnClickListener {
+            toggleRoutes()
+        }
+
         binding.shareTrackButton.setOnClickListener { shareTrack() }
-        binding.importGpxButton.setOnClickListener {
+        binding.tracksButton?.setOnClickListener {
+            startActivity(Intent(this, TracksActivity::class.java))
+        }
+        binding.importGpxButton?.setOnClickListener {
             importGpxLauncher.launch(arrayOf("*/*"))
         }
 
@@ -474,6 +490,78 @@ class MainActivity : AppCompatActivity() {
         binding.mapView.invalidate()
     }
 
+    private fun toggleRoutes() {
+        if (routesVisible) {
+            historicalPolylines.forEach { binding.mapView.overlays.remove(it) }
+            historicalPolylines.clear()
+            binding.mapView.invalidate()
+            binding.showRoutesButton?.text = getString(R.string.show_routes)
+            routesVisible = false
+        } else {
+            val today = SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(Date())
+            val dir = getExternalFilesDir("tracks") ?: filesDir
+            val files = dir.listFiles { f ->
+                f.name.startsWith("track_") && f.name.endsWith(".gpx") && !f.name.contains(today)
+            }?.sortedBy { it.name } ?: emptyList()
+
+            val allPoints = mutableListOf<GeoPoint>()
+            for (file in files) {
+                val pts = readGpxPoints(file)
+                if (pts.isEmpty()) continue
+                allPoints.addAll(pts)
+                val polyline = Polyline(binding.mapView).apply {
+                    setPoints(pts)
+                    outlinePaint.color = android.graphics.Color.parseColor("#E64A19")
+                    outlinePaint.strokeWidth = 4f
+                    outlinePaint.isAntiAlias = true
+                    outlinePaint.alpha = 180
+                }
+                historicalPolylines.add(polyline)
+                binding.mapView.overlays.add(polyline)
+            }
+
+            if (allPoints.isNotEmpty()) {
+                val minLat = allPoints.minOf { it.latitude }
+                val maxLat = allPoints.maxOf { it.latitude }
+                val minLon = allPoints.minOf { it.longitude }
+                val maxLon = allPoints.maxOf { it.longitude }
+                binding.mapView.post {
+                    binding.mapView.zoomToBoundingBox(
+                        BoundingBox(maxLat, maxLon, minLat, minLon), true, 64
+                    )
+                }
+            }
+            binding.mapView.invalidate()
+            binding.showRoutesButton?.text = getString(R.string.hide_routes)
+            routesVisible = true
+
+            if (files.isEmpty()) {
+                Toast.makeText(this, getString(R.string.no_past_routes), Toast.LENGTH_SHORT).show()
+                routesVisible = false
+                binding.showRoutesButton?.text = getString(R.string.show_routes)
+            }
+        }
+    }
+
+    private fun readGpxPoints(file: java.io.File): List<GeoPoint> {
+        val points = mutableListOf<GeoPoint>()
+        try {
+            val factory = XmlPullParserFactory.newInstance()
+            val parser = factory.newPullParser()
+            parser.setInput(file.inputStream(), "UTF-8")
+            var eventType = parser.eventType
+            while (eventType != XmlPullParser.END_DOCUMENT) {
+                if (eventType == XmlPullParser.START_TAG && parser.name == "trkpt") {
+                    val lat = parser.getAttributeValue(null, "lat")?.toDoubleOrNull()
+                    val lon = parser.getAttributeValue(null, "lon")?.toDoubleOrNull()
+                    if (lat != null && lon != null) points.add(GeoPoint(lat, lon))
+                }
+                eventType = parser.next()
+            }
+        } catch (_: Exception) {}
+        return points
+    }
+
     private fun setupMap() {
         passIconDrawable = ContextCompat.getDrawable(this, R.drawable.ic_mountain_pass)
         binding.mapView.setTileSource(TileSourceFactory.MAPNIK)
@@ -517,10 +605,15 @@ class MainActivity : AppCompatActivity() {
                 currentLocationMarker?.icon = ContextCompat.getDrawable(this, R.drawable.ic_motorcycle)
                 currentLocationMarker?.setAnchor(Marker.ANCHOR_CENTER, Marker.ANCHOR_CENTER)
                 binding.mapView.overlays.add(currentLocationMarker)
-                binding.mapView.controller.setZoom(12.0)
             }
             currentLocationMarker?.position = startPoint
-            binding.mapView.controller.animateTo(startPoint)
+            // Only auto-center on the first real GPS fix; after that the user can pan freely
+            if (!hasReceivedFirstFix) {
+                hasReceivedFirstFix = true
+                binding.mapView.controller.setZoom(14.0)
+                binding.mapView.controller.setCenter(startPoint)
+            }
+            binding.mapView.invalidate()
         }
     }
 
@@ -609,6 +702,7 @@ class MainActivity : AppCompatActivity() {
         val filter = IntentFilter().apply {
             addAction(AltitudeService.ACTION_LOCATION_UPDATE)
             addAction(AltitudeService.ACTION_LOG_UPDATE)
+            addAction(AltitudeService.ACTION_CLEAR_TRACK)
         }
         ContextCompat.registerReceiver(this, receiver, filter, ContextCompat.RECEIVER_NOT_EXPORTED)
 

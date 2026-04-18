@@ -31,4 +31,19 @@
     <string name="import_gpx">Importar GPX</string>
     <string name="gpx_imported">GPX carregat: %1$d pts</string>
     <string name="gpx_import_error">No s\'ha pogut llegir el fitxer GPX</string>
+    <string name="tracks_button">Rutes</string>
+    <string name="tracks_title">Rutes Gravades</string>
+    <string name="no_tracks_recorded">Encara no hi ha rutes gravades</string>
+    <string name="track_stats">%1$d punts · %2$d KB</string>
+    <string name="today">Avui</string>
+    <string name="yesterday">Ahir</string>
+    <string name="download_gpx">Desar a Descàrregues</string>
+    <string name="track_saved_downloads">Desat: %1$s</string>
+    <string name="track_download_error">No s\'ha pogut desar el fitxer</string>
+    <string name="show_routes">Veure Rutes</string>
+    <string name="hide_routes">Amagar Rutes</string>
+    <string name="no_past_routes">No s\'han trobat rutes anteriors</string>
+    <string name="delete_track">Eliminar</string>
+    <string name="delete_track_confirm">Eliminar la ruta del %1$s? Aquesta acció no es pot desfer.</string>
+    <string name="track_cleared">Ruta d\'avui esborrada</string>
 </resources>

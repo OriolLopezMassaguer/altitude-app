@@ -60,6 +60,7 @@ class AltitudeService : Service() {
     companion object {
         const val ACTION_LOCATION_UPDATE = "com.example.altitudeapp.LOCATION_UPDATE"
         const val ACTION_LOG_UPDATE = "com.example.altitudeapp.LOG_UPDATE"
+        const val ACTION_CLEAR_TRACK = "com.example.altitudeapp.CLEAR_TRACK"
         const val EXTRA_LATITUDE = "extra_latitude"
         const val EXTRA_LONGITUDE = "extra_longitude"
         const val EXTRA_ALTITUDE = "extra_altitude"
@@ -70,6 +71,18 @@ class AltitudeService : Service() {
         const val ACTION_ALTITUDE_UPDATE = ACTION_LOCATION_UPDATE
     }
 
+    private val clearTrackReceiver = object : android.content.BroadcastReceiver() {
+        override fun onReceive(context: android.content.Context?, intent: Intent?) {
+            if (intent?.action == ACTION_CLEAR_TRACK) {
+                trackPoints.clear()
+                val today = SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(Date())
+                val dir = getExternalFilesDir("tracks") ?: filesDir
+                File(dir, "track_$today.gpx").delete()
+                sendLog("Track cleared by user.")
+            }
+        }
+    }
+
     override fun onCreate() {
         super.onCreate()
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
@@ -78,6 +91,11 @@ class AltitudeService : Service() {
         loadMountainPasses()
         loadExistingTodayTrack()
         sendLog("Service Created. Initializing tracking...")
+        androidx.core.content.ContextCompat.registerReceiver(
+            this, clearTrackReceiver,
+            android.content.IntentFilter(ACTION_CLEAR_TRACK),
+            androidx.core.content.ContextCompat.RECEIVER_NOT_EXPORTED
+        )
 
         locationCallback = object : LocationCallback() {
             override fun onLocationResult(locationResult: LocationResult) {
@@ -261,15 +279,22 @@ class AltitudeService : Service() {
 
     private fun startLocationUpdates() {
         if (locationUpdatesActive) return
-        sendLog("Requesting location updates (1 minute interval)...")
-        val locationRequest = LocationRequest.Builder(Priority.PRIORITY_HIGH_ACCURACY, 60000)
-            .setMinUpdateIntervalMillis(30000)
+        sendLog("Requesting location updates (5 second interval)...")
+        val locationRequest = LocationRequest.Builder(Priority.PRIORITY_HIGH_ACCURACY, 5000)
+            .setMinUpdateIntervalMillis(3000)
             .setWaitForAccurateLocation(false)
             .build()
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
             fusedLocationClient.requestLocationUpdates(locationRequest, locationCallback, locationHandlerThread.looper)
             locationUpdatesActive = true
             sendLog("Location updates active.")
+            // Immediately emit the last known location so UI shows something right away
+            fusedLocationClient.lastLocation.addOnSuccessListener { location ->
+                if (location != null && lastLocation == null) {
+                    sendLog("Using cached last location while waiting for GPS fix...")
+                    locationCallback.onLocationResult(LocationResult.create(listOf(location)))
+                }
+            }
         } else {
             sendLog("Error: Missing location permissions!")
         }
@@ -395,6 +420,7 @@ class AltitudeService : Service() {
 
     override fun onDestroy() {
         super.onDestroy()
+        unregisterReceiver(clearTrackReceiver)
         if (trackPoints.isNotEmpty() && currentTrackDate.isNotEmpty()) {
             writeGpxFile(currentTrackDate)
         }

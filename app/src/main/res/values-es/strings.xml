@@ -31,4 +31,19 @@
     <string name="import_gpx">Importar GPX</string>
     <string name="gpx_imported">GPX cargado: %1$d pts</string>
     <string name="gpx_import_error">No se pudo leer el archivo GPX</string>
+    <string name="tracks_button">Rutas</string>
+    <string name="tracks_title">Rutas Grabadas</string>
+    <string name="no_tracks_recorded">Aún no hay rutas grabadas</string>
+    <string name="track_stats">%1$d puntos · %2$d KB</string>
+    <string name="today">Hoy</string>
+    <string name="yesterday">Ayer</string>
+    <string name="download_gpx">Guardar en Descargas</string>
+    <string name="track_saved_downloads">Guardado: %1$s</string>
+    <string name="track_download_error">No se pudo guardar el archivo</string>
+    <string name="show_routes">Ver Rutas</string>
+    <string name="hide_routes">Ocultar Rutas</string>
+    <string name="no_past_routes">No se encontraron rutas anteriores</string>
+    <string name="delete_track">Eliminar</string>
+    <string name="delete_track_confirm">¿Eliminar la ruta del %1$s? Esta acción no se puede deshacer.</string>
+    <string name="track_cleared">Ruta de hoy borrada</string>
 </resources>

@@ -77,6 +77,11 @@
         </provider>
 
         <activity
+            android:name=".TracksActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
