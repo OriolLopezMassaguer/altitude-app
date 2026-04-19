@@ -51,7 +51,7 @@ class AltitudeService : Service() {
     private val ONE_MINUTE_MS = 1 * 60 * 1000L
     
     private val mountainPasses = mutableSetOf<MountainPass>()
-    private val PROXIMITY_THRESHOLD_METERS = 50000.0
+    private val PROXIMITY_THRESHOLD_METERS = 500.0
     private val SEARCH_RADIUS_KM = 100.0
     private var lastLocation: Location? = null
 
