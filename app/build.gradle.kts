@@ -47,4 +47,5 @@ dependencies {
     implementation("com.google.android.gms:play-services-location:21.0.1")
     // implementation("com.google.android.gms:play-services-maps:18.2.0") // Removed
     implementation("org.osmdroid:osmdroid-android:6.1.18") // Free alternative: Osmdroid
+    implementation("androidx.documentfile:documentfile:1.0.1")
 }

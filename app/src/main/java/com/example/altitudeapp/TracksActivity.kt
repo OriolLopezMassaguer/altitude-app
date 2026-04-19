@@ -18,6 +18,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.FileProvider
+import androidx.documentfile.provider.DocumentFile
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.altitudeapp.databinding.ActivityTracksBinding
@@ -41,6 +42,11 @@ class TracksActivity : AppCompatActivity() {
         uri?.let { importTrack(it) }
     }
 
+    private val backupFolderLauncher = registerForActivityResult(
+        ActivityResultContracts.OpenDocumentTree()
+    ) { uri: Uri? ->
+        uri?.let { backupAllTracks(it) }
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -60,7 +66,13 @@ class TracksActivity : AppCompatActivity() {
         )
         binding.tracksRecyclerView.adapter = adapter
 
-        binding.fabBackup.setOnClickListener { backupAllLocally() }
+        binding.fabBackup.setOnClickListener {
+            if (tracks.isEmpty()) {
+                Toast.makeText(this, getString(R.string.no_tracks_recorded), Toast.LENGTH_SHORT).show()
+            } else {
+                backupFolderLauncher.launch(null)
+            }
+        }
 
         reloadTracks()
     }
@@ -161,44 +173,28 @@ class TracksActivity : AppCompatActivity() {
         }
     }
 
-    private fun backupAllLocally() {
-        if (tracks.isEmpty()) {
-            Toast.makeText(this, getString(R.string.no_tracks_recorded), Toast.LENGTH_SHORT).show()
+    private fun backupAllTracks(treeUri: Uri) {
+        val tree = DocumentFile.fromTreeUri(this, treeUri) ?: run {
+            Toast.makeText(this, getString(R.string.backup_error), Toast.LENGTH_SHORT).show()
             return
         }
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
-            var count = 0; var errors = 0
-            for (track in tracks) {
-                try {
-                    val values = ContentValues().apply {
-                        put(MediaStore.Downloads.DISPLAY_NAME, track.file.name)
-                        put(MediaStore.Downloads.MIME_TYPE, "application/gpx+xml")
-                        put(MediaStore.Downloads.IS_PENDING, 1)
+        var count = 0
+        var errors = 0
+        for (track in tracks) {
+            try {
+                val dest = tree.findFile(track.file.name)
+                    ?: tree.createFile("application/gpx+xml", track.file.name)
+                if (dest != null) {
+                    contentResolver.openOutputStream(dest.uri)?.use { out ->
+                        track.file.inputStream().use { it.copyTo(out) }
                     }
-                    val uri = contentResolver.insert(MediaStore.Downloads.EXTERNAL_CONTENT_URI, values)
-                    if (uri != null) {
-                        contentResolver.openOutputStream(uri)?.use { out ->
-                            track.file.inputStream().use { it.copyTo(out) }
-                        }
-                        values.clear()
-                        values.put(MediaStore.Downloads.IS_PENDING, 0)
-                        contentResolver.update(uri, values, null, null)
-                        count++
-                    } else { errors++ }
-                } catch (_: Exception) { errors++ }
-            }
-            val msg = if (errors == 0) getString(R.string.backup_success, count)
-                      else getString(R.string.backup_partial, count, errors)
-            Toast.makeText(this, msg, Toast.LENGTH_LONG).show()
-        } else {
-            val uris = tracks.map { FileProvider.getUriForFile(this, "${packageName}.fileprovider", it.file) }
-            val intent = Intent(Intent.ACTION_SEND_MULTIPLE).apply {
-                type = "application/gpx+xml"
-                putParcelableArrayListExtra(Intent.EXTRA_STREAM, ArrayList(uris))
-                addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
-            }
-            startActivity(Intent.createChooser(intent, getString(R.string.backup_to_cloud)))
+                    count++
+                } else { errors++ }
+            } catch (_: Exception) { errors++ }
         }
+        val msg = if (errors == 0) getString(R.string.backup_success, count)
+                  else getString(R.string.backup_partial, count, errors)
+        Toast.makeText(this, msg, Toast.LENGTH_LONG).show()
     }
 
     private fun importTrack(uri: Uri) {
