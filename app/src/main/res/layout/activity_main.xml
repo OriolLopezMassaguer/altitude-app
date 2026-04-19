@@ -79,6 +79,15 @@
             android:gravity="center">
 
             <TextView
+                android:id="@+id/placeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/locating"
+                android:textColor="#212121"
+                android:textSize="20sp"
+                android:gravity="center" />
+
+            <TextView
                 android:id="@+id/passTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -88,15 +97,6 @@
                 android:textStyle="bold"
                 android:gravity="center"
                 android:visibility="gone" />
-
-            <TextView
-                android:id="@+id/placeTextView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/locating"
-                android:textColor="#212121"
-                android:textSize="20sp"
-                android:gravity="center" />
 
             <TextView
                 android:id="@+id/coordinatesTextView"
