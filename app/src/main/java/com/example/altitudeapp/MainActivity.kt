@@ -105,7 +105,7 @@ class MainActivity : AppCompatActivity() {
                     saveLastState(lat, lon, alt, gain, passName)
 
                     updateUI(lat, lon, alt, gain, passName, nearbyPasses, speedLimit)
-                    appendTrackPoint(lat, lon)
+                    appendTrackPoint(lat, lon, alt)
                     updateMapLocation(lat, lon)
 
                     nearbyPasses?.let {
@@ -231,6 +231,7 @@ class MainActivity : AppCompatActivity() {
         lastNearbyPasses?.let { outState.putSerializable("nearbyPasses", it) }
         outState.putDoubleArray("track_lats", trackPoints.map { it.latitude }.toDoubleArray())
         outState.putDoubleArray("track_lons", trackPoints.map { it.longitude }.toDoubleArray())
+        outState.putDoubleArray("track_alts", trackPoints.map { it.altitude }.toDoubleArray())
         outState.putDoubleArray("imp_lats", importedTrackPoints.map { it.latitude }.toDoubleArray())
         outState.putDoubleArray("imp_lons", importedTrackPoints.map { it.longitude }.toDoubleArray())
     }
@@ -246,9 +247,11 @@ class MainActivity : AppCompatActivity() {
         lastNearbyPasses = bundle.getSerializable("nearbyPasses") as? ArrayList<MountainPass>
         val lats = bundle.getDoubleArray("track_lats") ?: doubleArrayOf()
         val lons = bundle.getDoubleArray("track_lons") ?: doubleArrayOf()
+        val alts = bundle.getDoubleArray("track_alts") ?: DoubleArray(lats.size)
         trackPoints.clear()
-        lats.zip(lons.toList()).mapTo(trackPoints) { (lat, lon) -> GeoPoint(lat, lon) }
+        lats.indices.mapTo(trackPoints) { i -> GeoPoint(lats[i], lons[i], alts[i]) }
         trackPolyline?.setPoints(trackPoints)
+        binding.elevationProfileView.setTrackPoints(trackPoints)
         val impLats = bundle.getDoubleArray("imp_lats") ?: doubleArrayOf()
         val impLons = bundle.getDoubleArray("imp_lons") ?: doubleArrayOf()
         importedTrackPoints.clear()
@@ -304,17 +307,32 @@ class MainActivity : AppCompatActivity() {
             val parser = factory.newPullParser()
             parser.setInput(file.inputStream(), "UTF-8")
             var eventType = parser.eventType
+            var ptLat: Double? = null
+            var ptLon: Double? = null
+            var ptAlt = 0.0
+            var inEle = false
             while (eventType != XmlPullParser.END_DOCUMENT) {
-                if (eventType == XmlPullParser.START_TAG && parser.name == "trkpt") {
-                    val ptLat = parser.getAttributeValue(null, "lat")?.toDoubleOrNull()
-                    val ptLon = parser.getAttributeValue(null, "lon")?.toDoubleOrNull()
-                    if (ptLat != null && ptLon != null) points.add(GeoPoint(ptLat, ptLon))
+                when {
+                    eventType == XmlPullParser.START_TAG && parser.name == "trkpt" -> {
+                        ptLat = parser.getAttributeValue(null, "lat")?.toDoubleOrNull()
+                        ptLon = parser.getAttributeValue(null, "lon")?.toDoubleOrNull()
+                        ptAlt = 0.0
+                    }
+                    eventType == XmlPullParser.START_TAG && parser.name == "ele" -> inEle = true
+                    eventType == XmlPullParser.TEXT && inEle -> {
+                        ptAlt = parser.text.toDoubleOrNull() ?: 0.0
+                        inEle = false
+                    }
+                    eventType == XmlPullParser.END_TAG && parser.name == "trkpt" -> {
+                        if (ptLat != null && ptLon != null) points.add(GeoPoint(ptLat, ptLon, ptAlt))
+                    }
                 }
                 eventType = parser.next()
             }
             if (points.isNotEmpty()) {
                 trackPoints.addAll(points)
                 trackPolyline?.setPoints(trackPoints)
+                binding.elevationProfileView.setTrackPoints(trackPoints)
                 appendLog("Track loaded: ${points.size} pts from $today")
             }
         } catch (e: Exception) {
@@ -491,9 +509,10 @@ class MainActivity : AppCompatActivity() {
         packageManager.getPackageInfo(pkg, 0); true
     } catch (_: PackageManager.NameNotFoundException) { false }
 
-    private fun appendTrackPoint(lat: Double, lon: Double) {
-        trackPoints.add(GeoPoint(lat, lon))
+    private fun appendTrackPoint(lat: Double, lon: Double, alt: Double) {
+        trackPoints.add(GeoPoint(lat, lon, alt))
         trackPolyline?.setPoints(trackPoints)
+        binding.elevationProfileView.setTrackPoints(trackPoints)
         binding.mapView.invalidate()
     }
 

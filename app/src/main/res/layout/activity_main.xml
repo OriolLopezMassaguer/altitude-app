@@ -238,6 +238,12 @@
                 android:layout_height="match_parent"
                 android:visibility="gone"
                 android:background="#FFFFFF" />
+
+            <com.example.altitudeapp.ElevationProfileView
+                android:id="@+id/elevationProfileView"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="bottom" />
         </FrameLayout>
     </androidx.cardview.widget.CardView>
 
