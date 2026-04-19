@@ -5,6 +5,8 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
+
+    <!-- Deep wild night sky gradient -->
     <path android:pathData="M0,0h108v108h-108z">
         <aapt:attr name="android:fillColor">
             <gradient
@@ -13,16 +15,17 @@
                 android:endX="54"
                 android:endY="108"
                 android:type="linear">
-                <item android:offset="0" android:color="#81D4FA"/>
-                <item android:offset="1" android:color="#0288D1"/>
+                <item android:offset="0" android:color="#0C1445"/>
+                <item android:offset="0.6" android:color="#1A2E5A"/>
+                <item android:offset="1" android:color="#1A3A20"/>
             </gradient>
         </aapt:attr>
     </path>
-    <!-- Stylized distant peaks in the background for depth -->
-    <path
-        android:fillColor="#22FFFFFF"
-        android:pathData="M-10,108 L30,60 L70,108 Z" />
-    <path
-        android:fillColor="#11FFFFFF"
-        android:pathData="M40,108 L80,50 L120,108 Z" />
+
+    <!-- Stars -->
+    <path android:fillColor="#AAFFFFFF" android:pathData="M18,14 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0"/>
+    <path android:fillColor="#88FFFFFF" android:pathData="M72,8 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0"/>
+    <path android:fillColor="#66FFFFFF" android:pathData="M90,20 m-0.8,0 a0.8,0.8 0 1,0 1.6,0 a0.8,0.8 0 1,0 -1.6,0"/>
+    <path android:fillColor="#99FFFFFF" android:pathData="M38,10 m-0.8,0 a0.8,0.8 0 1,0 1.6,0 a0.8,0.8 0 1,0 -1.6,0"/>
+
 </vector>
