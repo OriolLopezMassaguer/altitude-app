@@ -18,6 +18,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.FileProvider
+import androidx.documentfile.provider.DocumentFile
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.altitudeapp.databinding.ActivityTracksBinding
@@ -41,6 +42,12 @@ class TracksActivity : AppCompatActivity() {
         uri?.let { importTrack(it) }
     }
 
+    private val backupFolderLauncher = registerForActivityResult(
+        ActivityResultContracts.OpenDocumentTree()
+    ) { uri: Uri? ->
+        uri?.let { backupAllTracks(it) }
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityTracksBinding.inflate(layoutInflater)
@@ -58,6 +65,14 @@ class TracksActivity : AppCompatActivity() {
             onDelete = { track, position -> confirmDelete(track, position) }
         )
         binding.tracksRecyclerView.adapter = adapter
+
+        binding.fabBackup.setOnClickListener {
+            if (tracks.isEmpty()) {
+                Toast.makeText(this, getString(R.string.no_tracks_recorded), Toast.LENGTH_SHORT).show()
+            } else {
+                backupFolderLauncher.launch(null)
+            }
+        }
 
         reloadTracks()
     }
@@ -156,6 +171,37 @@ class TracksActivity : AppCompatActivity() {
         } else {
             shareTrack(track)
         }
+    }
+
+    private fun backupAllTracks(treeUri: Uri) {
+        val tree = DocumentFile.fromTreeUri(this, treeUri) ?: run {
+            Toast.makeText(this, getString(R.string.backup_error), Toast.LENGTH_SHORT).show()
+            return
+        }
+        var count = 0
+        var errors = 0
+        for (track in tracks) {
+            try {
+                val dest = tree.findFile(track.file.name)
+                    ?: tree.createFile("application/gpx+xml", track.file.name)
+                if (dest != null) {
+                    contentResolver.openOutputStream(dest.uri)?.use { out ->
+                        track.file.inputStream().use { it.copyTo(out) }
+                    }
+                    count++
+                } else {
+                    errors++
+                }
+            } catch (_: Exception) {
+                errors++
+            }
+        }
+        val msg = if (errors == 0) {
+            getString(R.string.backup_success, count)
+        } else {
+            getString(R.string.backup_partial, count, errors)
+        }
+        Toast.makeText(this, msg, Toast.LENGTH_LONG).show()
     }
 
     private fun importTrack(uri: Uri) {

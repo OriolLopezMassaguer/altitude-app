@@ -52,4 +52,8 @@
     <string name="track_imported">Track imported: %1$s</string>
     <string name="track_import_exists">A track for %1$s already exists. Overwrite?</string>
     <string name="track_import_overwrite">Overwrite</string>
+    <string name="backup_to_cloud">Backup all tracks</string>
+    <string name="backup_success">%1$d tracks backed up successfully</string>
+    <string name="backup_partial">%1$d tracks backed up (%2$d failed)</string>
+    <string name="backup_error">Could not access the selected folder</string>
 </resources>

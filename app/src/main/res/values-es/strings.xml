@@ -52,4 +52,8 @@
     <string name="track_imported">Ruta importada: %1$s</string>
     <string name="track_import_exists">Ya existe una ruta para %1$s. ¿Sobreescribir?</string>
     <string name="track_import_overwrite">Sobreescribir</string>
+    <string name="backup_to_cloud">Copiar todas las rutas</string>
+    <string name="backup_success">%1$d rutas copiadas correctamente</string>
+    <string name="backup_partial">%1$d rutas copiadas (%2$d fallidas)</string>
+    <string name="backup_error">No se pudo acceder a la carpeta seleccionada</string>
 </resources>
