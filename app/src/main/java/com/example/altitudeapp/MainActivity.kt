@@ -169,9 +169,7 @@ class MainActivity : AppCompatActivity() {
         binding.tracksButton?.setOnClickListener {
             startActivity(Intent(this, TracksActivity::class.java))
         }
-        binding.importGpxButton?.setOnClickListener {
-            importGpxLauncher.launch(arrayOf("*/*"))
-        }
+
 
         binding.languageButton?.setOnClickListener { showLanguageMenu(it) }
 
