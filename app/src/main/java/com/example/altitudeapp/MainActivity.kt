@@ -41,6 +41,8 @@ import org.osmdroid.util.BoundingBox
 import org.osmdroid.util.GeoPoint
 import org.osmdroid.views.overlay.Marker
 import org.osmdroid.views.overlay.Polyline
+import org.osmdroid.views.overlay.compass.CompassOverlay
+import org.osmdroid.views.overlay.compass.InternalCompassOrientationProvider
 import java.io.IOException
 import java.text.SimpleDateFormat
 import java.util.*
@@ -586,6 +588,10 @@ class MainActivity : AppCompatActivity() {
             outlinePaint.isAntiAlias = true
         }
         binding.mapView.overlays.add(1, importedTrackPolyline)
+
+        val compassOverlay = CompassOverlay(this, InternalCompassOrientationProvider(this), binding.mapView)
+        compassOverlay.enableCompass()
+        binding.mapView.overlays.add(compassOverlay)
 
         binding.mapView.addMapListener(object : MapListener {
             override fun onScroll(event: ScrollEvent?): Boolean = false
