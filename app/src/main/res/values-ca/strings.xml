@@ -49,4 +49,9 @@
     <string name="speed_limit_label">Límit de velocitat</string>
     <string name="speed_limit_format">%1$d km/h</string>
     <string name="speed_limit_unknown">-- km/h</string>
+    <string name="backup_onedrive">OneDrive</string>
+    <string name="backup_onedrive_pick_folder">Selecciona la carpeta de còpia a OneDrive</string>
+    <string name="backup_onedrive_success">%1$d rutes copiades a OneDrive</string>
+    <string name="backup_onedrive_no_tracks">No hi ha rutes per fer còpia</string>
+    <string name="backup_onedrive_error">Còpia completada amb %1$d errors</string>
 </resources>

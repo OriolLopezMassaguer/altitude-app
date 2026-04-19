@@ -12,6 +12,7 @@ import android.location.Geocoder
 import android.location.Location
 import android.net.Uri
 import android.os.Build
+import android.provider.DocumentsContract
 import android.os.PowerManager
 import android.provider.Settings
 import android.widget.Toast
@@ -71,6 +72,18 @@ class MainActivity : AppCompatActivity() {
         ActivityResultContracts.OpenDocument()
     ) { uri: Uri? ->
         uri?.let { loadImportedGpxTrack(it) }
+    }
+
+    private val backupFolderLauncher = registerForActivityResult(
+        ActivityResultContracts.OpenDocumentTree()
+    ) { uri: Uri? ->
+        if (uri == null) return@registerForActivityResult
+        contentResolver.takePersistableUriPermission(
+            uri,
+            Intent.FLAG_GRANT_READ_URI_PERMISSION or Intent.FLAG_GRANT_WRITE_URI_PERMISSION
+        )
+        sharedPreferences.edit().putString("onedrive_backup_uri", uri.toString()).apply()
+        backupTracksToFolder(uri)
     }
     private val LABEL_ZOOM_THRESHOLD = 12.0
     private val passAdapter = PassAdapter { pass -> onPassInListClicked(pass) }
@@ -174,6 +187,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.languageButton?.setOnClickListener { showLanguageMenu(it) }
+        binding.backupOneDriveButton?.setOnClickListener { backupTracks() }
 
         if (savedInstanceState != null) {
             restoreFromBundle(savedInstanceState)
@@ -355,6 +369,61 @@ class MainActivity : AppCompatActivity() {
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
         }
         startActivity(Intent.createChooser(intent, getString(R.string.share_track)))
+    }
+
+    private fun backupTracks() {
+        val savedUri = sharedPreferences.getString("onedrive_backup_uri", null)
+            ?.let { Uri.parse(it) }
+        if (savedUri != null) {
+            val perms = contentResolver.persistedUriPermissions
+            val stillValid = perms.any { it.uri == savedUri && it.isWritePermission }
+            if (stillValid) {
+                backupTracksToFolder(savedUri)
+                return
+            }
+        }
+        backupFolderLauncher.launch(null)
+    }
+
+    private fun backupTracksToFolder(treeUri: Uri) {
+        val dir = getExternalFilesDir("tracks") ?: filesDir
+        val files = dir.listFiles { f -> f.name.endsWith(".gpx") }
+        if (files.isNullOrEmpty()) {
+            Toast.makeText(this, getString(R.string.backup_onedrive_no_tracks), Toast.LENGTH_SHORT).show()
+            return
+        }
+        Thread {
+            var count = 0
+            var errors = 0
+            val parentDocUri = DocumentsContract.buildDocumentUriUsingTree(
+                treeUri, DocumentsContract.getTreeDocumentId(treeUri)
+            )
+            for (file in files) {
+                try {
+                    val docUri = DocumentsContract.createDocument(
+                        contentResolver, parentDocUri, "application/gpx+xml", file.name
+                    )
+                    if (docUri != null) {
+                        contentResolver.openOutputStream(docUri)?.use { out ->
+                            file.inputStream().use { it.copyTo(out) }
+                        }
+                        count++
+                    } else {
+                        errors++
+                    }
+                } catch (_: Exception) {
+                    errors++
+                }
+            }
+            val msg = if (errors == 0)
+                getString(R.string.backup_onedrive_success, count)
+            else
+                getString(R.string.backup_onedrive_error, errors)
+            runOnUiThread {
+                Toast.makeText(this, msg, Toast.LENGTH_LONG).show()
+                appendLog("OneDrive backup: $count ok, $errors errors")
+            }
+        }.start()
     }
 
     private fun loadImportedGpxTrack(uri: Uri) {

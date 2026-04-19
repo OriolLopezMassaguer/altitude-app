@@ -49,4 +49,9 @@
     <string name="speed_limit_label">Speed Limit</string>
     <string name="speed_limit_format">%1$d km/h</string>
     <string name="speed_limit_unknown">-- km/h</string>
+    <string name="backup_onedrive">OneDrive</string>
+    <string name="backup_onedrive_pick_folder">Select OneDrive backup folder</string>
+    <string name="backup_onedrive_success">Backed up %1$d tracks to OneDrive</string>
+    <string name="backup_onedrive_no_tracks">No tracks to back up</string>
+    <string name="backup_onedrive_error">Backup completed with %1$d errors</string>
 </resources>
