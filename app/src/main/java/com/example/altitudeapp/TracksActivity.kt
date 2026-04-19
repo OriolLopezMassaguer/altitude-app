@@ -207,18 +207,85 @@ class TracksActivity : AppCompatActivity() {
     private fun importTrack(uri: Uri) {
         val date = extractDateFromGpx(uri)
             ?: SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(Date())
+        val today = SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(Date())
         val dir = getExternalFilesDir("tracks") ?: filesDir
         val destFile = File(dir, "track_$date.gpx")
-        if (destFile.exists()) {
-            AlertDialog.Builder(this)
+        when {
+            destFile.exists() && date == today -> mergeGpxIntoFile(uri, destFile, date)
+            destFile.exists() -> AlertDialog.Builder(this)
                 .setTitle(getString(R.string.import_gpx))
                 .setMessage(getString(R.string.track_import_exists, TrackAdapter.friendlyDateStatic(date, this)))
                 .setPositiveButton(getString(R.string.track_import_overwrite)) { _, _ -> copyGpxFile(uri, destFile, date) }
                 .setNegativeButton(android.R.string.cancel, null)
                 .show()
-        } else {
-            copyGpxFile(uri, destFile, date)
+            else -> copyGpxFile(uri, destFile, date)
         }
+    }
+
+    private fun mergeGpxIntoFile(uri: Uri, destFile: File, date: String) {
+        try {
+            val existing = parseTrkPts(destFile.inputStream())
+            val imported = contentResolver.openInputStream(uri)?.use { parseTrkPts(it) } ?: emptyList()
+            val merged = (existing + imported)
+                .distinctBy { it.time ?: "${it.lat}${it.lon}" }
+                .sortedBy { it.time ?: "" }
+            writeMergedGpx(destFile, merged)
+            sendReloadBroadcast()
+            reloadTracks()
+            Toast.makeText(this, getString(R.string.track_merged, merged.size), Toast.LENGTH_SHORT).show()
+        } catch (_: Exception) {
+            Toast.makeText(this, getString(R.string.gpx_import_error), Toast.LENGTH_SHORT).show()
+        }
+    }
+
+    private data class TrkPt(val lat: String, val lon: String, val ele: String?, val time: String?)
+
+    private fun parseTrkPts(stream: java.io.InputStream): List<TrkPt> {
+        val points = mutableListOf<TrkPt>()
+        val factory = XmlPullParserFactory.newInstance()
+        val parser = factory.newPullParser()
+        parser.setInput(stream, "UTF-8")
+        var lat = ""; var lon = ""; var ele: String? = null; var time: String? = null
+        var inTrkPt = false
+        var eventType = parser.eventType
+        while (eventType != XmlPullParser.END_DOCUMENT) {
+            when {
+                eventType == XmlPullParser.START_TAG && parser.name == "trkpt" -> {
+                    inTrkPt = true
+                    lat = parser.getAttributeValue(null, "lat") ?: ""
+                    lon = parser.getAttributeValue(null, "lon") ?: ""
+                    ele = null; time = null
+                }
+                inTrkPt && eventType == XmlPullParser.START_TAG && parser.name == "ele" ->
+                    ele = parser.nextText()
+                inTrkPt && eventType == XmlPullParser.START_TAG && parser.name == "time" ->
+                    time = parser.nextText()
+                eventType == XmlPullParser.END_TAG && parser.name == "trkpt" -> {
+                    if (lat.isNotEmpty() && lon.isNotEmpty()) points.add(TrkPt(lat, lon, ele, time))
+                    inTrkPt = false
+                }
+            }
+            eventType = parser.next()
+        }
+        return points
+    }
+
+    private fun writeMergedGpx(file: File, points: List<TrkPt>) {
+        file.bufferedWriter().use { w ->
+            w.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n")
+            w.write("<gpx version=\"1.1\" creator=\"MotoPass\">\n<trk><trkseg>\n")
+            for (pt in points) {
+                w.write("<trkpt lat=\"${pt.lat}\" lon=\"${pt.lon}\">")
+                pt.ele?.let { w.write("<ele>$it</ele>") }
+                pt.time?.let { w.write("<time>$it</time>") }
+                w.write("</trkpt>\n")
+            }
+            w.write("</trkseg></trk>\n</gpx>")
+        }
+    }
+
+    private fun sendReloadBroadcast() {
+        sendBroadcast(Intent(AltitudeService.ACTION_RELOAD_TRACK).apply { setPackage(packageName) })
     }
 
     private fun extractDateFromGpx(uri: Uri): String? {

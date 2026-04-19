@@ -50,6 +50,7 @@
     <string name="speed_limit_format">%1$d km/h</string>
     <string name="speed_limit_unknown">-- km/h</string>
     <string name="track_imported">Ruta importada: %1$s</string>
+    <string name="track_merged">Ruta d\'avui fusionada: %1$d punts</string>
     <string name="track_import_exists">Ja existeix una ruta per a %1$s. Sobreescriure?</string>
     <string name="track_import_overwrite">Sobreescriure</string>
     <string name="backup_to_cloud">Còpia de seguretat de totes les rutes</string>

@@ -70,6 +70,7 @@ class AltitudeService : Service() {
         const val ACTION_LOCATION_UPDATE = "com.example.altitudeapp.LOCATION_UPDATE"
         const val ACTION_LOG_UPDATE = "com.example.altitudeapp.LOG_UPDATE"
         const val ACTION_CLEAR_TRACK = "com.example.altitudeapp.CLEAR_TRACK"
+        const val ACTION_RELOAD_TRACK = "com.example.altitudeapp.RELOAD_TRACK"
         const val EXTRA_LATITUDE = "extra_latitude"
         const val EXTRA_LONGITUDE = "extra_longitude"
         const val EXTRA_ALTITUDE = "extra_altitude"
@@ -83,12 +84,18 @@ class AltitudeService : Service() {
 
     private val clearTrackReceiver = object : android.content.BroadcastReceiver() {
         override fun onReceive(context: android.content.Context?, intent: Intent?) {
-            if (intent?.action == ACTION_CLEAR_TRACK) {
-                trackPoints.clear()
-                val today = SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(Date())
-                val dir = getExternalFilesDir("tracks") ?: filesDir
-                File(dir, "track_$today.gpx").delete()
-                sendLog("Track cleared by user.")
+            when (intent?.action) {
+                ACTION_CLEAR_TRACK -> {
+                    trackPoints.clear()
+                    val today = SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(Date())
+                    val dir = getExternalFilesDir("tracks") ?: filesDir
+                    File(dir, "track_$today.gpx").delete()
+                    sendLog("Track cleared by user.")
+                }
+                ACTION_RELOAD_TRACK -> {
+                    trackPoints.clear()
+                    loadExistingTodayTrack()
+                }
             }
         }
     }
@@ -103,7 +110,10 @@ class AltitudeService : Service() {
         sendLog("Service Created. Initializing tracking...")
         androidx.core.content.ContextCompat.registerReceiver(
             this, clearTrackReceiver,
-            android.content.IntentFilter(ACTION_CLEAR_TRACK),
+            android.content.IntentFilter().apply {
+                addAction(ACTION_CLEAR_TRACK)
+                addAction(ACTION_RELOAD_TRACK)
+            },
             androidx.core.content.ContextCompat.RECEIVER_NOT_EXPORTED
         )
 
