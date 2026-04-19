@@ -607,12 +607,11 @@ class MainActivity : AppCompatActivity() {
                 binding.mapView.overlays.add(currentLocationMarker)
             }
             currentLocationMarker?.position = startPoint
-            // Only auto-center on the first real GPS fix; after that the user can pan freely
             if (!hasReceivedFirstFix) {
                 hasReceivedFirstFix = true
                 binding.mapView.controller.setZoom(14.0)
-                binding.mapView.controller.setCenter(startPoint)
             }
+            binding.mapView.controller.setCenter(startPoint)
             binding.mapView.invalidate()
         }
     }
