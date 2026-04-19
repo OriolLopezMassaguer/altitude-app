@@ -55,10 +55,10 @@
             android:id="@+id/placeTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Locating..."
+            android:text="@string/locating"
             android:textColor="#212121"
             android:textSize="20sp"
-            android:textStyle="bold" />
+            android:gravity="center" />
 
         <TextView
             android:id="@+id/passTextView"
@@ -66,8 +66,9 @@
             android:layout_height="wrap_content"
             android:text=""
             android:textColor="#E91E63"
-            android:textSize="24sp"
+            android:textSize="28sp"
             android:textStyle="bold"
+            android:gravity="center"
             android:visibility="gone" />
 
         <TextView
