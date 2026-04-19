@@ -662,12 +662,10 @@ class MainActivity : AppCompatActivity() {
             }
             binding.passTextView.text = passName + distanceToPass
             binding.passTextView.visibility = View.VISIBLE
-            updatePlaceName(lat, lon)
         } else {
-            binding.passTextView.text = getString(R.string.no_near_pass)
-            binding.passTextView.visibility = View.VISIBLE
-            binding.placeTextView.visibility = View.GONE
+            binding.passTextView.visibility = View.GONE
         }
+        updatePlaceName(lat, lon)
     }
 
     private fun updatePlaceName(lat: Double, lon: Double) {
