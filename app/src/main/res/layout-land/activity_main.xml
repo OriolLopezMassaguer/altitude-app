@@ -67,7 +67,7 @@
             android:layout_height="wrap_content"
             android:text="Locating..."
             android:textColor="#212121"
-            android:textSize="20sp"
+            android:textSize="28sp"
             android:textStyle="bold" />
 
         <TextView
