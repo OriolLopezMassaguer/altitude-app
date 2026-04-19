@@ -49,4 +49,7 @@
     <string name="speed_limit_label">Límite de velocidad</string>
     <string name="speed_limit_format">%1$d km/h</string>
     <string name="speed_limit_unknown">-- km/h</string>
+    <string name="track_imported">Ruta importada: %1$s</string>
+    <string name="track_import_exists">Ya existe una ruta para %1$s. ¿Sobreescribir?</string>
+    <string name="track_import_overwrite">Sobreescribir</string>
 </resources>

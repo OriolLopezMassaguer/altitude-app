@@ -2,15 +2,19 @@ package com.example.altitudeapp
 
 import android.content.ContentValues
 import android.content.Intent
+import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.provider.MediaStore
 import android.view.LayoutInflater
+import android.view.Menu
+import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.FileProvider
@@ -30,6 +34,12 @@ class TracksActivity : AppCompatActivity() {
     private lateinit var binding: ActivityTracksBinding
     private val tracks = mutableListOf<TrackFile>()
     private lateinit var adapter: TrackAdapter
+
+    private val importGpxLauncher = registerForActivityResult(
+        ActivityResultContracts.OpenDocument()
+    ) { uri: Uri? ->
+        uri?.let { importTrack(it) }
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -55,6 +65,19 @@ class TracksActivity : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         finish()
         return true
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        menuInflater.inflate(R.menu.menu_tracks, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == R.id.action_import_track) {
+            importGpxLauncher.launch(arrayOf("*/*"))
+            return true
+        }
+        return super.onOptionsItemSelected(item)
     }
 
     private fun reloadTracks() {
@@ -132,6 +155,58 @@ class TracksActivity : AppCompatActivity() {
             }
         } else {
             shareTrack(track)
+        }
+    }
+
+    private fun importTrack(uri: Uri) {
+        val date = extractDateFromGpx(uri)
+            ?: SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(Date())
+        val dir = getExternalFilesDir("tracks") ?: filesDir
+        val destFile = File(dir, "track_$date.gpx")
+        if (destFile.exists()) {
+            AlertDialog.Builder(this)
+                .setTitle(getString(R.string.import_gpx))
+                .setMessage(getString(R.string.track_import_exists, TrackAdapter.friendlyDateStatic(date, this)))
+                .setPositiveButton(getString(R.string.track_import_overwrite)) { _, _ -> copyGpxFile(uri, destFile, date) }
+                .setNegativeButton(android.R.string.cancel, null)
+                .show()
+        } else {
+            copyGpxFile(uri, destFile, date)
+        }
+    }
+
+    private fun extractDateFromGpx(uri: Uri): String? {
+        return try {
+            val factory = XmlPullParserFactory.newInstance()
+            val parser = factory.newPullParser()
+            contentResolver.openInputStream(uri)?.use { stream ->
+                parser.setInput(stream, "UTF-8")
+                var eventType = parser.eventType
+                while (eventType != XmlPullParser.END_DOCUMENT) {
+                    if (eventType == XmlPullParser.START_TAG && parser.name == "time") {
+                        parser.next()
+                        if (parser.eventType == XmlPullParser.TEXT) {
+                            val text = parser.text.trim()
+                            val dateStr = text.take(10)
+                            if (dateStr.matches(Regex("\\d{4}-\\d{2}-\\d{2}"))) return@use dateStr
+                        }
+                    }
+                    eventType = parser.next()
+                }
+                null
+            }
+        } catch (_: Exception) { null }
+    }
+
+    private fun copyGpxFile(uri: Uri, destFile: File, date: String) {
+        try {
+            contentResolver.openInputStream(uri)?.use { input ->
+                destFile.outputStream().use { output -> input.copyTo(output) }
+            }
+            reloadTracks()
+            Toast.makeText(this, getString(R.string.track_imported, TrackAdapter.friendlyDateStatic(date, this)), Toast.LENGTH_SHORT).show()
+        } catch (_: Exception) {
+            Toast.makeText(this, getString(R.string.gpx_import_error), Toast.LENGTH_SHORT).show()
         }
     }
 

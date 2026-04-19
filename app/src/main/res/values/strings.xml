@@ -49,4 +49,7 @@
     <string name="speed_limit_label">Speed Limit</string>
     <string name="speed_limit_format">%1$d km/h</string>
     <string name="speed_limit_unknown">-- km/h</string>
+    <string name="track_imported">Track imported: %1$s</string>
+    <string name="track_import_exists">A track for %1$s already exists. Overwrite?</string>
+    <string name="track_import_overwrite">Overwrite</string>
 </resources>
