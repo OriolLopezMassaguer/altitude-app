@@ -79,26 +79,91 @@
             android:textColor="#616161"
             android:textSize="12sp" />
 
-        <Button
-            android:id="@+id/showNearbyPassesButton"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/toggle_map_list"
-            android:textSize="10sp"
-            style="@style/Widget.MaterialComponents.Button.TextButton"
-            android:textColor="#E91E63"
-            android:padding="0dp"
-            android:minHeight="32dp" />
+            android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/shareTrackButton"
-            android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/showNearbyPassesButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/show_nearby_passes"
+                android:textSize="10sp"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:padding="4dp" />
+
+            <Button
+                android:id="@+id/showRoutesButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/show_routes"
+                android:textSize="10sp"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:padding="4dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/share_track"
-            android:textSize="10sp"
-            style="@style/Widget.MaterialComponents.Button.TextButton"
-            android:padding="0dp"
-            android:minHeight="32dp" />
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/shareTrackButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/share_track"
+                android:textSize="10sp"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:padding="4dp" />
+
+            <Button
+                android:id="@+id/tracksButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tracks_button"
+                android:textSize="10sp"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:padding="4dp" />
+
+            <Button
+                android:id="@+id/importGpxButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/import_gpx"
+                android:textSize="10sp"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:padding="4dp" />
+
+            <Button
+                android:id="@+id/languageButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/change_language"
+                android:textSize="10sp"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:padding="4dp" />
+
+        </LinearLayout>
 
         <View
             android:layout_width="match_parent"
@@ -142,6 +207,33 @@
             android:text="+0.00 m (1 min)"
             android:textColor="#388E3C"
             android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E0E0E0"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/speed_limit_label"
+            android:textColor="#90A4AE"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:letterSpacing="0.1" />
+
+        <TextView
+            android:id="@+id/speedLimitTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/speed_limit_unknown"
+            android:textColor="#F57C00"
+            android:textSize="32sp"
             android:textStyle="bold"
             android:gravity="center" />
     </LinearLayout>
