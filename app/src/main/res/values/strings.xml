@@ -46,4 +46,7 @@
     <string name="delete_track">Delete</string>
     <string name="delete_track_confirm">Delete the track for %1$s? This cannot be undone.</string>
     <string name="track_cleared">Today\'s track cleared</string>
+    <string name="speed_limit_label">Speed Limit</string>
+    <string name="speed_limit_format">%1$d km/h</string>
+    <string name="speed_limit_unknown">-- km/h</string>
 </resources>

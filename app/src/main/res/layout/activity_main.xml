@@ -159,6 +159,33 @@
                 android:textSize="24sp"
                 android:textStyle="bold"
                 android:gravity="center" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E0E0E0"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/speed_limit_label"
+                android:textColor="#90A4AE"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:letterSpacing="0.1" />
+
+            <TextView
+                android:id="@+id/speedLimitTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/speed_limit_unknown"
+                android:textColor="#F57C00"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:gravity="center" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 

@@ -16,11 +16,13 @@ import android.os.PowerManager
 import androidx.core.app.ActivityCompat
 import androidx.core.app.NotificationCompat
 import com.google.android.gms.location.*
+import org.json.JSONObject
 import org.xmlpull.v1.XmlPullParser
 import org.xmlpull.v1.XmlPullParserFactory
 import java.io.File
 import java.io.InputStream
 import java.io.Serializable
+import java.net.URL
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -57,6 +59,13 @@ class AltitudeService : Service() {
     private var currentTrackDate = ""
     private var locationUpdatesActive = false
 
+    @Volatile private var currentSpeedLimit: Int = -1
+    private var lastSpeedLimitQueryLat: Double = Double.NaN
+    private var lastSpeedLimitQueryLon: Double = Double.NaN
+    private var lastSpeedLimitQueryTime: Long = 0L
+    private val SPEED_LIMIT_MIN_DISTANCE_M = 100f
+    private val SPEED_LIMIT_MIN_INTERVAL_MS = 30_000L
+
     companion object {
         const val ACTION_LOCATION_UPDATE = "com.example.altitudeapp.LOCATION_UPDATE"
         const val ACTION_LOG_UPDATE = "com.example.altitudeapp.LOG_UPDATE"
@@ -68,6 +77,7 @@ class AltitudeService : Service() {
         const val EXTRA_PASS_NAME = "extra_pass_name"
         const val EXTRA_NEARBY_PASSES = "extra_nearby_passes"
         const val EXTRA_LOG_MESSAGE = "extra_log_message"
+        const val EXTRA_SPEED_LIMIT = "extra_speed_limit"
         const val ACTION_ALTITUDE_UPDATE = ACTION_LOCATION_UPDATE
     }
 
@@ -132,7 +142,8 @@ class AltitudeService : Service() {
 
                     val passesInRadius = getPassesInRadius(location, SEARCH_RADIUS_KM)
                     sendLog("Found ${passesInRadius.size} passes within ${SEARCH_RADIUS_KM}km radius.")
-                    
+
+                    fetchSpeedLimitIfNeeded(lat, lon)
                     broadcastLocation(lat, lon, alt, gain, nearbyPass?.name, passesInRadius)
                 } else {
                     sendLog("Location update received but lastLocation is null.")
@@ -309,7 +320,73 @@ class AltitudeService : Service() {
         intent.putExtra(EXTRA_ALTITUDE_GAIN, gain)
         intent.putExtra(EXTRA_PASS_NAME, passName)
         intent.putExtra(EXTRA_NEARBY_PASSES, ArrayList(nearbyPasses))
+        intent.putExtra(EXTRA_SPEED_LIMIT, currentSpeedLimit)
         sendBroadcast(intent)
+    }
+
+    private fun fetchSpeedLimitIfNeeded(lat: Double, lon: Double) {
+        val now = System.currentTimeMillis()
+        if (now - lastSpeedLimitQueryTime < SPEED_LIMIT_MIN_INTERVAL_MS) return
+        if (!lastSpeedLimitQueryLat.isNaN()) {
+            val dist = FloatArray(1)
+            Location.distanceBetween(lastSpeedLimitQueryLat, lastSpeedLimitQueryLon, lat, lon, dist)
+            if (dist[0] < SPEED_LIMIT_MIN_DISTANCE_M) return
+        }
+        lastSpeedLimitQueryLat = lat
+        lastSpeedLimitQueryLon = lon
+        lastSpeedLimitQueryTime = now
+
+        Thread {
+            try {
+                val query = "[out:json][timeout:5];way(around:50,$lat,$lon)[maxspeed];out tags;"
+                val encoded = java.net.URLEncoder.encode(query, "UTF-8")
+                val conn = URL("https://overpass-api.de/api/interpreter?data=$encoded")
+                    .openConnection() as java.net.HttpURLConnection
+                conn.connectTimeout = 7000
+                conn.readTimeout = 7000
+                conn.setRequestProperty("User-Agent", "MotoPass/1.0")
+                val response = conn.inputStream.bufferedReader().readText()
+                conn.disconnect()
+
+                val elements = JSONObject(response).getJSONArray("elements")
+                var limit = -1
+                for (i in 0 until elements.length()) {
+                    val tags = elements.getJSONObject(i).optJSONObject("tags") ?: continue
+                    val parsed = parseMaxSpeed(tags.optString("maxspeed", ""))
+                    if (parsed > 0) { limit = parsed; break }
+                }
+                currentSpeedLimit = limit
+                sendLog("Speed limit: ${if (limit > 0) "$limit km/h" else "unknown"}")
+            } catch (e: Exception) {
+                sendLog("Speed limit fetch error: ${e.message}")
+            }
+        }.start()
+    }
+
+    private fun parseMaxSpeed(value: String): Int {
+        if (value.isBlank()) return -1
+        value.toIntOrNull()?.let { return it }
+        val parts = value.trim().split(" ")
+        if (parts.size == 2) {
+            val num = parts[0].toIntOrNull() ?: return -1
+            return when (parts[1].lowercase()) {
+                "mph" -> (num * 1.60934).toInt()
+                else -> num
+            }
+        }
+        return when (value.lowercase()) {
+            "es:urban", "de:urban", "fr:urban", "it:urban", "pt:urban",
+            "be:urban", "nl:urban", "pl:urban", "cz:urban", "sk:urban" -> 50
+            "es:rural", "fr:rural", "it:rural", "pt:rural",
+            "be:rural", "nl:rural", "pl:rural", "cz:rural", "sk:rural" -> 90
+            "de:rural" -> 100
+            "es:motorway", "fr:motorway", "it:motorway", "pt:motorway",
+            "be:motorway", "nl:motorway", "de:motorway" -> 120
+            "es:living_street", "de:living_street", "fr:living_street",
+            "it:living_street", "pt:living_street" -> 20
+            "walk", "foot" -> 10
+            else -> -1
+        }
     }
 
     private fun sendLog(message: String) {

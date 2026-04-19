@@ -79,6 +79,7 @@ class MainActivity : AppCompatActivity() {
     private var lastGain: Double = 0.0
     private var lastPassName: String? = null
     private var lastNearbyPasses: ArrayList<MountainPass>? = null
+    private var lastSpeedLimit: Int = -1
 
     private val receiver = object : BroadcastReceiver() {
         override fun onReceive(context: Context?, intent: Intent?) {
@@ -90,6 +91,7 @@ class MainActivity : AppCompatActivity() {
                     val gain = intent.getDoubleExtra(AltitudeService.EXTRA_ALTITUDE_GAIN, 0.0)
                     val passName = intent.getStringExtra(AltitudeService.EXTRA_PASS_NAME)
                     val nearbyPasses = intent.getSerializableExtra(AltitudeService.EXTRA_NEARBY_PASSES) as? ArrayList<MountainPass>
+                    val speedLimit = intent.getIntExtra(AltitudeService.EXTRA_SPEED_LIMIT, -1)
 
                     lastLat = lat
                     lastLon = lon
@@ -97,9 +99,10 @@ class MainActivity : AppCompatActivity() {
                     lastGain = gain
                     lastPassName = passName
                     lastNearbyPasses = nearbyPasses?.let { ArrayList(it) }
+                    lastSpeedLimit = speedLimit
                     saveLastState(lat, lon, alt, gain, passName)
 
-                    updateUI(lat, lon, alt, gain, passName, nearbyPasses)
+                    updateUI(lat, lon, alt, gain, passName, nearbyPasses, speedLimit)
                     appendTrackPoint(lat, lon)
                     updateMapLocation(lat, lon)
 
@@ -222,6 +225,7 @@ class MainActivity : AppCompatActivity() {
         outState.putDouble("alt", lastAlt)
         outState.putDouble("gain", lastGain)
         outState.putString("passName", lastPassName)
+        outState.putInt("speedLimit", lastSpeedLimit)
         lastNearbyPasses?.let { outState.putSerializable("nearbyPasses", it) }
         outState.putDoubleArray("track_lats", trackPoints.map { it.latitude }.toDoubleArray())
         outState.putDoubleArray("track_lons", trackPoints.map { it.longitude }.toDoubleArray())
@@ -236,6 +240,7 @@ class MainActivity : AppCompatActivity() {
         lastAlt = bundle.getDouble("alt", 0.0)
         lastGain = bundle.getDouble("gain", 0.0)
         lastPassName = bundle.getString("passName")
+        lastSpeedLimit = bundle.getInt("speedLimit", -1)
         lastNearbyPasses = bundle.getSerializable("nearbyPasses") as? ArrayList<MountainPass>
         val lats = bundle.getDoubleArray("track_lats") ?: doubleArrayOf()
         val lons = bundle.getDoubleArray("track_lons") ?: doubleArrayOf()
@@ -250,7 +255,7 @@ class MainActivity : AppCompatActivity() {
 
         if (lastLat != 0.0 || lastLon != 0.0) {
             updateMapLocation(lastLat, lastLon)
-            updateUI(lastLat, lastLon, lastAlt, lastGain, lastPassName, lastNearbyPasses)
+            updateUI(lastLat, lastLon, lastAlt, lastGain, lastPassName, lastNearbyPasses, lastSpeedLimit)
             lastNearbyPasses?.let { passes ->
                 updateNearbyMarkers(passes, lastPassName)
                 passAdapter.updateData(passes, lastLat, lastLon)
@@ -639,10 +644,14 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun updateUI(lat: Double, lon: Double, alt: Double, gain: Double, passName: String?, nearbyPasses: List<MountainPass>?) {
+    private fun updateUI(lat: Double, lon: Double, alt: Double, gain: Double, passName: String?, nearbyPasses: List<MountainPass>?, speedLimit: Int = -1) {
         binding.coordinatesTextView.text = getString(R.string.coordinates_format, lat, lon)
         binding.altitudeTextView.text = getString(R.string.altitude_format, alt)
         binding.gainTextView.text = getString(R.string.gain_format, gain)
+        binding.speedLimitTextView.text = if (speedLimit > 0)
+            getString(R.string.speed_limit_format, speedLimit)
+        else
+            getString(R.string.speed_limit_unknown)
         
         if (!passName.isNullOrEmpty()) {
             val dist = FloatArray(1)

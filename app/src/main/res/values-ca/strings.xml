@@ -46,4 +46,7 @@
     <string name="delete_track">Eliminar</string>
     <string name="delete_track_confirm">Eliminar la ruta del %1$s? Aquesta acció no es pot desfer.</string>
     <string name="track_cleared">Ruta d\'avui esborrada</string>
+    <string name="speed_limit_label">Límit de velocitat</string>
+    <string name="speed_limit_format">%1$d km/h</string>
+    <string name="speed_limit_unknown">-- km/h</string>
 </resources>
